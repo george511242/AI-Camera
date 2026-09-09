@@ -1,0 +1,27 @@
+{
+  "checkpoint": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/epoch_10.pth",
+  "checkpoint_sha256": "d2f8d40657aa9307e0dcf8a0b4a8e29da2765e0897508cd1839b8806af57c335",
+  "protocol": {
+    "selection": "same deterministic first-200 WIDER val small-face subset",
+    "effective_face_height_px": [
+      20,
+      50
+    ],
+    "max_gt_faces_per_image": 10,
+    "score_threshold": 0.75,
+    "score_formula": "sqrt(sigmoid(cls) * sigmoid(objectness))",
+    "nms_iou": 0.3,
+    "match_iou": 0.5,
+    "input_color": "bgr",
+    "device": "cpu"
+  },
+  "images": 200,
+  "target_faces": 728,
+  "matched_faces": 388,
+  "recall_iou_0_5": 0.532967032967033,
+  "detections": 579,
+  "true_detections": 565,
+  "detection_precision_proxy": 0.9758203799654577,
+  "matched_score_median": 0.9039481580257416,
+  "elapsed_seconds": 15.672558252999806
+}

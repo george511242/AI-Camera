@@ -1,0 +1,27 @@
+{
+  "maxBBoxDistance": 0.15,
+  "maxDisappearCount": 3,
+  "bboxMinConfidence": 0.5,
+  "focusLine": [],
+  "focusRegion": [
+    {
+      "name": "Area 1",
+      "bbox": [
+        0.7058669917649119,
+        0.242,
+        0.22561198391316625,
+        0.7
+      ]
+    }
+  ],
+  "mode": "leave-zone-with-facial-features",
+  "minGazeCount": 5,
+  "scoreThreshold": null,
+  "gazeToCameraRange": {
+    "pitchMax": 30,
+    "pitchMin": -10,
+    "yawMax": 15,
+    "yawMin": -15
+  },
+  "custom": {}
+}

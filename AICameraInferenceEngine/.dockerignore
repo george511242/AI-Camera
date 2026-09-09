@@ -1,0 +1,18 @@
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Test files
+test.py
+test_rtsp_latency.py
+yolo_part.py
+
+# Development / debug
+.git
+.gitignore
+.gitlab-ci.yml
+README.md
+
+# Runtime storage (will be created at runtime)
+storage/temp_queue.sqlite

@@ -1,0 +1,4444 @@
+{
+  "selection": "first deterministic WIDER val images with 1-10 GT faces and at least one face whose effective 640-input height is 20-50px",
+  "target_definition": "GT face height * 640 / max(image width, image height)",
+  "baseline": {
+    "images": 200,
+    "target_faces": 728,
+    "matched_faces": 274,
+    "recall_iou_0_5": 0.37637362637362637,
+    "detections": 437,
+    "detection_precision_proxy": 0.9748283752860412,
+    "matched_score_median": 0.894059956073761,
+    "elapsed_seconds": 2.4361557879892644,
+    "mean_seconds_per_image": 0.012180778939946322
+  },
+  "baseline_plus_tiled_2x2": {
+    "images": 200,
+    "target_faces": 728,
+    "matched_faces": 442,
+    "recall_iou_0_5": 0.6071428571428571,
+    "detections": 662,
+    "detection_precision_proxy": 0.9697885196374623,
+    "matched_score_median": 0.9073145389556885,
+    "elapsed_seconds": 9.732066973912879,
+    "mean_seconds_per_image": 0.04866033486956439
+  },
+  "tiling": {
+    "full_frame_passes": 1,
+    "tiles": 4,
+    "tile_width_fraction": 0.6,
+    "tile_height_fraction": 0.6,
+    "nms_iou": 0.3
+  },
+  "details": [
+    {
+      "file": "0--Parade/0_Parade_Parade_0_194.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9184123277664185
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9216300249099731
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_Parade_0_205.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.7584271430969238
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_822.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8980621099472046,
+          0.8338543772697449
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.8237892389297485,
+          0.8980621099472046,
+          0.8776305913925171,
+          0.8338543772697449
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_Parade_0_917.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_355.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.850877583026886
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 5,
+        "true_detections": 4,
+        "scores": [
+          0.8311225771903992,
+          0.9055179953575134,
+          0.884429931640625,
+          0.8560119271278381
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_869.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9107193350791931,
+          0.884368360042572,
+          0.8851351141929626,
+          0.8920331001281738
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9314022064208984,
+          0.8944886922836304,
+          0.9136953949928284,
+          0.9158786535263062
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_404.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8223432302474976
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 4,
+        "true_detections": 3,
+        "scores": [
+          0.8581939339637756,
+          0.8393192291259766
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_156.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.871769905090332,
+          0.9031714200973511
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8925043940544128,
+          0.9087322950363159
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_710.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8067741990089417
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_1004.jpg",
+      "baseline": {
+        "targets": 8,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.9020034074783325
+        ]
+      },
+      "tiled": {
+        "targets": 8,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.853350043296814,
+          0.8682557940483093,
+          0.9295497536659241,
+          0.8997384905815125
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_Parade_0_459.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": []
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_356.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_Parade_0_382.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8953511118888855
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9051731824874878,
+          0.7813243269920349,
+          0.9029811024665833
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_Parade_0_887.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 3,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9142763018608093,
+          0.9222106337547302,
+          0.9266501665115356
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 6,
+        "detections": 8,
+        "true_detections": 8,
+        "scores": [
+          0.926554799079895,
+          0.9280974864959717,
+          0.9222106337547302,
+          0.8955373764038086,
+          0.9295234680175781,
+          0.9266501665115356
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_139.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_561.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8437494039535522
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8437494039535522
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_Parade_0_519.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8666102290153503
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 2,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9129087328910828,
+          0.8362473249435425
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_147.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9004404544830322
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.907507061958313
+        ]
+      }
+    },
+    {
+      "file": "0--Parade/0_Parade_marchingband_1_932.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8435255289077759
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8643956780433655,
+          0.8215264678001404,
+          0.8638705015182495,
+          0.8820170164108276
+        ]
+      }
+    },
+    {
+      "file": "1--Handshaking/1_Handshaking_Handshaking_1_664.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9007570743560791
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9007570743560791
+        ]
+      }
+    },
+    {
+      "file": "1--Handshaking/1_Handshaking_Handshaking_1_343.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9234454035758972
+        ]
+      }
+    },
+    {
+      "file": "1--Handshaking/1_Handshaking_Handshaking_1_801.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9262091517448425,
+          0.9090846180915833,
+          0.9248842000961304
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 5,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9243807792663574,
+          0.926246702671051,
+          0.9081768989562988,
+          0.9090846180915833,
+          0.9309234619140625
+        ]
+      }
+    },
+    {
+      "file": "1--Handshaking/1_Handshaking_Handshaking_1_158.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": []
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_2_430.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8898522853851318,
+          0.8986777067184448
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 5,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.876645028591156,
+          0.8360217213630676,
+          0.8997041583061218,
+          0.921600341796875,
+          0.858738362789154
+        ]
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_2_822.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": []
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_2_944.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 2,
+        "scores": [
+          0.8739404678344727,
+          0.8063082098960876
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 5,
+        "true_detections": 4,
+        "scores": [
+          0.9099977612495422,
+          0.8710392713546753
+        ]
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_524.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8708548545837402,
+          0.8699752688407898,
+          0.790081262588501
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8708548545837402,
+          0.8785166144371033,
+          0.817355751991272
+        ]
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_2_256.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8835943937301636
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 2,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8851610422134399,
+          0.9048418998718262
+        ]
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_716.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 6,
+        "detections": 7,
+        "true_detections": 7,
+        "scores": [
+          0.9005923271179199,
+          0.8897846341133118,
+          0.8902725577354431,
+          0.8818135857582092,
+          0.926968514919281,
+          0.8822728991508484
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 6,
+        "detections": 7,
+        "true_detections": 7,
+        "scores": [
+          0.916527271270752,
+          0.9107347726821899,
+          0.91716068983078,
+          0.8818135857582092,
+          0.926968514919281,
+          0.8935379981994629
+        ]
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_933.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8518766760826111
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8869398832321167
+        ]
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_1020.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_2_793.jpg",
+      "baseline": {
+        "targets": 10,
+        "matched": 6,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8761547803878784,
+          0.896278977394104,
+          0.896432101726532,
+          0.9114490747451782,
+          0.8808031678199768,
+          0.8986793160438538
+        ]
+      },
+      "tiled": {
+        "targets": 10,
+        "matched": 9,
+        "detections": 9,
+        "true_detections": 9,
+        "scores": [
+          0.9077817797660828,
+          0.8761547803878784,
+          0.8920197486877441,
+          0.896278977394104,
+          0.896432101726532,
+          0.8966169953346252,
+          0.9169596433639526,
+          0.8808031678199768,
+          0.9023114442825317
+        ]
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_848.jpg",
+      "baseline": {
+        "targets": 9,
+        "matched": 4,
+        "detections": 5,
+        "true_detections": 4,
+        "scores": [
+          0.8848809003829956,
+          0.8321841955184937,
+          0.8762385249137878,
+          0.8216893672943115
+        ]
+      },
+      "tiled": {
+        "targets": 9,
+        "matched": 6,
+        "detections": 7,
+        "true_detections": 6,
+        "scores": [
+          0.8863521218299866,
+          0.86806720495224,
+          0.9044300317764282,
+          0.8483656048774719,
+          0.8734634518623352,
+          0.8368366360664368
+        ]
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_552.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.9076479077339172
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.911569356918335
+        ]
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_2_898.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.7990363240242004
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8474658131599426,
+          0.8717798590660095
+        ]
+      }
+    },
+    {
+      "file": "10--People_Marching/10_People_Marching_People_Marching_2_239.jpg",
+      "baseline": {
+        "targets": 9,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8626803755760193
+        ]
+      },
+      "tiled": {
+        "targets": 9,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8626803755760193,
+          0.8647866249084473
+        ]
+      }
+    },
+    {
+      "file": "11--Meeting/11_Meeting_Meeting_11_Meeting_Meeting_11_807.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9083313941955566,
+          0.8415103554725647
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 3,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8492437601089478,
+          0.9254055023193359,
+          0.8754950165748596
+        ]
+      }
+    },
+    {
+      "file": "11--Meeting/11_Meeting_Meeting_11_Meeting_Meeting_11_468.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8910296559333801,
+          0.8471985459327698,
+          0.83148592710495
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 3,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9047620296478271,
+          0.8767903447151184,
+          0.83148592710495
+        ]
+      }
+    },
+    {
+      "file": "11--Meeting/11_Meeting_Meeting_11_Meeting_Meeting_11_639.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9122788906097412
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.8311105370521545,
+          0.9146004319190979
+        ]
+      }
+    },
+    {
+      "file": "11--Meeting/11_Meeting_Meeting_11_Meeting_Meeting_11_339.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 4,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.856536328792572,
+          0.8782409429550171,
+          0.882377028465271,
+          0.8314120173454285
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 5,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8687395453453064,
+          0.8834269642829895,
+          0.8928864598274231,
+          0.8970471620559692,
+          0.8314120173454285
+        ]
+      }
+    },
+    {
+      "file": "11--Meeting/11_Meeting_Meeting_11_Meeting_Meeting_11_406.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9063440561294556
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9301376342773438
+        ]
+      }
+    },
+    {
+      "file": "11--Meeting/11_Meeting_Meeting_11_Meeting_Meeting_11_108.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.7979458570480347,
+          0.8914193511009216
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8328428864479065,
+          0.9094530940055847
+        ]
+      }
+    },
+    {
+      "file": "11--Meeting/11_Meeting_Meeting_11_Meeting_Meeting_11_250.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8844674825668335,
+          0.8955127596855164,
+          0.9193837642669678,
+          0.9254449009895325
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 7,
+        "detections": 7,
+        "true_detections": 7,
+        "scores": [
+          0.8844674825668335,
+          0.896918535232544,
+          0.928452730178833,
+          0.9206383228302002,
+          0.9327409267425537,
+          0.9189189672470093,
+          0.9053260684013367
+        ]
+      }
+    },
+    {
+      "file": "11--Meeting/11_Meeting_Meeting_11_Meeting_Meeting_11_287.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8805375695228577,
+          0.7777335047721863
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8805375695228577,
+          0.8295438885688782,
+          0.8531741499900818
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_536.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Large_Group_12_Group_Large_Group_12_354.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9143849611282349
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9143849611282349,
+          0.8572701215744019
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_789.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9201411008834839,
+          0.9126332998275757,
+          0.9100245833396912
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9201411008834839,
+          0.9138683676719666,
+          0.9191541075706482
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Large_Group_12_Group_Large_Group_12_575.jpg",
+      "baseline": {
+        "targets": 9,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9048200249671936,
+          0.9157407879829407,
+          0.8882889747619629,
+          0.9201908707618713
+        ]
+      },
+      "tiled": {
+        "targets": 9,
+        "matched": 8,
+        "detections": 8,
+        "true_detections": 8,
+        "scores": [
+          0.9171321392059326,
+          0.9131410121917725,
+          0.9157407879829407,
+          0.9169778227806091,
+          0.9267586469650269,
+          0.8882889747619629,
+          0.9225748181343079,
+          0.9201908707618713
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Large_Group_12_Group_Large_Group_12_527.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9094818830490112
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9094818830490112
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_101.jpg",
+      "baseline": {
+        "targets": 8,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8842900395393372,
+          0.9164966344833374,
+          0.9274305105209351,
+          0.9183945059776306
+        ]
+      },
+      "tiled": {
+        "targets": 8,
+        "matched": 7,
+        "detections": 7,
+        "true_detections": 7,
+        "scores": [
+          0.9195690751075745,
+          0.9253585338592529,
+          0.9097508192062378,
+          0.9322081804275513,
+          0.8966540694236755,
+          0.916791558265686,
+          0.9183945059776306
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_198.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.915255069732666,
+          0.9209609627723694,
+          0.8450859785079956
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9334429502487183,
+          0.9291448593139648,
+          0.9109630584716797,
+          0.8450859785079956
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_64.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9166544675827026,
+          0.9143399596214294,
+          0.9095508456230164
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 5,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8696343898773193,
+          0.9280301928520203,
+          0.9288927316665649,
+          0.9278082251548767,
+          0.9257941842079163
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_59.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8748274445533752
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 3,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8298401832580566,
+          0.8903946876525879,
+          0.9171860814094543
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_247.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8147085905075073,
+          0.9068201780319214,
+          0.8495176434516907
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 5,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.8238111734390259,
+          0.8306955695152283,
+          0.9270082712173462,
+          0.8651991486549377,
+          0.8804718255996704
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_62.jpg",
+      "baseline": {
+        "targets": 9,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9314213395118713,
+          0.9229548573493958,
+          0.924917459487915
+        ]
+      },
+      "tiled": {
+        "targets": 9,
+        "matched": 6,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9330384135246277,
+          0.904796302318573,
+          0.9311121702194214,
+          0.9309873580932617,
+          0.9236828088760376,
+          0.9332009553909302
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_407.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9202362895011902,
+          0.9193412065505981,
+          0.8991349339485168
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 6,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9209719300270081,
+          0.9136513471603394,
+          0.9160107970237732,
+          0.9193412065505981,
+          0.9328426718711853,
+          0.9124390482902527
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_578.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_794.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_29.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": []
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_211.jpg",
+      "baseline": {
+        "targets": 8,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9147247672080994,
+          0.9241026639938354,
+          0.92840176820755,
+          0.9184079170227051
+        ]
+      },
+      "tiled": {
+        "targets": 8,
+        "matched": 7,
+        "detections": 7,
+        "true_detections": 7,
+        "scores": [
+          0.9190431237220764,
+          0.9322710633277893,
+          0.92840176820755,
+          0.9334598183631897,
+          0.9345398545265198,
+          0.9256559610366821,
+          0.8823947310447693
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Large_Group_12_Group_Large_Group_12_162.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9271502494812012
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_330.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9237963557243347
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 7,
+        "true_detections": 6,
+        "scores": [
+          0.921622633934021,
+          0.927295982837677,
+          0.91277015209198
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_735.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8708545565605164
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_434.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 1,
+        "scores": [
+          0.8375666737556458
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.7950682044029236,
+          0.8645095825195312,
+          0.8471987247467041,
+          0.7734974026679993
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Large_Group_12_Group_Large_Group_12_212.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.82309889793396,
+          0.9155482053756714,
+          0.8776593804359436
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8892484903335571,
+          0.9290236830711365,
+          0.9046783447265625
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_331.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8019614219665527,
+          0.9256218671798706,
+          0.9222303032875061,
+          0.8268795609474182
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 6,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8458275198936462,
+          0.9251284599304199,
+          0.9341538548469543,
+          0.9023823142051697,
+          0.9246131777763367,
+          0.9052150249481201
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_823.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9131311774253845,
+          0.91478431224823,
+          0.8960853219032288
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9363824129104614,
+          0.9344422817230225,
+          0.9236577153205872,
+          0.9310266375541687
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_218.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9119770526885986,
+          0.8781582117080688
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.7902103066444397,
+          0.8812000155448914,
+          0.9195563197135925,
+          0.8781582117080688
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_182.jpg",
+      "baseline": {
+        "targets": 9,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9318153262138367,
+          0.9183643460273743,
+          0.9114601612091064
+        ]
+      },
+      "tiled": {
+        "targets": 9,
+        "matched": 7,
+        "detections": 7,
+        "true_detections": 7,
+        "scores": [
+          0.9338254928588867,
+          0.9318153262138367,
+          0.9321334362030029,
+          0.9327986240386963,
+          0.9287204742431641,
+          0.931715726852417,
+          0.9227709174156189
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_55.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8609102368354797,
+          0.7713964581489563
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_38.jpg",
+      "baseline": {
+        "targets": 8,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8695257306098938,
+          0.9080345630645752,
+          0.9148958921432495
+        ]
+      },
+      "tiled": {
+        "targets": 8,
+        "matched": 5,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.8918481469154358,
+          0.9247772097587585,
+          0.9059189558029175,
+          0.9322643876075745,
+          0.9248262047767639
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Large_Group_12_Group_Large_Group_12_322.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8923844695091248,
+          0.8870982527732849,
+          0.8810307383537292
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 6,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9088153839111328,
+          0.9172014594078064,
+          0.8940659165382385,
+          0.9168961644172668,
+          0.9201242327690125,
+          0.9081547260284424
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_732.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8695616126060486
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9108968377113342,
+          0.8941702246665955,
+          0.8871273994445801
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_123.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8985066413879395,
+          0.9214802384376526
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 4,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9258054494857788,
+          0.9139676094055176,
+          0.8775172829627991,
+          0.9380775094032288
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Large_Group_12_Group_Large_Group_12_495.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_301.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.8689740300178528
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_315.jpg",
+      "baseline": {
+        "targets": 8,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9166805148124695,
+          0.8974154591560364,
+          0.8922244906425476
+        ]
+      },
+      "tiled": {
+        "targets": 8,
+        "matched": 5,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9228292107582092,
+          0.9233407974243164,
+          0.9219325184822083,
+          0.92440265417099,
+          0.9254544377326965
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_235.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.910050094127655
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9237639307975769
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_115.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.8676490783691406
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8946128487586975
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Large_Group_12_Group_Large_Group_12_461.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 3,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9182508587837219,
+          0.9313722848892212,
+          0.9178497791290283
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 6,
+        "detections": 7,
+        "true_detections": 7,
+        "scores": [
+          0.9202737808227539,
+          0.9313722848892212,
+          0.9316796660423279,
+          0.9215836524963379,
+          0.9393189549446106,
+          0.9339244961738586
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_293.jpg",
+      "baseline": {
+        "targets": 9,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9083244800567627,
+          0.8316799998283386,
+          0.876927375793457
+        ]
+      },
+      "tiled": {
+        "targets": 9,
+        "matched": 3,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9242528676986694,
+          0.8956634402275085,
+          0.9091148972511292
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_270.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 1,
+        "scores": [
+          0.8922832012176514
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 1,
+        "scores": [
+          0.9131002426147461
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_274.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9194105863571167,
+          0.9263151288032532
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9144484400749207,
+          0.9244566559791565,
+          0.913811206817627,
+          0.9263151288032532
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_772.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8277258276939392
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.9083301424980164
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Group_12_Group_Group_12_610.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8389431834220886
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8499752879142761
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_850.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8493475914001465
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_364.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8858838677406311,
+          0.8972880840301514,
+          0.8496984243392944
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9201858639717102,
+          0.9197039008140564,
+          0.9079755544662476,
+          0.8533228635787964
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_21.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8984180688858032
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9215319752693176
+        ]
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_126.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "12--Group/12_Group_Large_Group_12_Group_Large_Group_12_72.jpg",
+      "baseline": {
+        "targets": 9,
+        "matched": 5,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9259369969367981,
+          0.9126085042953491,
+          0.9016336798667908,
+          0.9259268045425415,
+          0.923873782157898
+        ]
+      },
+      "tiled": {
+        "targets": 9,
+        "matched": 9,
+        "detections": 10,
+        "true_detections": 10,
+        "scores": [
+          0.9290909767150879,
+          0.9293758869171143,
+          0.9091981649398804,
+          0.9242293238639832,
+          0.9162534475326538,
+          0.913769006729126,
+          0.9113097786903381,
+          0.9282259941101074,
+          0.9351345896720886
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_209.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.904888391494751
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9096925258636475
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_929.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 3,
+        "scores": [
+          0.9268940091133118
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 3,
+        "scores": [
+          0.9324690699577332
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_187.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_On_Location_13_921.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8973128795623779
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9303564429283142
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_35.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8823090195655823
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8968752026557922
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_111.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.8995280861854553,
+          0.8530411124229431,
+          0.8525936007499695,
+          0.8716093301773071
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.92526775598526,
+          0.8530411124229431,
+          0.8685865998268127,
+          0.8716093301773071
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_586.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_864.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8058223128318787
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_793.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8836620450019836,
+          0.8151454329490662
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8848488926887512,
+          0.8488719463348389
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_89.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8797351121902466,
+          0.7564490437507629
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9090563058853149,
+          0.8541409969329834,
+          0.8419581055641174
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_On_Location_13_284.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.841891348361969
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_55.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8807472586631775
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8872843980789185
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_On_Location_13_636.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9201332926750183,
+          0.8861163854598999
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9201332926750183,
+          0.923765242099762
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_On_Location_13_865.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8787272572517395
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.884429395198822
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_On_Location_13_138.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_On_Location_13_190.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.9182577729225159
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.9201300740242004
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_On_Location_13_773.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_2_People_Visible_13_743.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8714329600334167,
+          0.865298867225647
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8821898698806763,
+          0.9042893648147583
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_5.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_37.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.907122015953064
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.907122015953064
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_868.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.9049752950668335
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.9273024797439575
+        ]
+      }
+    },
+    {
+      "file": "13--Interview/13_Interview_Interview_Sequences_13_936.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.873879611492157
+        ]
+      }
+    },
+    {
+      "file": "14--Traffic/14_Traffic_Traffic_14_728.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.7881168127059937
+        ]
+      }
+    },
+    {
+      "file": "14--Traffic/14_Traffic_Traffic_14_504.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8778907060623169,
+          0.8156998753547668
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9277966022491455,
+          0.8207972049713135
+        ]
+      }
+    },
+    {
+      "file": "15--Stock_Market/15_Stock_Market_Stock_Market_15_569.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 2,
+        "scores": [
+          0.9057400822639465
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 2,
+        "detections": 5,
+        "true_detections": 4,
+        "scores": [
+          0.8984572291374207,
+          0.9294976592063904
+        ]
+      }
+    },
+    {
+      "file": "15--Stock_Market/15_Stock_Market_Stock_Market_15_460.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9197468161582947,
+          0.9314935803413391,
+          0.9223639369010925,
+          0.9000155925750732
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 5,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9345184564590454,
+          0.9161874055862427,
+          0.9355090856552124,
+          0.9253863096237183,
+          0.9094216227531433
+        ]
+      }
+    },
+    {
+      "file": "15--Stock_Market/15_Stock_Market_Stock_Market_15_542.jpg",
+      "baseline": {
+        "targets": 8,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9109892249107361,
+          0.9184982776641846,
+          0.91954106092453,
+          0.8718125820159912
+        ]
+      },
+      "tiled": {
+        "targets": 8,
+        "matched": 6,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9312096238136292,
+          0.9319654703140259,
+          0.9296812415122986,
+          0.9240290522575378,
+          0.91954106092453,
+          0.9071028232574463
+        ]
+      }
+    },
+    {
+      "file": "15--Stock_Market/15_Stock_Market_Stock_Market_15_286.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      }
+    },
+    {
+      "file": "15--Stock_Market/15_Stock_Market_Stock_Market_15_241.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9194179773330688
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9305639863014221,
+          0.9078055620193481
+        ]
+      }
+    },
+    {
+      "file": "15--Stock_Market/15_Stock_Market_Stock_Market_15_554.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      }
+    },
+    {
+      "file": "15--Stock_Market/15_Stock_Market_Stock_Market_15_313.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_195.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.7759708166122437
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8292933702468872,
+          0.8008265495300293,
+          0.7670841813087463
+        ]
+      }
+    },
+    {
+      "file": "16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_569.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9185223579406738
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9277485609054565
+        ]
+      }
+    },
+    {
+      "file": "16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_392.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      }
+    },
+    {
+      "file": "16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_85.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9222120046615601,
+          0.9236636757850647,
+          0.9172512292861938,
+          0.9216058850288391
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 5,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9378418326377869,
+          0.9281935095787048,
+          0.9313688278198242,
+          0.9263890981674194,
+          0.9216058850288391
+        ]
+      }
+    },
+    {
+      "file": "16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_226.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9095318913459778,
+          0.8458030819892883
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.91566401720047,
+          0.8997473120689392,
+          0.764697253704071
+        ]
+      }
+    },
+    {
+      "file": "16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_317.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9035287499427795,
+          0.7579723596572876
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9254540801048279,
+          0.8090006709098816,
+          0.7579723596572876
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_469.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8279648423194885
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8279648423194885
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_368.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8927645087242126
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.8927645087242126
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_344.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9208217859268188
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_588.jpg",
+      "baseline": {
+        "targets": 8,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8330350518226624,
+          0.8374130129814148
+        ]
+      },
+      "tiled": {
+        "targets": 8,
+        "matched": 6,
+        "detections": 7,
+        "true_detections": 7,
+        "scores": [
+          0.8330350518226624,
+          0.8246111273765564,
+          0.8229378461837769,
+          0.7936995029449463,
+          0.8060216903686523,
+          0.847386360168457
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_211.jpg",
+      "baseline": {
+        "targets": 9,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8882811069488525,
+          0.9112474918365479
+        ]
+      },
+      "tiled": {
+        "targets": 9,
+        "matched": 6,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9134747385978699,
+          0.878123939037323,
+          0.9189890027046204,
+          0.9213578701019287,
+          0.9114547371864319,
+          0.8767908811569214
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_1048.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8840372562408447
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8855496644973755
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_57.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.867639422416687,
+          0.8939806222915649,
+          0.8915899991989136
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 6,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8975928425788879,
+          0.9176719784736633,
+          0.7611005306243896,
+          0.9208865165710449,
+          0.9220294952392578,
+          0.8949357271194458
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_271.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_300.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9085965156555176,
+          0.9181300401687622,
+          0.9172354936599731
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 5,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9165385961532593,
+          0.9204781651496887,
+          0.9247060418128967,
+          0.9181300401687622,
+          0.9214869141578674
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_490.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 5,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8853958249092102,
+          0.8758442997932434,
+          0.9196003675460815,
+          0.9022212028503418,
+          0.9156041741371155
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 5,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8864548802375793,
+          0.8939033150672913,
+          0.922397255897522,
+          0.9119651913642883,
+          0.9156041741371155
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_415.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9178851246833801
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9214096069335938
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_1005.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.807500958442688,
+          0.841300368309021
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 3,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.807500958442688,
+          0.821750819683075,
+          0.8709896802902222
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_852.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.7593764066696167,
+          0.8653606176376343
+        ]
+      }
+    },
+    {
+      "file": "17--Ceremony/17_Ceremony_Ceremony_17_818.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8400471806526184
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8488194346427917
+        ]
+      }
+    },
+    {
+      "file": "18--Concerts/18_Concerts_Concerts_18_469.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8698528409004211,
+          0.9137997627258301
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8910606503486633,
+          0.8957147002220154,
+          0.9009140133857727,
+          0.9219462275505066
+        ]
+      }
+    },
+    {
+      "file": "18--Concerts/18_Concerts_Concerts_18_522.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.9192395806312561
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.920735239982605,
+          0.9109544157981873,
+          0.7977741360664368
+        ]
+      }
+    },
+    {
+      "file": "18--Concerts/18_Concerts_Concerts_18_60.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.825678288936615
+        ]
+      }
+    },
+    {
+      "file": "18--Concerts/18_Concerts_Concerts_18_258.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8777536749839783
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.889080286026001
+        ]
+      }
+    },
+    {
+      "file": "18--Concerts/18_Concerts_Concerts_18_447.jpg",
+      "baseline": {
+        "targets": 9,
+        "matched": 6,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8857788443565369,
+          0.8986742496490479,
+          0.8287439942359924,
+          0.8189841508865356,
+          0.894139289855957,
+          0.9088650345802307
+        ]
+      },
+      "tiled": {
+        "targets": 9,
+        "matched": 9,
+        "detections": 9,
+        "true_detections": 9,
+        "scores": [
+          0.9129205346107483,
+          0.9054486155509949,
+          0.9135416150093079,
+          0.923089325428009,
+          0.896335780620575,
+          0.8546427488327026,
+          0.8809245824813843,
+          0.9101195335388184,
+          0.9280781149864197
+        ]
+      }
+    },
+    {
+      "file": "18--Concerts/18_Concerts_Concerts_18_536.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8674147129058838
+        ]
+      }
+    },
+    {
+      "file": "18--Concerts/18_Concerts_Concerts_18_1015.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8993276357650757,
+          0.8939198851585388
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9220868349075317,
+          0.9098944067955017,
+          0.9131678938865662,
+          0.9154245257377625
+        ]
+      }
+    },
+    {
+      "file": "18--Concerts/18_Concerts_Concerts_18_853.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 2,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9046212434768677,
+          0.7917059063911438
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 2,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9046212434768677,
+          0.909193217754364
+        ]
+      }
+    },
+    {
+      "file": "18--Concerts/18_Concerts_Concerts_18_554.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.858665406703949
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.9189059138298035
+        ]
+      }
+    },
+    {
+      "file": "18--Concerts/18_Concerts_Concerts_18_133.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8209638595581055
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 1,
+        "scores": [
+          0.8965534567832947
+        ]
+      }
+    },
+    {
+      "file": "19--Couple/19_Couple_Couple_19_156.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "19--Couple/19_Couple_Couple_19_910.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8159392476081848
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8159392476081848
+        ]
+      }
+    },
+    {
+      "file": "19--Couple/19_Couple_Couple_19_319.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "19--Couple/19_Couple_Couple_19_770.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8002570271492004
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8407142758369446
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_905.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.909636378288269,
+          0.8723170757293701
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8498051166534424,
+          0.909636378288269,
+          0.8723170757293701
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstrators_2_712.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8365046977996826
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8615812063217163,
+          0.8365046977996826,
+          0.8134668469429016
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstrators_2_486.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_486.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 0,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 1,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.81593257188797
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstrators_2_666.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstrators_2_567.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.7582315802574158,
+          0.8936656713485718
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 2,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.7582315802574158,
+          0.904151439666748
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_741.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8651266694068909
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 1,
+        "scores": [
+          0.8915726542472839
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_135.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_811.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_351.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_370.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 4,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.902324914932251,
+          0.8885248899459839,
+          0.8906131386756897,
+          0.859132707118988
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 5,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9185287356376648,
+          0.9123023748397827,
+          0.9038233757019043,
+          0.8707761764526367,
+          0.872349739074707
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_187.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 2,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.8908988833427429,
+          0.8627574443817139
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_183.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.862308919429779
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_763.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.9249991178512573,
+          0.9213237166404724
+        ]
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 2,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.9249991178512573,
+          0.923083484172821
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_438.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9054424166679382,
+          0.8970351219177246
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9187105298042297,
+          0.9109851121902466
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_56.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 0,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 8,
+        "true_detections": 6,
+        "scores": [
+          0.7596706748008728
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstrators_2_195.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 2,
+        "scores": [
+          0.9286020994186401
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 2,
+        "scores": [
+          0.9286020994186401
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_22.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8055264949798584
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_450.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 1,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_345.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8506156802177429
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8804158568382263
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_267.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8088365793228149
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8088365793228149
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_817.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8087169528007507
+        ]
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8839468955993652
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_306.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_204.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 0,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_64.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.7518467903137207
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_30.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_451.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_589.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_1033.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_881.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.7648236751556396
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_700.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 1,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8312633633613586
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 4,
+        "true_detections": 4,
+        "scores": [
+          0.9083523154258728,
+          0.8312633633613586
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_242.jpg",
+      "baseline": {
+        "targets": 3,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 3,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_65.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.8611263036727905,
+          0.8232902884483337
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 3,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.8879563808441162,
+          0.8800726532936096,
+          0.8278961181640625
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_842.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.8313312530517578
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": [
+          0.9046745896339417
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_738.jpg",
+      "baseline": {
+        "targets": 4,
+        "matched": 1,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9131118059158325
+        ]
+      },
+      "tiled": {
+        "targets": 4,
+        "matched": 1,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.9131118059158325
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_655.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 0,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_179.jpg",
+      "baseline": {
+        "targets": 5,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 5,
+        "matched": 3,
+        "detections": 3,
+        "true_detections": 3,
+        "scores": [
+          0.7676347494125366,
+          0.8224427700042725,
+          0.8875095248222351
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Political_Rally_2_286.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9098118543624878,
+          0.9335858821868896
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 3,
+        "true_detections": 2,
+        "scores": [
+          0.914786696434021,
+          0.9335858821868896
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_402.jpg",
+      "baseline": {
+        "targets": 7,
+        "matched": 4,
+        "detections": 5,
+        "true_detections": 4,
+        "scores": [
+          0.8191065788269043,
+          0.8325185179710388,
+          0.8992822170257568,
+          0.8226960301399231
+        ]
+      },
+      "tiled": {
+        "targets": 7,
+        "matched": 4,
+        "detections": 5,
+        "true_detections": 4,
+        "scores": [
+          0.8191065788269043,
+          0.8325185179710388,
+          0.9169807434082031,
+          0.8226960301399231
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_16.jpg",
+      "baseline": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8735515475273132,
+          0.884377658367157
+        ]
+      },
+      "tiled": {
+        "targets": 2,
+        "matched": 2,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.9041227698326111,
+          0.8930057883262634
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstrators_2_163.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": [
+          0.8626464009284973
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Demonstrators_2_41.jpg",
+      "baseline": {
+        "targets": 6,
+        "matched": 4,
+        "detections": 5,
+        "true_detections": 5,
+        "scores": [
+          0.8434648513793945,
+          0.8803523778915405,
+          0.9267293810844421,
+          0.8629847168922424
+        ]
+      },
+      "tiled": {
+        "targets": 6,
+        "matched": 5,
+        "detections": 6,
+        "true_detections": 6,
+        "scores": [
+          0.8565170764923096,
+          0.8676880598068237,
+          0.8911179304122925,
+          0.9267293810844421,
+          0.8849653601646423
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_559.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 1,
+        "true_detections": 1,
+        "scores": []
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_362.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 1,
+        "scores": [
+          0.8546070456504822
+        ]
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 1,
+        "detections": 2,
+        "true_detections": 1,
+        "scores": [
+          0.8546070456504822
+        ]
+      }
+    },
+    {
+      "file": "2--Demonstration/2_Demonstration_Protesters_2_840.jpg",
+      "baseline": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 0,
+        "true_detections": 0,
+        "scores": []
+      },
+      "tiled": {
+        "targets": 1,
+        "matched": 0,
+        "detections": 2,
+        "true_detections": 2,
+        "scores": []
+      }
+    }
+  ]
+}

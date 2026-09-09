@@ -1,0 +1,38 @@
+{
+  "pose": {
+    "policy": "300W-LP grouped by original source before deterministic 85/15 split; AFLW2000 frozen external test",
+    "source_group_count": 3837,
+    "splits": {
+      "external_test": {
+        "count": 2000,
+        "sha256": "32df13bf5e7c2af9c68669aa14f16db59e22589cd2d613a419c876a41bcde760"
+      },
+      "train": {
+        "count": 104172,
+        "sha256": "a463f8a6444bcf6a95d1794d41e18a4ed0e619b40ed40ea317600811cfbd6037"
+      },
+      "validation": {
+        "count": 18278,
+        "sha256": "72d274b284a6726881c014a9ef0b84066c85cf8b4e7c0dd87743583b80dcfb1c"
+      }
+    }
+  },
+  "seed": 20260905,
+  "yunet": {
+    "policy": "official WIDER FACE train/validation partitions; SCFace frozen external test",
+    "splits": {
+      "external_test": {
+        "count": 130,
+        "sha256": "0fa5589cdeaf5c2a1bd32218c17b9ff7f6acd90752dcdbba423844759bc7edeb"
+      },
+      "train": {
+        "count": 12876,
+        "sha256": "5c5b4c7d6cf64c59e9ec9fc0970d07f666e964fe40e99b3b98e6b0e266c0e7c3"
+      },
+      "validation": {
+        "count": 3226,
+        "sha256": "5b66870562eb6bedfb6f6455c60edafc0cb4f90d79445fb9f43050c4491b028f"
+      }
+    }
+  }
+}

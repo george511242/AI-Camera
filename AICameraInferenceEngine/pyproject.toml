@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "auo-fanta-persion-tracking"
+version = "0.1.0"
+description = ""
+authors = ["Sam Li <sam.sr.lee@auo.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+pydantic-settings = "^2.0.3"
+opencv-python-headless = "4.11.0.86"
+requests = "2.28.2"
+redis = "4.3.5"
+onnxruntime = "1.22.0"
+gunicorn = "^21.2.0"
+loguru = "^0.7.2"
+torch = {version = "^2.3.1", markers = "platform_machine == 'x86_64'"}
+websockets = "^15.0.1"
+python-multipart = "^0.0.20"
+m01-frame-processor = [
+    {path = "libs/m01_frame_processor-0.1.0-cp310-cp310-manylinux_2_34_x86_64.whl", markers = "platform_machine == 'x86_64'"},
+    {path = "libs/m01_frame_processor-0.1.0-cp310-cp310-manylinux_2_34_aarch64.whl", markers = "platform_machine == 'aarch64'"},
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

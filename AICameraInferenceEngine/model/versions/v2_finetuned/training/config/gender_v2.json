@@ -1,0 +1,41 @@
+{
+  "architecture": "SSR_net_general(64, [3, 3, 3], 1, 1)",
+  "base_checkpoint_sha256": "2d15bfa72869526d1e2b80385157e34a55fb5a4b184bbac5ea56d623141d7e8c",
+  "batch_size": 64,
+  "class_balancing": "each batch contains equal male and female samples",
+  "color_order": "BGR",
+  "epochs": 20,
+  "gender_label": {
+    "female": 0,
+    "male": 1
+  },
+  "input_dtype": "float32",
+  "input_shape_training": [
+    64,
+    64,
+    3
+  ],
+  "learning_rate": 0.0001,
+  "loss": "mae",
+  "lr_schedule": "ReduceLROnPlateau(factor=0.5, patience=2, min_lr=1e-6)",
+  "selection_metric": "validation balanced accuracy",
+  "seed": 20260905,
+  "split_strategy": "gender x age-decade stratification; frozen benchmark excluded",
+  "training_augmentation": {
+    "brightness_max_delta": 18.0,
+    "contrast_range": [
+      0.85,
+      1.15
+    ],
+    "face_size_range_px_before_padding": [
+      24,
+      42
+    ],
+    "horizontal_flip": true,
+    "output_size": [
+      64,
+      64
+    ],
+    "padding": "zero"
+  }
+}

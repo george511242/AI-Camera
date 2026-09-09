@@ -1,0 +1,35 @@
+{
+  "toolkit_version": "2.3.2",
+  "quantized": false,
+  "source_onnx": {
+    "path": "onnx/gender_ssrnet_v2_64x64.onnx",
+    "size_bytes": 193383,
+    "sha256": "992c554be25fd647bbe4732c326fceae90dcb7ce7932dc9f1df9301db2faca20"
+  },
+  "targets": {
+    "rk3566": {
+      "path": "rknn/rk3566/gender_ssrnet_v2_64x64_fp16.rknn",
+      "config_result": 0,
+      "load_onnx_result": 0,
+      "build_result": 0,
+      "export_rknn_result": 0,
+      "size_bytes": 388337,
+      "sha256": "1f8a6b2586015b490099ac2a99299f6c18714ef5853c999f6f0baf8a5c881ba8"
+    },
+    "rk3588": {
+      "path": "rknn/rk3588/gender_ssrnet_v2_64x64_fp16.rknn",
+      "config_result": 0,
+      "load_onnx_result": 0,
+      "build_result": 0,
+      "export_rknn_result": 0,
+      "size_bytes": 508913,
+      "sha256": "afbcc6374c31d93bbedfd859050d3695bf8c034926ac5122ca3a6adc1969d70f"
+    }
+  },
+  "warnings": [
+    "pkg_resources is deprecated as an API",
+    "RKNN-Toolkit2 emitted seven 'Unkown op target: 0' messages per target"
+  ],
+  "simulator_validation": "gender_backend_comparison.json",
+  "device_validation": "pending"
+}

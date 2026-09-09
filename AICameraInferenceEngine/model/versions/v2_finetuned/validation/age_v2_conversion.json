@@ -1,0 +1,9 @@
+{
+  "toolkit_version": "2.3.2",
+  "quantized": false,
+  "onnx_sha256": "6e2f15c6d8a9017e38398dd7f314c9f6d45d42b7acb40ef212d2a66d6bc391e2",
+  "rk3566": {"size_bytes": 390193, "sha256": "3c24618d308a69284e1abefde509cafbc2617bfe62077e30739fabe25a408cca", "config": 0, "load_onnx": 0, "build": 0, "export_rknn": 0},
+  "rk3588": {"size_bytes": 510961, "sha256": "0682bd8cca058470306cd6734a4b6e604a881c0efc5e67ac8c8f5be83089c807", "config": 0, "load_onnx": 0, "build": 0, "export_rknn": 0},
+  "warnings": ["pkg_resources is deprecated", "RKNN emitted 'Unkown op target: 0' messages"],
+  "device_validation": "pending"
+}

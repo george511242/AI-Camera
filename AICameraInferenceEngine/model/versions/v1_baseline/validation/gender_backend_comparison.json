@@ -1,0 +1,23 @@
+{
+  "image": "test_face.jpg",
+  "bbox": [
+    0.3166240573,
+    0.3494909763,
+    0.6312793255,
+    0.6413672924
+  ],
+  "margin": 0.45,
+  "crop_shape": [
+    1,
+    64,
+    64,
+    3
+  ],
+  "crop_dtype": "uint8",
+  "onnx": 1.0000007152557373,
+  "rk3566_simulator": 1.0,
+  "rk3588_simulator": 1.0,
+  "rk3566_abs_error": 7.152557373046875e-07,
+  "rk3588_abs_error": 7.152557373046875e-07,
+  "simulator_abs_difference": 0.0
+}

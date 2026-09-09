@@ -1,0 +1,59 @@
+{
+  "cache_root": "/home/g2004/datasets/vac-age-v3.1/runtime_crops",
+  "color": "BGR",
+  "input_size": [
+    64,
+    64
+  ],
+  "margin": 0.45,
+  "normalization": null,
+  "splits": {
+    "test": {
+      "audit_manifest_sha256": "31b4a9a6384f3add1044d99299f76fe5dcb3e6f4acd12a2a97db021776c5d023",
+      "rows": 3912,
+      "sources": 1304,
+      "success_by_variant": {
+        "160px": 1303,
+        "40px": 888,
+        "80px": 1290
+      },
+      "success_manifest_sha256": "7a3cf2742f57f91a868d204a7b3b1a78e410ae161f6c4c3a1586f10fe535a905",
+      "successes": 3481
+    },
+    "train": {
+      "audit_manifest_sha256": "c9ff1ad5d30f5f2da96ca84066f1396a1e84aee015980fe7abead171c826a5f9",
+      "rows": 18225,
+      "sources": 6075,
+      "success_by_variant": {
+        "160px": 6049,
+        "40px": 4176,
+        "80px": 5990
+      },
+      "success_manifest_sha256": "daf21c945fdb21772a026437ca546ad70e18e667a5a0540fcb07cb96bbe4793e",
+      "successes": 16215
+    },
+    "validation": {
+      "audit_manifest_sha256": "a03375312649925f306b1b26242645b678c06144c3bf2110798657b95cd90ee8",
+      "rows": 3900,
+      "sources": 1300,
+      "success_by_variant": {
+        "160px": 1294,
+        "40px": 865,
+        "80px": 1279
+      },
+      "success_manifest_sha256": "6b89300345c93369d1d4b37ff89131353d1f2f38ee1dcf5bf40a4e352735f10c",
+      "successes": 3438
+    }
+  },
+  "value_range": [
+    0,
+    255
+  ],
+  "variants": [
+    "160px",
+    "80px",
+    "40px"
+  ],
+  "yunet": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/onnx/yunet_n_640_640.onnx",
+  "yunet_sha256": "25a606a145a5b6d7271ae138fbd00eba91dad8b83222ae3f2c7ecd0f4a7b0e31"
+}

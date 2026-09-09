@@ -1,0 +1,25 @@
+{
+  "host": "orangepi5ultra",
+  "architecture": "aarch64",
+  "platform": "rk3588",
+  "driver_version": "0.9.6",
+  "runtime_version": "2.3.2",
+  "toolkit_lite_version": "2.3.2",
+  "model_compiler_version": "2.3.2",
+  "age": {
+    "model_sha256": "5760f2d6eddbe1c48f531be6b695bb4d4e1c80f7fa72e70b7888f065a6e7fd5c",
+    "crop_sha256": "2199af002dfcb082d79fafdbd3f2f2878d50010f94a706ece7d1394159bc79b2",
+    "load_rknn": 0,
+    "init_runtime": 0,
+    "output": 32.3125
+  },
+  "pose": {
+    "model_sha256": "7ae857cc948e36097237c0052c8d6939222b0dc0b247cfa881fe3e8cd7b8a37d",
+    "crop_sha256": "d52cafe4b52e42cdd18f6606b9251b9e840d67480fb1a1cd36b517e3712e2e36",
+    "load_rknn": 0,
+    "init_runtime": 0,
+    "output_order": ["roll", "yaw", "pitch"],
+    "outputs": [8.53125, -7.015625, 3.8828125]
+  },
+  "warning": "RKNN_QUERY_INPUT_DYNAMIC_RANGE failed because these are static-shape models; RKNN Lite states this warning can be ignored."
+}

@@ -1,0 +1,18 @@
+{
+  "base_checkpoint": "official Wiki Gender SSR-Net checkpoint",
+  "base_checkpoint_sha256": "2d15bfa72869526d1e2b80385157e34a55fb5a4b184bbac5ea56d623141d7e8c",
+  "best_epoch": 13,
+  "early_stopped_after_epoch": 18,
+  "python": "3.10.21",
+  "selected_weights": "gender_ssrnet_v2_selected.weights.h5",
+  "selected_weights_sha256": "692b724cf0132c93fb07d01c6879293f7a67d924372f311a668b5155e84f9cff",
+  "split_manifest_sha256": {
+    "external_benchmark": "76044b4f122f81aa16ab77b5398607ec742c387f4442f9a230e4f2195d675361",
+    "test": "2a23caf54fcd3fcf7acff77877e5b7afac19e25544d3f44d00bd7146667cad2b",
+    "train": "410fba33a9e66dc16812d4c8402c0580476d6da95e9c3d97837439ff9b99b358",
+    "validation": "02e8d32a5b4615966fc6f70a638980d9dc746ba802743b5e42a4bbd2cdf13bbb"
+  },
+  "source": "shamangary/SSR-Net",
+  "source_commit": "f98b6cbe1c9c8c78649e5a331f94113564521525",
+  "tensorflow": "2.15.1"
+}

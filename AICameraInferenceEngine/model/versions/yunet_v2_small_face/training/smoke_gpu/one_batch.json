@@ -1,0 +1,29 @@
+{
+  "python": "3.11.16",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "capability": [
+    12,
+    0
+  ],
+  "dataset_samples": 12876,
+  "batch_shape": [
+    16,
+    3,
+    640,
+    640
+  ],
+  "batch_device": "cuda:0",
+  "losses": {
+    "loss_cls": 0.48158788681030273,
+    "loss_bbox": 0.7333009243011475,
+    "loss_obj": 1.1324470043182373,
+    "loss_kps": 0.12392710894346237
+  },
+  "total_loss": 2.4712629318237305,
+  "max_backbone_gradient_norm": 2.1962876319885254,
+  "max_head_gradient_norm": 1.843611478805542,
+  "peak_allocated_mb": 2242.517578125,
+  "peak_reserved_mb": 2502.0
+}

@@ -1,0 +1,220 @@
+{
+  "heights": {
+    "80": {
+      "v1": {
+        "age": {
+          "e2e_accuracy": 0.19658119658119658,
+          "e2e_hits": 184,
+          "total": 936,
+          "conditional_accuracy": 0.2013129102844639,
+          "conditional_hits": 184,
+          "detected": 914,
+          "mae": 15.442776805251642,
+          "mae_count": 914
+        },
+        "gender_e2e": {
+          "value": 0.7081310651900902,
+          "male_correct": 419,
+          "male_count": 461,
+          "female_correct": 241,
+          "female_count": 475
+        },
+        "gender_conditional": {
+          "value": 0.7272095741826683,
+          "male_correct": 419,
+          "male_count": 446,
+          "female_correct": 241,
+          "female_count": 468
+        }
+      },
+      "v2": {
+        "age": {
+          "e2e_accuracy": 0.2799145299145299,
+          "e2e_hits": 262,
+          "total": 936,
+          "conditional_accuracy": 0.28665207877461707,
+          "conditional_hits": 262,
+          "detected": 914,
+          "mae": 11.61233588621444,
+          "mae_count": 914
+        },
+        "gender_e2e": {
+          "value": 0.7845895650188377,
+          "male_correct": 407,
+          "male_count": 461,
+          "female_correct": 326,
+          "female_count": 475
+        },
+        "gender_conditional": {
+          "value": 0.8045686251964279,
+          "male_correct": 407,
+          "male_count": 446,
+          "female_correct": 326,
+          "female_count": 468
+        }
+      }
+    },
+    "40": {
+      "v1": {
+        "age": {
+          "e2e_accuracy": 0.13568376068376067,
+          "e2e_hits": 127,
+          "total": 936,
+          "conditional_accuracy": 0.20684039087947884,
+          "conditional_hits": 127,
+          "detected": 614,
+          "mae": 16.483061889250816,
+          "mae_count": 614
+        },
+        "gender_e2e": {
+          "value": 0.4695558853750428,
+          "male_correct": 266,
+          "male_count": 461,
+          "female_correct": 172,
+          "female_count": 475
+        },
+        "gender_conditional": {
+          "value": 0.7315678667991835,
+          "male_correct": 266,
+          "male_count": 281,
+          "female_correct": 172,
+          "female_count": 333
+        }
+      },
+      "v2": {
+        "age": {
+          "e2e_accuracy": 0.17735042735042736,
+          "e2e_hits": 166,
+          "total": 936,
+          "conditional_accuracy": 0.2703583061889251,
+          "conditional_hits": 166,
+          "detected": 614,
+          "mae": 12.428190553745928,
+          "mae_count": 614
+        },
+        "gender_e2e": {
+          "value": 0.539666628610572,
+          "male_correct": 253,
+          "male_count": 461,
+          "female_correct": 252,
+          "female_count": 475
+        },
+        "gender_conditional": {
+          "value": 0.828556314321439,
+          "male_correct": 253,
+          "male_count": 281,
+          "female_correct": 252,
+          "female_count": 333
+        }
+      }
+    },
+    "27": {
+      "v1": {
+        "age": {
+          "e2e_accuracy": 0.004273504273504274,
+          "e2e_hits": 4,
+          "total": 936,
+          "conditional_accuracy": 0.26666666666666666,
+          "conditional_hits": 4,
+          "detected": 15,
+          "mae": 15.5396,
+          "mae_count": 15
+        },
+        "gender_e2e": {
+          "value": 0.009537618449594703,
+          "male_correct": 2,
+          "male_count": 461,
+          "female_correct": 7,
+          "female_count": 475
+        },
+        "gender_conditional": {
+          "value": 0.625,
+          "male_correct": 2,
+          "male_count": 3,
+          "female_correct": 7,
+          "female_count": 12
+        }
+      },
+      "v2": {
+        "age": {
+          "e2e_accuracy": 0.005341880341880342,
+          "e2e_hits": 5,
+          "total": 936,
+          "conditional_accuracy": 0.3333333333333333,
+          "conditional_hits": 5,
+          "detected": 15,
+          "mae": 14.689733333333333,
+          "mae_count": 15
+        },
+        "gender_e2e": {
+          "value": 0.01164288160748944,
+          "male_correct": 2,
+          "male_count": 461,
+          "female_correct": 9,
+          "female_count": 475
+        },
+        "gender_conditional": {
+          "value": 0.7083333333333333,
+          "male_correct": 2,
+          "male_count": 3,
+          "female_correct": 9,
+          "female_count": 12
+        }
+      }
+    }
+  },
+  "overall": {
+    "v1": {
+      "age": {
+        "e2e_accuracy": 0.11217948717948718,
+        "e2e_hits": 315,
+        "total": 2808,
+        "conditional_accuracy": 0.20414776409591703,
+        "conditional_hits": 315,
+        "detected": 1543,
+        "mae": 15.857674659753727,
+        "mae_count": 1543
+      },
+      "gender_e2e": {
+        "value": 0.3957415230049092,
+        "male_correct": 687,
+        "male_count": 1383,
+        "female_correct": 420,
+        "female_count": 1425
+      },
+      "gender_conditional": {
+        "value": 0.7288505282313097,
+        "male_correct": 687,
+        "male_count": 730,
+        "female_correct": 420,
+        "female_count": 813
+      }
+    },
+    "v2": {
+      "age": {
+        "e2e_accuracy": 0.1542022792022792,
+        "e2e_hits": 433,
+        "total": 2808,
+        "conditional_accuracy": 0.28062216461438755,
+        "conditional_hits": 433,
+        "detected": 1543,
+        "mae": 11.966902138690863,
+        "mae_count": 1543
+      },
+      "gender_e2e": {
+        "value": 0.4452996917456331,
+        "male_correct": 662,
+        "male_count": 1383,
+        "female_correct": 587,
+        "female_count": 1425
+      },
+      "gender_conditional": {
+        "value": 0.8144332676203474,
+        "male_correct": 662,
+        "male_count": 730,
+        "female_correct": 587,
+        "female_count": 813
+      }
+    }
+  }
+}

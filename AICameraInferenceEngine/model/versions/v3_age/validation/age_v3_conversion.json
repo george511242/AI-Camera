@@ -1,0 +1,52 @@
+{
+  "toolkit_version": "2.3.2",
+  "python_version": "3.12.14",
+  "quantized": false,
+  "config": {
+    "mean_values": [[0, 0, 0]],
+    "std_values": [[1, 1, 1]]
+  },
+  "onnx": {
+    "path": "../onnx/age_ssrnet_v3_64x64.onnx",
+    "size_bytes": 194242,
+    "sha256": "b86312fb317c95672bb17a2b9ce708464a6326a224dc3811ecee9362d988e6e9",
+    "checker": "PASS",
+    "input": {"name": "input", "shape": [1, 3, 64, 64]},
+    "output": {"name": "tf.identity", "shape": [1, 1]},
+    "tensorflow_onnx_sample_count": 74,
+    "tensorflow_onnx_max_absolute_difference": 0.0000362396240234375,
+    "tensorflow_onnx_mean_absolute_difference": 0.000008157781652502112
+  },
+  "rk3566": {
+    "path": "../rknn/rk3566/age_ssrnet_v3_64x64_fp16.rknn",
+    "size_bytes": 390193,
+    "sha256": "746ed741973af48a079b949521500b01e6ec1e22cb0310fed15fd65bf8a4a7f5",
+    "config": 0,
+    "load_onnx": 0,
+    "build": 0,
+    "export_rknn": 0
+  },
+  "rk3588": {
+    "path": "../rknn/rk3588/age_ssrnet_v3_64x64_fp16.rknn",
+    "size_bytes": 510961,
+    "sha256": "ffb1c78ca4be9d74e50d99d6c0893d22294524efed9fd6821cabeb14c89ccf5f",
+    "config": 0,
+    "load_onnx": 0,
+    "build": 0,
+    "export_rknn": 0
+  },
+  "warnings": [
+    "pkg_resources is deprecated",
+    "RKNN Toolkit2 emitted 'Unkown op target: 0' messages while build still returned 0"
+  ],
+  "hardware_validation": {
+    "status": "PASS",
+    "platform": "rk3588",
+    "runtime_version": "2.3.2",
+    "driver_version": "0.9.6",
+    "rows": 9198,
+    "runtime_errors": 0,
+    "result_sha256": "f33b85f2b4c66698493a68760fcf73c38ae43d2770aa5c6d8984f86378c1cd40",
+    "comparison": "age_v1_v2_v3_rk3588_benchmark.json"
+  }
+}

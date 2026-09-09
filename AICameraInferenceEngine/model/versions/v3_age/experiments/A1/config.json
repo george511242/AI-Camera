@@ -1,0 +1,21 @@
+{
+  "age_balance": "sqrt-inverse-10y",
+  "batch_size": 64,
+  "bbox_jitter": "none",
+  "camera_augmentation": "v2",
+  "device": "cpu",
+  "distance_augmentation": "v2",
+  "epochs": 8,
+  "experiment": "A1",
+  "huber_delta": 5.0,
+  "image_root": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1",
+  "initial_weights": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/vendor/SSR-Net/pre-trained/wiki/ssrnet_3_3_3_64_1.0_1.0/ssrnet_3_3_3_64_1.0_1.0.h5",
+  "learning_rate": 0.0001,
+  "loss": "mae",
+  "output_dir": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/experiments/A1",
+  "prefetch": 2,
+  "seed": 20260905,
+  "source": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/vendor/SSR-Net/training_and_testing/SSRNET_model.py",
+  "split_dir": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/splits",
+  "workers": 4
+}

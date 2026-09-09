@@ -1,0 +1,320 @@
+{
+  "best_weights_sha256": "5612078e0d1278c0dec0bd615921570f70f5412796d9e9eeed02554f0aa38118",
+  "config": {
+    "age_balance": "uniform-decade",
+    "batch_size": 64,
+    "bbox_jitter": "none",
+    "camera_augmentation": "v2",
+    "device": "cpu",
+    "distance_augmentation": "v2",
+    "epochs": 8,
+    "experiment": "A2",
+    "huber_delta": 5.0,
+    "image_root": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1",
+    "initial_weights": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/vendor/SSR-Net/pre-trained/wiki/ssrnet_3_3_3_64_1.0_1.0/ssrnet_3_3_3_64_1.0_1.0.h5",
+    "learning_rate": 0.0001,
+    "loss": "smooth-l1",
+    "output_dir": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/experiments/A2",
+    "prefetch": 2,
+    "seed": 20260905,
+    "source": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/vendor/SSR-Net/training_and_testing/SSRNET_model.py",
+    "split_dir": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/splits",
+    "workers": 4
+  },
+  "dataset": {
+    "manifest_sha256": {
+      "test": "e962d9e57aaaf0ab428a5d1bbc10e770630ae6e807176ac60c5152a1568b9855",
+      "train": "3fdba23fb43e1f4bd566b8bb4a003e1a3223fee98582063ea0cae001c9ba9dd9",
+      "validation": "d403e818009bdc669208773804861e161568253095b07ba9b66969a3eb8b9fc1"
+    },
+    "sampling_bin_probabilities": {
+      "0": 0.1,
+      "1": 0.1,
+      "2": 0.1,
+      "3": 0.1,
+      "4": 0.1,
+      "5": 0.1,
+      "6": 0.1,
+      "7": 0.1,
+      "8": 0.1,
+      "9": 0.1
+    },
+    "test": 1304,
+    "train": 6075,
+    "train_age_bins": {
+      "0": 1970,
+      "1": 763,
+      "2": 977,
+      "3": 652,
+      "4": 404,
+      "5": 582,
+      "6": 378,
+      "7": 189,
+      "8": 154,
+      "9": 6
+    },
+    "validation": 1300
+  },
+  "elapsed_seconds": 55.775010108947754,
+  "environment": {
+    "physical_gpus": [],
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "python": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:42:31) [GCC 14.4.0]",
+    "selected_device": "cpu",
+    "tensorflow": "2.15.1",
+    "tensorflow_built_with_cuda": true
+  },
+  "epochs_completed": 8,
+  "initial_validation": {
+    "age_buckets": {
+      "0-9": {
+        "count": 422,
+        "mae": 23.077152252197266,
+        "mean_prediction": 26.453929901123047,
+        "mean_signed_error": 23.077152252197266,
+        "within_10_years": 0.0,
+        "within_3_years": 0.0,
+        "within_5_years": 0.0
+      },
+      "10-19": {
+        "count": 163,
+        "mae": 11.474966049194336,
+        "mean_prediction": 26.346132278442383,
+        "mean_signed_error": 11.474966049194336,
+        "within_10_years": 0.4171779141104294,
+        "within_3_years": 0.0,
+        "within_5_years": 0.012269938650306749
+      },
+      "20-29": {
+        "count": 209,
+        "mae": 3.528566837310791,
+        "mean_prediction": 27.098796844482422,
+        "mean_signed_error": 2.495927333831787,
+        "within_10_years": 0.9425837320574163,
+        "within_3_years": 0.5215311004784688,
+        "within_5_years": 0.7799043062200957
+      },
+      "30-39": {
+        "count": 140,
+        "mae": 5.884712219238281,
+        "mean_prediction": 32.656192779541016,
+        "mean_signed_error": -1.6438041925430298,
+        "within_10_years": 0.8357142857142857,
+        "within_3_years": 0.30714285714285716,
+        "within_5_years": 0.45714285714285713
+      },
+      "40-49": {
+        "count": 86,
+        "mae": 8.414052963256836,
+        "mean_prediction": 39.176597595214844,
+        "mean_signed_error": -5.462934970855713,
+        "within_10_years": 0.6511627906976745,
+        "within_3_years": 0.2558139534883721,
+        "within_5_years": 0.37209302325581395
+      },
+      "50-59": {
+        "count": 125,
+        "mae": 11.326661109924316,
+        "mean_prediction": 44.68284606933594,
+        "mean_signed_error": -9.75715160369873,
+        "within_10_years": 0.528,
+        "within_3_years": 0.16,
+        "within_5_years": 0.272
+      },
+      "60-69": {
+        "count": 81,
+        "mae": 17.045974731445312,
+        "mean_prediction": 47.69541931152344,
+        "mean_signed_error": -16.48976707458496,
+        "within_10_years": 0.25925925925925924,
+        "within_3_years": 0.04938271604938271,
+        "within_5_years": 0.1111111111111111
+      },
+      "70+": {
+        "count": 74,
+        "mae": 25.664457321166992,
+        "mean_prediction": 53.22743225097656,
+        "mean_signed_error": -25.664457321166992,
+        "within_10_years": 0.04054054054054054,
+        "within_3_years": 0.0,
+        "within_5_years": 0.0
+      }
+    },
+    "count": 1300,
+    "mae": 14.299725532531738,
+    "mean_prediction": 32.653995513916016,
+    "mean_signed_error": 5.366305351257324,
+    "within_10_years": 0.40615384615384614,
+    "within_3_years": 0.1523076923076923,
+    "within_5_years": 0.23384615384615384
+  },
+  "latest_weights_sha256": "5612078e0d1278c0dec0bd615921570f70f5412796d9e9eeed02554f0aa38118",
+  "seconds_per_epoch": 6.971876263618469,
+  "selected_test": {
+    "age_buckets": {
+      "0-9": {
+        "count": 422,
+        "mae": 18.62542724609375,
+        "mean_prediction": 21.888463973999023,
+        "mean_signed_error": 18.62542724609375,
+        "within_10_years": 0.0,
+        "within_3_years": 0.0,
+        "within_5_years": 0.0
+      },
+      "10-19": {
+        "count": 163,
+        "mae": 8.635258674621582,
+        "mean_prediction": 23.261024475097656,
+        "mean_signed_error": 8.635258674621582,
+        "within_10_years": 0.6871165644171779,
+        "within_3_years": 0.06748466257668712,
+        "within_5_years": 0.26993865030674846
+      },
+      "20-29": {
+        "count": 210,
+        "mae": 3.9112789630889893,
+        "mean_prediction": 24.665817260742188,
+        "mean_signed_error": -0.04846867173910141,
+        "within_10_years": 0.9333333333333333,
+        "within_3_years": 0.5380952380952381,
+        "within_5_years": 0.7476190476190476
+      },
+      "30-39": {
+        "count": 140,
+        "mae": 8.62561321258545,
+        "mean_prediction": 33.657142639160156,
+        "mean_signed_error": -1.071426510810852,
+        "within_10_years": 0.6785714285714286,
+        "within_3_years": 0.18571428571428572,
+        "within_5_years": 0.36428571428571427
+      },
+      "40-49": {
+        "count": 88,
+        "mae": 10.649569511413574,
+        "mean_prediction": 44.54151153564453,
+        "mean_signed_error": -0.0266705434769392,
+        "within_10_years": 0.5113636363636364,
+        "within_3_years": 0.125,
+        "within_5_years": 0.23863636363636365
+      },
+      "50-59": {
+        "count": 124,
+        "mae": 9.660449981689453,
+        "mean_prediction": 51.421913146972656,
+        "mean_signed_error": -2.739375352859497,
+        "within_10_years": 0.6048387096774194,
+        "within_3_years": 0.22580645161290322,
+        "within_5_years": 0.33064516129032256
+      },
+      "60-69": {
+        "count": 81,
+        "mae": 11.58959674835205,
+        "mean_prediction": 59.212608337402344,
+        "mean_signed_error": -4.256529331207275,
+        "within_10_years": 0.5308641975308642,
+        "within_3_years": 0.19753086419753085,
+        "within_5_years": 0.30864197530864196
+      },
+      "70+": {
+        "count": 76,
+        "mae": 13.530092239379883,
+        "mean_prediction": 66.0543441772461,
+        "mean_signed_error": -12.248287200927734,
+        "within_10_years": 0.4868421052631579,
+        "within_3_years": 0.15789473684210525,
+        "within_5_years": 0.27631578947368424
+      }
+    },
+    "count": 1304,
+    "mae": 11.808692932128906,
+    "mean_prediction": 33.0004768371582,
+    "mean_signed_error": 5.743574619293213,
+    "within_10_years": 0.4624233128834356,
+    "within_3_years": 0.1664110429447853,
+    "within_5_years": 0.27607361963190186
+  },
+  "selected_validation": {
+    "age_buckets": {
+      "0-9": {
+        "count": 422,
+        "mae": 18.856197357177734,
+        "mean_prediction": 22.232975006103516,
+        "mean_signed_error": 18.856197357177734,
+        "within_10_years": 0.0,
+        "within_3_years": 0.0,
+        "within_5_years": 0.0
+      },
+      "10-19": {
+        "count": 163,
+        "mae": 8.446691513061523,
+        "mean_prediction": 23.31785774230957,
+        "mean_signed_error": 8.446691513061523,
+        "within_10_years": 0.7116564417177914,
+        "within_3_years": 0.04294478527607362,
+        "within_5_years": 0.26993865030674846
+      },
+      "20-29": {
+        "count": 209,
+        "mae": 3.8304951190948486,
+        "mean_prediction": 24.41472053527832,
+        "mean_signed_error": -0.1881476193666458,
+        "within_10_years": 0.9425837320574163,
+        "within_3_years": 0.49282296650717705,
+        "within_5_years": 0.7320574162679426
+      },
+      "30-39": {
+        "count": 140,
+        "mae": 9.399032592773438,
+        "mean_prediction": 33.14691162109375,
+        "mean_signed_error": -1.1530874967575073,
+        "within_10_years": 0.6,
+        "within_3_years": 0.19285714285714287,
+        "within_5_years": 0.2785714285714286
+      },
+      "40-49": {
+        "count": 86,
+        "mae": 11.04108715057373,
+        "mean_prediction": 41.914283752441406,
+        "mean_signed_error": -2.7252516746520996,
+        "within_10_years": 0.5,
+        "within_3_years": 0.1511627906976744,
+        "within_5_years": 0.2441860465116279
+      },
+      "50-59": {
+        "count": 125,
+        "mae": 11.333569526672363,
+        "mean_prediction": 51.80889892578125,
+        "mean_signed_error": -2.631101608276367,
+        "within_10_years": 0.512,
+        "within_3_years": 0.176,
+        "within_5_years": 0.264
+      },
+      "60-69": {
+        "count": 81,
+        "mae": 12.756547927856445,
+        "mean_prediction": 56.49420166015625,
+        "mean_signed_error": -7.69098424911499,
+        "within_10_years": 0.48148148148148145,
+        "within_3_years": 0.14814814814814814,
+        "within_5_years": 0.24691358024691357
+      },
+      "70+": {
+        "count": 74,
+        "mae": 12.876418113708496,
+        "mean_prediction": 69.2362289428711,
+        "mean_signed_error": -9.655660629272461,
+        "within_10_years": 0.5540540540540541,
+        "within_3_years": 0.22972972972972974,
+        "within_5_years": 0.3108108108108108
+      }
+    },
+    "count": 1300,
+    "mae": 12.156099319458008,
+    "mean_prediction": 32.85124969482422,
+    "mean_signed_error": 5.563555717468262,
+    "within_10_years": 0.4492307692307692,
+    "within_3_years": 0.15461538461538463,
+    "within_5_years": 0.2561538461538462
+  },
+  "steps_per_epoch": 94
+}

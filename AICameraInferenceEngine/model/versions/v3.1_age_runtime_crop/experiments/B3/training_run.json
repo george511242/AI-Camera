@@ -1,0 +1,773 @@
+{
+  "best_weights_sha256": "fbb23c981aa241c0e55ff61478dde096bf6bbf2106b05cd242cd0f57353362ac",
+  "device": "cpu",
+  "elapsed_seconds": 123.32771420478821,
+  "epochs_completed": 8,
+  "experiment": "B3",
+  "initial_validation": {
+    "age_buckets": {
+      "0-9": {
+        "count": 646,
+        "mae": 21.714609146118164,
+        "mean_prediction": 25.327611923217773,
+        "mean_signed_error": 21.714609146118164,
+        "within_10_years": 0.0,
+        "within_3_years": 0.0,
+        "within_5_years": 0.0
+      },
+      "10-19": {
+        "count": 281,
+        "mae": 10.182031631469727,
+        "mean_prediction": 25.11441421508789,
+        "mean_signed_error": 10.182031631469727,
+        "within_10_years": 0.5587188612099644,
+        "within_3_years": 0.0,
+        "within_5_years": 0.02491103202846975
+      },
+      "20-29": {
+        "count": 382,
+        "mae": 2.820348024368286,
+        "mean_prediction": 25.54039192199707,
+        "mean_signed_error": 0.9644770622253418,
+        "within_10_years": 0.981675392670157,
+        "within_3_years": 0.6465968586387435,
+        "within_5_years": 0.8979057591623036
+      },
+      "30-39": {
+        "count": 248,
+        "mae": 6.511440277099609,
+        "mean_prediction": 30.24981117248535,
+        "mean_signed_error": -3.9840598106384277,
+        "within_10_years": 0.7943548387096774,
+        "within_3_years": 0.22580645161290322,
+        "within_5_years": 0.3790322580645161
+      },
+      "40-49": {
+        "count": 151,
+        "mae": 10.33620548248291,
+        "mean_prediction": 36.62299346923828,
+        "mean_signed_error": -7.986281394958496,
+        "within_10_years": 0.5033112582781457,
+        "within_3_years": 0.1986754966887417,
+        "within_5_years": 0.2913907284768212
+      },
+      "50-59": {
+        "count": 197,
+        "mae": 13.398447036743164,
+        "mean_prediction": 41.911155700683594,
+        "mean_signed_error": -12.347723007202148,
+        "within_10_years": 0.4467005076142132,
+        "within_3_years": 0.18274111675126903,
+        "within_5_years": 0.27411167512690354
+      },
+      "60-69": {
+        "count": 128,
+        "mae": 18.97047233581543,
+        "mean_prediction": 45.89011001586914,
+        "mean_signed_error": -18.172391891479492,
+        "within_10_years": 0.2578125,
+        "within_3_years": 0.09375,
+        "within_5_years": 0.140625
+      },
+      "70+": {
+        "count": 111,
+        "mae": 25.53571319580078,
+        "mean_prediction": 52.977699279785156,
+        "mean_signed_error": -25.472742080688477,
+        "within_10_years": 0.13513513513513514,
+        "within_3_years": 0.02702702702702703,
+        "within_5_years": 0.06306306306306306
+      }
+    },
+    "by_variant": {
+      "40px": {
+        "age_buckets": {
+          "0-9": {
+            "count": 237,
+            "mae": 21.075273513793945,
+            "mean_prediction": 25.033079147338867,
+            "mean_signed_error": 21.075273513793945,
+            "within_10_years": 0.0,
+            "within_3_years": 0.0,
+            "within_5_years": 0.0
+          },
+          "10-19": {
+            "count": 119,
+            "mae": 9.63240909576416,
+            "mean_prediction": 24.674427032470703,
+            "mean_signed_error": 9.63240909576416,
+            "within_10_years": 0.5882352941176471,
+            "within_3_years": 0.0,
+            "within_5_years": 0.025210084033613446
+          },
+          "20-29": {
+            "count": 174,
+            "mae": 2.6936678886413574,
+            "mean_prediction": 25.30689811706543,
+            "mean_signed_error": 0.7551760673522949,
+            "within_10_years": 0.9885057471264368,
+            "within_3_years": 0.6494252873563219,
+            "within_5_years": 0.9022988505747126
+          },
+          "30-39": {
+            "count": 110,
+            "mae": 6.689646244049072,
+            "mean_prediction": 29.454126358032227,
+            "mean_signed_error": -4.718599796295166,
+            "within_10_years": 0.8,
+            "within_3_years": 0.17272727272727273,
+            "within_5_years": 0.3090909090909091
+          },
+          "40-49": {
+            "count": 65,
+            "mae": 10.68514347076416,
+            "mean_prediction": 36.00049591064453,
+            "mean_signed_error": -8.568732261657715,
+            "within_10_years": 0.47692307692307695,
+            "within_3_years": 0.16923076923076924,
+            "within_5_years": 0.26153846153846155
+          },
+          "50-59": {
+            "count": 73,
+            "mae": 15.943119049072266,
+            "mean_prediction": 38.2882194519043,
+            "mean_signed_error": -15.615893363952637,
+            "within_10_years": 0.3287671232876712,
+            "within_3_years": 0.1506849315068493,
+            "within_5_years": 0.2054794520547945
+          },
+          "60-69": {
+            "count": 48,
+            "mae": 21.08924102783203,
+            "mean_prediction": 43.178009033203125,
+            "mean_signed_error": -20.759492874145508,
+            "within_10_years": 0.16666666666666666,
+            "within_3_years": 0.0625,
+            "within_5_years": 0.0625
+          },
+          "70+": {
+            "count": 39,
+            "mae": 31.164485931396484,
+            "mean_prediction": 47.220130920410156,
+            "mean_signed_error": -31.164485931396484,
+            "within_10_years": 0.02564102564102564,
+            "within_3_years": 0.0,
+            "within_5_years": 0.0
+          }
+        },
+        "count": 865,
+        "mae": 13.215880393981934,
+        "mean_prediction": 29.551042556762695,
+        "mean_signed_error": 2.1325466632843018,
+        "within_10_years": 0.4554913294797688,
+        "within_3_years": 0.1815028901734104,
+        "within_5_years": 0.26473988439306356
+      },
+      "80px": {
+        "age_buckets": {
+          "0-9": {
+            "count": 409,
+            "mae": 22.0850830078125,
+            "mean_prediction": 25.4982852935791,
+            "mean_signed_error": 22.0850830078125,
+            "within_10_years": 0.0,
+            "within_3_years": 0.0,
+            "within_5_years": 0.0
+          },
+          "10-19": {
+            "count": 162,
+            "mae": 10.585763931274414,
+            "mean_prediction": 25.437618255615234,
+            "mean_signed_error": 10.585763931274414,
+            "within_10_years": 0.5370370370370371,
+            "within_3_years": 0.0,
+            "within_5_years": 0.024691358024691357
+          },
+          "20-29": {
+            "count": 208,
+            "mae": 2.9263205528259277,
+            "mean_prediction": 25.735719680786133,
+            "mean_signed_error": 1.1395657062530518,
+            "within_10_years": 0.9759615384615384,
+            "within_3_years": 0.6442307692307693,
+            "within_5_years": 0.8942307692307693
+          },
+          "30-39": {
+            "count": 138,
+            "mae": 6.369391441345215,
+            "mean_prediction": 30.884050369262695,
+            "mean_signed_error": -3.3985564708709717,
+            "within_10_years": 0.7898550724637681,
+            "within_3_years": 0.26811594202898553,
+            "within_5_years": 0.43478260869565216
+          },
+          "40-49": {
+            "count": 86,
+            "mae": 10.072474479675293,
+            "mean_prediction": 37.09347915649414,
+            "mean_signed_error": -7.546056747436523,
+            "within_10_years": 0.5232558139534884,
+            "within_3_years": 0.22093023255813954,
+            "within_5_years": 0.313953488372093
+          },
+          "50-59": {
+            "count": 124,
+            "mae": 11.900373458862305,
+            "mean_prediction": 44.04402542114258,
+            "mean_signed_error": -10.423718452453613,
+            "within_10_years": 0.5161290322580645,
+            "within_3_years": 0.20161290322580644,
+            "within_5_years": 0.31451612903225806
+          },
+          "60-69": {
+            "count": 80,
+            "mae": 17.699209213256836,
+            "mean_prediction": 47.517372131347656,
+            "mean_signed_error": -16.62013053894043,
+            "within_10_years": 0.3125,
+            "within_3_years": 0.1125,
+            "within_5_years": 0.1875
+          },
+          "70+": {
+            "count": 72,
+            "mae": 22.486799240112305,
+            "mean_prediction": 56.09638977050781,
+            "mean_signed_error": -22.389720916748047,
+            "within_10_years": 0.19444444444444445,
+            "within_3_years": 0.041666666666666664,
+            "within_5_years": 0.09722222222222222
+          }
+        },
+        "count": 1279,
+        "mae": 13.770296096801758,
+        "mean_prediction": 31.787761688232422,
+        "mean_signed_error": 4.403868675231934,
+        "within_10_years": 0.42767787333854573,
+        "within_3_years": 0.17748240813135263,
+        "within_5_years": 0.2642689601250977
+      }
+    },
+    "count": 2144,
+    "mae": 13.546616554260254,
+    "mean_prediction": 30.88535499572754,
+    "mean_signed_error": 3.4875004291534424,
+    "within_10_years": 0.4388992537313433,
+    "within_3_years": 0.1791044776119403,
+    "within_5_years": 0.2644589552238806
+  },
+  "latest_weights_sha256": "2e41b72a85eaf16f768127dc5ff8f890c6aeb9ca1b3e4a64cde2b78319ed3012",
+  "sampling": "uniform decade",
+  "seed": 20260905,
+  "selected_test": {
+    "age_buckets": {
+      "0-9": {
+        "count": 665,
+        "mae": 16.67886734008789,
+        "mean_prediction": 20.107439041137695,
+        "mean_signed_error": 16.67886734008789,
+        "within_10_years": 0.016541353383458645,
+        "within_3_years": 0.0,
+        "within_5_years": 0.0
+      },
+      "10-19": {
+        "count": 286,
+        "mae": 7.612436294555664,
+        "mean_prediction": 22.275545120239258,
+        "mean_signed_error": 7.611208438873291,
+        "within_10_years": 0.8041958041958042,
+        "within_3_years": 0.2097902097902098,
+        "within_5_years": 0.3881118881118881
+      },
+      "20-29": {
+        "count": 389,
+        "mae": 6.059948921203613,
+        "mean_prediction": 25.919063568115234,
+        "mean_signed_error": 1.140141248703003,
+        "within_10_years": 0.8611825192802056,
+        "within_3_years": 0.33161953727506427,
+        "within_5_years": 0.5552699228791774
+      },
+      "30-39": {
+        "count": 243,
+        "mae": 8.274720191955566,
+        "mean_prediction": 34.53997039794922,
+        "mean_signed_error": -0.17607901990413666,
+        "within_10_years": 0.6666666666666666,
+        "within_3_years": 0.18106995884773663,
+        "within_5_years": 0.3045267489711934
+      },
+      "40-49": {
+        "count": 158,
+        "mae": 9.328852653503418,
+        "mean_prediction": 44.97201919555664,
+        "mean_signed_error": 0.4846747815608978,
+        "within_10_years": 0.5759493670886076,
+        "within_3_years": 0.22151898734177214,
+        "within_5_years": 0.2974683544303797
+      },
+      "50-59": {
+        "count": 192,
+        "mae": 10.275717735290527,
+        "mean_prediction": 52.019683837890625,
+        "mean_signed_error": -2.0844838619232178,
+        "within_10_years": 0.5885416666666666,
+        "within_3_years": 0.15104166666666666,
+        "within_5_years": 0.265625
+      },
+      "60-69": {
+        "count": 133,
+        "mae": 9.64197826385498,
+        "mean_prediction": 59.004150390625,
+        "mean_signed_error": -4.552242279052734,
+        "within_10_years": 0.5939849624060151,
+        "within_3_years": 0.22556390977443608,
+        "within_5_years": 0.37593984962406013
+      },
+      "70+": {
+        "count": 112,
+        "mae": 12.74635124206543,
+        "mean_prediction": 67.12760162353516,
+        "mean_signed_error": -11.256331443786621,
+        "within_10_years": 0.49107142857142855,
+        "within_3_years": 0.14285714285714285,
+        "within_5_years": 0.2857142857142857
+      }
+    },
+    "by_variant": {
+      "40px": {
+        "age_buckets": {
+          "0-9": {
+            "count": 249,
+            "mae": 16.456937789916992,
+            "mean_prediction": 20.127620697021484,
+            "mean_signed_error": 16.456937789916992,
+            "within_10_years": 0.028112449799196786,
+            "within_3_years": 0.0,
+            "within_5_years": 0.0
+          },
+          "10-19": {
+            "count": 123,
+            "mae": 6.965610980987549,
+            "mean_prediction": 21.680889129638672,
+            "mean_signed_error": 6.965440273284912,
+            "within_10_years": 0.8455284552845529,
+            "within_3_years": 0.23577235772357724,
+            "within_5_years": 0.4065040650406504
+          },
+          "20-29": {
+            "count": 179,
+            "mae": 6.310995578765869,
+            "mean_prediction": 25.926156997680664,
+            "mean_signed_error": 1.0714080333709717,
+            "within_10_years": 0.8547486033519553,
+            "within_3_years": 0.3240223463687151,
+            "within_5_years": 0.5642458100558659
+          },
+          "30-39": {
+            "count": 103,
+            "mae": 8.056103706359863,
+            "mean_prediction": 33.75249099731445,
+            "mean_signed_error": -0.9465411901473999,
+            "within_10_years": 0.6601941747572816,
+            "within_3_years": 0.22330097087378642,
+            "within_5_years": 0.32038834951456313
+          },
+          "40-49": {
+            "count": 71,
+            "mae": 9.201961517333984,
+            "mean_prediction": 43.838050842285156,
+            "mean_signed_error": -0.5140624642372131,
+            "within_10_years": 0.5774647887323944,
+            "within_3_years": 0.22535211267605634,
+            "within_5_years": 0.323943661971831
+          },
+          "50-59": {
+            "count": 70,
+            "mae": 10.921830177307129,
+            "mean_prediction": 49.255001068115234,
+            "mean_signed_error": -4.787858963012695,
+            "within_10_years": 0.5571428571428572,
+            "within_3_years": 0.14285714285714285,
+            "within_5_years": 0.24285714285714285
+          },
+          "60-69": {
+            "count": 54,
+            "mae": 9.918103218078613,
+            "mean_prediction": 56.322139739990234,
+            "mean_signed_error": -7.474157333374023,
+            "within_10_years": 0.5925925925925926,
+            "within_3_years": 0.2037037037037037,
+            "within_5_years": 0.42592592592592593
+          },
+          "70+": {
+            "count": 39,
+            "mae": 14.615727424621582,
+            "mean_prediction": 63.99964904785156,
+            "mean_signed_error": -14.615727424621582,
+            "within_10_years": 0.46153846153846156,
+            "within_3_years": 0.10256410256410256,
+            "within_5_years": 0.2564102564102564
+          }
+        },
+        "count": 888,
+        "mae": 10.627762794494629,
+        "mean_prediction": 31.411651611328125,
+        "mean_signed_error": 4.170662879943848,
+        "within_10_years": 0.5202702702702703,
+        "within_3_years": 0.17004504504504506,
+        "within_5_years": 0.2894144144144144
+      },
+      "80px": {
+        "age_buckets": {
+          "0-9": {
+            "count": 416,
+            "mae": 16.811708450317383,
+            "mean_prediction": 20.09536361694336,
+            "mean_signed_error": 16.811708450317383,
+            "within_10_years": 0.009615384615384616,
+            "within_3_years": 0.0,
+            "within_5_years": 0.0
+          },
+          "10-19": {
+            "count": 163,
+            "mae": 8.100530624389648,
+            "mean_prediction": 22.724273681640625,
+            "mean_signed_error": 8.098505973815918,
+            "within_10_years": 0.7730061349693251,
+            "within_3_years": 0.1901840490797546,
+            "within_5_years": 0.37423312883435583
+          },
+          "20-29": {
+            "count": 210,
+            "mae": 5.845961093902588,
+            "mean_prediction": 25.913013458251953,
+            "mean_signed_error": 1.1987279653549194,
+            "within_10_years": 0.8666666666666667,
+            "within_3_years": 0.3380952380952381,
+            "within_5_years": 0.5476190476190477
+          },
+          "30-39": {
+            "count": 140,
+            "mae": 8.43556022644043,
+            "mean_prediction": 35.11933517456055,
+            "mean_signed_error": 0.39076119661331177,
+            "within_10_years": 0.6714285714285714,
+            "within_3_years": 0.15,
+            "within_5_years": 0.29285714285714287
+          },
+          "40-49": {
+            "count": 87,
+            "mae": 9.432406425476074,
+            "mean_prediction": 45.897438049316406,
+            "mean_signed_error": 1.2997361421585083,
+            "within_10_years": 0.5747126436781609,
+            "within_3_years": 0.21839080459770116,
+            "within_5_years": 0.27586206896551724
+          },
+          "50-59": {
+            "count": 122,
+            "mae": 9.904997825622559,
+            "mean_prediction": 53.60597229003906,
+            "mean_signed_error": -0.5333666801452637,
+            "within_10_years": 0.6065573770491803,
+            "within_3_years": 0.1557377049180328,
+            "within_5_years": 0.2786885245901639
+          },
+          "60-69": {
+            "count": 79,
+            "mae": 9.453234672546387,
+            "mean_prediction": 60.837425231933594,
+            "mean_signed_error": -2.5549840927124023,
+            "within_10_years": 0.5949367088607594,
+            "within_3_years": 0.24050632911392406,
+            "within_5_years": 0.34177215189873417
+          },
+          "70+": {
+            "count": 73,
+            "mae": 11.747640609741211,
+            "mean_prediction": 68.79869079589844,
+            "mean_signed_error": -9.46158504486084,
+            "within_10_years": 0.5068493150684932,
+            "within_3_years": 0.1643835616438356,
+            "within_5_years": 0.3013698630136986
+          }
+        },
+        "count": 1290,
+        "mae": 11.128759384155273,
+        "mean_prediction": 33.165611267089844,
+        "mean_signed_error": 6.027623176574707,
+        "within_10_years": 0.475968992248062,
+        "within_3_years": 0.14883720930232558,
+        "within_5_years": 0.25116279069767444
+      }
+    },
+    "count": 2178,
+    "mae": 10.9244966506958,
+    "mean_prediction": 32.45050048828125,
+    "mean_signed_error": 5.270515441894531,
+    "within_10_years": 0.49403122130394855,
+    "within_3_years": 0.15748393021120294,
+    "within_5_years": 0.2667584940312213
+  },
+  "selected_validation": {
+    "age_buckets": {
+      "0-9": {
+        "count": 646,
+        "mae": 16.5028018951416,
+        "mean_prediction": 20.115806579589844,
+        "mean_signed_error": 16.5028018951416,
+        "within_10_years": 0.030959752321981424,
+        "within_3_years": 0.0,
+        "within_5_years": 0.0
+      },
+      "10-19": {
+        "count": 281,
+        "mae": 7.80048942565918,
+        "mean_prediction": 22.719018936157227,
+        "mean_signed_error": 7.7866339683532715,
+        "within_10_years": 0.7758007117437722,
+        "within_3_years": 0.18505338078291814,
+        "within_5_years": 0.40213523131672596
+      },
+      "20-29": {
+        "count": 382,
+        "mae": 4.95763635635376,
+        "mean_prediction": 24.506027221679688,
+        "mean_signed_error": -0.0698905661702156,
+        "within_10_years": 0.900523560209424,
+        "within_3_years": 0.4031413612565445,
+        "within_5_years": 0.6047120418848168
+      },
+      "30-39": {
+        "count": 248,
+        "mae": 9.095808982849121,
+        "mean_prediction": 33.94581604003906,
+        "mean_signed_error": -0.2880512475967407,
+        "within_10_years": 0.5645161290322581,
+        "within_3_years": 0.15725806451612903,
+        "within_5_years": 0.29838709677419356
+      },
+      "40-49": {
+        "count": 151,
+        "mae": 8.400405883789062,
+        "mean_prediction": 44.113014221191406,
+        "mean_signed_error": -0.49625834822654724,
+        "within_10_years": 0.6821192052980133,
+        "within_3_years": 0.23841059602649006,
+        "within_5_years": 0.3841059602649007
+      },
+      "50-59": {
+        "count": 197,
+        "mae": 9.835553169250488,
+        "mean_prediction": 51.63756561279297,
+        "mean_signed_error": -2.6213202476501465,
+        "within_10_years": 0.5786802030456852,
+        "within_3_years": 0.25380710659898476,
+        "within_5_years": 0.37055837563451777
+      },
+      "60-69": {
+        "count": 128,
+        "mae": 10.044221878051758,
+        "mean_prediction": 59.049049377441406,
+        "mean_signed_error": -5.013448715209961,
+        "within_10_years": 0.609375,
+        "within_3_years": 0.1953125,
+        "within_5_years": 0.3203125
+      },
+      "70+": {
+        "count": 111,
+        "mae": 10.890186309814453,
+        "mean_prediction": 70.07457733154297,
+        "mean_signed_error": -8.375880241394043,
+        "within_10_years": 0.5045045045045045,
+        "within_3_years": 0.13513513513513514,
+        "within_5_years": 0.24324324324324326
+      }
+    },
+    "by_variant": {
+      "40px": {
+        "age_buckets": {
+          "0-9": {
+            "count": 237,
+            "mae": 16.523237228393555,
+            "mean_prediction": 20.481042861938477,
+            "mean_signed_error": 16.523237228393555,
+            "within_10_years": 0.046413502109704644,
+            "within_3_years": 0.0,
+            "within_5_years": 0.0
+          },
+          "10-19": {
+            "count": 119,
+            "mae": 7.689725875854492,
+            "mean_prediction": 22.71001625061035,
+            "mean_signed_error": 7.667998313903809,
+            "within_10_years": 0.7647058823529411,
+            "within_3_years": 0.18487394957983194,
+            "within_5_years": 0.4117647058823529
+          },
+          "20-29": {
+            "count": 174,
+            "mae": 4.505120754241943,
+            "mean_prediction": 23.876340866088867,
+            "mean_signed_error": -0.6753812432289124,
+            "within_10_years": 0.9252873563218391,
+            "within_3_years": 0.41954022988505746,
+            "within_5_years": 0.6436781609195402
+          },
+          "30-39": {
+            "count": 110,
+            "mae": 8.72640609741211,
+            "mean_prediction": 33.182960510253906,
+            "mean_signed_error": -0.9897682666778564,
+            "within_10_years": 0.5727272727272728,
+            "within_3_years": 0.17272727272727273,
+            "within_5_years": 0.3090909090909091
+          },
+          "40-49": {
+            "count": 65,
+            "mae": 8.366704940795898,
+            "mean_prediction": 43.99491882324219,
+            "mean_signed_error": -0.5743134617805481,
+            "within_10_years": 0.7076923076923077,
+            "within_3_years": 0.24615384615384617,
+            "within_5_years": 0.4
+          },
+          "50-59": {
+            "count": 73,
+            "mae": 10.342437744140625,
+            "mean_prediction": 48.437156677246094,
+            "mean_signed_error": -5.466953277587891,
+            "within_10_years": 0.547945205479452,
+            "within_3_years": 0.3013698630136986,
+            "within_5_years": 0.3972602739726027
+          },
+          "60-69": {
+            "count": 48,
+            "mae": 11.488572120666504,
+            "mean_prediction": 56.25540542602539,
+            "mean_signed_error": -7.682093143463135,
+            "within_10_years": 0.5625,
+            "within_3_years": 0.14583333333333334,
+            "within_5_years": 0.25
+          },
+          "70+": {
+            "count": 39,
+            "mae": 11.79973030090332,
+            "mean_prediction": 67.2183609008789,
+            "mean_signed_error": -11.166258811950684,
+            "within_10_years": 0.46153846153846156,
+            "within_3_years": 0.15384615384615385,
+            "within_5_years": 0.28205128205128205
+          }
+        },
+        "count": 865,
+        "mae": 10.272087097167969,
+        "mean_prediction": 31.304584503173828,
+        "mean_signed_error": 3.886087656021118,
+        "within_10_years": 0.5283236994219653,
+        "within_3_years": 0.1907514450867052,
+        "within_5_years": 0.315606936416185
+      },
+      "80px": {
+        "age_buckets": {
+          "0-9": {
+            "count": 409,
+            "mae": 16.490962982177734,
+            "mean_prediction": 19.904165267944336,
+            "mean_signed_error": 16.490962982177734,
+            "within_10_years": 0.022004889975550123,
+            "within_3_years": 0.0,
+            "within_5_years": 0.0
+          },
+          "10-19": {
+            "count": 162,
+            "mae": 7.881852626800537,
+            "mean_prediction": 22.725631713867188,
+            "mean_signed_error": 7.873780250549316,
+            "within_10_years": 0.7839506172839507,
+            "within_3_years": 0.18518518518518517,
+            "within_5_years": 0.3950617283950617
+          },
+          "20-29": {
+            "count": 208,
+            "mae": 5.336183547973633,
+            "mean_prediction": 25.032779693603516,
+            "mean_signed_error": 0.4366256594657898,
+            "within_10_years": 0.8798076923076923,
+            "within_3_years": 0.3894230769230769,
+            "within_5_years": 0.5721153846153846
+          },
+          "30-39": {
+            "count": 138,
+            "mae": 9.390260696411133,
+            "mean_prediction": 34.55389404296875,
+            "mean_signed_error": 0.2712883949279785,
+            "within_10_years": 0.5579710144927537,
+            "within_3_years": 0.14492753623188406,
+            "within_5_years": 0.2898550724637681
+          },
+          "40-49": {
+            "count": 86,
+            "mae": 8.425878524780273,
+            "mean_prediction": 44.202274322509766,
+            "mean_signed_error": -0.4372631013393402,
+            "within_10_years": 0.6627906976744186,
+            "within_3_years": 0.23255813953488372,
+            "within_5_years": 0.37209302325581395
+          },
+          "50-59": {
+            "count": 124,
+            "mae": 9.53714656829834,
+            "mean_prediction": 53.52167510986328,
+            "mean_signed_error": -0.9460688233375549,
+            "within_10_years": 0.5967741935483871,
+            "within_3_years": 0.22580645161290322,
+            "within_5_years": 0.3548387096774194
+          },
+          "60-69": {
+            "count": 80,
+            "mae": 9.177610397338867,
+            "mean_prediction": 60.72523880004883,
+            "mean_signed_error": -3.412261962890625,
+            "within_10_years": 0.6375,
+            "within_3_years": 0.225,
+            "within_5_years": 0.3625
+          },
+          "70+": {
+            "count": 72,
+            "mae": 10.397518157958984,
+            "mean_prediction": 71.6216812133789,
+            "mean_signed_error": -6.864424705505371,
+            "within_10_years": 0.5277777777777778,
+            "within_3_years": 0.125,
+            "within_5_years": 0.2222222222222222
+          }
+        },
+        "count": 1279,
+        "mae": 10.80336856842041,
+        "mean_prediction": 33.03398895263672,
+        "mean_signed_error": 5.650097846984863,
+        "within_10_years": 0.48162627052384677,
+        "within_3_years": 0.16106333072713058,
+        "within_5_years": 0.2689601250977326
+      }
+    },
+    "count": 2144,
+    "mae": 10.589021682739258,
+    "mean_prediction": 32.33625793457031,
+    "mean_signed_error": 4.938405513763428,
+    "within_10_years": 0.5004664179104478,
+    "within_3_years": 0.1730410447761194,
+    "within_5_years": 0.28777985074626866
+  },
+  "steps_per_epoch": 253,
+  "tensorflow": "2.15.1",
+  "test_count": 2178,
+  "train_count": 16215,
+  "training_input": "160px+40px+80px runtime crops",
+  "validation_count": 2144,
+  "validation_variants": {
+    "40px": 865,
+    "80px": 1279
+  }
+}

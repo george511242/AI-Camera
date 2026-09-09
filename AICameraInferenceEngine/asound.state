@@ -1,0 +1,542 @@
+state.rockchiprk809 {
+	control.1 {
+		iface MIXER
+		name 'Receive PATH3 Source Select'
+		value 'From SDI3'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From SDI0'
+			item.1 'From SDI1'
+			item.2 'From SDI2'
+			item.3 'From SDI3'
+		}
+	}
+	control.2 {
+		iface MIXER
+		name 'Receive PATH2 Source Select'
+		value 'From SDI2'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From SDI0'
+			item.1 'From SDI1'
+			item.2 'From SDI2'
+			item.3 'From SDI3'
+		}
+	}
+	control.3 {
+		iface MIXER
+		name 'Receive PATH1 Source Select'
+		value 'From SDI1'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From SDI0'
+			item.1 'From SDI1'
+			item.2 'From SDI2'
+			item.3 'From SDI3'
+		}
+	}
+	control.4 {
+		iface MIXER
+		name 'Receive PATH0 Source Select'
+		value 'From SDI0'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From SDI0'
+			item.1 'From SDI1'
+			item.2 'From SDI2'
+			item.3 'From SDI3'
+		}
+	}
+	control.5 {
+		iface MIXER
+		name 'Transmit SDO3 Source Select'
+		value 'From PATH3'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From PATH0'
+			item.1 'From PATH1'
+			item.2 'From PATH2'
+			item.3 'From PATH3'
+		}
+	}
+	control.6 {
+		iface MIXER
+		name 'Transmit SDO2 Source Select'
+		value 'From PATH2'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From PATH0'
+			item.1 'From PATH1'
+			item.2 'From PATH2'
+			item.3 'From PATH3'
+		}
+	}
+	control.7 {
+		iface MIXER
+		name 'Transmit SDO1 Source Select'
+		value 'From PATH1'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From PATH0'
+			item.1 'From PATH1'
+			item.2 'From PATH2'
+			item.3 'From PATH3'
+		}
+	}
+	control.8 {
+		iface MIXER
+		name 'Transmit SDO0 Source Select'
+		value 'From PATH0'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From PATH0'
+			item.1 'From PATH1'
+			item.2 'From PATH2'
+			item.3 'From PATH3'
+		}
+	}
+	control.9 {
+		iface MIXER
+		name 'I2STDM Digital Loopback Mode'
+		value Disabled
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 Disabled
+			item.1 Mode1
+			item.2 Mode2
+			item.3 'Mode2 Swap'
+		}
+	}
+	control.10 {
+		iface PCM
+		name 'PCM Read Wait Time MS'
+		value 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 10000 (step 1)'
+		}
+	}
+	control.11 {
+		iface PCM
+		name 'PCM Write Wait Time MS'
+		value 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 10000 (step 1)'
+		}
+	}
+	control.12 {
+		iface MIXER
+		name 'Playback Path'
+		value OFF
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 OFF
+			item.1 RCV
+			item.2 SPK
+			item.3 HP
+			item.4 HP_NO_MIC
+			item.5 BT
+			item.6 SPK_HP
+			item.7 RING_SPK
+			item.8 RING_HP
+			item.9 RING_HP_NO_MIC
+			item.10 RING_SPK_HP
+		}
+	}
+	control.13 {
+		iface MIXER
+		name 'Capture MIC Path'
+		value 'MIC OFF'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'MIC OFF'
+			item.1 'Main Mic'
+			item.2 'Hands Free Mic'
+			item.3 'BT Sco Mic'
+		}
+	}
+	control.14 {
+		iface MIXER
+		name 'Resume Path'
+		value OFF
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 OFF
+			item.1 ON
+		}
+	}
+	control.15 {
+		iface CARD
+		name 'Headphone Jack'
+		value true
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.16 {
+		iface CARD
+		name 'Headset Mic Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.17 {
+		iface MIXER
+		name 'Headphone Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.18 {
+		iface MIXER
+		name 'Speaker Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.19 {
+		iface MIXER
+		name 'Main Mic Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.20 {
+		iface MIXER
+		name 'Headset Mic Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+}
+state.rockchiphdmi {
+	control.1 {
+		iface MIXER
+		name 'Receive PATH3 Source Select'
+		value 'From SDI3'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From SDI0'
+			item.1 'From SDI1'
+			item.2 'From SDI2'
+			item.3 'From SDI3'
+		}
+	}
+	control.2 {
+		iface MIXER
+		name 'Receive PATH2 Source Select'
+		value 'From SDI2'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From SDI0'
+			item.1 'From SDI1'
+			item.2 'From SDI2'
+			item.3 'From SDI3'
+		}
+	}
+	control.3 {
+		iface MIXER
+		name 'Receive PATH1 Source Select'
+		value 'From SDI1'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From SDI0'
+			item.1 'From SDI1'
+			item.2 'From SDI2'
+			item.3 'From SDI3'
+		}
+	}
+	control.4 {
+		iface MIXER
+		name 'Receive PATH0 Source Select'
+		value 'From SDI0'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From SDI0'
+			item.1 'From SDI1'
+			item.2 'From SDI2'
+			item.3 'From SDI3'
+		}
+	}
+	control.5 {
+		iface MIXER
+		name 'Transmit SDO3 Source Select'
+		value 'From PATH3'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From PATH0'
+			item.1 'From PATH1'
+			item.2 'From PATH2'
+			item.3 'From PATH3'
+		}
+	}
+	control.6 {
+		iface MIXER
+		name 'Transmit SDO2 Source Select'
+		value 'From PATH2'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From PATH0'
+			item.1 'From PATH1'
+			item.2 'From PATH2'
+			item.3 'From PATH3'
+		}
+	}
+	control.7 {
+		iface MIXER
+		name 'Transmit SDO1 Source Select'
+		value 'From PATH1'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From PATH0'
+			item.1 'From PATH1'
+			item.2 'From PATH2'
+			item.3 'From PATH3'
+		}
+	}
+	control.8 {
+		iface MIXER
+		name 'Transmit SDO0 Source Select'
+		value 'From PATH0'
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 'From PATH0'
+			item.1 'From PATH1'
+			item.2 'From PATH2'
+			item.3 'From PATH3'
+		}
+	}
+	control.9 {
+		iface MIXER
+		name 'I2STDM Digital Loopback Mode'
+		value Disabled
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 Disabled
+			item.1 Mode1
+			item.2 Mode2
+			item.3 'Mode2 Swap'
+		}
+	}
+	control.10 {
+		iface PCM
+		name 'PCM Read Wait Time MS'
+		value 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 10000 (step 1)'
+		}
+	}
+	control.11 {
+		iface PCM
+		name 'PCM Write Wait Time MS'
+		value 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 10000 (step 1)'
+		}
+	}
+	control.12 {
+		iface PCM
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		value.2 0
+		value.3 0
+		value.4 0
+		value.5 0
+		value.6 0
+		value.7 0
+		comment {
+			access read
+			type INTEGER
+			count 8
+			range '0 - 36'
+		}
+	}
+	control.13 {
+		iface PCM
+		name 'IEC958 Playback Mask'
+		value ffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+		comment {
+			access read
+			type IEC958
+			count 1
+		}
+	}
+	control.14 {
+		iface PCM
+		name 'IEC958 Playback Default'
+		value '0400000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access 'read write'
+			type IEC958
+			count 1
+		}
+	}
+	control.15 {
+		iface PCM
+		name ELD
+		value '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access 'read volatile'
+			type BYTES
+			count 128
+		}
+	}
+	control.16 {
+		iface MIXER
+		name 'ELD Bypass Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+}
+state.Device {
+	control.1 {
+		iface PCM
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		comment {
+			access read
+			type INTEGER
+			count 2
+			range '0 - 36'
+		}
+	}
+	control.2 {
+		iface PCM
+		name 'Capture Channel Map'
+		value 0
+		comment {
+			access read
+			type INTEGER
+			count 1
+			range '0 - 36'
+		}
+	}
+	control.3 {
+		iface MIXER
+		name 'PCM Playback Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.4 {
+		iface MIXER
+		name 'PCM Playback Volume'
+		value 153
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 255'
+		}
+	}
+	control.5 {
+		iface MIXER
+		name 'Mic Capture Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.6 {
+		iface MIXER
+		name 'Mic Capture Volume'
+		value 106
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 255'
+		}
+	}
+	control.7 {
+		iface CARD
+		name 'Keep Interface'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+}

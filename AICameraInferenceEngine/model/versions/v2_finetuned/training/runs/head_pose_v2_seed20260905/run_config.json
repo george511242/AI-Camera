@@ -1,0 +1,23 @@
+{
+  "python_version": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "torch_version": "2.11.0+cu128",
+  "torch_cuda_version": "12.8",
+  "cuda_available": true,
+  "requested_device": "cuda",
+  "selected_device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "batch_size": 32,
+  "workers": 0,
+  "seed": 20260905,
+  "epochs": 5,
+  "learning_rate": 0.0001,
+  "train_count": 104144,
+  "train_excluded_outside_99": 28,
+  "validation_count": 18271,
+  "validation_excluded_outside_99": 7,
+  "network_path": "/home/g2004/vendor/Lightweight-Head-Pose-Estimation/network/network.py",
+  "pretrained_weight_path": "/home/g2004/vendor/Lightweight-Head-Pose-Estimation/models/model-b66.pkl",
+  "output_directory": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/training/runs/head_pose_v2_seed20260905",
+  "resume_checkpoint": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/training/runs/head_pose_v2_seed20260905/head_pose_v2_resume.pt"
+}
