@@ -1,0 +1,27 @@
+{
+  "count": 97698,
+  "by_size": {
+    "normal": {
+      "total": 19539,
+      "detected": 19539,
+      "attempts": 20862
+    },
+    "80": {
+      "total": 29309,
+      "detected": 29309,
+      "attempts": 31036
+    },
+    "40": {
+      "total": 29309,
+      "detected": 29309,
+      "attempts": 32406
+    },
+    "27": {
+      "total": 19541,
+      "detected": 19541,
+      "attempts": 24876
+    }
+  },
+  "manifest_sha256": "4e0693d752eaf2699e8e1032b3670fe9beb37926f3e845040eb027fdf1bed0e3",
+  "elapsed_this_invocation_seconds": 1528.3079581570055
+}

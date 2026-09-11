@@ -1,0 +1,174 @@
+frozen paired 250/6000 elapsed=4.6s
+frozen paired 500/6000 elapsed=8.8s
+frozen paired 750/6000 elapsed=13.1s
+frozen paired 1000/6000 elapsed=17.2s
+frozen paired 1250/6000 elapsed=21.5s
+frozen paired 1500/6000 elapsed=25.7s
+frozen paired 1750/6000 elapsed=30.0s
+frozen paired 2000/6000 elapsed=34.2s
+frozen paired 2250/6000 elapsed=38.5s
+frozen paired 2500/6000 elapsed=42.8s
+frozen paired 2750/6000 elapsed=46.8s
+frozen paired 3000/6000 elapsed=50.9s
+frozen paired 3250/6000 elapsed=55.1s
+frozen paired 3500/6000 elapsed=59.3s
+frozen paired 3750/6000 elapsed=63.5s
+frozen paired 4000/6000 elapsed=67.7s
+frozen paired 4250/6000 elapsed=71.8s
+frozen paired 4500/6000 elapsed=76.0s
+frozen paired 4750/6000 elapsed=80.5s
+frozen paired 5000/6000 elapsed=84.9s
+frozen paired 5250/6000 elapsed=89.4s
+frozen paired 5500/6000 elapsed=93.7s
+frozen paired 5750/6000 elapsed=97.9s
+frozen paired 6000/6000 elapsed=102.1s
+{
+  "groups": {
+    "80": {
+      "v1": {
+        "total": 2000,
+        "detected": 1905,
+        "coverage": 0.9525,
+        "conditional_le10": 0.4083989501312336,
+        "conditional_le15": 0.6346456692913386,
+        "e2e_le10": 0.389,
+        "e2e_le15": 0.6045,
+        "roll_mae": 9.870929077119635,
+        "yaw_mae": 12.136288376071077,
+        "pitch_mae": 10.218649001485463,
+        "overall_mae": 10.741955484892063
+      },
+      "epoch1": {
+        "total": 2000,
+        "detected": 1905,
+        "coverage": 0.9525,
+        "conditional_le10": 0.7301837270341207,
+        "conditional_le15": 0.8624671916010499,
+        "e2e_le10": 0.6955,
+        "e2e_le15": 0.8215,
+        "roll_mae": 6.743347196124996,
+        "yaw_mae": 4.781664258899596,
+        "pitch_mae": 7.90970915346289,
+        "overall_mae": 6.478240202829156
+      }
+    },
+    "40": {
+      "v1": {
+        "total": 2000,
+        "detected": 1733,
+        "coverage": 0.8665,
+        "conditional_le10": 0.41546451240623195,
+        "conditional_le15": 0.6578188113098673,
+        "e2e_le10": 0.36,
+        "e2e_le15": 0.57,
+        "roll_mae": 8.776954568471103,
+        "yaw_mae": 11.788328263142798,
+        "pitch_mae": 9.322434919338242,
+        "overall_mae": 9.962572583650713
+      },
+      "epoch1": {
+        "total": 2000,
+        "detected": 1733,
+        "coverage": 0.8665,
+        "conditional_le10": 0.7507212925562609,
+        "conditional_le15": 0.8863242931332949,
+        "e2e_le10": 0.6505,
+        "e2e_le15": 0.768,
+        "roll_mae": 5.84130190510209,
+        "yaw_mae": 4.570059352651132,
+        "pitch_mae": 7.090310164035152,
+        "overall_mae": 5.833890473929454
+      }
+    },
+    "27": {
+      "v1": {
+        "total": 2000,
+        "detected": 1256,
+        "coverage": 0.628,
+        "conditional_le10": 0.4004777070063694,
+        "conditional_le15": 0.6727707006369427,
+        "e2e_le10": 0.2515,
+        "e2e_le15": 0.4225,
+        "roll_mae": 7.395623894374459,
+        "yaw_mae": 10.911287607616977,
+        "pitch_mae": 8.228669631591167,
+        "overall_mae": 8.845193711194199
+      },
+      "epoch1": {
+        "total": 2000,
+        "detected": 1256,
+        "coverage": 0.628,
+        "conditional_le10": 0.785828025477707,
+        "conditional_le15": 0.9171974522292994,
+        "e2e_le10": 0.4935,
+        "e2e_le15": 0.576,
+        "roll_mae": 4.462897891800204,
+        "yaw_mae": 4.569737199282571,
+        "pitch_mae": 5.948164396543128,
+        "overall_mae": 4.993599829208636
+      }
+    },
+    "overall": {
+      "v1": {
+        "total": 6000,
+        "detected": 4894,
+        "coverage": 0.8156666666666667,
+        "conditional_le10": 0.4088680016346547,
+        "conditional_le15": 0.6526358806702084,
+        "e2e_le10": 0.3335,
+        "e2e_le15": 0.5323333333333333,
+        "roll_mae": 8.848280705028124,
+        "yaw_mae": 11.698688081652827,
+        "pitch_mae": 9.390583391974165,
+        "overall_mae": 9.979184059551693
+      },
+      "epoch1": {
+        "total": 6000,
+        "detected": 4894,
+        "coverage": 0.8156666666666667,
+        "conditional_le10": 0.7517368205966489,
+        "conditional_le15": 0.884961176951369,
+        "e2e_le10": 0.6131666666666666,
+        "e2e_le15": 0.7218333333333333,
+        "roll_mae": 5.838670282439937,
+        "yaw_mae": 4.65234433871003,
+        "pitch_mae": 7.116141792741693,
+        "overall_mae": 5.869052137963901
+      }
+    }
+  },
+  "manifest_sha256": "264af6af1f237ba772ffea2cb0e2cbed3e88c77f1580ddd6d157012f0dd2d7f2",
+  "full_manifest_rows": 9198,
+  "pose_rows": 6000,
+  "hashes": {
+    "inference/onnx/yunet.py": "6e96685093a813956fe737933c1283c90270352cf8a720dab5fd950603422431",
+    "inference/utils/yunet_pipeline.py": "a7fb0a7f5bf1cb3229f9781ccbc8925306479fb5488c8c4712fe4ffb686179c1",
+    "inference/utils/img_utils.py": "9cc07e6dc6730b2c1617de9c225d2fac16c431e0b353e7b22817ee5d859c4fdf",
+    "model/versions/v1_baseline/onnx/yunet_n_640_640.onnx": "25a606a145a5b6d7271ae138fbd00eba91dad8b83222ae3f2c7ecd0f4a7b0e31",
+    "model/versions/pose_v2_runtime/training/runs/seed20260909/head_pose_v2_epoch1.pkl": "f4260fe76dca60347ccb388780c8e96dfa9ceaebb5062eafcb6d8b4870a43cec",
+    "/home/g2004/datasets/vac-distance/generated/v1_distance_test/manifest.jsonl": "264af6af1f237ba772ffea2cb0e2cbed3e88c77f1580ddd6d157012f0dd2d7f2"
+  },
+  "config": {
+    "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "capability": [
+      12,
+      0
+    ],
+    "network_sha256": "e50ef554ec6eaf38b3b4bd5e42033eda5c2d353ceeb9ab3a3e7618a28fbbde8a",
+    "v1_weights_sha256": "0398c6d13983bc9820dd60fcd00c2e8b655e7a78d4cd7572fa6b4a42b9064879",
+    "seed": 20260909,
+    "batch_size": 16,
+    "workers": 0,
+    "precision": "FP32; TF32 disabled",
+    "epochs_authorized_this_run": 1
+  },
+  "backend": "paired ONNX CPU corrected YuNet + Torch CUDA FP32 Pose; not RK3588 deployment validation",
+  "protocol": "score .75 / NMS .3 / matching IoU .5 / margin .6 / production crop, square pad,224 RGB ImageNet; absolute angular errors as existing frozen scorer; E2E misses remain in denominator; MAE conditional only, undefined for misses",
+  "elapsed_seconds": 102.15908162100095,
+  "runtime_errors": 0,
+  "epochs_trained_this_run": 0,
+  "frozen_passes": 1
+}

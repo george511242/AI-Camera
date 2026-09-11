@@ -1,0 +1,8 @@
+2026-09-10 17:22:49.739704: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-10 17:22:49.756629: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-10 17:22:50.209575: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-09-10 17:22:50.672327: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:274] failed call to cuInit: UNKNOWN ERROR (100)
+253/253 - 85s - loss: 0.1539 - expected_within_5_years: 0.7529 - expected_age_mae: 3.4463 - 85s/epoch - 335ms/step
+253/253 - 79s - loss: 0.1492 - expected_within_5_years: 0.8021 - expected_age_mae: 2.9830 - 79s/epoch - 314ms/step
+253/253 - 83s - loss: 0.1452 - expected_within_5_years: 0.8384 - expected_age_mae: 2.6726 - 83s/epoch - 326ms/step

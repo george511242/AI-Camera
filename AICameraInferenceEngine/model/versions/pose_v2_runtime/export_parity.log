@@ -1,0 +1,23 @@
+/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/export_lightweight_head_pose_onnx.py:29: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  torch.onnx.export(
+Exported model/versions/pose_v2_runtime/onnx/head_pose_v2_e1_224x224.onnx (846967 bytes)
+{
+  "passed": true,
+  "tolerance_degrees": 0.01,
+  "samples": 256,
+  "max_roll": 1.8596649169921875e-05,
+  "max_yaw": 3.62396240234375e-05,
+  "max_pitch": 2.956390380859375e-05,
+  "max_overall": 3.62396240234375e-05,
+  "onnx_sha256": "ed35f6f72ff25fd0837f60ad8a56ff73e8a0ce7c15c2032c04b59065fdac968f",
+  "onnx_bytes": 846967,
+  "checkpoint_sha256": "f4260fe76dca60347ccb388780c8e96dfa9ceaebb5062eafcb6d8b4870a43cec",
+  "input": "normalized RGB FP32 NCHW 1x3x224x224; ImageNet normalization external",
+  "outputs": [
+    "roll",
+    "yaw",
+    "pitch"
+  ],
+  "opset": 13,
+  "precision": "FP32; TF32 disabled"
+}

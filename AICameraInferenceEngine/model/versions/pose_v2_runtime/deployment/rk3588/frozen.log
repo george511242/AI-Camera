@@ -1,0 +1,214 @@
+W rknn-toolkit-lite2 version: 2.3.2
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+W rknn-toolkit-lite2 version: 2.3.2
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+W rknn-toolkit-lite2 version: 2.3.2
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+paired RK3588 250/6000 elapsed=12.6s
+paired RK3588 500/6000 elapsed=24.5s
+paired RK3588 750/6000 elapsed=36.2s
+paired RK3588 1000/6000 elapsed=48.2s
+paired RK3588 1250/6000 elapsed=60.3s
+paired RK3588 1500/6000 elapsed=72.4s
+paired RK3588 1750/6000 elapsed=84.6s
+paired RK3588 2000/6000 elapsed=96.5s
+paired RK3588 2250/6000 elapsed=108.6s
+paired RK3588 2500/6000 elapsed=120.7s
+paired RK3588 2750/6000 elapsed=132.5s
+paired RK3588 3000/6000 elapsed=144.2s
+paired RK3588 3250/6000 elapsed=156.1s
+paired RK3588 3500/6000 elapsed=168.4s
+paired RK3588 3750/6000 elapsed=180.3s
+paired RK3588 4000/6000 elapsed=192.2s
+paired RK3588 4250/6000 elapsed=204.0s
+paired RK3588 4500/6000 elapsed=215.8s
+paired RK3588 4750/6000 elapsed=227.8s
+paired RK3588 5000/6000 elapsed=239.9s
+paired RK3588 5250/6000 elapsed=252.0s
+paired RK3588 5500/6000 elapsed=263.8s
+paired RK3588 5750/6000 elapsed=275.5s
+paired RK3588 6000/6000 elapsed=287.5s
+{
+  "groups": {
+    "80": {
+      "v1": {
+        "total": 2000,
+        "detected": 1905,
+        "coverage": 0.9525,
+        "conditional_le10": 0.4062992125984252,
+        "conditional_le15": 0.6346456692913386,
+        "e2e_le10": 0.387,
+        "e2e_le15": 0.6045,
+        "roll_mae": 9.885531909291812,
+        "yaw_mae": 12.157773270702624,
+        "pitch_mae": 10.22350630703022,
+        "overall_mae": 10.755603829008221
+      },
+      "epoch1": {
+        "total": 2000,
+        "detected": 1905,
+        "coverage": 0.9525,
+        "conditional_le10": 0.7296587926509186,
+        "conditional_le15": 0.8614173228346457,
+        "e2e_le10": 0.695,
+        "e2e_le15": 0.8205,
+        "roll_mae": 6.741039493494721,
+        "yaw_mae": 4.7877452030532375,
+        "pitch_mae": 7.904561639604537,
+        "overall_mae": 6.477782112050828
+      }
+    },
+    "40": {
+      "v1": {
+        "total": 2000,
+        "detected": 1733,
+        "coverage": 0.8665,
+        "conditional_le10": 0.41546451240623195,
+        "conditional_le15": 0.6572417772648587,
+        "e2e_le10": 0.36,
+        "e2e_le15": 0.5695,
+        "roll_mae": 8.774874246816315,
+        "yaw_mae": 11.77694713418634,
+        "pitch_mae": 9.32207090129731,
+        "overall_mae": 9.957964094099987
+      },
+      "epoch1": {
+        "total": 2000,
+        "detected": 1733,
+        "coverage": 0.8665,
+        "conditional_le10": 0.7512983266012695,
+        "conditional_le15": 0.8869013271783035,
+        "e2e_le10": 0.651,
+        "e2e_le15": 0.7685,
+        "roll_mae": 5.835897051512414,
+        "yaw_mae": 4.5549293795418935,
+        "pitch_mae": 7.080311272226583,
+        "overall_mae": 5.8237125677602934
+      }
+    },
+    "27": {
+      "v1": {
+        "total": 2000,
+        "detected": 1256,
+        "coverage": 0.628,
+        "conditional_le10": 0.4004777070063694,
+        "conditional_le15": 0.6687898089171974,
+        "e2e_le10": 0.2515,
+        "e2e_le15": 0.42,
+        "roll_mae": 7.41877660503509,
+        "yaw_mae": 10.928846836983029,
+        "pitch_mae": 8.254772291147018,
+        "overall_mae": 8.86746524438838
+      },
+      "epoch1": {
+        "total": 2000,
+        "detected": 1256,
+        "coverage": 0.628,
+        "conditional_le10": 0.7866242038216561,
+        "conditional_le15": 0.9156050955414012,
+        "e2e_le10": 0.494,
+        "e2e_le15": 0.575,
+        "roll_mae": 4.46529724993371,
+        "yaw_mae": 4.555458879021324,
+        "pitch_mae": 5.957668521808212,
+        "overall_mae": 4.992808216921084
+      }
+    },
+    "overall": {
+      "v1": {
+        "total": 6000,
+        "detected": 4894,
+        "coverage": 0.8156666666666667,
+        "conditional_le10": 0.40805067429505515,
+        "conditional_le15": 0.6514098896608091,
+        "e2e_le10": 0.3328333333333333,
+        "e2e_le15": 0.5313333333333333,
+        "roll_mae": 8.859170162006048,
+        "yaw_mae": 11.707527399159023,
+        "pitch_mae": 9.399044214246327,
+        "overall_mae": 9.988580591803787
+      },
+      "epoch1": {
+        "total": 6000,
+        "detected": 4894,
+        "coverage": 0.8156666666666667,
+        "conditional_le10": 0.7519411524315488,
+        "conditional_le15": 0.8843481814466694,
+        "e2e_le10": 0.6133333333333333,
+        "e2e_le15": 0.7213333333333334,
+        "roll_mae": 5.836473880526186,
+        "yaw_mae": 4.645689329508199,
+        "pitch_mae": 7.113036579813318,
+        "overall_mae": 5.865066596615916
+      }
+    }
+  },
+  "latency": {
+    "v1": {
+      "n": 4894,
+      "mean_ms": 5.873074926041244,
+      "p50_ms": 5.795963999844389,
+      "p95_ms": 7.59821895026107
+    },
+    "epoch1": {
+      "n": 4894,
+      "mean_ms": 5.433308629754416,
+      "p50_ms": 5.26201350021438,
+      "p95_ms": 7.293202350047068
+    }
+  },
+  "yunet_latency": {
+    "n": 6000,
+    "mean_ms": 35.16697074317805,
+    "p50_ms": 33.86861099897942,
+    "p95_ms": 43.61019890002353
+  },
+  "elapsed_seconds": 287.6165209760002,
+  "initialization": {
+    "/home/orangepi/vac-v1-distance-test/model/versions/v1_baseline/rknn/rk3588/yunet_n_640_640_fp16.rknn": {
+      "load_rknn": 0,
+      "init_runtime": 0
+    },
+    "/home/orangepi/vac-v1-distance-test/model/versions/v1_baseline/rknn/rk3588/head_pose_lightweight_b66_224x224_fp16.rknn": {
+      "load_rknn": 0,
+      "init_runtime": 0
+    },
+    "/home/orangepi/vac-pose-v2-e1-deployment/head_pose_v2_e1_224x224_fp16.rknn": {
+      "load_rknn": 0,
+      "init_runtime": 0
+    }
+  },
+  "runtime_errors": 0,
+  "models": {
+    "v1": "7ae857cc948e36097237c0052c8d6939222b0dc0b247cfa881fe3e8cd7b8a37d",
+    "yunet": "80405947de174074fd16e72bf627d59faf5af0fcb51afec279a826523d0921be",
+    "epoch1": "224244a03e37a1a849931dee5990be323a5073739f6121d53ddc562408cb6373"
+  },
+  "manifest_sha256": "264af6af1f237ba772ffea2cb0e2cbed3e88c77f1580ddd6d157012f0dd2d7f2",
+  "image_hashes_verified": 6000,
+  "output_shapes": [
+    [
+      1
+    ],
+    [
+      1
+    ],
+    [
+      1
+    ]
+  ],
+  "backend": "RK3588 FP16 RKNN Runtime2.3.2; raw RGB NHWC float32; normalization baked into RKNN",
+  "frozen_passes": 1
+}
+I RKNN: [00:00:03.547] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [00:00:03.547] RKNN Driver Information, version: 0.9.6
+I RKNN: [00:00:03.548] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [00:00:03.564] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+I RKNN: [00:00:03.633] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [00:00:03.633] RKNN Driver Information, version: 0.9.6
+I RKNN: [00:00:03.633] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [00:00:03.637] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+I RKNN: [00:00:03.706] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [00:00:03.706] RKNN Driver Information, version: 0.9.6
+I RKNN: [00:00:03.706] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [00:00:03.710] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes

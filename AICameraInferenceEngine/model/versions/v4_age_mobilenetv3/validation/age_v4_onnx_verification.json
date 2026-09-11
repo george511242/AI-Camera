@@ -1,0 +1,533 @@
+{
+  "onnx_checker": "PASS",
+  "opset": 13,
+  "input_name": "input",
+  "input_shape": [
+    1,
+    3,
+    112,
+    112
+  ],
+  "output_name": "tf.identity",
+  "output_shape": [
+    1,
+    1
+  ],
+  "sample_count": 73,
+  "max_absolute_difference": 0.00020599365234375,
+  "mean_absolute_difference": 3.5461497633424524e-05,
+  "numeric_comparison": "PASS",
+  "samples": [
+    {
+      "source_id": "10_0_0_20170103233459275.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 11.527460098266602,
+      "onnx": 11.527429580688477,
+      "absolute_difference": 3.0517578125e-05
+    },
+    {
+      "source_id": "11_0_1_20170103201136230.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 9.19005298614502,
+      "onnx": 9.190055847167969,
+      "absolute_difference": 2.86102294921875e-06
+    },
+    {
+      "source_id": "12_1_4_20170103200804119.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 11.42973518371582,
+      "onnx": 11.429725646972656,
+      "absolute_difference": 9.5367431640625e-06
+    },
+    {
+      "source_id": "14_1_0_20170104011720664.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 8.262127876281738,
+      "onnx": 8.262124061584473,
+      "absolute_difference": 3.814697265625e-06
+    },
+    {
+      "source_id": "15_1_0_20170109214133273.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 17.33572006225586,
+      "onnx": 17.335708618164062,
+      "absolute_difference": 1.1444091796875e-05
+    },
+    {
+      "source_id": "16_0_0_20170110231910518.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 4.4804229736328125,
+      "onnx": 4.480438232421875,
+      "absolute_difference": 1.52587890625e-05
+    },
+    {
+      "source_id": "16_1_0_20170109213007401.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 21.819063186645508,
+      "onnx": 21.819087982177734,
+      "absolute_difference": 2.47955322265625e-05
+    },
+    {
+      "source_id": "17_0_3_20170104230447112.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 9.693586349487305,
+      "onnx": 9.693592071533203,
+      "absolute_difference": 5.7220458984375e-06
+    },
+    {
+      "source_id": "18_0_0_20170110232106743.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 15.684198379516602,
+      "onnx": 15.684207916259766,
+      "absolute_difference": 9.5367431640625e-06
+    },
+    {
+      "source_id": "19_0_1_20170110231826530.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 15.95614242553711,
+      "onnx": 15.956140518188477,
+      "absolute_difference": 1.9073486328125e-06
+    },
+    {
+      "source_id": "1_0_0_20170110212733875.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 1.0441056191921234,
+      "onnx": 1.0441057682037354,
+      "absolute_difference": 1.4901161193847656e-07
+    },
+    {
+      "source_id": "1_0_2_20161219193903835.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 1.1530087441205978,
+      "onnx": 1.1530121564865112,
+      "absolute_difference": 3.4123659133911133e-06
+    },
+    {
+      "source_id": "1_0_3_20161219224709226.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 1.7262192964553833,
+      "onnx": 1.7262123823165894,
+      "absolute_difference": 6.9141387939453125e-06
+    },
+    {
+      "source_id": "1_0_3_20161220220508802.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 1.9738624095916748,
+      "onnx": 1.9738659858703613,
+      "absolute_difference": 3.5762786865234375e-06
+    },
+    {
+      "source_id": "1_1_1_20170109194545320.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 1.5676696300506592,
+      "onnx": 1.5676733255386353,
+      "absolute_difference": 3.6954879760742188e-06
+    },
+    {
+      "source_id": "1_1_2_20161219210955701.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 1.1036427915096283,
+      "onnx": 1.1036430597305298,
+      "absolute_difference": 2.682209014892578e-07
+    },
+    {
+      "source_id": "1_1_4_20161221193419158.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 3.1597867012023926,
+      "onnx": 3.159797191619873,
+      "absolute_difference": 1.049041748046875e-05
+    },
+    {
+      "source_id": "20_1_4_20170103225149441.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 25.19097900390625,
+      "onnx": 25.191028594970703,
+      "absolute_difference": 4.9591064453125e-05
+    },
+    {
+      "source_id": "21_1_2_20170104020048292.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 21.398157119750977,
+      "onnx": 21.398157119750977,
+      "absolute_difference": 0.0
+    },
+    {
+      "source_id": "22_0_4_20161221202100745.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 28.34770393371582,
+      "onnx": 28.34768295288086,
+      "absolute_difference": 2.09808349609375e-05
+    },
+    {
+      "source_id": "23_1_0_20170103234935189.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 26.89472198486328,
+      "onnx": 26.894657135009766,
+      "absolute_difference": 6.4849853515625e-05
+    },
+    {
+      "source_id": "24_0_4_20170103210118506.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 32.34438896179199,
+      "onnx": 32.34435272216797,
+      "absolute_difference": 3.62396240234375e-05
+    },
+    {
+      "source_id": "24_1_3_20170104232545657.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 23.550870895385742,
+      "onnx": 23.550874710083008,
+      "absolute_difference": 3.814697265625e-06
+    },
+    {
+      "source_id": "25_1_2_20161219194224315.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 19.959228515625,
+      "onnx": 19.959259033203125,
+      "absolute_difference": 3.0517578125e-05
+    },
+    {
+      "source_id": "26_0_4_20170103235020885.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 21.63957977294922,
+      "onnx": 21.639558792114258,
+      "absolute_difference": 2.09808349609375e-05
+    },
+    {
+      "source_id": "26_1_3_20170104223133454.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 33.88465118408203,
+      "onnx": 33.88457107543945,
+      "absolute_difference": 8.0108642578125e-05
+    },
+    {
+      "source_id": "26_1_4_20170103235712113.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 28.469303131103516,
+      "onnx": 28.469318389892578,
+      "absolute_difference": 1.52587890625e-05
+    },
+    {
+      "source_id": "28_0_3_20170109002910810.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 27.297996520996094,
+      "onnx": 27.297977447509766,
+      "absolute_difference": 1.9073486328125e-05
+    },
+    {
+      "source_id": "28_1_3_20170109141400528.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 13.693572044372559,
+      "onnx": 13.693571090698242,
+      "absolute_difference": 9.5367431640625e-07
+    },
+    {
+      "source_id": "29_1_4_20170103163340489.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 34.547996520996094,
+      "onnx": 34.547996520996094,
+      "absolute_difference": 0.0
+    },
+    {
+      "source_id": "2_0_2_20161219200316835.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 1.314784288406372,
+      "onnx": 1.3147873878479004,
+      "absolute_difference": 3.0994415283203125e-06
+    },
+    {
+      "source_id": "2_1_2_20161219142446329.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 1.1598970741033554,
+      "onnx": 1.1598992347717285,
+      "absolute_difference": 2.16066837310791e-06
+    },
+    {
+      "source_id": "2_1_3_20161219225500961.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 3.15407395362854,
+      "onnx": 3.1540870666503906,
+      "absolute_difference": 1.3113021850585938e-05
+    },
+    {
+      "source_id": "30_0_4_20170103235622469.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 36.3819580078125,
+      "onnx": 36.38188171386719,
+      "absolute_difference": 7.62939453125e-05
+    },
+    {
+      "source_id": "31_1_3_20170104223321247.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 25.22892189025879,
+      "onnx": 25.22894287109375,
+      "absolute_difference": 2.09808349609375e-05
+    },
+    {
+      "source_id": "32_1_0_20170109132836606.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 28.276222229003906,
+      "onnx": 28.276123046875,
+      "absolute_difference": 9.918212890625e-05
+    },
+    {
+      "source_id": "33_0_0_20170105165028532.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 25.101078033447266,
+      "onnx": 25.101030349731445,
+      "absolute_difference": 4.76837158203125e-05
+    },
+    {
+      "source_id": "35_0_3_20170105172520740.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 32.066036224365234,
+      "onnx": 32.06596374511719,
+      "absolute_difference": 7.2479248046875e-05
+    },
+    {
+      "source_id": "36_1_0_20170105163244997.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 26.944002151489258,
+      "onnx": 26.943950653076172,
+      "absolute_difference": 5.14984130859375e-05
+    },
+    {
+      "source_id": "37_1_0_20170109134546708.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 29.624996185302734,
+      "onnx": 29.624996185302734,
+      "absolute_difference": 0.0
+    },
+    {
+      "source_id": "38_1_3_20170104235005720.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 28.148029327392578,
+      "onnx": 28.147823333740234,
+      "absolute_difference": 0.00020599365234375
+    },
+    {
+      "source_id": "3_0_1_20170110213803097.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 1.4190389811992645,
+      "onnx": 1.4190397262573242,
+      "absolute_difference": 7.450580596923828e-07
+    },
+    {
+      "source_id": "3_1_0_20170109192003664.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 1.5102870464324951,
+      "onnx": 1.510291576385498,
+      "absolute_difference": 4.5299530029296875e-06
+    },
+    {
+      "source_id": "40_0_0_20170104170248249.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 43.92108154296875,
+      "onnx": 43.92104721069336,
+      "absolute_difference": 3.4332275390625e-05
+    },
+    {
+      "source_id": "41_1_0_20170104170026513.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 43.66407775878906,
+      "onnx": 43.664024353027344,
+      "absolute_difference": 5.340576171875e-05
+    },
+    {
+      "source_id": "45_0_0_20170104205849332.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 47.56123352050781,
+      "onnx": 47.561370849609375,
+      "absolute_difference": 0.0001373291015625
+    },
+    {
+      "source_id": "46_0_0_20170104211749300.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 40.22957229614258,
+      "onnx": 40.22962951660156,
+      "absolute_difference": 5.7220458984375e-05
+    },
+    {
+      "source_id": "47_1_3_20170109133358794.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 28.760440826416016,
+      "onnx": 28.76041603088379,
+      "absolute_difference": 2.47955322265625e-05
+    },
+    {
+      "source_id": "49_1_0_20170111182452938.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 40.05264663696289,
+      "onnx": 40.052635192871094,
+      "absolute_difference": 1.1444091796875e-05
+    },
+    {
+      "source_id": "4_1_0_20170109191412927.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 1.876178503036499,
+      "onnx": 1.8761780261993408,
+      "absolute_difference": 4.76837158203125e-07
+    },
+    {
+      "source_id": "4_1_3_20161220221856138.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 4.4361572265625,
+      "onnx": 4.436145782470703,
+      "absolute_difference": 1.1444091796875e-05
+    },
+    {
+      "source_id": "50_1_0_20170110141207224.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 53.42859649658203,
+      "onnx": 53.42861557006836,
+      "absolute_difference": 1.9073486328125e-05
+    },
+    {
+      "source_id": "52_0_0_20170111194922232.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 61.60835266113281,
+      "onnx": 61.60841369628906,
+      "absolute_difference": 6.103515625e-05
+    },
+    {
+      "source_id": "53_1_0_20170104212419940.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 50.6649169921875,
+      "onnx": 50.664886474609375,
+      "absolute_difference": 3.0517578125e-05
+    },
+    {
+      "source_id": "54_1_0_20170110160643344.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 40.35761260986328,
+      "onnx": 40.3576545715332,
+      "absolute_difference": 4.1961669921875e-05
+    },
+    {
+      "source_id": "56_1_0_20170110131907975.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 52.401283264160156,
+      "onnx": 52.401222229003906,
+      "absolute_difference": 6.103515625e-05
+    },
+    {
+      "source_id": "58_0_0_20170104213016013.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 57.167911529541016,
+      "onnx": 57.16788864135742,
+      "absolute_difference": 2.288818359375e-05
+    },
+    {
+      "source_id": "59_0_0_20170111205324096.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 37.07788848876953,
+      "onnx": 37.07769775390625,
+      "absolute_difference": 0.00019073486328125
+    },
+    {
+      "source_id": "5_1_0_20170109194058911.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 2.120749592781067,
+      "onnx": 2.1207473278045654,
+      "absolute_difference": 2.2649765014648438e-06
+    },
+    {
+      "source_id": "60_1_0_20170110140707890.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 77.67776489257812,
+      "onnx": 77.67765808105469,
+      "absolute_difference": 0.0001068115234375
+    },
+    {
+      "source_id": "61_0_3_20170109141653583.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 41.271453857421875,
+      "onnx": 41.271331787109375,
+      "absolute_difference": 0.0001220703125
+    },
+    {
+      "source_id": "65_0_0_20170111202238826.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 40.72492218017578,
+      "onnx": 40.724853515625,
+      "absolute_difference": 6.866455078125e-05
+    },
+    {
+      "source_id": "67_0_0_20170109002521701.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 58.0968017578125,
+      "onnx": 58.0968017578125,
+      "absolute_difference": 0.0
+    },
+    {
+      "source_id": "6_0_0_20170110224301470.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 2.6391069889068604,
+      "onnx": 2.639108657836914,
+      "absolute_difference": 1.6689300537109375e-06
+    },
+    {
+      "source_id": "6_1_4_20170103233146667.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 5.335859298706055,
+      "onnx": 5.335870742797852,
+      "absolute_difference": 1.1444091796875e-05
+    },
+    {
+      "source_id": "75_0_0_20170111203722942.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 53.74774169921875,
+      "onnx": 53.74769592285156,
+      "absolute_difference": 4.57763671875e-05
+    },
+    {
+      "source_id": "77_1_0_20170110180511080.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 69.88494110107422,
+      "onnx": 69.88479614257812,
+      "absolute_difference": 0.00014495849609375
+    },
+    {
+      "source_id": "80_0_0_20170111205541652.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 80.81155395507812,
+      "onnx": 80.81153869628906,
+      "absolute_difference": 1.52587890625e-05
+    },
+    {
+      "source_id": "85_1_0_20170110181049060.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 53.39830017089844,
+      "onnx": 53.39823913574219,
+      "absolute_difference": 6.103515625e-05
+    },
+    {
+      "source_id": "8_0_0_20170110225017437.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 2.950990080833435,
+      "onnx": 2.950989007949829,
+      "absolute_difference": 1.0728836059570312e-06
+    },
+    {
+      "source_id": "8_1_0_20170109205116937.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 22.931442260742188,
+      "onnx": 22.931325912475586,
+      "absolute_difference": 0.0001163482666015625
+    },
+    {
+      "source_id": "9_0_0_20170110220150362.jpg.chip.jpg",
+      "variant": "80px",
+      "framework": 9.74069595336914,
+      "onnx": 9.74067211151123,
+      "absolute_difference": 2.384185791015625e-05
+    },
+    {
+      "source_id": "9_1_2_20161219192342173.jpg.chip.jpg",
+      "variant": "40px",
+      "framework": 8.707919120788574,
+      "onnx": 8.707944869995117,
+      "absolute_difference": 2.574920654296875e-05
+    }
+  ]
+}

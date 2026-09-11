@@ -1,0 +1,145 @@
+{
+  "repaired_train_validation_source_overlap": 0,
+  "manifest_sha256": {
+    "train": "2b7e95dd8decb005d21eff3bcd5a12d6edc7095ae36419c3d4f958015b4566fe",
+    "validation": "4d05b6b874d2d637c84d88ddb74a89f1f3a3c5cb25611708a87a60a8b76c5c7d"
+  },
+  "counts_after_repair_and_angle_filter": {
+    "train": 97698,
+    "validation": 24717
+  },
+  "train_rows_moved_to_validation": 6446,
+  "decoded_or_flipped_frozen_overlap_images": 0,
+  "matches": [],
+  "root_phash_candidates": [
+    {
+      "file": "HELEN/HELEN_117634057_1_0.jpg",
+      "frozen": "image01850.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_167671301_1_0.jpg",
+      "frozen": "image00093.jpg",
+      "phash_distance": 6
+    },
+    {
+      "file": "HELEN/HELEN_167671301_1_0.jpg",
+      "frozen": "image01857.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_167671345_1_0.jpg",
+      "frozen": "image01857.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_167671345_1_0.jpg",
+      "frozen": "image03873.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_2138851191_1_0.jpg",
+      "frozen": "image00093.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_2333670757_1_0.jpg",
+      "frozen": "image02728.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_2344899163_1_0.jpg",
+      "frozen": "image02277.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_2408549321_1_0.jpg",
+      "frozen": "image01459.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_250246725_1_0.jpg",
+      "frozen": "image00436.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_2553716827_1_0.jpg",
+      "frozen": "image01885.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_2595847708_1_0.jpg",
+      "frozen": "image00753.jpg",
+      "phash_distance": 6
+    },
+    {
+      "file": "HELEN/HELEN_2707644111_1_0.jpg",
+      "frozen": "image04000.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_2719469639_1_0.jpg",
+      "frozen": "image02283.jpg",
+      "phash_distance": 6
+    },
+    {
+      "file": "HELEN/HELEN_2806176202_1_0.jpg",
+      "frozen": "image02283.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_3071550860_1_0.jpg",
+      "frozen": "image02673.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_3222262589_1_0.jpg",
+      "frozen": "image02283.jpg",
+      "phash_distance": 6
+    },
+    {
+      "file": "LFPW/LFPW_image_train_0037_0.jpg",
+      "frozen": "image03806.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "LFPW/LFPW_image_train_0117_0.jpg",
+      "frozen": "image01468.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "LFPW/LFPW_image_train_0120_0.jpg",
+      "frozen": "image03773.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "LFPW/LFPW_image_train_0859_0.jpg",
+      "frozen": "image02673.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_167671232_1_0.jpg",
+      "frozen": "image00093.jpg",
+      "phash_distance": 8
+    },
+    {
+      "file": "HELEN/HELEN_2250369835_1_0.jpg",
+      "frozen": "image00093.jpg",
+      "phash_distance": 8
+    }
+  ],
+  "phash_threshold": 8,
+  "phash_bits": 63,
+  "gate": "PASS_ENGINEERING",
+  "limitations": "pHash is a screening heuristic, not proof against arbitrary crops/derivatives; original-source mapping of renamed AFLW2000 files is not supplied locally.",
+  "perceptual_review": {
+    "reviewed_pairs": 23,
+    "same_original_photo_pairs": 0,
+    "artifact": "perceptual_review.jpg",
+    "method": "Visual comparison of all screened pairs; no identity inference"
+  },
+  "remaining": "AFLW2000 imageXXXXX to original-source IDs/URLs mapping absent; exact/flip SHA and heuristic screening cannot certify arbitrary renamed derived variants.",
+  "status": "PASS_ENGINEERING",
+  "residual_limitation": "Because the local AFLW2000 renamed files do not provide complete original source-ID/URL provenance, arbitrary unknown synthetic or renamed derivative overlap cannot be exhaustively proven. No overlap was detected by all available exact, pixel, flip, perceptual, and source-group checks.",
+  "approval": "Explicit user approval for Gate 2 only; exactly one epoch, no epochs 2\u20135."
+}

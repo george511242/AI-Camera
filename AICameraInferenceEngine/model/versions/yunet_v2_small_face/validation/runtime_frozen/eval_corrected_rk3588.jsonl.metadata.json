@@ -1,0 +1,33 @@
+{
+  "model_hashes": {
+    "yunet": "80405947de174074fd16e72bf627d59faf5af0fcb51afec279a826523d0921be",
+    "age": "1be8b6ddc5ae4f4fe997fb000a094c732cde1b0f558fc2463dd29c29122fe0c9",
+    "gender": "afbcc6374c31d93bbedfd859050d3695bf8c034926ac5122ca3a6adc1969d70f",
+    "pose": "7ae857cc948e36097237c0052c8d6939222b0dc0b247cfa881fe3e8cd7b8a37d"
+  },
+  "manifest_sha256": "264af6af1f237ba772ffea2cb0e2cbed3e88c77f1580ddd6d157012f0dd2d7f2",
+  "pipeline": "bgr_xywh",
+  "age_margin": 0.45,
+  "gender_margin": 0.45,
+  "pose_margin": 0.6,
+  "initialization": {
+    "yunet": {
+      "load": 0,
+      "init": 0
+    },
+    "age": {
+      "load": 0,
+      "init": 0
+    },
+    "gender": {
+      "load": 0,
+      "init": 0
+    },
+    "pose": {
+      "load": 0,
+      "init": 0
+    }
+  },
+  "validation_source": "frozen_images",
+  "camera_validation": "deferred: no physical camera available"
+}

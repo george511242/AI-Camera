@@ -1,0 +1,36 @@
+{
+  "authorization": "User approved one paired experiment; exact mandatory order; no external confirmation",
+  "stage_order": [
+    "runner implementation",
+    "cache",
+    "audit",
+    "verify",
+    "control",
+    "treatment",
+    "compare"
+  ],
+  "seed": 20260905,
+  "weights": {
+    "0-17": 1.0,
+    "18-54": 1.5,
+    "55-80": 2.0,
+    "81-99": 1.0
+  },
+  "variant_probabilities": {
+    "160px": 0.4,
+    "80px": 0.35,
+    "40px": 0.25
+  },
+  "batch_size": 64,
+  "steps_per_epoch": 253,
+  "epochs_per_arm": 3,
+  "optimizer": "Adam",
+  "lr": 0.0001,
+  "loss": "unchanged ordinal BCE",
+  "augmentation": "v4 decode_cached unchanged",
+  "bn": "frozen",
+  "device": "CPU",
+  "selection": "Control final epoch3; best passing treatment epoch ranked by elderly pooled E2E within7 gain then elderly MAE; compare every required group/size to control",
+  "success": "child within7>=-1pp MAE<=+.3y; adult within7>=+3pp MAE<=0; elderly within7>=+5pp MAE<=-1y and largest improvement; per-size and pooled; bootstrap CIs reported",
+  "checkpoint_sha256": "9f3e9850cb4f07d20cbb0ee90ddc87574c4ee00c74a9eb4b3a8c0d5af2033272"
+}

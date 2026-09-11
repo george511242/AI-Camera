@@ -1,0 +1,16 @@
+{
+  "base_split_dir": "model/versions/v3_age/training/splits",
+  "batch_size": 64,
+  "cache_root": "/home/g2004/datasets/vac-age-v3.1/runtime_crops",
+  "epochs": 8,
+  "experiment": "B2",
+  "image_root": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1",
+  "initial_weights": "model/versions/v3_age/training/vendor/SSR-Net/pre-trained/wiki/ssrnet_3_3_3_64_1.0_1.0/ssrnet_3_3_3_64_1.0_1.0.h5",
+  "learning_rate": 0.0001,
+  "output_dir": "model/versions/v3.1_age_runtime_crop/experiments/B2",
+  "prefetch": 2,
+  "runtime_split_dir": "model/versions/v3.1_age_runtime_crop/training/splits",
+  "seed": 20260905,
+  "source": "model/versions/v3_age/training/vendor/SSR-Net/training_and_testing/SSRNET_model.py",
+  "workers": 4
+}

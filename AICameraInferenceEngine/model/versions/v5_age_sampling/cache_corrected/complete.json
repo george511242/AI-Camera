@@ -1,0 +1,23 @@
+{
+  "hashes": {
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/onnx/yunet_n_640_640.onnx": "25a606a145a5b6d7271ae138fbd00eba91dad8b83222ae3f2c7ecd0f4a7b0e31",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/splits/train.jsonl": "3fdba23fb43e1f4bd566b8bb4a003e1a3223fee98582063ea0cae001c9ba9dd9",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/splits/validation.jsonl": "d403e818009bdc669208773804861e161568253095b07ba9b66969a3eb8b9fc1",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/cache_corrected/train.jsonl": "d6161a26fbffe242eeb506558bcefd7f9a5287aa0e305b921d1582bd999571cd",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/cache_corrected/validation.jsonl": "ba7ff9fb709ac29c193d1a6aa758c8faec703018052288a7440e013e6b34ef79"
+  },
+  "counts": {
+    "train": {
+      "sources": 6075,
+      "rows": 18225,
+      "detected": 18125
+    },
+    "validation": {
+      "sources": 1300,
+      "rows": 3900,
+      "detected": 3846
+    }
+  },
+  "elapsed": 269.6227555800001,
+  "contract": "YuNet original BGR xywh score.75 NMS.3 IoU.5; margin.45 direct cv2 bilinear112; BGR PNG decoded RGB for v4 input; shared immutable cache"
+}

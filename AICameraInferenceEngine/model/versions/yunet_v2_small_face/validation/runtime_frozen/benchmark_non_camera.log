@@ -1,0 +1,85 @@
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] platform=rk3588 model_dir=/home/orangepi/vac-v1-distance-test/model/versions/v1_baseline/rknn/rk3588
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] crop_source=yunet
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] age_model=/home/orangepi/vac-age-v4-sanity/age_v4_mobilenetv3_large_112_fp16.rknn
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] gender_model=/home/orangepi/vac-v1-distance-test/model/versions/v2_finetuned/rknn/rk3588/gender_ssrnet_v2_64x64_fp16.rknn
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] pose_model=/home/orangepi/vac-v1-distance-test/model/versions/v1_baseline/rknn/rk3588/head_pose_lightweight_b66_224x224_fp16.rknn
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] yunet_model=/home/orangepi/vac-v1-distance-test/model/versions/v1_baseline/rknn/rk3588/yunet_n_640_640_fp16.rknn
+W rknn-toolkit-lite2 version: 2.3.2
+I RKNN: [21:15:51.038] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [21:15:51.039] RKNN Driver Information, version: 0.9.6
+I RKNN: [21:15:51.041] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [21:15:51.074] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+W rknn-toolkit-lite2 version: 2.3.2
+I RKNN: [21:15:51.161] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [21:15:51.161] RKNN Driver Information, version: 0.9.6
+I RKNN: [21:15:51.161] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [21:15:51.170] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+W rknn-toolkit-lite2 version: 2.3.2
+I RKNN: [21:15:51.244] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [21:15:51.244] RKNN Driver Information, version: 0.9.6
+I RKNN: [21:15:51.245] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [21:15:51.247] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+W rknn-toolkit-lite2 version: 2.3.2
+I RKNN: [21:15:51.317] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [21:15:51.317] RKNN Driver Information, version: 0.9.6
+I RKNN: [21:15:51.317] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [21:15:51.321] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+W rknn-toolkit-lite2 version: 2.3.2
+I RKNN: [21:15:51.392] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [21:15:51.392] RKNN Driver Information, version: 0.9.6
+I RKNN: [21:15:51.393] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [21:15:51.410] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+W rknn-toolkit-lite2 version: 2.3.2
+I RKNN: [21:15:51.481] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [21:15:51.482] RKNN Driver Information, version: 0.9.6
+I RKNN: [21:15:51.482] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [21:15:51.489] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+W rknn-toolkit-lite2 version: 2.3.2
+I RKNN: [21:15:51.556] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [21:15:51.556] RKNN Driver Information, version: 0.9.6
+I RKNN: [21:15:51.556] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [21:15:51.558] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+W rknn-toolkit-lite2 version: 2.3.2
+I RKNN: [21:15:51.626] RKNN Runtime Information, librknnrt version: 2.3.2 (429f97ae6b@2025-04-09T09:09:27)
+I RKNN: [21:15:51.626] RKNN Driver Information, version: 0.9.6
+I RKNN: [21:15:51.626] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (e045de294f@2025-04-07T19:48:25)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+W RKNN: [21:15:51.630] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 250/9198 elapsed 10s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 500/9198 elapsed 20s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 1000/9198 elapsed 43s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 1250/9198 elapsed 55s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 1500/9198 elapsed 66s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 1750/9198 elapsed 78s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 2000/9198 elapsed 89s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 2250/9198 elapsed 101s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 2500/9198 elapsed 112s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 2750/9198 elapsed 123s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 3250/9198 elapsed 146s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 3500/9198 elapsed 157s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 3750/9198 elapsed 168s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 4000/9198 elapsed 178s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 4250/9198 elapsed 189s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 4500/9198 elapsed 200s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 5000/9198 elapsed 222s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 5500/9198 elapsed 244s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 5750/9198 elapsed 255s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 6000/9198 elapsed 266s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 6250/9198 elapsed 276s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 6500/9198 elapsed 287s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 7000/9198 elapsed 309s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 7250/9198 elapsed 319s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 7750/9198 elapsed 341s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 8000/9198 elapsed 352s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 8250/9198 elapsed 363s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 8500/9198 elapsed 374s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 8750/9198 elapsed 385s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] 9000/9198 elapsed 396s
+[yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588] DONE 9198 rows in 404s -> /home/orangepi/vac-yunet-pipeline-candidate-20260909/eval_corrected_rk3588.jsonl

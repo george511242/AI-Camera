@@ -1,0 +1,28 @@
+{
+  "gate1_pass": true,
+  "status": "PASS_ENGINEERING",
+  "old_train_images": 104172,
+  "old_validation_images": 18278,
+  "frozen_images": 2000,
+  "encoded_sha256_overlap": 0,
+  "decoded_or_flipped_sha256_overlap": 0,
+  "original_source_frozen_overlap": "UNKNOWN: source mapping absent",
+  "perceptual_pairs_reviewed": 23,
+  "perceptual_same_photo_pairs": 0,
+  "old_train_validation_crossing_original_groups": 88,
+  "repaired_train_images": 97698,
+  "repaired_validation_images": 24717,
+  "angle_excluded_images": 35,
+  "usable_train_rows_moved_to_validation": 6446,
+  "repaired_train_validation_group_overlap": 0,
+  "manifest_sha256": {
+    "train": "2b7e95dd8decb005d21eff3bcd5a12d6edc7095ae36419c3d4f958015b4566fe",
+    "validation": "4d05b6b874d2d637c84d88ddb74a89f1f3a3c5cb25611708a87a60a8b76c5c7d"
+  },
+  "gate2_import_allocation_pass": true,
+  "gate2_complete": false,
+  "training_started": false,
+  "gate": "PASS_ENGINEERING",
+  "residual_limitation": "Because the local AFLW2000 renamed files do not provide complete original source-ID/URL provenance, arbitrary unknown synthetic or renamed derivative overlap cannot be exhaustively proven. No overlap was detected by all available exact, pixel, flip, perceptual, and source-group checks.",
+  "approval": "Explicit user approval for Gate 2 only; exactly one epoch, no epochs 2\u20135."
+}

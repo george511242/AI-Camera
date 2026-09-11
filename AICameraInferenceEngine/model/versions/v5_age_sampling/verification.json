@@ -1,0 +1,8 @@
+{
+  "gate_correctly_blocks": true,
+  "control_epochs": 0,
+  "treatment_epochs": 0,
+  "optimizer_updates": 0,
+  "split_cache_model_hashes_unchanged": true,
+  "report_links_valid": true
+}

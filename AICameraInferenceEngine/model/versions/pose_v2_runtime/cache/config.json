@@ -1,0 +1,32 @@
+{
+  "cpu_cache_threads": 2,
+  "seed": 20260909,
+  "train_sources": 97698,
+  "validation_sources": 24717,
+  "detector_sha256": "25a606a145a5b6d7271ae138fbd00eba91dad8b83222ae3f2c7ecd0f4a7b0e31",
+  "manifests": {
+    "train": "2b7e95dd8decb005d21eff3bcd5a12d6edc7095ae36419c3d4f958015b4566fe",
+    "validation": "4d05b6b874d2d637c84d88ddb74a89f1f3a3c5cb25611708a87a60a8b76c5c7d"
+  },
+  "sizes": [
+    "normal",
+    "80",
+    "40",
+    "27"
+  ],
+  "mix": [
+    0.2,
+    0.3,
+    0.3,
+    0.2
+  ],
+  "pose_margin": 0.6,
+  "score_threshold": 0.75,
+  "nms_threshold": 0.3,
+  "match_iou": 0.5,
+  "opencv": "5.0.0",
+  "onnxruntime": "1.29.0",
+  "backend": "ONNX CPU float32; unchanged production YuNet class",
+  "distance": "Full image INTER_AREA rescale by landmark face height, centered GT in640x480 viewport; preserve available natural context; MATLAB coordinates minus1",
+  "train_sampling": "Fixed exact size quotas; source uniform with replacement within each size, rejected detections replaced within size; no loss-based mining"
+}

@@ -1,0 +1,47 @@
+{
+  "checkpoint": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run2_lr1e4/eval_epoch_2.pth",
+  "checkpoint_sha256": "a06d241d13113c35f68fba4875b6d439b9d1809ddf74ebc9c960bba150734362",
+  "protocol": {
+    "selection": "same deterministic first-200 WIDER val small-face subset",
+    "effective_face_height_px": [
+      20,
+      50
+    ],
+    "max_gt_faces_per_image": 10,
+    "score_threshold": 0.75,
+    "score_formula": "sqrt(sigmoid(cls) * sigmoid(objectness))",
+    "nms_iou": 0.3,
+    "match_iou": 0.5,
+    "input_color": "bgr",
+    "device": "cpu",
+    "nms_format": "correct_xywh",
+    "max_detections": 10,
+    "subset_manifest_sha256": "413ec6fcc7d5ae9fb7f731d3191cf77a012d52cd051a70b11dbc20225e871200"
+  },
+  "images": 200,
+  "target_faces": 728,
+  "matched_faces": 602,
+  "recall_iou_0_5": 0.8269230769230769,
+  "detections": 863,
+  "true_detections": 836,
+  "detection_precision_proxy": 0.9687137891077636,
+  "matched_score_median": 0.9062392115592957,
+  "face_height_bins": {
+    "20-30px": {
+      "targets": 235,
+      "matched": 172,
+      "recall_iou_0_5": 0.7319148936170212
+    },
+    "30-40px": {
+      "targets": 299,
+      "matched": 258,
+      "recall_iou_0_5": 0.862876254180602
+    },
+    "40-50px": {
+      "targets": 194,
+      "matched": 172,
+      "recall_iou_0_5": 0.8865979381443299
+    }
+  },
+  "elapsed_seconds": 18.812913494002714
+}

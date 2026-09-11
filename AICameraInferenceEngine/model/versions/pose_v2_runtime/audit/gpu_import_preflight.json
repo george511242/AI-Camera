@@ -1,0 +1,37 @@
+{
+  "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+  "torch": "2.11.0+cu128",
+  "cuda_build": "12.8",
+  "numpy": "2.5.3",
+  "opencv": "5.0.0",
+  "onnx": "1.22.0",
+  "onnxruntime": "1.29.0",
+  "scipy": "1.18.1",
+  "cuda_available": true,
+  "system_ram": {
+    "total": 8023367680,
+    "available": 5697150976,
+    "percent": 29.0,
+    "used": 2326216704,
+    "free": 2874925056,
+    "active": 521281536,
+    "inactive": 3692486656,
+    "buffers": 39981056,
+    "cached": 2988957696,
+    "shared": 6070272,
+    "slab": 478240768
+  },
+  "process_rss_bytes": 635351040,
+  "scope": "import and GPU allocation only; does not satisfy dataset/model/epoch gate",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "capability": [
+    12,
+    0
+  ],
+  "device_total_bytes": 12820480000,
+  "allocation_test_sum": 2408448.0,
+  "allocation_test_peak_bytes": 9635840,
+  "dataset_batch": "NOT RUN: leakage gate required",
+  "forward_backward_gradients": "NOT RUN: leakage gate required",
+  "crop_cache_epoch_validation": "NOT RUN: leakage gate required"
+}

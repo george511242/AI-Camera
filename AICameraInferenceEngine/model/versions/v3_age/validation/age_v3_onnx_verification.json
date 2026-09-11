@@ -1,0 +1,546 @@
+{
+  "input": {
+    "name": "input",
+    "shape": [
+      1,
+      3,
+      64,
+      64
+    ]
+  },
+  "max_absolute_difference": 3.62396240234375e-05,
+  "mean_absolute_difference": 8.157781652502112e-06,
+  "numeric_comparison": "PASS",
+  "onnx_checker": "PASS",
+  "onnxruntime_version": "1.20.1",
+  "output": {
+    "name": "tf.identity",
+    "shape": [
+      1,
+      1
+    ]
+  },
+  "sample_count": 74,
+  "samples": [
+    {
+      "absolute_difference": 1.9073486328125e-06,
+      "age": 1,
+      "onnx": 13.194906234741211,
+      "source_id": "1_0_0_20161219140642920.jpg.chip.jpg",
+      "tensorflow": 13.194908142089844
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 1,
+      "onnx": 15.369271278381348,
+      "source_id": "1_0_0_20161219154018476.jpg.chip.jpg",
+      "tensorflow": 15.369271278381348
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 1,
+      "onnx": 13.239253044128418,
+      "source_id": "1_0_0_20161219160713534.jpg.chip.jpg",
+      "tensorflow": 13.239253044128418
+    },
+    {
+      "absolute_difference": 1.1444091796875e-05,
+      "age": 1,
+      "onnx": 20.31019401550293,
+      "source_id": "1_0_0_20161219162630727.jpg.chip.jpg",
+      "tensorflow": 20.310205459594727
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 1,
+      "onnx": 13.03161334991455,
+      "source_id": "1_0_0_20161219163425847.jpg.chip.jpg",
+      "tensorflow": 13.03161334991455
+    },
+    {
+      "absolute_difference": 1.9073486328125e-06,
+      "age": 1,
+      "onnx": 13.273153305053711,
+      "source_id": "1_0_0_20161219194004596.jpg.chip.jpg",
+      "tensorflow": 13.273155212402344
+    },
+    {
+      "absolute_difference": 9.5367431640625e-07,
+      "age": 1,
+      "onnx": 12.965997695922852,
+      "source_id": "1_0_0_20161219203009924.jpg.chip.jpg",
+      "tensorflow": 12.965996742248535
+    },
+    {
+      "absolute_difference": 9.5367431640625e-07,
+      "age": 1,
+      "onnx": 13.05689525604248,
+      "source_id": "1_0_0_20161219204512212.jpg.chip.jpg",
+      "tensorflow": 13.056896209716797
+    },
+    {
+      "absolute_difference": 5.7220458984375e-06,
+      "age": 10,
+      "onnx": 17.08232307434082,
+      "source_id": "10_0_0_20170103200522151.jpg.chip.jpg",
+      "tensorflow": 17.082317352294922
+    },
+    {
+      "absolute_difference": 3.814697265625e-06,
+      "age": 10,
+      "onnx": 16.08129119873047,
+      "source_id": "10_0_0_20170110220235233.jpg.chip.jpg",
+      "tensorflow": 16.081295013427734
+    },
+    {
+      "absolute_difference": 1.9073486328125e-06,
+      "age": 10,
+      "onnx": 22.289289474487305,
+      "source_id": "10_0_0_20170110220255346.jpg.chip.jpg",
+      "tensorflow": 22.289291381835938
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 10,
+      "onnx": 16.96053123474121,
+      "source_id": "10_0_0_20170110220447314.jpg.chip.jpg",
+      "tensorflow": 16.960538864135742
+    },
+    {
+      "absolute_difference": 2.86102294921875e-06,
+      "age": 10,
+      "onnx": 14.62221622467041,
+      "source_id": "10_0_0_20170110220541850.jpg.chip.jpg",
+      "tensorflow": 14.622213363647461
+    },
+    {
+      "absolute_difference": 1.9073486328125e-06,
+      "age": 10,
+      "onnx": 18.07506561279297,
+      "source_id": "10_0_0_20170110220546177.jpg.chip.jpg",
+      "tensorflow": 18.075063705444336
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 10,
+      "onnx": 14.81848430633545,
+      "source_id": "10_0_0_20170110224253445.jpg.chip.jpg",
+      "tensorflow": 14.81848430633545
+    },
+    {
+      "absolute_difference": 1.9073486328125e-06,
+      "age": 10,
+      "onnx": 14.615556716918945,
+      "source_id": "10_0_0_20170110224500062.jpg.chip.jpg",
+      "tensorflow": 14.615558624267578
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 20,
+      "onnx": 35.82252502441406,
+      "source_id": "20_0_4_20170105161709125.jpg.chip.jpg",
+      "tensorflow": 35.822532653808594
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 20,
+      "onnx": 15.197385787963867,
+      "source_id": "20_1_0_20170103201733831.jpg.chip.jpg",
+      "tensorflow": 15.197393417358398
+    },
+    {
+      "absolute_difference": 3.62396240234375e-05,
+      "age": 20,
+      "onnx": 29.62999153137207,
+      "source_id": "20_1_0_20170105002441599.jpg.chip.jpg",
+      "tensorflow": 29.630027770996094
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 20,
+      "onnx": 36.14786148071289,
+      "source_id": "20_1_0_20170109212911927.jpg.chip.jpg",
+      "tensorflow": 36.14785385131836
+    },
+    {
+      "absolute_difference": 1.9073486328125e-06,
+      "age": 20,
+      "onnx": 16.516538619995117,
+      "source_id": "20_1_1_20170105002448621.jpg.chip.jpg",
+      "tensorflow": 16.51654052734375
+    },
+    {
+      "absolute_difference": 2.86102294921875e-06,
+      "age": 20,
+      "onnx": 14.032160758972168,
+      "source_id": "20_1_2_20170104015622356.jpg.chip.jpg",
+      "tensorflow": 14.032163619995117
+    },
+    {
+      "absolute_difference": 2.86102294921875e-06,
+      "age": 20,
+      "onnx": 14.313936233520508,
+      "source_id": "20_1_2_20170104020257804.jpg.chip.jpg",
+      "tensorflow": 14.313933372497559
+    },
+    {
+      "absolute_difference": 9.5367431640625e-07,
+      "age": 20,
+      "onnx": 13.540730476379395,
+      "source_id": "20_1_2_20170104020440101.jpg.chip.jpg",
+      "tensorflow": 13.540729522705078
+    },
+    {
+      "absolute_difference": 1.1444091796875e-05,
+      "age": 30,
+      "onnx": 46.83992385864258,
+      "source_id": "30_0_0_20170104185757997.jpg.chip.jpg",
+      "tensorflow": 46.839935302734375
+    },
+    {
+      "absolute_difference": 1.9073486328125e-05,
+      "age": 30,
+      "onnx": 24.123823165893555,
+      "source_id": "30_0_0_20170104200535163.jpg.chip.jpg",
+      "tensorflow": 24.123842239379883
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 30,
+      "onnx": 38.49065399169922,
+      "source_id": "30_0_0_20170104200840697.jpg.chip.jpg",
+      "tensorflow": 38.49066162109375
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 30,
+      "onnx": 41.6812629699707,
+      "source_id": "30_0_4_20170104000115245.jpg.chip.jpg",
+      "tensorflow": 41.681270599365234
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 30,
+      "onnx": 28.862337112426758,
+      "source_id": "30_1_0_20170104165921257.jpg.chip.jpg",
+      "tensorflow": 28.862337112426758
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 30,
+      "onnx": 56.45915985107422,
+      "source_id": "30_1_0_20170104185704638.jpg.chip.jpg",
+      "tensorflow": 56.45915985107422
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 30,
+      "onnx": 47.00863265991211,
+      "source_id": "30_1_0_20170105165034356.jpg.chip.jpg",
+      "tensorflow": 47.00862503051758
+    },
+    {
+      "absolute_difference": 4.76837158203125e-06,
+      "age": 30,
+      "onnx": 14.13613510131836,
+      "source_id": "30_1_2_20170104021318733.jpg.chip.jpg",
+      "tensorflow": 14.136139869689941
+    },
+    {
+      "absolute_difference": 2.288818359375e-05,
+      "age": 40,
+      "onnx": 65.71900939941406,
+      "source_id": "40_0_0_20170104165249089.jpg.chip.jpg",
+      "tensorflow": 65.71903228759766
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 40,
+      "onnx": 56.09166717529297,
+      "source_id": "40_0_0_20170104170121569.jpg.chip.jpg",
+      "tensorflow": 56.0916748046875
+    },
+    {
+      "absolute_difference": 1.1444091796875e-05,
+      "age": 40,
+      "onnx": 40.421531677246094,
+      "source_id": "40_0_0_20170104184142437.jpg.chip.jpg",
+      "tensorflow": 40.42154312133789
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 40,
+      "onnx": 43.6108283996582,
+      "source_id": "40_0_0_20170104204711073.jpg.chip.jpg",
+      "tensorflow": 43.6108283996582
+    },
+    {
+      "absolute_difference": 1.1444091796875e-05,
+      "age": 40,
+      "onnx": 51.95762634277344,
+      "source_id": "40_0_0_20170105172802421.jpg.chip.jpg",
+      "tensorflow": 51.957637786865234
+    },
+    {
+      "absolute_difference": 1.52587890625e-05,
+      "age": 40,
+      "onnx": 54.76667404174805,
+      "source_id": "40_0_3_20170104203137444.jpg.chip.jpg",
+      "tensorflow": 54.766658782958984
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 40,
+      "onnx": 70.4687728881836,
+      "source_id": "40_0_4_20170103235124292.jpg.chip.jpg",
+      "tensorflow": 70.46876525878906
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 40,
+      "onnx": 54.04496765136719,
+      "source_id": "40_1_0_20170104174233331.jpg.chip.jpg",
+      "tensorflow": 54.044960021972656
+    },
+    {
+      "absolute_difference": 1.52587890625e-05,
+      "age": 50,
+      "onnx": 59.37945556640625,
+      "source_id": "50_0_0_20170104184249918.jpg.chip.jpg",
+      "tensorflow": 59.37944030761719
+    },
+    {
+      "absolute_difference": 2.288818359375e-05,
+      "age": 50,
+      "onnx": 66.30872344970703,
+      "source_id": "50_0_0_20170104211706898.jpg.chip.jpg",
+      "tensorflow": 66.30874633789062
+    },
+    {
+      "absolute_difference": 3.814697265625e-06,
+      "age": 50,
+      "onnx": 61.9711799621582,
+      "source_id": "50_0_0_20170104212118221.jpg.chip.jpg",
+      "tensorflow": 61.97117614746094
+    },
+    {
+      "absolute_difference": 1.9073486328125e-05,
+      "age": 50,
+      "onnx": 59.30635452270508,
+      "source_id": "50_0_0_20170109003412066.jpg.chip.jpg",
+      "tensorflow": 59.306373596191406
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 50,
+      "onnx": 64.0860595703125,
+      "source_id": "50_0_0_20170111171747307.jpg.chip.jpg",
+      "tensorflow": 64.08606719970703
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 50,
+      "onnx": 59.542510986328125,
+      "source_id": "50_0_0_20170111171747313.jpg.chip.jpg",
+      "tensorflow": 59.542503356933594
+    },
+    {
+      "absolute_difference": 3.814697265625e-06,
+      "age": 50,
+      "onnx": 42.451927185058594,
+      "source_id": "50_0_0_20170111181750470.jpg.chip.jpg",
+      "tensorflow": 42.45193099975586
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 50,
+      "onnx": 56.559940338134766,
+      "source_id": "50_0_2_20170104212145355.jpg.chip.jpg",
+      "tensorflow": 56.559940338134766
+    },
+    {
+      "absolute_difference": 1.52587890625e-05,
+      "age": 60,
+      "onnx": 77.61136627197266,
+      "source_id": "60_0_0_20170104213108966.jpg.chip.jpg",
+      "tensorflow": 77.6113510131836
+    },
+    {
+      "absolute_difference": 1.1444091796875e-05,
+      "age": 60,
+      "onnx": 57.88034439086914,
+      "source_id": "60_0_0_20170104213206349.jpg.chip.jpg",
+      "tensorflow": 57.880332946777344
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 60,
+      "onnx": 76.92701721191406,
+      "source_id": "60_0_0_20170109013439834.jpg.chip.jpg",
+      "tensorflow": 76.92701721191406
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 60,
+      "onnx": 56.3370475769043,
+      "source_id": "60_0_0_20170111171747553.jpg.chip.jpg",
+      "tensorflow": 56.3370475769043
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 60,
+      "onnx": 66.48837280273438,
+      "source_id": "60_0_0_20170111171747558.jpg.chip.jpg",
+      "tensorflow": 66.48837280273438
+    },
+    {
+      "absolute_difference": 1.52587890625e-05,
+      "age": 60,
+      "onnx": 73.1884994506836,
+      "source_id": "60_0_0_20170111201520536.jpg.chip.jpg",
+      "tensorflow": 73.18851470947266
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 60,
+      "onnx": 66.4299545288086,
+      "source_id": "60_0_0_20170111202416395.jpg.chip.jpg",
+      "tensorflow": 66.4299545288086
+    },
+    {
+      "absolute_difference": 3.0517578125e-05,
+      "age": 60,
+      "onnx": 81.26034545898438,
+      "source_id": "60_0_0_20170111204719687.jpg.chip.jpg",
+      "tensorflow": 81.26031494140625
+    },
+    {
+      "absolute_difference": 1.1444091796875e-05,
+      "age": 70,
+      "onnx": 54.098663330078125,
+      "source_id": "70_0_0_20170111171747665.jpg.chip.jpg",
+      "tensorflow": 54.09865188598633
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 70,
+      "onnx": 88.32266235351562,
+      "source_id": "70_0_0_20170111200707164.jpg.chip.jpg",
+      "tensorflow": 88.32266235351562
+    },
+    {
+      "absolute_difference": 3.0517578125e-05,
+      "age": 70,
+      "onnx": 84.03743743896484,
+      "source_id": "70_0_0_20170111201419254.jpg.chip.jpg",
+      "tensorflow": 84.03740692138672
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 70,
+      "onnx": 78.75233459472656,
+      "source_id": "70_0_0_20170111221935159.jpg.chip.jpg",
+      "tensorflow": 78.75233459472656
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 70,
+      "onnx": 66.70384979248047,
+      "source_id": "70_1_0_20170110124127878.jpg.chip.jpg",
+      "tensorflow": 66.70384979248047
+    },
+    {
+      "absolute_difference": 1.1444091796875e-05,
+      "age": 70,
+      "onnx": 58.353084564208984,
+      "source_id": "70_1_0_20170110141008498.jpg.chip.jpg",
+      "tensorflow": 58.35309600830078
+    },
+    {
+      "absolute_difference": 1.1444091796875e-05,
+      "age": 70,
+      "onnx": 38.034759521484375,
+      "source_id": "70_1_0_20170110152916950.jpg.chip.jpg",
+      "tensorflow": 38.03474807739258
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 70,
+      "onnx": 80.64165496826172,
+      "source_id": "70_1_0_20170110180456347.jpg.chip.jpg",
+      "tensorflow": 80.64165496826172
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 80,
+      "onnx": 90.59085845947266,
+      "source_id": "80_0_0_20170110183557670.jpg.chip.jpg",
+      "tensorflow": 90.59085845947266
+    },
+    {
+      "absolute_difference": 2.288818359375e-05,
+      "age": 80,
+      "onnx": 87.69867706298828,
+      "source_id": "80_0_0_20170111205921074.jpg.chip.jpg",
+      "tensorflow": 87.69865417480469
+    },
+    {
+      "absolute_difference": 1.52587890625e-05,
+      "age": 80,
+      "onnx": 85.23749542236328,
+      "source_id": "80_0_0_20170111211335909.jpg.chip.jpg",
+      "tensorflow": 85.23751068115234
+    },
+    {
+      "absolute_difference": 3.0517578125e-05,
+      "age": 80,
+      "onnx": 85.52234649658203,
+      "source_id": "80_0_0_20170111222138149.jpg.chip.jpg",
+      "tensorflow": 85.52237701416016
+    },
+    {
+      "absolute_difference": 2.288818359375e-05,
+      "age": 80,
+      "onnx": 80.50341033935547,
+      "source_id": "80_0_1_20170111205621738.jpg.chip.jpg",
+      "tensorflow": 80.50338745117188
+    },
+    {
+      "absolute_difference": 1.52587890625e-05,
+      "age": 80,
+      "onnx": 65.5841064453125,
+      "source_id": "80_1_0_20170110122217473.jpg.chip.jpg",
+      "tensorflow": 65.58412170410156
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 80,
+      "onnx": 71.67365264892578,
+      "source_id": "80_1_0_20170110122439310.jpg.chip.jpg",
+      "tensorflow": 71.67366027832031
+    },
+    {
+      "absolute_difference": 1.1444091796875e-05,
+      "age": 80,
+      "onnx": 34.66318893432617,
+      "source_id": "80_1_0_20170110131953974.jpg.chip.jpg",
+      "tensorflow": 34.663177490234375
+    },
+    {
+      "absolute_difference": 7.62939453125e-06,
+      "age": 90,
+      "onnx": 79.78401184082031,
+      "source_id": "90_1_0_20170110172628748.jpg.chip.jpg",
+      "tensorflow": 79.78401947021484
+    },
+    {
+      "absolute_difference": 0.0,
+      "age": 90,
+      "onnx": 90.40774536132812,
+      "source_id": "90_1_0_20170110182536477.jpg.chip.jpg",
+      "tensorflow": 90.40774536132812
+    }
+  ],
+  "tensorflow_version": "2.15.1",
+  "tolerance": 0.0001
+}

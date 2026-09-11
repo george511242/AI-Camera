@@ -1,0 +1,39 @@
+{
+  "initialization": {
+    "/home/orangepi/vac-pose-v2-e1-deployment/head_pose_v2_e1_224x224_fp16.rknn": {
+      "load_rknn": 0,
+      "init_runtime": 0
+    }
+  },
+  "output_order": [
+    "roll",
+    "yaw",
+    "pitch"
+  ],
+  "output_shapes": [
+    [
+      1
+    ],
+    [
+      1
+    ],
+    [
+      1
+    ]
+  ],
+  "samples": 256,
+  "max_roll_degrees": 0.08164596557617188,
+  "max_yaw_degrees": 0.19307327270507812,
+  "max_pitch_degrees": 0.11336135864257812,
+  "max_overall_degrees": 0.19307327270507812,
+  "mean_abs_difference_degrees": 0.029119278100552037,
+  "latency": {
+    "n": 256,
+    "mean_ms": 5.186242699203092,
+    "p50_ms": 4.845435500101303,
+    "p95_ms": 7.594607499868289
+  },
+  "first_inference_ms": 5.8137140003964305,
+  "runtime_errors": 0,
+  "model_sha256": "224244a03e37a1a849931dee5990be323a5073739f6121d53ddc562408cb6373"
+}

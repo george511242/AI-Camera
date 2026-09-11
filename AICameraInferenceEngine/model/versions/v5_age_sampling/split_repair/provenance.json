@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/audit.json": "4520a6d67f4732716585af1225d946779d321e50809a73f6d8f4afdce98a83f5",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/audit_signatures.jsonl": "ff711d0b74d0a82bb6e0b65b14579996d60f067f58ab0b2dc0e8dcea013c0b72",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/near_ranked.json": "8d0bb10067d0ad3a2700153e2af3e8f26732662fda3c67bd9204b1631737b119",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/near_visual_review.json": "8ed07901d8caaab3814a4b09065b285be97565eea97a9ac39ab7d8c5fb84bb70",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/cache_corrected/complete.json": "52b14bb970f63ad03f2a53fcd6ea91065f3bdcfacdb8e6dbd5677f754e36121a",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/splits/train.jsonl": "3fdba23fb43e1f4bd566b8bb4a003e1a3223fee98582063ea0cae001c9ba9dd9",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/splits/validation.jsonl": "d403e818009bdc669208773804861e161568253095b07ba9b66969a3eb8b9fc1",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/splits/test.jsonl": "e962d9e57aaaf0ab428a5d1bbc10e770630ae6e807176ac60c5152a1568b9855",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v3_age/training/splits/external_benchmark.jsonl": "685e32dbb80bcde536f604b34ec98c83dbebc1f66f84151cece964eaa2453db2",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/validation/phase1_hfov63/generated/manifest.jsonl": "a0b1a632bf522817de52849f3266e4ef8bf3228bcdc0fd1efd46fef6aa17d2ae"
+  },
+  "outputs": {
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/result.json": "4f634de871f24a2033a750ad35f1230c9d942c042aad8ece31d3ffc549a5a6c4",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/train_cache.jsonl": "7b63bb7105930fc5ef0427e0e2bd0ab2ac949844cdf75ef7dbf20ad383b75e86",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/train_exclusions.jsonl": "4433eee83ebbd7674c40b5c84e11a906884a1bdd1dcc9481a6291468920153ab",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/validation.jsonl": "d403e818009bdc669208773804861e161568253095b07ba9b66969a3eb8b9fc1",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/validation_cache.jsonl": "ba7ff9fb709ac29c193d1a6aa758c8faec703018052288a7440e013e6b34ef79",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/train.jsonl": "b6cb451f896c9ec5ecb664e51c00521090b8902922bb9bc5e38bea323796dcd6",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/source_family_groups.jsonl": "8b75c3fab4f8cc753dcfc86572c89e1d2a0f30531e95fd30e34c9abeecf6d969"
+  }
+}

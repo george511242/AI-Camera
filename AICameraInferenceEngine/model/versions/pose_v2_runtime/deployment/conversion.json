@@ -1,0 +1,29 @@
+{
+  "rk3566": {
+    "sha256": "4ed4d4f69ab71e3d2dbabddf2d0787bc4153702a59096eb6beae67dab0e4fa2c",
+    "bytes": 754724,
+    "warnings": [
+      "Python pkg_resources API deprecation warning; no RKNN conversion warnings/errors"
+    ],
+    "return_codes": [
+      "config result: 0",
+      "load_onnx result: 0",
+      "build result: 0",
+      "export_rknn result: 0"
+    ]
+  },
+  "rk3588": {
+    "sha256": "224244a03e37a1a849931dee5990be323a5073739f6121d53ddc562408cb6373",
+    "bytes": 1157796,
+    "warnings": [
+      "Python pkg_resources API deprecation warning; no RKNN conversion warnings/errors"
+    ],
+    "return_codes": [
+      "config result: 0",
+      "load_onnx result: 0",
+      "build result: 0",
+      "export_rknn result: 0"
+    ]
+  },
+  "toolkit_version": "2.3.2"
+}

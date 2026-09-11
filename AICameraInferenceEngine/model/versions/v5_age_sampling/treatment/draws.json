@@ -1,0 +1,16 @@
+{
+  "by_group": {
+    "18-54": 22153,
+    "0-17": 15386,
+    "55-80": 10238,
+    "81-99": 799
+  },
+  "by_variant": {
+    "40px": 12264,
+    "160px": 19345,
+    "80px": 16967
+  },
+  "initial_fingerprint": "da065b374f5e6d11b0f7d6bd6f082b71ec3bd41a09646984fdfe2fad8ffe6159",
+  "checkpoint_sha256": "9f3e9850cb4f07d20cbb0ee90ddc87574c4ee00c74a9eb4b3a8c0d5af2033272",
+  "seed": 20260905
+}

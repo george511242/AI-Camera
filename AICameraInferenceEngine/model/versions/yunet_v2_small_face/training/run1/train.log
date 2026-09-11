@@ -1,0 +1,416 @@
+[2026-09-05 23:24:06] ================================================================================
+[2026-09-05 23:24:06] run_started_at=2026-09-05 23:24:06
+[2026-09-05 23:24:06] log_file=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/train.log
+[2026-09-05 23:24:06] python=3.11.16 executable=/home/g2004/miniforge3/envs/vac-yunet-gpu/bin/python
+[2026-09-05 23:24:06] platform=Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+[2026-09-05 23:24:06] torch=2.11.0+cu128 cuda_available=True cuda=12.8
+[2026-09-05 23:24:06] cuda_device_count=1
+[2026-09-05 23:24:06] cuda_device[0]=NVIDIA GeForce RTX 5070 Ti Laptop GPU
+[2026-09-05 23:24:06] arg.ann_file=/home/g2004/datasets/vac-distance/source/widerface/labelv2/train/labelv2.txt
+[2026-09-05 23:24:06] arg.batch_size=16
+[2026-09-05 23:24:06] arg.checkpoint_interval=5
+[2026-09-05 23:24:06] arg.device=cuda
+[2026-09-05 23:24:06] arg.epochs=40
+[2026-09-05 23:24:06] arg.eval_interval=1
+[2026-09-05 23:24:06] arg.eval_limit_samples=None
+[2026-09-05 23:24:06] arg.image_size=640
+[2026-09-05 23:24:06] arg.img_prefix=/home/g2004/datasets/vac-distance/source/widerface/WIDER_train/WIDER_train/images
+[2026-09-05 23:24:06] arg.init_weights=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/vendor/libfacedetection.train/weights/yunet_n.pth
+[2026-09-05 23:24:06] arg.limit_samples=None
+[2026-09-05 23:24:06] arg.log_file=None
+[2026-09-05 23:24:06] arg.log_interval=50
+[2026-09-05 23:24:06] arg.lr=0.001
+[2026-09-05 23:24:06] arg.lr_gamma=0.1
+[2026-09-05 23:24:06] arg.lr_steps=[24, 34]
+[2026-09-05 23:24:06] arg.min_face_size=10.0
+[2026-09-05 23:24:06] arg.momentum=0.9
+[2026-09-05 23:24:06] arg.no_persistent_workers=False
+[2026-09-05 23:24:06] arg.no_pin_memory=False
+[2026-09-05 23:24:06] arg.no_tensorboard=True
+[2026-09-05 23:24:06] arg.prefetch_factor=1
+[2026-09-05 23:24:06] arg.resume=None
+[2026-09-05 23:24:06] arg.seed=20260905
+[2026-09-05 23:24:06] arg.small_face_policy=True
+[2026-09-05 23:24:06] arg.val_ann_file=/home/g2004/datasets/vac-distance/source/widerface/labelv2/val/labelv2.txt
+[2026-09-05 23:24:06] arg.val_img_prefix=/home/g2004/datasets/vac-distance/source/widerface/WIDER_val/WIDER_val/images
+[2026-09-05 23:24:06] arg.variant=yunet_n
+[2026-09-05 23:24:06] arg.warmup_iters=100
+[2026-09-05 23:24:06] arg.warmup_ratio=0.001
+[2026-09-05 23:24:06] arg.weight_decay=0.0005
+[2026-09-05 23:24:06] arg.work_dir=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1
+[2026-09-05 23:24:06] arg.workers=0
+[2026-09-05 23:24:06] initialized_weights path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/vendor/libfacedetection.train/weights/yunet_n.pth
+[2026-09-05 23:24:09] train_dataset samples=12876 ann_file=/home/g2004/datasets/vac-distance/source/widerface/labelv2/train/labelv2.txt img_prefix=/home/g2004/datasets/vac-distance/source/widerface/WIDER_train/WIDER_train/images
+[2026-09-05 23:24:09] train_loader steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True
+[2026-09-05 23:24:09] val_loader steps=202 eval_interval=1
+[2026-09-05 23:24:09] start epoch=1/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:00:00 eta=estimating
+[2026-09-05 23:24:18] epoch=1 step=1/805 loss=2.471263 cls=0.481588 bbox=0.733301 obj=1.132447 kps=0.123927 elapsed=00:00:08 remaining=76:10:37 eta=2026-09-09 03:34:55
+[2026-09-05 23:24:38] epoch=1 step=50/805 loss=2.729272 cls=0.527348 bbox=0.935798 obj=1.100010 kps=0.166115 elapsed=00:00:28 remaining=05:10:36 eta=2026-09-06 04:35:15
+[2026-09-05 23:24:57] epoch=1 step=100/805 loss=2.703529 cls=0.530549 bbox=0.948511 obj=1.058216 kps=0.166253 elapsed=00:00:47 remaining=04:16:27 eta=2026-09-06 03:41:25
+[2026-09-05 23:25:16] epoch=1 step=150/805 loss=2.714921 cls=0.530315 bbox=0.947784 obj=1.068508 kps=0.168314 elapsed=00:01:06 remaining=03:56:53 eta=2026-09-06 03:22:10
+[2026-09-05 23:25:35] epoch=1 step=200/805 loss=2.720006 cls=0.530908 bbox=0.950705 obj=1.071012 kps=0.167380 elapsed=00:01:25 remaining=03:48:09 eta=2026-09-06 03:13:45
+[2026-09-05 23:25:53] epoch=1 step=250/805 loss=2.704245 cls=0.531077 bbox=0.950111 obj=1.054951 kps=0.168107 elapsed=00:01:43 remaining=03:41:21 eta=2026-09-06 03:07:15
+[2026-09-05 23:26:12] epoch=1 step=300/805 loss=2.698748 cls=0.530895 bbox=0.949070 obj=1.049253 kps=0.169530 elapsed=00:02:02 remaining=03:36:40 eta=2026-09-06 03:02:53
+[2026-09-05 23:26:31] epoch=1 step=350/805 loss=2.706104 cls=0.531676 bbox=0.951635 obj=1.052741 kps=0.170053 elapsed=00:02:21 remaining=03:34:24 eta=2026-09-06 03:00:56
+[2026-09-05 23:26:50] epoch=1 step=400/805 loss=2.688039 cls=0.530424 bbox=0.946676 obj=1.041831 kps=0.169107 elapsed=00:02:40 remaining=03:32:33 eta=2026-09-06 02:59:23
+[2026-09-05 23:27:08] epoch=1 step=450/805 loss=2.686461 cls=0.530121 bbox=0.945772 obj=1.041100 kps=0.169469 elapsed=00:02:58 remaining=03:30:20 eta=2026-09-06 02:57:29
+[2026-09-05 23:27:27] epoch=1 step=500/805 loss=2.686899 cls=0.530190 bbox=0.945731 obj=1.041225 kps=0.169753 elapsed=00:03:17 remaining=03:28:29 eta=2026-09-06 02:55:56
+[2026-09-05 23:27:45] epoch=1 step=550/805 loss=2.692742 cls=0.530523 bbox=0.947790 obj=1.045299 kps=0.169129 elapsed=00:03:35 remaining=03:26:45 eta=2026-09-06 02:54:31
+[2026-09-05 23:28:03] epoch=1 step=600/805 loss=2.686521 cls=0.530188 bbox=0.946293 obj=1.040088 kps=0.169952 elapsed=00:03:53 remaining=03:25:00 eta=2026-09-06 02:53:03
+[2026-09-05 23:28:20] epoch=1 step=650/805 loss=2.696063 cls=0.530633 bbox=0.948006 obj=1.046717 kps=0.170707 elapsed=00:04:11 remaining=03:23:08 eta=2026-09-06 02:51:29
+[2026-09-05 23:28:39] epoch=1 step=700/805 loss=2.700183 cls=0.531009 bbox=0.949653 obj=1.048535 kps=0.170986 elapsed=00:04:29 remaining=03:21:59 eta=2026-09-06 02:50:38
+[2026-09-05 23:28:57] epoch=1 step=750/805 loss=2.702623 cls=0.530953 bbox=0.949805 obj=1.050085 kps=0.171780 elapsed=00:04:47 remaining=03:20:56 eta=2026-09-06 02:49:54
+[2026-09-05 23:29:15] epoch=1 step=800/805 loss=2.697960 cls=0.530628 bbox=0.948231 obj=1.047974 kps=0.171127 elapsed=00:05:06 remaining=03:20:15 eta=2026-09-06 02:49:31
+[2026-09-05 23:29:17] epoch=1 lr=0.00100000 loss=2.697557 cls=0.530572 bbox=0.947952 obj=1.047680 kps=0.171353 epoch_seconds=307.925 sec_per_step=0.3825 samples_per_second=41.83 elapsed=00:05:07 remaining=03:20:09 eta=2026-09-06 02:49:26
+[2026-09-05 23:29:17] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-05 23:29:17] start_eval epoch=1 steps=202
+[2026-09-05 23:30:08] eval epoch=1 loss=3.234638 cls=0.549461 bbox=1.176761 obj=1.508416 kps=0.000000
+[2026-09-05 23:30:08] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_1.pth
+[2026-09-05 23:30:08] saved_best_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/best_loss.pth best_loss=3.234638
+[2026-09-05 23:30:08] start epoch=2/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:05:58 remaining=03:53:19 eta=2026-09-06 03:23:27
+[2026-09-05 23:30:09] epoch=2 step=1/805 loss=2.674502 cls=0.536961 bbox=0.985063 obj=1.015092 kps=0.137386 elapsed=00:05:59 remaining=03:53:19 eta=2026-09-06 03:23:28
+[2026-09-05 23:30:27] epoch=2 step=50/805 loss=2.693165 cls=0.528708 bbox=0.942569 obj=1.045335 kps=0.176554 elapsed=00:06:17 remaining=03:50:45 eta=2026-09-06 03:21:13
+[2026-09-05 23:30:45] epoch=2 step=100/805 loss=2.597415 cls=0.524876 bbox=0.922528 obj=0.981591 kps=0.168420 elapsed=00:06:35 remaining=03:48:00 eta=2026-09-06 03:18:46
+[2026-09-05 23:31:02] epoch=2 step=150/805 loss=2.639934 cls=0.527423 bbox=0.935593 obj=1.005884 kps=0.171032 elapsed=00:06:53 remaining=03:45:12 eta=2026-09-06 03:16:15
+[2026-09-05 23:31:20] epoch=2 step=200/805 loss=2.662229 cls=0.528524 bbox=0.941257 obj=1.022872 kps=0.169575 elapsed=00:07:10 remaining=03:42:35 eta=2026-09-06 03:13:55
+[2026-09-05 23:31:37] epoch=2 step=250/805 loss=2.672981 cls=0.530493 bbox=0.948250 obj=1.025191 kps=0.169047 elapsed=00:07:27 remaining=03:40:17 eta=2026-09-06 03:11:54
+[2026-09-05 23:31:54] epoch=2 step=300/805 loss=2.682770 cls=0.530938 bbox=0.949595 obj=1.033717 kps=0.168521 elapsed=00:07:44 remaining=03:38:02 eta=2026-09-06 03:09:57
+[2026-09-05 23:32:12] epoch=2 step=350/805 loss=2.691249 cls=0.531476 bbox=0.952636 obj=1.036704 kps=0.170432 elapsed=00:08:02 remaining=03:36:16 eta=2026-09-06 03:08:28
+[2026-09-05 23:32:31] epoch=2 step=400/805 loss=2.675859 cls=0.530162 bbox=0.946873 obj=1.029014 kps=0.169811 elapsed=00:08:21 remaining=03:35:03 eta=2026-09-06 03:07:34
+[2026-09-05 23:32:49] epoch=2 step=450/805 loss=2.673316 cls=0.529812 bbox=0.945869 obj=1.028035 kps=0.169600 elapsed=00:08:39 remaining=03:33:30 eta=2026-09-06 03:06:20
+[2026-09-05 23:33:06] epoch=2 step=500/805 loss=2.671735 cls=0.529742 bbox=0.945277 obj=1.027861 kps=0.168855 elapsed=00:08:56 remaining=03:31:47 eta=2026-09-06 03:04:54
+[2026-09-05 23:33:24] epoch=2 step=550/805 loss=2.668502 cls=0.529538 bbox=0.943995 obj=1.025396 kps=0.169574 elapsed=00:09:14 remaining=03:30:21 eta=2026-09-06 03:03:45
+[2026-09-05 23:33:42] epoch=2 step=600/805 loss=2.672697 cls=0.529380 bbox=0.943938 obj=1.030050 kps=0.169329 elapsed=00:09:32 remaining=03:29:03 eta=2026-09-06 03:02:45
+[2026-09-05 23:34:00] epoch=2 step=650/805 loss=2.668656 cls=0.528949 bbox=0.941674 obj=1.029010 kps=0.169022 elapsed=00:09:50 remaining=03:27:58 eta=2026-09-06 03:01:58
+[2026-09-05 23:34:19] epoch=2 step=700/805 loss=2.666625 cls=0.528648 bbox=0.940721 obj=1.028391 kps=0.168865 elapsed=00:10:09 remaining=03:27:04 eta=2026-09-06 03:01:23
+[2026-09-05 23:34:37] epoch=2 step=750/805 loss=2.670953 cls=0.529162 bbox=0.943142 obj=1.029634 kps=0.169016 elapsed=00:10:27 remaining=03:26:04 eta=2026-09-06 03:00:41
+[2026-09-05 23:34:55] epoch=2 step=800/805 loss=2.665469 cls=0.528496 bbox=0.940499 obj=1.026752 kps=0.169723 elapsed=00:10:45 remaining=03:25:06 eta=2026-09-06 03:00:01
+[2026-09-05 23:34:57] epoch=2 lr=0.00100000 loss=2.666233 cls=0.528537 bbox=0.940770 obj=1.027300 kps=0.169626 epoch_seconds=288.316 sec_per_step=0.3582 samples_per_second=44.67 elapsed=00:10:47 remaining=03:24:58 eta=2026-09-06 02:59:55
+[2026-09-05 23:34:57] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-05 23:34:57] start_eval epoch=2 steps=202
+[2026-09-05 23:35:51] eval epoch=2 loss=3.096332 cls=0.540468 bbox=1.149745 obj=1.406119 kps=0.000000
+[2026-09-05 23:35:51] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_2.pth
+[2026-09-05 23:35:51] saved_best_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/best_loss.pth best_loss=3.096332
+[2026-09-05 23:35:51] start epoch=3/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:11:41 remaining=03:42:09 eta=2026-09-06 03:18:00
+[2026-09-05 23:35:51] epoch=3 step=1/805 loss=3.016864 cls=0.542121 bbox=1.057860 obj=1.136353 kps=0.280529 elapsed=00:11:41 remaining=03:42:07 eta=2026-09-06 03:17:59
+[2026-09-05 23:36:09] epoch=3 step=50/805 loss=2.843010 cls=0.543755 bbox=1.004318 obj=1.112130 kps=0.182807 elapsed=00:11:59 remaining=03:40:44 eta=2026-09-06 03:16:53
+[2026-09-05 23:36:29] epoch=3 step=100/805 loss=2.826225 cls=0.540323 bbox=0.989352 obj=1.115671 kps=0.180879 elapsed=00:12:19 remaining=03:39:41 eta=2026-09-06 03:16:10
+[2026-09-05 23:36:47] epoch=3 step=150/805 loss=2.776402 cls=0.536113 bbox=0.973087 obj=1.088640 kps=0.178562 elapsed=00:12:37 remaining=03:38:17 eta=2026-09-06 03:15:04
+[2026-09-05 23:37:05] epoch=3 step=200/805 loss=2.758565 cls=0.532706 bbox=0.959204 obj=1.087419 kps=0.179236 elapsed=00:12:55 remaining=03:37:03 eta=2026-09-06 03:14:09
+[2026-09-05 23:37:23] epoch=3 step=250/805 loss=2.741232 cls=0.532082 bbox=0.957034 obj=1.073708 kps=0.178409 elapsed=00:13:13 remaining=03:35:50 eta=2026-09-06 03:13:14
+[2026-09-05 23:37:42] epoch=3 step=300/805 loss=2.739761 cls=0.531827 bbox=0.955829 obj=1.074295 kps=0.177809 elapsed=00:13:32 remaining=03:34:41 eta=2026-09-06 03:12:23
+[2026-09-05 23:38:02] epoch=3 step=350/805 loss=2.714745 cls=0.530414 bbox=0.949161 obj=1.058557 kps=0.176614 elapsed=00:13:52 remaining=03:34:01 eta=2026-09-06 03:12:03
+[2026-09-05 23:38:21] epoch=3 step=400/805 loss=2.700913 cls=0.529243 bbox=0.944641 obj=1.052628 kps=0.174400 elapsed=00:14:11 remaining=03:33:07 eta=2026-09-06 03:11:28
+[2026-09-05 23:38:41] epoch=3 step=450/805 loss=2.702451 cls=0.529147 bbox=0.945010 obj=1.054133 kps=0.174161 elapsed=00:14:31 remaining=03:32:31 eta=2026-09-06 03:11:12
+[2026-09-05 23:39:00] epoch=3 step=500/805 loss=2.698081 cls=0.529168 bbox=0.944595 obj=1.050025 kps=0.174293 elapsed=00:14:50 remaining=03:31:41 eta=2026-09-06 03:10:41
+[2026-09-05 23:39:20] epoch=3 step=550/805 loss=2.708819 cls=0.530004 bbox=0.948265 obj=1.055853 kps=0.174697 elapsed=00:15:10 remaining=03:31:02 eta=2026-09-06 03:10:23
+[2026-09-05 23:39:39] epoch=3 step=600/805 loss=2.706052 cls=0.529888 bbox=0.947285 obj=1.054432 kps=0.174447 elapsed=00:15:30 remaining=03:30:20 eta=2026-09-06 03:10:00
+[2026-09-05 23:39:59] epoch=3 step=650/805 loss=2.706190 cls=0.530052 bbox=0.948108 obj=1.053947 kps=0.174083 elapsed=00:15:49 remaining=03:29:37 eta=2026-09-06 03:09:36
+[2026-09-05 23:40:18] epoch=3 step=700/805 loss=2.695594 cls=0.529373 bbox=0.945452 obj=1.048086 kps=0.172684 elapsed=00:16:08 remaining=03:28:50 eta=2026-09-06 03:09:08
+[2026-09-05 23:40:37] epoch=3 step=750/805 loss=2.698376 cls=0.529887 bbox=0.947650 obj=1.048430 kps=0.172409 elapsed=00:16:28 remaining=03:28:14 eta=2026-09-06 03:08:51
+[2026-09-05 23:40:59] epoch=3 step=800/805 loss=2.692374 cls=0.529816 bbox=0.947015 obj=1.043710 kps=0.171833 elapsed=00:16:49 remaining=03:28:01 eta=2026-09-06 03:09:01
+[2026-09-05 23:41:01] epoch=3 lr=0.00100000 loss=2.692464 cls=0.529868 bbox=0.947130 obj=1.043701 kps=0.171766 epoch_seconds=310.217 sec_per_step=0.3854 samples_per_second=41.52 elapsed=00:16:51 remaining=03:27:58 eta=2026-09-06 03:08:59
+[2026-09-05 23:41:01] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-05 23:41:01] start_eval epoch=3 steps=202
+[2026-09-05 23:41:55] eval epoch=3 loss=3.164983 cls=0.542953 bbox=1.162553 obj=1.459477 kps=0.000000
+[2026-09-05 23:41:55] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_3.pth
+[2026-09-05 23:41:55] start epoch=4/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:17:45 remaining=03:38:58 eta=2026-09-06 03:20:53
+[2026-09-05 23:41:55] epoch=4 step=1/805 loss=2.308494 cls=0.514973 bbox=0.892240 obj=0.755326 kps=0.145954 elapsed=00:17:45 remaining=03:38:56 eta=2026-09-06 03:20:51
+[2026-09-05 23:42:14] epoch=4 step=50/805 loss=2.659670 cls=0.530825 bbox=0.949993 obj=1.001637 kps=0.177215 elapsed=00:18:04 remaining=03:38:02 eta=2026-09-06 03:20:16
+[2026-09-05 23:42:33] epoch=4 step=100/805 loss=2.648349 cls=0.530333 bbox=0.945940 obj=1.001555 kps=0.170521 elapsed=00:18:23 remaining=03:37:09 eta=2026-09-06 03:19:43
+[2026-09-05 23:42:52] epoch=4 step=150/805 loss=2.703749 cls=0.532333 bbox=0.957453 obj=1.037428 kps=0.176536 elapsed=00:18:42 remaining=03:36:12 eta=2026-09-06 03:19:05
+[2026-09-05 23:43:12] epoch=4 step=200/805 loss=2.707589 cls=0.532640 bbox=0.957296 obj=1.042533 kps=0.175120 elapsed=00:19:02 remaining=03:35:27 eta=2026-09-06 03:18:39
+[2026-09-05 23:43:31] epoch=4 step=250/805 loss=2.699097 cls=0.531905 bbox=0.953905 obj=1.039670 kps=0.173617 elapsed=00:19:21 remaining=03:34:32 eta=2026-09-06 03:18:03
+[2026-09-05 23:43:50] epoch=4 step=300/805 loss=2.677768 cls=0.530254 bbox=0.947287 obj=1.026919 kps=0.173308 elapsed=00:19:40 remaining=03:33:40 eta=2026-09-06 03:17:30
+[2026-09-05 23:44:09] epoch=4 step=350/805 loss=2.672769 cls=0.530131 bbox=0.946819 obj=1.023736 kps=0.172083 elapsed=00:19:59 remaining=03:32:51 eta=2026-09-06 03:17:00
+[2026-09-05 23:44:28] epoch=4 step=400/805 loss=2.672081 cls=0.530213 bbox=0.947075 obj=1.022721 kps=0.172073 elapsed=00:20:19 remaining=03:32:05 eta=2026-09-06 03:16:33
+[2026-09-05 23:44:48] epoch=4 step=450/805 loss=2.675682 cls=0.530692 bbox=0.949175 obj=1.023873 kps=0.171941 elapsed=00:20:38 remaining=03:31:25 eta=2026-09-06 03:16:14
+[2026-09-05 23:45:07] epoch=4 step=500/805 loss=2.683165 cls=0.530882 bbox=0.951360 obj=1.029204 kps=0.171719 elapsed=00:20:58 remaining=03:30:40 eta=2026-09-06 03:15:48
+[2026-09-05 23:45:28] epoch=4 step=550/805 loss=2.671939 cls=0.530392 bbox=0.948396 obj=1.022061 kps=0.171090 elapsed=00:21:18 remaining=03:30:03 eta=2026-09-06 03:15:31
+[2026-09-05 23:45:46] epoch=4 step=600/805 loss=2.664528 cls=0.529692 bbox=0.945832 obj=1.018625 kps=0.170380 elapsed=00:21:37 remaining=03:29:16 eta=2026-09-06 03:15:03
+[2026-09-05 23:46:06] epoch=4 step=650/805 loss=2.664613 cls=0.529426 bbox=0.944532 obj=1.019582 kps=0.171073 elapsed=00:21:56 remaining=03:28:35 eta=2026-09-06 03:14:41
+[2026-09-05 23:46:24] epoch=4 step=700/805 loss=2.673024 cls=0.530141 bbox=0.947119 obj=1.024397 kps=0.171367 elapsed=00:22:15 remaining=03:27:45 eta=2026-09-06 03:14:10
+[2026-09-05 23:46:43] epoch=4 step=750/805 loss=2.673054 cls=0.530200 bbox=0.947202 obj=1.024405 kps=0.171247 elapsed=00:22:34 remaining=03:27:02 eta=2026-09-06 03:13:45
+[2026-09-05 23:47:01] epoch=4 step=800/805 loss=2.668020 cls=0.529721 bbox=0.945054 obj=1.021967 kps=0.171278 elapsed=00:22:52 remaining=03:26:11 eta=2026-09-06 03:13:13
+[2026-09-05 23:47:03] epoch=4 lr=0.00100000 loss=2.666315 cls=0.529572 bbox=0.944522 obj=1.021022 kps=0.171198 epoch_seconds=308.718 sec_per_step=0.3835 samples_per_second=41.72 elapsed=00:22:53 remaining=03:26:05 eta=2026-09-06 03:13:09
+[2026-09-05 23:47:03] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-05 23:47:03] start_eval epoch=4 steps=202
+[2026-09-05 23:47:56] eval epoch=4 loss=3.116448 cls=0.550067 bbox=1.195456 obj=1.370925 kps=0.000000
+[2026-09-05 23:47:56] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_4.pth
+[2026-09-05 23:47:56] start epoch=5/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:23:46 remaining=03:34:02 eta=2026-09-06 03:21:59
+[2026-09-05 23:47:57] epoch=5 step=1/805 loss=3.539059 cls=0.591390 bbox=1.206108 obj=1.446200 kps=0.295362 elapsed=00:23:47 remaining=03:34:01 eta=2026-09-06 03:21:58
+[2026-09-05 23:48:14] epoch=5 step=50/805 loss=2.729286 cls=0.527836 bbox=0.943261 obj=1.083434 kps=0.174754 elapsed=00:24:04 remaining=03:33:03 eta=2026-09-06 03:21:18
+[2026-09-05 23:48:32] epoch=5 step=100/805 loss=2.616481 cls=0.525062 bbox=0.925368 obj=0.997538 kps=0.168513 elapsed=00:24:22 remaining=03:32:04 eta=2026-09-06 03:20:36
+[2026-09-05 23:48:51] epoch=5 step=150/805 loss=2.640331 cls=0.527060 bbox=0.933540 obj=1.009850 kps=0.169881 elapsed=00:24:41 remaining=03:31:11 eta=2026-09-06 03:20:02
+[2026-09-05 23:49:09] epoch=5 step=200/805 loss=2.646863 cls=0.526618 bbox=0.932402 obj=1.016506 kps=0.171338 elapsed=00:24:59 remaining=03:30:20 eta=2026-09-06 03:19:29
+[2026-09-05 23:49:29] epoch=5 step=250/805 loss=2.666542 cls=0.527954 bbox=0.936677 obj=1.030582 kps=0.171330 elapsed=00:25:19 remaining=03:29:39 eta=2026-09-06 03:19:08
+[2026-09-05 23:49:49] epoch=5 step=300/805 loss=2.660488 cls=0.527884 bbox=0.935039 obj=1.027921 kps=0.169643 elapsed=00:25:40 remaining=03:29:08 eta=2026-09-06 03:18:58
+[2026-09-05 23:50:10] epoch=5 step=350/805 loss=2.677972 cls=0.529437 bbox=0.942155 obj=1.035864 kps=0.170515 elapsed=00:26:00 remaining=03:28:33 eta=2026-09-06 03:18:43
+[2026-09-05 23:50:29] epoch=5 step=400/805 loss=2.663532 cls=0.527965 bbox=0.936114 obj=1.029174 kps=0.170278 elapsed=00:26:19 remaining=03:27:52 eta=2026-09-06 03:18:22
+[2026-09-05 23:50:48] epoch=5 step=450/805 loss=2.673259 cls=0.528509 bbox=0.938869 obj=1.035375 kps=0.170506 elapsed=00:26:38 remaining=03:27:06 eta=2026-09-06 03:17:54
+[2026-09-05 23:51:07] epoch=5 step=500/805 loss=2.672354 cls=0.528258 bbox=0.937907 obj=1.035870 kps=0.170318 elapsed=00:26:57 remaining=03:26:23 eta=2026-09-06 03:17:30
+[2026-09-05 23:51:25] epoch=5 step=550/805 loss=2.681023 cls=0.528731 bbox=0.939871 obj=1.041921 kps=0.170500 elapsed=00:27:15 remaining=03:25:36 eta=2026-09-06 03:17:01
+[2026-09-05 23:51:44] epoch=5 step=600/805 loss=2.666569 cls=0.528348 bbox=0.938247 obj=1.030145 kps=0.169829 elapsed=00:27:34 remaining=03:24:51 eta=2026-09-06 03:16:35
+[2026-09-05 23:52:03] epoch=5 step=650/805 loss=2.662379 cls=0.527982 bbox=0.936783 obj=1.027780 kps=0.169834 elapsed=00:27:53 remaining=03:24:11 eta=2026-09-06 03:16:14
+[2026-09-05 23:52:22] epoch=5 step=700/805 loss=2.662499 cls=0.528004 bbox=0.936681 obj=1.027534 kps=0.170280 elapsed=00:28:12 remaining=03:23:29 eta=2026-09-06 03:15:51
+[2026-09-05 23:52:42] epoch=5 step=750/805 loss=2.661553 cls=0.527815 bbox=0.936582 obj=1.026409 kps=0.170746 elapsed=00:28:32 remaining=03:22:56 eta=2026-09-06 03:15:38
+[2026-09-05 23:53:02] epoch=5 step=800/805 loss=2.661663 cls=0.527847 bbox=0.936983 obj=1.025412 kps=0.171422 elapsed=00:28:52 remaining=03:22:27 eta=2026-09-06 03:15:30
+[2026-09-05 23:53:04] epoch=5 lr=0.00100000 loss=2.661034 cls=0.527839 bbox=0.936796 obj=1.025075 kps=0.171325 epoch_seconds=307.961 sec_per_step=0.3826 samples_per_second=41.82 elapsed=00:28:54 remaining=03:22:24 eta=2026-09-06 03:15:29
+[2026-09-05 23:53:04] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-05 23:53:04] saved_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/epoch_5.pth
+[2026-09-05 23:53:04] start_eval epoch=5 steps=202
+[2026-09-05 23:54:01] eval epoch=5 loss=3.166928 cls=0.544420 bbox=1.167856 obj=1.454653 kps=0.000000
+[2026-09-05 23:54:01] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_5.pth
+[2026-09-05 23:54:01] start epoch=6/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:29:52 remaining=03:29:05 eta=2026-09-06 03:23:07
+[2026-09-05 23:54:02] epoch=6 step=1/805 loss=2.679665 cls=0.537360 bbox=0.950083 obj=1.044078 kps=0.148144 elapsed=00:29:52 remaining=03:29:04 eta=2026-09-06 03:23:07
+[2026-09-05 23:54:22] epoch=6 step=50/805 loss=2.666252 cls=0.529287 bbox=0.940358 obj=1.029978 kps=0.166629 elapsed=00:30:12 remaining=03:28:28 eta=2026-09-06 03:22:50
+[2026-09-05 23:54:43] epoch=6 step=100/805 loss=2.642666 cls=0.528524 bbox=0.936307 obj=1.007034 kps=0.170801 elapsed=00:30:33 remaining=03:28:02 eta=2026-09-06 03:22:45
+[2026-09-05 23:55:05] epoch=6 step=150/805 loss=2.636131 cls=0.527600 bbox=0.933762 obj=1.004371 kps=0.170399 elapsed=00:30:56 remaining=03:27:39 eta=2026-09-06 03:22:45
+[2026-09-05 23:55:28] epoch=6 step=200/805 loss=2.653757 cls=0.528881 bbox=0.940582 obj=1.015274 kps=0.169019 elapsed=00:31:18 remaining=03:27:18 eta=2026-09-06 03:22:47
+[2026-09-05 23:55:49] epoch=6 step=250/805 loss=2.661937 cls=0.529703 bbox=0.944583 obj=1.018374 kps=0.169277 elapsed=00:31:39 remaining=03:26:50 eta=2026-09-06 03:22:40
+[2026-09-05 23:56:11] epoch=6 step=300/805 loss=2.668251 cls=0.530010 bbox=0.946812 obj=1.021051 kps=0.170378 elapsed=00:32:02 remaining=03:26:27 eta=2026-09-06 03:22:39
+[2026-09-05 23:56:33] epoch=6 step=350/805 loss=2.664126 cls=0.529672 bbox=0.945621 obj=1.018950 kps=0.169883 elapsed=00:32:23 remaining=03:25:59 eta=2026-09-06 03:22:32
+[2026-09-05 23:56:55] epoch=6 step=400/805 loss=2.673174 cls=0.530366 bbox=0.948533 obj=1.023827 kps=0.170449 elapsed=00:32:45 remaining=03:25:36 eta=2026-09-06 03:22:31
+[2026-09-05 23:57:22] epoch=6 step=450/805 loss=2.677241 cls=0.530346 bbox=0.948620 obj=1.027559 kps=0.170716 elapsed=00:33:13 remaining=03:25:48 eta=2026-09-06 03:23:10
+[2026-09-05 23:57:46] epoch=6 step=500/805 loss=2.670541 cls=0.529650 bbox=0.945076 obj=1.026022 kps=0.169793 elapsed=00:33:36 remaining=03:25:33 eta=2026-09-06 03:23:19
+[2026-09-05 23:58:10] epoch=6 step=550/805 loss=2.668600 cls=0.529375 bbox=0.943509 obj=1.026762 kps=0.168953 elapsed=00:34:00 remaining=03:25:20 eta=2026-09-06 03:23:30
+[2026-09-05 23:58:33] epoch=6 step=600/805 loss=2.674765 cls=0.529988 bbox=0.945667 obj=1.029295 kps=0.169815 elapsed=00:34:23 remaining=03:25:04 eta=2026-09-06 03:23:38
+[2026-09-05 23:58:56] epoch=6 step=650/805 loss=2.678861 cls=0.530283 bbox=0.947141 obj=1.031166 kps=0.170271 elapsed=00:34:46 remaining=03:24:43 eta=2026-09-06 03:23:39
+[2026-09-05 23:59:16] epoch=6 step=700/805 loss=2.675784 cls=0.530242 bbox=0.946794 obj=1.028704 kps=0.170044 elapsed=00:35:07 remaining=03:24:13 eta=2026-09-06 03:23:30
+[2026-09-05 23:59:46] epoch=6 step=750/805 loss=2.673820 cls=0.529973 bbox=0.945993 obj=1.028564 kps=0.169289 elapsed=00:35:36 remaining=03:24:31 eta=2026-09-06 03:24:17
+[2026-09-06 00:00:14] epoch=6 step=800/805 loss=2.669123 cls=0.529525 bbox=0.944028 obj=1.026571 kps=0.168999 elapsed=00:36:05 remaining=03:24:43 eta=2026-09-06 03:24:58
+[2026-09-06 00:00:16] epoch=6 lr=0.00100000 loss=2.666788 cls=0.529316 bbox=0.943202 obj=1.025335 kps=0.168935 epoch_seconds=374.850 sec_per_step=0.4657 samples_per_second=34.36 elapsed=00:36:07 remaining=03:24:39 eta=2026-09-06 03:24:56
+[2026-09-06 00:00:16] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 00:00:16] start_eval epoch=6 steps=202
+[2026-09-06 00:01:28] eval epoch=6 loss=3.321609 cls=0.544218 bbox=1.161912 obj=1.615479 kps=0.000000
+[2026-09-06 00:01:28] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_6.pth
+[2026-09-06 00:01:28] start epoch=7/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:37:18 remaining=03:31:25 eta=2026-09-06 03:32:54
+[2026-09-06 00:01:28] epoch=7 step=1/805 loss=2.353493 cls=0.516278 bbox=0.887458 obj=0.792775 kps=0.156981 elapsed=00:37:19 remaining=03:31:25 eta=2026-09-06 03:32:54
+[2026-09-06 00:01:50] epoch=7 step=50/805 loss=2.617697 cls=0.524894 bbox=0.926660 obj=1.001846 kps=0.164296 elapsed=00:37:40 remaining=03:30:55 eta=2026-09-06 03:32:46
+[2026-09-06 00:02:16] epoch=7 step=100/805 loss=2.668816 cls=0.526489 bbox=0.936526 obj=1.037375 kps=0.168426 elapsed=00:38:06 remaining=03:30:50 eta=2026-09-06 03:33:06
+[2026-09-06 00:02:37] epoch=7 step=150/805 loss=2.689514 cls=0.529247 bbox=0.947035 obj=1.039042 kps=0.174191 elapsed=00:38:28 remaining=03:30:15 eta=2026-09-06 03:32:53
+[2026-09-06 00:03:00] epoch=7 step=200/805 loss=2.685088 cls=0.529224 bbox=0.946143 obj=1.033881 kps=0.175839 elapsed=00:38:51 remaining=03:29:51 eta=2026-09-06 03:32:52
+[2026-09-06 00:03:23] epoch=7 step=250/805 loss=2.687333 cls=0.529889 bbox=0.949876 obj=1.035722 kps=0.171846 elapsed=00:39:13 remaining=03:29:26 eta=2026-09-06 03:32:50
+[2026-09-06 00:03:42] epoch=7 step=300/805 loss=2.657985 cls=0.528522 bbox=0.942267 obj=1.016772 kps=0.170424 elapsed=00:39:32 remaining=03:28:41 eta=2026-09-06 03:32:23
+[2026-09-06 00:04:02] epoch=7 step=350/805 loss=2.659891 cls=0.528890 bbox=0.943660 obj=1.017605 kps=0.169736 elapsed=00:39:52 remaining=03:27:59 eta=2026-09-06 03:32:02
+[2026-09-06 00:04:21] epoch=7 step=400/805 loss=2.665547 cls=0.528904 bbox=0.943909 obj=1.023518 kps=0.169217 elapsed=00:40:11 remaining=03:27:17 eta=2026-09-06 03:31:39
+[2026-09-06 00:04:40] epoch=7 step=450/805 loss=2.659811 cls=0.528445 bbox=0.941821 obj=1.020080 kps=0.169464 elapsed=00:40:31 remaining=03:26:35 eta=2026-09-06 03:31:16
+[2026-09-06 00:04:59] epoch=7 step=500/805 loss=2.649775 cls=0.527874 bbox=0.939186 obj=1.014042 kps=0.168673 elapsed=00:40:50 remaining=03:25:52 eta=2026-09-06 03:30:52
+[2026-09-06 00:05:19] epoch=7 step=550/805 loss=2.660599 cls=0.528541 bbox=0.941940 obj=1.020847 kps=0.169271 elapsed=00:41:09 remaining=03:25:12 eta=2026-09-06 03:30:31
+[2026-09-06 00:05:39] epoch=7 step=600/805 loss=2.659829 cls=0.528295 bbox=0.940690 obj=1.021073 kps=0.169771 elapsed=00:41:29 remaining=03:24:33 eta=2026-09-06 03:30:12
+[2026-09-06 00:05:59] epoch=7 step=650/805 loss=2.670427 cls=0.529139 bbox=0.944062 obj=1.026353 kps=0.170873 elapsed=00:41:49 remaining=03:23:57 eta=2026-09-06 03:29:57
+[2026-09-06 00:06:21] epoch=7 step=700/805 loss=2.666466 cls=0.529192 bbox=0.943648 obj=1.023187 kps=0.170438 elapsed=00:42:11 remaining=03:23:28 eta=2026-09-06 03:29:49
+[2026-09-06 00:06:41] epoch=7 step=750/805 loss=2.670046 cls=0.529210 bbox=0.944039 obj=1.025727 kps=0.171070 elapsed=00:42:31 remaining=03:22:54 eta=2026-09-06 03:29:35
+[2026-09-06 00:07:01] epoch=7 step=800/805 loss=2.665622 cls=0.528835 bbox=0.942350 obj=1.023221 kps=0.171215 elapsed=00:42:52 remaining=03:22:19 eta=2026-09-06 03:29:21
+[2026-09-06 00:07:03] epoch=7 lr=0.00100000 loss=2.666505 cls=0.528869 bbox=0.942703 obj=1.023709 kps=0.171223 epoch_seconds=335.329 sec_per_step=0.4166 samples_per_second=38.41 elapsed=00:42:53 remaining=03:22:14 eta=2026-09-06 03:29:18
+[2026-09-06 00:07:03] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 00:07:03] start_eval epoch=7 steps=202
+[2026-09-06 00:08:06] eval epoch=7 loss=3.243619 cls=0.546003 bbox=1.161679 obj=1.535937 kps=0.000000
+[2026-09-06 00:08:06] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_7.pth
+[2026-09-06 00:08:06] start epoch=8/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:43:56 remaining=03:27:09 eta=2026-09-06 03:35:15
+[2026-09-06 00:08:06] epoch=8 step=1/805 loss=3.380368 cls=0.571623 bbox=1.136294 obj=1.496344 kps=0.176107 elapsed=00:43:56 remaining=03:27:08 eta=2026-09-06 03:35:15
+[2026-09-06 00:08:27] epoch=8 step=50/805 loss=2.673277 cls=0.527680 bbox=0.938461 obj=1.041178 kps=0.165958 elapsed=00:44:17 remaining=03:26:36 eta=2026-09-06 03:35:04
+[2026-09-06 00:08:49] epoch=8 step=100/805 loss=2.637935 cls=0.526634 bbox=0.932817 obj=1.013907 kps=0.164578 elapsed=00:44:39 remaining=03:26:04 eta=2026-09-06 03:34:53
+[2026-09-06 00:09:11] epoch=8 step=150/805 loss=2.635006 cls=0.526420 bbox=0.932693 obj=1.013417 kps=0.162476 elapsed=00:45:01 remaining=03:25:35 eta=2026-09-06 03:34:46
+[2026-09-06 00:09:33] epoch=8 step=200/805 loss=2.641943 cls=0.527340 bbox=0.933840 obj=1.015617 kps=0.165147 elapsed=00:45:23 remaining=03:25:07 eta=2026-09-06 03:34:40
+[2026-09-06 00:09:55] epoch=8 step=250/805 loss=2.650770 cls=0.528490 bbox=0.936740 obj=1.020862 kps=0.164677 elapsed=00:45:45 remaining=03:24:37 eta=2026-09-06 03:34:32
+[2026-09-06 00:10:16] epoch=8 step=300/805 loss=2.639559 cls=0.527830 bbox=0.934394 obj=1.012987 kps=0.164348 elapsed=00:46:07 remaining=03:24:06 eta=2026-09-06 03:34:23
+[2026-09-06 00:10:37] epoch=8 step=350/805 loss=2.639295 cls=0.527138 bbox=0.932328 obj=1.014903 kps=0.164927 elapsed=00:46:28 remaining=03:23:32 eta=2026-09-06 03:34:10
+[2026-09-06 00:11:01] epoch=8 step=400/805 loss=2.644838 cls=0.527926 bbox=0.935205 obj=1.015924 kps=0.165783 elapsed=00:46:52 remaining=03:23:12 eta=2026-09-06 03:34:14
+[2026-09-06 00:11:23] epoch=8 step=450/805 loss=2.650744 cls=0.528001 bbox=0.937040 obj=1.019922 kps=0.165781 elapsed=00:47:13 remaining=03:22:42 eta=2026-09-06 03:34:05
+[2026-09-06 00:11:44] epoch=8 step=500/805 loss=2.649688 cls=0.527955 bbox=0.936490 obj=1.019954 kps=0.165289 elapsed=00:47:35 remaining=03:22:10 eta=2026-09-06 03:33:55
+[2026-09-06 00:12:05] epoch=8 step=550/805 loss=2.648045 cls=0.527546 bbox=0.934897 obj=1.019222 kps=0.166379 elapsed=00:47:55 remaining=03:21:34 eta=2026-09-06 03:33:39
+[2026-09-06 00:12:25] epoch=8 step=600/805 loss=2.652328 cls=0.527746 bbox=0.935922 obj=1.021937 kps=0.166722 elapsed=00:48:15 remaining=03:20:58 eta=2026-09-06 03:33:24
+[2026-09-06 00:12:45] epoch=8 step=650/805 loss=2.648373 cls=0.527865 bbox=0.936194 obj=1.017754 kps=0.166560 elapsed=00:48:36 remaining=03:20:24 eta=2026-09-06 03:33:09
+[2026-09-06 00:13:08] epoch=8 step=700/805 loss=2.652007 cls=0.527936 bbox=0.937022 obj=1.019579 kps=0.167470 elapsed=00:48:58 remaining=03:19:59 eta=2026-09-06 03:33:07
+[2026-09-06 00:13:30] epoch=8 step=750/805 loss=2.650358 cls=0.527908 bbox=0.936586 obj=1.017811 kps=0.168053 elapsed=00:49:21 remaining=03:19:32 eta=2026-09-06 03:33:03
+[2026-09-06 00:13:52] epoch=8 step=800/805 loss=2.650787 cls=0.528133 bbox=0.937389 obj=1.016812 kps=0.168453 elapsed=00:49:42 remaining=03:19:01 eta=2026-09-06 03:32:53
+[2026-09-06 00:13:54] epoch=8 lr=0.00100000 loss=2.649479 cls=0.528030 bbox=0.936999 obj=1.015966 kps=0.168483 epoch_seconds=347.793 sec_per_step=0.4320 samples_per_second=37.03 elapsed=00:49:44 remaining=03:18:57 eta=2026-09-06 03:32:51
+[2026-09-06 00:13:54] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 00:13:54] start_eval epoch=8 steps=202
+[2026-09-06 00:14:56] eval epoch=8 loss=3.211410 cls=0.542656 bbox=1.161927 obj=1.506828 kps=0.000000
+[2026-09-06 00:14:56] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_8.pth
+[2026-09-06 00:14:56] start epoch=9/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:50:46 remaining=03:23:06 eta=2026-09-06 03:38:02
+[2026-09-06 00:14:56] epoch=9 step=1/805 loss=1.807003 cls=0.483858 bbox=0.721256 obj=0.501080 kps=0.100808 elapsed=00:50:47 remaining=03:23:05 eta=2026-09-06 03:38:02
+[2026-09-06 00:15:17] epoch=9 step=50/805 loss=2.543261 cls=0.523516 bbox=0.912204 obj=0.945367 kps=0.162174 elapsed=00:51:07 remaining=03:22:33 eta=2026-09-06 03:37:50
+[2026-09-06 00:15:39] epoch=9 step=100/805 loss=2.582116 cls=0.527389 bbox=0.929619 obj=0.962000 kps=0.163108 elapsed=00:51:29 remaining=03:22:03 eta=2026-09-06 03:37:42
+[2026-09-06 00:16:00] epoch=9 step=150/805 loss=2.583775 cls=0.524717 bbox=0.922183 obj=0.971614 kps=0.165261 elapsed=00:51:51 remaining=03:21:30 eta=2026-09-06 03:37:31
+[2026-09-06 00:16:21] epoch=9 step=200/805 loss=2.588524 cls=0.524419 bbox=0.922528 obj=0.976250 kps=0.165327 elapsed=00:52:11 remaining=03:20:56 eta=2026-09-06 03:37:17
+[2026-09-06 00:16:44] epoch=9 step=250/805 loss=2.600100 cls=0.525536 bbox=0.926508 obj=0.980693 kps=0.167363 elapsed=00:52:34 remaining=03:20:29 eta=2026-09-06 03:37:13
+[2026-09-06 00:17:07] epoch=9 step=300/805 loss=2.611483 cls=0.526017 bbox=0.929389 obj=0.989132 kps=0.166945 elapsed=00:52:58 remaining=03:20:05 eta=2026-09-06 03:37:13
+[2026-09-06 00:17:30] epoch=9 step=350/805 loss=2.614087 cls=0.525834 bbox=0.928535 obj=0.991966 kps=0.167751 elapsed=00:53:21 remaining=03:19:39 eta=2026-09-06 03:37:10
+[2026-09-06 00:17:56] epoch=9 step=400/805 loss=2.616575 cls=0.525252 bbox=0.926562 obj=0.996515 kps=0.168247 elapsed=00:53:46 remaining=03:19:24 eta=2026-09-06 03:37:20
+[2026-09-06 00:18:20] epoch=9 step=450/805 loss=2.629230 cls=0.525822 bbox=0.929427 obj=1.004565 kps=0.169415 elapsed=00:54:11 remaining=03:19:03 eta=2026-09-06 03:37:24
+[2026-09-06 00:18:43] epoch=9 step=500/805 loss=2.622408 cls=0.525429 bbox=0.927305 obj=1.000247 kps=0.169427 elapsed=00:54:33 remaining=03:18:35 eta=2026-09-06 03:37:18
+[2026-09-06 00:19:04] epoch=9 step=550/805 loss=2.619588 cls=0.525426 bbox=0.926835 obj=0.998435 kps=0.168893 elapsed=00:54:54 remaining=03:18:03 eta=2026-09-06 03:37:07
+[2026-09-06 00:19:26] epoch=9 step=600/805 loss=2.624437 cls=0.525781 bbox=0.928083 obj=1.000846 kps=0.169727 elapsed=00:55:16 remaining=03:17:32 eta=2026-09-06 03:36:58
+[2026-09-06 00:19:48] epoch=9 step=650/805 loss=2.618467 cls=0.525760 bbox=0.927583 obj=0.995839 kps=0.169286 elapsed=00:55:39 remaining=03:17:06 eta=2026-09-06 03:36:55
+[2026-09-06 00:20:11] epoch=9 step=700/805 loss=2.617704 cls=0.525853 bbox=0.928022 obj=0.994397 kps=0.169432 elapsed=00:56:01 remaining=03:16:38 eta=2026-09-06 03:36:49
+[2026-09-06 00:20:35] epoch=9 step=750/805 loss=2.620566 cls=0.525907 bbox=0.928200 obj=0.997081 kps=0.169379 elapsed=00:56:26 remaining=03:16:19 eta=2026-09-06 03:36:54
+[2026-09-06 00:20:57] epoch=9 step=800/805 loss=2.627403 cls=0.526263 bbox=0.930265 obj=1.001025 kps=0.169850 elapsed=00:56:48 remaining=03:15:49 eta=2026-09-06 03:36:47
+[2026-09-06 00:21:00] epoch=9 lr=0.00100000 loss=2.629711 cls=0.526341 bbox=0.930612 obj=1.002885 kps=0.169873 epoch_seconds=363.770 sec_per_step=0.4519 samples_per_second=35.41 elapsed=00:56:50 remaining=03:15:47 eta=2026-09-06 03:36:47
+[2026-09-06 00:21:00] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 00:21:00] start_eval epoch=9 steps=202
+[2026-09-06 00:21:58] eval epoch=9 loss=3.234876 cls=0.547435 bbox=1.170081 obj=1.517360 kps=0.000000
+[2026-09-06 00:21:58] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_9.pth
+[2026-09-06 00:21:58] start epoch=10/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:57:49 remaining=03:19:09 eta=2026-09-06 03:41:08
+[2026-09-06 00:21:59] epoch=10 step=1/805 loss=2.688374 cls=0.516296 bbox=0.920104 obj=1.133140 kps=0.118833 elapsed=00:57:49 remaining=03:19:08 eta=2026-09-06 03:41:07
+[2026-09-06 00:22:20] epoch=10 step=50/805 loss=2.523336 cls=0.523161 bbox=0.915805 obj=0.929936 kps=0.154434 elapsed=00:58:10 remaining=03:18:36 eta=2026-09-06 03:40:56
+[2026-09-06 00:22:41] epoch=10 step=100/805 loss=2.578037 cls=0.525890 bbox=0.929171 obj=0.964392 kps=0.158585 elapsed=00:58:32 remaining=03:18:05 eta=2026-09-06 03:40:47
+[2026-09-06 00:23:03] epoch=10 step=150/805 loss=2.629952 cls=0.527534 bbox=0.938062 obj=1.000399 kps=0.163957 elapsed=00:58:53 remaining=03:17:33 eta=2026-09-06 03:40:37
+[2026-09-06 00:23:25] epoch=10 step=200/805 loss=2.632886 cls=0.526548 bbox=0.934311 obj=1.005544 kps=0.166483 elapsed=00:59:15 remaining=03:17:03 eta=2026-09-06 03:40:28
+[2026-09-06 00:23:46] epoch=10 step=250/805 loss=2.642484 cls=0.527532 bbox=0.937970 obj=1.010556 kps=0.166426 elapsed=00:59:37 remaining=03:16:31 eta=2026-09-06 03:40:18
+[2026-09-06 00:24:09] epoch=10 step=300/805 loss=2.641206 cls=0.527706 bbox=0.938306 obj=1.008260 kps=0.166933 elapsed=00:59:59 remaining=03:16:02 eta=2026-09-06 03:40:11
+[2026-09-06 00:24:30] epoch=10 step=350/805 loss=2.628305 cls=0.527398 bbox=0.935803 obj=0.998380 kps=0.166725 elapsed=01:00:20 remaining=03:15:30 eta=2026-09-06 03:40:01
+[2026-09-06 00:24:52] epoch=10 step=400/805 loss=2.626362 cls=0.526912 bbox=0.933529 obj=0.998834 kps=0.167088 elapsed=01:00:43 remaining=03:15:02 eta=2026-09-06 03:39:55
+[2026-09-06 00:25:15] epoch=10 step=450/805 loss=2.632299 cls=0.527750 bbox=0.937418 obj=0.999681 kps=0.167450 elapsed=01:01:05 remaining=03:14:33 eta=2026-09-06 03:39:49
+[2026-09-06 00:25:37] epoch=10 step=500/805 loss=2.647007 cls=0.528637 bbox=0.941706 obj=1.008891 kps=0.167774 elapsed=01:01:27 remaining=03:14:04 eta=2026-09-06 03:39:41
+[2026-09-06 00:25:59] epoch=10 step=550/805 loss=2.650696 cls=0.528766 bbox=0.942355 obj=1.011898 kps=0.167677 elapsed=01:01:49 remaining=03:13:35 eta=2026-09-06 03:39:34
+[2026-09-06 00:26:21] epoch=10 step=600/805 loss=2.657036 cls=0.528824 bbox=0.942875 obj=1.017583 kps=0.167755 elapsed=01:02:11 remaining=03:13:05 eta=2026-09-06 03:39:26
+[2026-09-06 00:26:42] epoch=10 step=650/805 loss=2.657953 cls=0.529133 bbox=0.943953 obj=1.017089 kps=0.167778 elapsed=01:02:32 remaining=03:12:32 eta=2026-09-06 03:39:14
+[2026-09-06 00:27:02] epoch=10 step=700/805 loss=2.660281 cls=0.528984 bbox=0.943350 obj=1.019616 kps=0.168332 elapsed=01:02:52 remaining=03:11:57 eta=2026-09-06 03:38:59
+[2026-09-06 00:27:22] epoch=10 step=750/805 loss=2.665413 cls=0.529433 bbox=0.945072 obj=1.022393 kps=0.168514 elapsed=01:03:12 remaining=03:11:23 eta=2026-09-06 03:38:45
+[2026-09-06 00:27:43] epoch=10 step=800/805 loss=2.667729 cls=0.529166 bbox=0.944059 obj=1.025333 kps=0.169172 elapsed=01:03:34 remaining=03:10:51 eta=2026-09-06 03:38:35
+[2026-09-06 00:27:45] epoch=10 lr=0.00100000 loss=2.669682 cls=0.529260 bbox=0.944667 obj=1.026398 kps=0.169358 epoch_seconds=346.862 sec_per_step=0.4309 samples_per_second=37.13 elapsed=01:03:36 remaining=03:10:48 eta=2026-09-06 03:38:33
+[2026-09-06 00:27:45] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 00:27:45] saved_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/epoch_10.pth
+[2026-09-06 00:27:45] start_eval epoch=10 steps=202
+[2026-09-06 00:29:22] eval epoch=10 loss=3.222650 cls=0.549178 bbox=1.192739 obj=1.480734 kps=0.000000
+[2026-09-06 00:29:22] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_10.pth
+[2026-09-06 00:29:22] start epoch=11/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=01:05:13 remaining=03:15:39 eta=2026-09-06 03:45:01
+[2026-09-06 00:29:23] epoch=11 step=1/805 loss=3.094391 cls=0.566954 bbox=1.104190 obj=1.271587 kps=0.151661 elapsed=01:05:13 remaining=03:15:38 eta=2026-09-06 03:45:02
+[2026-09-06 00:29:45] epoch=11 step=50/805 loss=2.705919 cls=0.532954 bbox=0.960735 obj=1.049119 kps=0.163111 elapsed=01:05:35 remaining=03:15:09 eta=2026-09-06 03:44:54
+[2026-09-06 00:30:06] epoch=11 step=100/805 loss=2.665999 cls=0.531038 bbox=0.951527 obj=1.018291 kps=0.165142 elapsed=01:05:57 remaining=03:14:37 eta=2026-09-06 03:44:43
+[2026-09-06 00:30:40] epoch=11 step=150/805 loss=2.655720 cls=0.529736 bbox=0.945851 obj=1.016909 kps=0.163224 elapsed=01:06:30 remaining=03:14:39 eta=2026-09-06 03:45:19
+[2026-09-06 00:31:07] epoch=11 step=200/805 loss=2.666318 cls=0.529934 bbox=0.948329 obj=1.023763 kps=0.164292 elapsed=01:06:58 remaining=03:14:24 eta=2026-09-06 03:45:32
+[2026-09-06 00:31:33] epoch=11 step=250/805 loss=2.663563 cls=0.530096 bbox=0.948228 obj=1.019820 kps=0.165419 elapsed=01:07:24 remaining=03:14:04 eta=2026-09-06 03:45:38
+[2026-09-06 00:32:00] epoch=11 step=300/805 loss=2.668184 cls=0.530063 bbox=0.948702 obj=1.022058 kps=0.167362 elapsed=01:07:51 remaining=03:13:48 eta=2026-09-06 03:45:48
+[2026-09-06 00:32:21] epoch=11 step=350/805 loss=2.675307 cls=0.530161 bbox=0.949592 obj=1.027193 kps=0.168361 elapsed=01:08:11 remaining=03:13:13 eta=2026-09-06 03:45:35
+[2026-09-06 00:32:41] epoch=11 step=400/805 loss=2.690946 cls=0.530509 bbox=0.951088 obj=1.040338 kps=0.169011 elapsed=01:08:32 remaining=03:12:37 eta=2026-09-06 03:45:19
+[2026-09-06 00:33:02] epoch=11 step=450/805 loss=2.690414 cls=0.530568 bbox=0.950309 obj=1.040089 kps=0.169448 elapsed=01:08:52 remaining=03:12:02 eta=2026-09-06 03:45:04
+[2026-09-06 00:33:23] epoch=11 step=500/805 loss=2.684092 cls=0.529925 bbox=0.947095 obj=1.038455 kps=0.168616 elapsed=01:09:13 remaining=03:11:29 eta=2026-09-06 03:44:52
+[2026-09-06 00:33:43] epoch=11 step=550/805 loss=2.677511 cls=0.529207 bbox=0.943954 obj=1.035629 kps=0.168721 elapsed=01:09:33 remaining=03:10:53 eta=2026-09-06 03:44:36
+[2026-09-06 00:34:03] epoch=11 step=600/805 loss=2.686576 cls=0.530246 bbox=0.948472 obj=1.039230 kps=0.168629 elapsed=01:09:53 remaining=03:10:18 eta=2026-09-06 03:44:21
+[2026-09-06 00:34:25] epoch=11 step=650/805 loss=2.685387 cls=0.530104 bbox=0.948277 obj=1.038945 kps=0.168061 elapsed=01:10:15 remaining=03:09:47 eta=2026-09-06 03:44:13
+[2026-09-06 00:34:46] epoch=11 step=700/805 loss=2.683614 cls=0.530040 bbox=0.947990 obj=1.037286 kps=0.168298 elapsed=01:10:37 remaining=03:09:16 eta=2026-09-06 03:44:02
+[2026-09-06 00:35:06] epoch=11 step=750/805 loss=2.682970 cls=0.529859 bbox=0.947670 obj=1.036661 kps=0.168781 elapsed=01:10:57 remaining=03:08:40 eta=2026-09-06 03:43:47
+[2026-09-06 00:35:27] epoch=11 step=800/805 loss=2.675818 cls=0.529347 bbox=0.945111 obj=1.032750 kps=0.168609 elapsed=01:11:17 remaining=03:08:06 eta=2026-09-06 03:43:33
+[2026-09-06 00:35:29] epoch=11 lr=0.00100000 loss=2.676641 cls=0.529457 bbox=0.945476 obj=1.033050 kps=0.168658 epoch_seconds=366.730 sec_per_step=0.4556 samples_per_second=35.12 elapsed=01:11:19 remaining=03:08:02 eta=2026-09-06 03:43:32
+[2026-09-06 00:35:29] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 00:35:29] start_eval epoch=11 steps=202
+[2026-09-06 00:36:31] eval epoch=11 loss=3.230337 cls=0.551332 bbox=1.192085 obj=1.486920 kps=0.000000
+[2026-09-06 00:36:31] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_11.pth
+[2026-09-06 00:36:31] start epoch=12/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=01:12:21 remaining=03:10:46 eta=2026-09-06 03:47:17
+[2026-09-06 00:36:31] epoch=12 step=1/805 loss=2.700750 cls=0.541828 bbox=0.989443 obj=1.009646 kps=0.159834 elapsed=01:12:22 remaining=03:10:45 eta=2026-09-06 03:47:17
+[2026-09-06 00:36:52] epoch=12 step=50/805 loss=2.644148 cls=0.527349 bbox=0.928199 obj=1.027270 kps=0.161330 elapsed=01:12:42 remaining=03:10:13 eta=2026-09-06 03:47:05
+[2026-09-06 00:37:14] epoch=12 step=100/805 loss=2.612688 cls=0.524675 bbox=0.918430 obj=1.005798 kps=0.163785 elapsed=01:13:04 remaining=03:09:42 eta=2026-09-06 03:46:56
+[2026-09-06 00:37:34] epoch=12 step=150/805 loss=2.632216 cls=0.526293 bbox=0.928630 obj=1.012176 kps=0.165118 elapsed=01:13:25 remaining=03:09:06 eta=2026-09-06 03:46:41
+[2026-09-06 00:37:55] epoch=12 step=200/805 loss=2.627598 cls=0.525939 bbox=0.928441 obj=1.006023 kps=0.167196 elapsed=01:13:46 remaining=03:08:34 eta=2026-09-06 03:46:29
+[2026-09-06 00:38:16] epoch=12 step=250/805 loss=2.631781 cls=0.527598 bbox=0.934066 obj=1.002243 kps=0.167875 elapsed=01:14:07 remaining=03:08:00 eta=2026-09-06 03:46:17
+[2026-09-06 00:38:37] epoch=12 step=300/805 loss=2.627727 cls=0.526682 bbox=0.930922 obj=1.002484 kps=0.167640 elapsed=01:14:27 remaining=03:07:26 eta=2026-09-06 03:46:04
+[2026-09-06 00:38:59] epoch=12 step=350/805 loss=2.639605 cls=0.527327 bbox=0.934504 obj=1.009044 kps=0.168730 elapsed=01:14:49 remaining=03:06:55 eta=2026-09-06 03:45:54
+[2026-09-06 00:39:21] epoch=12 step=400/805 loss=2.655155 cls=0.527864 bbox=0.938435 obj=1.019190 kps=0.169666 elapsed=01:15:12 remaining=03:06:26 eta=2026-09-06 03:45:48
+[2026-09-06 00:39:42] epoch=12 step=450/805 loss=2.650931 cls=0.527908 bbox=0.938464 obj=1.015901 kps=0.168659 elapsed=01:15:33 remaining=03:05:54 eta=2026-09-06 03:45:37
+[2026-09-06 00:40:04] epoch=12 step=500/805 loss=2.641617 cls=0.527629 bbox=0.936973 obj=1.009139 kps=0.167876 elapsed=01:15:55 remaining=03:05:23 eta=2026-09-06 03:45:28
+[2026-09-06 00:40:26] epoch=12 step=550/805 loss=2.652767 cls=0.527906 bbox=0.938832 obj=1.018641 kps=0.167389 elapsed=01:16:17 remaining=03:04:54 eta=2026-09-06 03:45:21
+[2026-09-06 00:40:49] epoch=12 step=600/805 loss=2.650878 cls=0.527795 bbox=0.938614 obj=1.016621 kps=0.167847 elapsed=01:16:39 remaining=03:04:24 eta=2026-09-06 03:45:13
+[2026-09-06 00:41:10] epoch=12 step=650/805 loss=2.647750 cls=0.527558 bbox=0.937866 obj=1.014620 kps=0.167705 elapsed=01:17:01 remaining=03:03:53 eta=2026-09-06 03:45:04
+[2026-09-06 00:41:33] epoch=12 step=700/805 loss=2.646880 cls=0.527595 bbox=0.937249 obj=1.013600 kps=0.168437 elapsed=01:17:23 remaining=03:03:25 eta=2026-09-06 03:44:58
+[2026-09-06 00:41:55] epoch=12 step=750/805 loss=2.651690 cls=0.527967 bbox=0.938480 obj=1.016887 kps=0.168357 elapsed=01:17:46 remaining=03:02:57 eta=2026-09-06 03:44:53
+[2026-09-06 00:42:17] epoch=12 step=800/805 loss=2.651017 cls=0.527918 bbox=0.938048 obj=1.016583 kps=0.168468 elapsed=01:18:07 remaining=03:02:26 eta=2026-09-06 03:44:43
+[2026-09-06 00:42:19] epoch=12 lr=0.00100000 loss=2.648587 cls=0.527714 bbox=0.937175 obj=1.015148 kps=0.168550 epoch_seconds=348.064 sec_per_step=0.4324 samples_per_second=37.00 elapsed=01:18:09 remaining=03:02:22 eta=2026-09-06 03:44:42
+[2026-09-06 00:42:19] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 00:42:19] start_eval epoch=12 steps=202
+[2026-09-06 00:43:16] eval epoch=12 loss=3.231683 cls=0.548007 bbox=1.183223 obj=1.500452 kps=0.000000
+[2026-09-06 00:43:16] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_12.pth
+[2026-09-06 00:43:16] start epoch=13/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=01:19:06 remaining=03:04:35 eta=2026-09-06 03:47:52
+[2026-09-06 00:43:16] epoch=13 step=1/805 loss=2.627988 cls=0.521587 bbox=0.892510 obj=1.098664 kps=0.115228 elapsed=01:19:07 remaining=03:04:35 eta=2026-09-06 03:47:52
+[2026-09-06 00:43:37] epoch=13 step=50/805 loss=2.774314 cls=0.537755 bbox=0.980864 obj=1.073095 kps=0.182600 elapsed=01:19:28 remaining=03:04:03 eta=2026-09-06 03:47:41
+[2026-09-06 00:43:58] epoch=13 step=100/805 loss=2.698221 cls=0.530687 bbox=0.948078 obj=1.045255 kps=0.174202 elapsed=01:19:48 remaining=03:03:29 eta=2026-09-06 03:47:28
+[2026-09-06 00:44:19] epoch=13 step=150/805 loss=2.692156 cls=0.529329 bbox=0.944687 obj=1.043284 kps=0.174856 elapsed=01:20:09 remaining=03:02:57 eta=2026-09-06 03:47:16
+[2026-09-06 00:44:40] epoch=13 step=200/805 loss=2.705890 cls=0.532013 bbox=0.953666 obj=1.044323 kps=0.175889 elapsed=01:20:30 remaining=03:02:25 eta=2026-09-06 03:47:05
+[2026-09-06 00:45:01] epoch=13 step=250/805 loss=2.707790 cls=0.532140 bbox=0.956424 obj=1.045372 kps=0.173853 elapsed=01:20:52 remaining=03:01:53 eta=2026-09-06 03:46:55
+[2026-09-06 00:45:23] epoch=13 step=300/805 loss=2.705973 cls=0.532004 bbox=0.956281 obj=1.043216 kps=0.174472 elapsed=01:21:14 remaining=03:01:23 eta=2026-09-06 03:46:47
+[2026-09-06 00:45:46] epoch=13 step=350/805 loss=2.699516 cls=0.531534 bbox=0.954772 obj=1.039100 kps=0.174111 elapsed=01:21:36 remaining=03:00:54 eta=2026-09-06 03:46:40
+[2026-09-06 00:46:06] epoch=13 step=400/805 loss=2.679716 cls=0.529853 bbox=0.947911 obj=1.029016 kps=0.172936 elapsed=01:21:57 remaining=03:00:21 eta=2026-09-06 03:46:27
+[2026-09-06 00:46:27] epoch=13 step=450/805 loss=2.680152 cls=0.529819 bbox=0.947597 obj=1.030654 kps=0.172082 elapsed=01:22:18 remaining=02:59:49 eta=2026-09-06 03:46:17
+[2026-09-06 00:46:48] epoch=13 step=500/805 loss=2.674916 cls=0.529581 bbox=0.946188 obj=1.028199 kps=0.170948 elapsed=01:22:39 remaining=02:59:18 eta=2026-09-06 03:46:06
+[2026-09-06 00:47:09] epoch=13 step=550/805 loss=2.675159 cls=0.529695 bbox=0.946457 obj=1.027755 kps=0.171252 elapsed=01:22:59 remaining=02:58:45 eta=2026-09-06 03:45:54
+[2026-09-06 00:47:32] epoch=13 step=600/805 loss=2.675998 cls=0.529540 bbox=0.945788 obj=1.030333 kps=0.170336 elapsed=01:23:23 remaining=02:58:19 eta=2026-09-06 03:45:51
+[2026-09-06 00:47:54] epoch=13 step=650/805 loss=2.681323 cls=0.530084 bbox=0.948015 obj=1.032493 kps=0.170731 elapsed=01:23:44 remaining=02:57:48 eta=2026-09-06 03:45:43
+[2026-09-06 00:48:16] epoch=13 step=700/805 loss=2.684721 cls=0.530333 bbox=0.948828 obj=1.034831 kps=0.170729 elapsed=01:24:06 remaining=02:57:19 eta=2026-09-06 03:45:36
+[2026-09-06 00:48:37] epoch=13 step=750/805 loss=2.683466 cls=0.530054 bbox=0.947434 obj=1.035274 kps=0.170705 elapsed=01:24:27 remaining=02:56:47 eta=2026-09-06 03:45:24
+[2026-09-06 00:48:57] epoch=13 step=800/805 loss=2.683003 cls=0.530188 bbox=0.947704 obj=1.034505 kps=0.170606 elapsed=01:24:47 remaining=02:56:14 eta=2026-09-06 03:45:11
+[2026-09-06 00:48:59] epoch=13 lr=0.00100000 loss=2.683263 cls=0.530160 bbox=0.947563 obj=1.034776 kps=0.170764 epoch_seconds=342.793 sec_per_step=0.4258 samples_per_second=37.57 elapsed=01:24:49 remaining=02:56:10 eta=2026-09-06 03:45:09
+[2026-09-06 00:48:59] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 00:48:59] start_eval epoch=13 steps=202
+[2026-09-06 00:49:57] eval epoch=13 loss=3.240459 cls=0.547083 bbox=1.176319 obj=1.517056 kps=0.000000
+[2026-09-06 00:49:57] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_13.pth
+[2026-09-06 00:49:57] start epoch=14/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=01:25:47 remaining=02:58:11 eta=2026-09-06 03:48:08
+[2026-09-06 00:49:57] epoch=14 step=1/805 loss=2.805491 cls=0.539569 bbox=1.006406 obj=1.053345 kps=0.206171 elapsed=01:25:48 remaining=02:58:10 eta=2026-09-06 03:48:08
+[2026-09-06 00:50:19] epoch=14 step=50/805 loss=2.556701 cls=0.524804 bbox=0.922593 obj=0.950334 kps=0.158970 elapsed=01:26:09 remaining=02:57:41 eta=2026-09-06 03:48:00
+[2026-09-06 00:50:39] epoch=14 step=100/805 loss=2.545039 cls=0.524911 bbox=0.921590 obj=0.940426 kps=0.158113 elapsed=01:26:30 remaining=02:57:08 eta=2026-09-06 03:47:48
+[2026-09-06 00:51:01] epoch=14 step=150/805 loss=2.593794 cls=0.527269 bbox=0.932406 obj=0.972503 kps=0.161616 elapsed=01:26:52 remaining=02:56:39 eta=2026-09-06 03:47:41
+[2026-09-06 00:51:24] epoch=14 step=200/805 loss=2.614819 cls=0.527492 bbox=0.935284 obj=0.991166 kps=0.160878 elapsed=01:27:15 remaining=02:56:11 eta=2026-09-06 03:47:35
+[2026-09-06 00:51:47] epoch=14 step=250/805 loss=2.620668 cls=0.527413 bbox=0.934691 obj=0.996826 kps=0.161739 elapsed=01:27:37 remaining=02:55:42 eta=2026-09-06 03:47:29
+[2026-09-06 00:52:09] epoch=14 step=300/805 loss=2.631967 cls=0.528119 bbox=0.937951 obj=1.002584 kps=0.163314 elapsed=01:28:00 remaining=02:55:13 eta=2026-09-06 03:47:23
+[2026-09-06 00:52:30] epoch=14 step=350/805 loss=2.625553 cls=0.527336 bbox=0.934305 obj=0.999557 kps=0.164355 elapsed=01:28:21 remaining=02:54:41 eta=2026-09-06 03:47:12
+[2026-09-06 00:52:51] epoch=14 step=400/805 loss=2.619672 cls=0.526930 bbox=0.932015 obj=0.995490 kps=0.165236 elapsed=01:28:42 remaining=02:54:11 eta=2026-09-06 03:47:03
+[2026-09-06 00:53:12] epoch=14 step=450/805 loss=2.620832 cls=0.526516 bbox=0.930853 obj=0.997209 kps=0.166253 elapsed=01:29:03 remaining=02:53:39 eta=2026-09-06 03:46:52
+[2026-09-06 00:53:37] epoch=14 step=500/805 loss=2.630160 cls=0.527139 bbox=0.933584 obj=1.002433 kps=0.167003 elapsed=01:29:27 remaining=02:53:15 eta=2026-09-06 03:46:52
+[2026-09-06 00:54:00] epoch=14 step=550/805 loss=2.632614 cls=0.526833 bbox=0.933170 obj=1.004569 kps=0.168041 elapsed=01:29:50 remaining=02:52:48 eta=2026-09-06 03:46:48
+[2026-09-06 00:54:21] epoch=14 step=600/805 loss=2.629289 cls=0.526749 bbox=0.932679 obj=1.002168 kps=0.167693 elapsed=01:30:11 remaining=02:52:17 eta=2026-09-06 03:46:38
+[2026-09-06 00:54:41] epoch=14 step=650/805 loss=2.625669 cls=0.525878 bbox=0.929627 obj=1.003079 kps=0.167084 elapsed=01:30:31 remaining=02:51:43 eta=2026-09-06 03:46:25
+[2026-09-06 00:55:02] epoch=14 step=700/805 loss=2.642837 cls=0.526646 bbox=0.933052 obj=1.014790 kps=0.168349 elapsed=01:30:52 remaining=02:51:12 eta=2026-09-06 03:46:14
+[2026-09-06 00:55:21] epoch=14 step=750/805 loss=2.643077 cls=0.526344 bbox=0.931698 obj=1.015777 kps=0.169258 elapsed=01:31:12 remaining=02:50:39 eta=2026-09-06 03:46:01
+[2026-09-06 00:55:43] epoch=14 step=800/805 loss=2.645421 cls=0.526462 bbox=0.932289 obj=1.016921 kps=0.169750 elapsed=01:31:33 remaining=02:50:09 eta=2026-09-06 03:45:52
+[2026-09-06 00:55:45] epoch=14 lr=0.00100000 loss=2.646626 cls=0.526521 bbox=0.932533 obj=1.017787 kps=0.169784 epoch_seconds=347.861 sec_per_step=0.4321 samples_per_second=37.03 elapsed=01:31:35 remaining=02:50:06 eta=2026-09-06 03:45:51
+[2026-09-06 00:55:45] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 00:55:45] start_eval epoch=14 steps=202
+[2026-09-06 00:56:42] eval epoch=14 loss=3.134809 cls=0.546456 bbox=1.162197 obj=1.426157 kps=0.000000
+[2026-09-06 00:56:43] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_14.pth
+[2026-09-06 00:56:43] start epoch=15/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=01:32:33 remaining=02:51:53 eta=2026-09-06 03:48:36
+[2026-09-06 00:56:43] epoch=15 step=1/805 loss=2.442526 cls=0.522910 bbox=0.892339 obj=0.864929 kps=0.162349 elapsed=01:32:33 remaining=02:51:53 eta=2026-09-06 03:48:36
+[2026-09-06 00:57:04] epoch=15 step=50/805 loss=2.593215 cls=0.522458 bbox=0.915557 obj=0.986727 kps=0.168473 elapsed=01:32:55 remaining=02:51:23 eta=2026-09-06 03:48:27
+[2026-09-06 00:57:27] epoch=15 step=100/805 loss=2.618616 cls=0.526128 bbox=0.927275 obj=0.997549 kps=0.167663 elapsed=01:33:18 remaining=02:50:55 eta=2026-09-06 03:48:23
+[2026-09-06 00:57:50] epoch=15 step=150/805 loss=2.614791 cls=0.526727 bbox=0.928454 obj=0.996623 kps=0.162987 elapsed=01:33:40 remaining=02:50:27 eta=2026-09-06 03:48:18
+[2026-09-06 00:58:12] epoch=15 step=200/805 loss=2.630238 cls=0.526865 bbox=0.930033 obj=1.008138 kps=0.165201 elapsed=01:34:03 remaining=02:49:59 eta=2026-09-06 03:48:12
+[2026-09-06 00:58:33] epoch=15 step=250/805 loss=2.652552 cls=0.527877 bbox=0.936047 obj=1.020623 kps=0.168005 elapsed=01:34:24 remaining=02:49:28 eta=2026-09-06 03:48:02
+[2026-09-06 00:58:54] epoch=15 step=300/805 loss=2.653382 cls=0.527803 bbox=0.936368 obj=1.020630 kps=0.168581 elapsed=01:34:45 remaining=02:48:57 eta=2026-09-06 03:47:52
+[2026-09-06 00:59:16] epoch=15 step=350/805 loss=2.651380 cls=0.527254 bbox=0.934094 obj=1.019611 kps=0.170421 elapsed=01:35:06 remaining=02:48:27 eta=2026-09-06 03:47:43
+[2026-09-06 00:59:38] epoch=15 step=400/805 loss=2.663565 cls=0.527864 bbox=0.937836 obj=1.027065 kps=0.170799 elapsed=01:35:28 remaining=02:47:58 eta=2026-09-06 03:47:36
+[2026-09-06 01:00:00] epoch=15 step=450/805 loss=2.662228 cls=0.527863 bbox=0.938191 obj=1.025532 kps=0.170642 elapsed=01:35:50 remaining=02:47:28 eta=2026-09-06 03:47:28
+[2026-09-06 01:00:20] epoch=15 step=500/805 loss=2.663949 cls=0.527415 bbox=0.936962 obj=1.028186 kps=0.171385 elapsed=01:36:11 remaining=02:46:57 eta=2026-09-06 03:47:18
+[2026-09-06 01:00:40] epoch=15 step=550/805 loss=2.668815 cls=0.527382 bbox=0.937511 obj=1.032611 kps=0.171311 elapsed=01:36:31 remaining=02:46:25 eta=2026-09-06 03:47:06
+[2026-09-06 01:01:01] epoch=15 step=600/805 loss=2.663067 cls=0.527058 bbox=0.935933 obj=1.028930 kps=0.171145 elapsed=01:36:51 remaining=02:45:53 eta=2026-09-06 03:46:54
+[2026-09-06 01:01:21] epoch=15 step=650/805 loss=2.673437 cls=0.527394 bbox=0.938346 obj=1.035768 kps=0.171929 elapsed=01:37:12 remaining=02:45:22 eta=2026-09-06 03:46:44
+[2026-09-06 01:01:41] epoch=15 step=700/805 loss=2.667394 cls=0.527226 bbox=0.937489 obj=1.031704 kps=0.170974 elapsed=01:37:32 remaining=02:44:50 eta=2026-09-06 03:46:32
+[2026-09-06 01:02:03] epoch=15 step=750/805 loss=2.665313 cls=0.527308 bbox=0.937673 obj=1.029596 kps=0.170735 elapsed=01:37:53 remaining=02:44:21 eta=2026-09-06 03:46:24
+[2026-09-06 01:02:24] epoch=15 step=800/805 loss=2.662261 cls=0.527049 bbox=0.936322 obj=1.028051 kps=0.170839 elapsed=01:38:15 remaining=02:43:51 eta=2026-09-06 03:46:16
+[2026-09-06 01:02:26] epoch=15 lr=0.00100000 loss=2.663561 cls=0.527161 bbox=0.936891 obj=1.028600 kps=0.170909 epoch_seconds=343.669 sec_per_step=0.4269 samples_per_second=37.48 elapsed=01:38:17 remaining=02:43:48 eta=2026-09-06 03:46:15
+[2026-09-06 01:02:26] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 01:02:26] saved_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/epoch_15.pth
+[2026-09-06 01:02:26] start_eval epoch=15 steps=202
+[2026-09-06 01:03:26] eval epoch=15 loss=3.300912 cls=0.551479 bbox=1.188854 obj=1.560579 kps=0.000000
+[2026-09-06 01:03:26] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/eval_epoch_15.pth
+[2026-09-06 01:03:26] start epoch=16/40 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=01:39:17 remaining=02:45:28 eta=2026-09-06 03:48:55
+[2026-09-06 01:03:27] epoch=16 step=1/805 loss=2.522832 cls=0.520869 bbox=0.924137 obj=0.949400 kps=0.128426 elapsed=01:39:17 remaining=02:45:28 eta=2026-09-06 03:48:55
+[2026-09-06 01:03:47] epoch=16 step=50/805 loss=2.682171 cls=0.533546 bbox=0.954560 obj=1.028820 kps=0.165246 elapsed=01:39:37 remaining=02:44:57 eta=2026-09-06 03:48:44
+[2026-09-06 01:04:09] epoch=16 step=100/805 loss=2.693729 cls=0.528717 bbox=0.939395 obj=1.054451 kps=0.171166 elapsed=01:39:59 remaining=02:44:28 eta=2026-09-06 03:48:37
+[2026-09-06 01:04:30] epoch=16 step=150/805 loss=2.734638 cls=0.531691 bbox=0.954257 obj=1.076526 kps=0.172163 elapsed=01:40:21 remaining=02:43:58 eta=2026-09-06 03:48:29
+[2026-09-06 01:04:51] epoch=16 step=200/805 loss=2.716294 cls=0.530590 bbox=0.949738 obj=1.061242 kps=0.174724 elapsed=01:40:42 remaining=02:43:28 eta=2026-09-06 03:48:20
+[2026-09-06 01:05:13] epoch=16 step=250/805 loss=2.698822 cls=0.529769 bbox=0.945440 obj=1.048062 kps=0.175551 elapsed=01:41:04 remaining=02:42:58 eta=2026-09-06 03:48:12
+[2026-09-06 01:05:34] epoch=16 step=300/805 loss=2.678860 cls=0.529247 bbox=0.942738 obj=1.031739 kps=0.175136 elapsed=01:41:25 remaining=02:42:29 eta=2026-09-06 03:48:04
+[2026-09-06 01:05:56] epoch=16 step=350/805 loss=2.674305 cls=0.529230 bbox=0.943334 obj=1.027606 kps=0.174135 elapsed=01:41:46 remaining=02:41:59 eta=2026-09-06 03:47:55
+[2026-09-06 01:06:18] epoch=16 step=400/805 loss=2.677041 cls=0.529128 bbox=0.942949 obj=1.031007 kps=0.173957 elapsed=01:42:08 remaining=02:41:30 eta=2026-09-06 03:47:48
+[2026-09-06 01:06:43] epoch=16 step=450/805 loss=2.680663 cls=0.529072 bbox=0.943299 obj=1.034476 kps=0.173816 elapsed=01:42:34 remaining=02:41:07 eta=2026-09-06 03:47:50
+[2026-09-06 01:07:07] epoch=16 step=500/805 loss=2.681147 cls=0.528747 bbox=0.942160 obj=1.035897 kps=0.174342 elapsed=01:42:58 remaining=02:40:42 eta=2026-09-06 03:47:50
+[2026-09-06 01:07:39] epoch=16 step=550/805 loss=2.674595 cls=0.528523 bbox=0.941147 obj=1.031512 kps=0.173413 elapsed=01:43:30 remaining=02:40:29 eta=2026-09-06 03:48:09
+[2026-09-06 01:08:20] epoch=16 step=600/805 loss=2.675536 cls=0.528682 bbox=0.941992 obj=1.031663 kps=0.173199 elapsed=01:44:10 remaining=02:40:29 eta=2026-09-06 03:48:49
+[2026-09-06 01:08:50] epoch=16 step=650/805 loss=2.673650 cls=0.528550 bbox=0.941576 obj=1.031331 kps=0.172194 elapsed=01:44:40 remaining=02:40:12 eta=2026-09-06 03:49:02
+[2026-09-06 01:09:14] epoch=16 step=700/805 loss=2.679986 cls=0.528771 bbox=0.942464 obj=1.036262 kps=0.172489 elapsed=01:45:05 remaining=02:39:47 eta=2026-09-06 03:49:01
+[2026-09-06 01:09:35] epoch=16 step=750/805 loss=2.675486 cls=0.528513 bbox=0.941288 obj=1.033293 kps=0.172393 elapsed=01:45:26 remaining=02:39:17 eta=2026-09-06 03:48:52
+[2026-09-06 01:09:57] epoch=16 step=800/805 loss=2.668099 cls=0.528247 bbox=0.939793 obj=1.028159 kps=0.171900 elapsed=01:45:47 remaining=02:38:47 eta=2026-09-06 03:48:45
+[2026-09-06 01:09:59] epoch=16 lr=0.00100000 loss=2.665918 cls=0.528130 bbox=0.939242 obj=1.026754 kps=0.171792 epoch_seconds=393.065 sec_per_step=0.4883 samples_per_second=32.77 elapsed=01:45:50 remaining=02:38:45 eta=2026-09-06 03:48:45
+[2026-09-06 01:09:59] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/run1/latest.pth
+[2026-09-06 01:09:59] start_eval epoch=16 steps=202

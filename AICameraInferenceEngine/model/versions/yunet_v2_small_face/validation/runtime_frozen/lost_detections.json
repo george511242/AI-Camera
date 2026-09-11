@@ -1,0 +1,1436 @@
+[
+  {
+    "key": [
+      "aflw2000",
+      "image00574.jpg",
+      27
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image00574.jpg",
+      "distance_m": 3.0,
+      "target_face_height_px": 27,
+      "gt_pitch": -0.343,
+      "gt_yaw": -0.317,
+      "gt_roll": -2.449,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h27/aflw2000/image00574.jpg",
+      "gt_bbox": [
+        305.49,
+        226.5,
+        334.51,
+        253.5
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.48397,
+        0.46271,
+        0.51745,
+        0.51904
+      ],
+      "detected_bbox": [
+        0.48397,
+        0.46271,
+        0.51745,
+        0.51904
+      ],
+      "yunet_score": 0.75415,
+      "iou": 0.55272,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": 9.516,
+      "predicted_yaw": 5.328,
+      "predicted_roll": -3.105,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image00574.jpg",
+      "distance_m": 3.0,
+      "target_face_height_px": 27,
+      "gt_pitch": -0.343,
+      "gt_yaw": -0.317,
+      "gt_roll": -2.449,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h27/aflw2000/image00574.jpg",
+      "gt_bbox": [
+        305.49,
+        226.5,
+        334.51,
+        253.5
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.48547,
+        0.46364,
+        0.51479,
+        0.51771
+      ],
+      "detected_bbox": [
+        0.48547,
+        0.46364,
+        0.51479,
+        0.51771
+      ],
+      "yunet_score": 0.90079,
+      "iou": 0.48129,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image00764.jpg",
+      40
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image00764.jpg",
+      "distance_m": 2.0,
+      "target_face_height_px": 40,
+      "gt_pitch": -3.084,
+      "gt_yaw": -2.512,
+      "gt_roll": -2.859,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h40/aflw2000/image00764.jpg",
+      "gt_bbox": [
+        299.1,
+        220.0,
+        340.9,
+        260.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.47817,
+        0.44994,
+        0.52163,
+        0.52868
+      ],
+      "detected_bbox": [
+        0.47817,
+        0.44994,
+        0.52163,
+        0.52868
+      ],
+      "yunet_score": 0.8303,
+      "iou": 0.52639,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": 0.36,
+      "predicted_yaw": 9.422,
+      "predicted_roll": -4.16,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image00764.jpg",
+      "distance_m": 2.0,
+      "target_face_height_px": 40,
+      "gt_pitch": -3.084,
+      "gt_yaw": -2.512,
+      "gt_roll": -2.859,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h40/aflw2000/image00764.jpg",
+      "gt_bbox": [
+        299.1,
+        220.0,
+        340.9,
+        260.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": null,
+      "detected_bbox": null,
+      "yunet_score": null,
+      "iou": 0.0,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "yunet_missed"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image00793.jpg",
+      27
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image00793.jpg",
+      "distance_m": 3.0,
+      "target_face_height_px": 27,
+      "gt_pitch": -18.112,
+      "gt_yaw": 4.312,
+      "gt_roll": -7.268,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h27/aflw2000/image00793.jpg",
+      "gt_bbox": [
+        306.42,
+        226.5,
+        333.58,
+        253.5
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.48288,
+        0.46163,
+        0.51549,
+        0.51481
+      ],
+      "detected_bbox": [
+        0.48288,
+        0.46163,
+        0.51549,
+        0.51481
+      ],
+      "yunet_score": 0.77151,
+      "iou": 0.51455,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -18.219,
+      "predicted_yaw": -1.17,
+      "predicted_roll": -2.072,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image00793.jpg",
+      "distance_m": 3.0,
+      "target_face_height_px": 27,
+      "gt_pitch": -18.112,
+      "gt_yaw": 4.312,
+      "gt_roll": -7.268,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h27/aflw2000/image00793.jpg",
+      "gt_bbox": [
+        306.42,
+        226.5,
+        333.58,
+        253.5
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": null,
+      "detected_bbox": null,
+      "yunet_score": null,
+      "iou": 0.0,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "yunet_missed"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image00888.jpg",
+      80
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image00888.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -35.873,
+      "gt_yaw": -57.743,
+      "gt_roll": 31.818,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image00888.jpg",
+      "gt_bbox": [
+        279.39,
+        200.0,
+        360.61,
+        280.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.45672,
+        0.38236,
+        0.55695,
+        0.54821
+      ],
+      "detected_bbox": [
+        0.45672,
+        0.38236,
+        0.55695,
+        0.54821
+      ],
+      "yunet_score": 0.80178,
+      "iou": 0.53621,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -27.094,
+      "predicted_yaw": -49.844,
+      "predicted_roll": 21.828,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image00888.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -35.873,
+      "gt_yaw": -57.743,
+      "gt_roll": 31.818,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image00888.jpg",
+      "gt_bbox": [
+        279.39,
+        200.0,
+        360.61,
+        280.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.45532,
+        0.37816,
+        0.55238,
+        0.54449
+      ],
+      "detected_bbox": [
+        0.45532,
+        0.37816,
+        0.55238,
+        0.54449
+      ],
+      "yunet_score": 0.88482,
+      "iou": 0.4985,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image01530.jpg",
+      80
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image01530.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -327.972,
+      "gt_yaw": -104.585,
+      "gt_roll": 334.0,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image01530.jpg",
+      "gt_bbox": [
+        284.34,
+        200.0,
+        355.66,
+        280.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.46511,
+        0.40504,
+        0.54198,
+        0.54818
+      ],
+      "detected_bbox": [
+        0.46511,
+        0.40504,
+        0.54198,
+        0.54818
+      ],
+      "yunet_score": 0.75132,
+      "iou": 0.51933,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": 27.516,
+      "predicted_yaw": -57.25,
+      "predicted_roll": -1.394,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image01530.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -327.972,
+      "gt_yaw": -104.585,
+      "gt_roll": 334.0,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image01530.jpg",
+      "gt_bbox": [
+        284.34,
+        200.0,
+        355.66,
+        280.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.46861,
+        0.38938,
+        0.54546,
+        0.55043
+      ],
+      "detected_bbox": [
+        0.46861,
+        0.38938,
+        0.54546,
+        0.55043
+      ],
+      "yunet_score": 0.87532,
+      "iou": 0.49737,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image01586.jpg",
+      80
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image01586.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -31.963,
+      "gt_yaw": -76.247,
+      "gt_roll": 30.991,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image01586.jpg",
+      "gt_bbox": [
+        287.23,
+        200.0,
+        352.77,
+        280.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.44618,
+        0.37061,
+        0.53361,
+        0.55116
+      ],
+      "detected_bbox": [
+        0.44618,
+        0.37061,
+        0.53361,
+        0.55116
+      ],
+      "yunet_score": 0.81296,
+      "iou": 0.53187,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -4.102,
+      "predicted_yaw": -31.828,
+      "predicted_roll": 3.449,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image01586.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -31.963,
+      "gt_yaw": -76.247,
+      "gt_roll": 30.991,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image01586.jpg",
+      "gt_bbox": [
+        287.23,
+        200.0,
+        352.77,
+        280.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": null,
+      "detected_bbox": null,
+      "yunet_score": null,
+      "iou": 0.0,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "yunet_missed"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image01629.jpg",
+      80
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image01629.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -11.833,
+      "gt_yaw": -0.301,
+      "gt_roll": -6.237,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image01629.jpg",
+      "gt_bbox": [
+        282.3,
+        200.0,
+        357.7,
+        280.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.4611,
+        0.40259,
+        0.54518,
+        0.55359
+      ],
+      "detected_bbox": [
+        0.4611,
+        0.40259,
+        0.54518,
+        0.55359
+      ],
+      "yunet_score": 0.88897,
+      "iou": 0.553,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -5.285,
+      "predicted_yaw": -1.139,
+      "predicted_roll": -5.551,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image01629.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -11.833,
+      "gt_yaw": -0.301,
+      "gt_roll": -6.237,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image01629.jpg",
+      "gt_bbox": [
+        282.3,
+        200.0,
+        357.7,
+        280.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.46229,
+        0.39741,
+        0.54435,
+        0.54334
+      ],
+      "detected_bbox": [
+        0.46229,
+        0.39741,
+        0.54435,
+        0.54334
+      ],
+      "yunet_score": 0.86264,
+      "iou": 0.48993,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image01748.jpg",
+      80
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image01748.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -51.075,
+      "gt_yaw": -79.844,
+      "gt_roll": 65.214,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image01748.jpg",
+      "gt_bbox": [
+        288.48,
+        200.0,
+        351.52,
+        280.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.46402,
+        0.37721,
+        0.574,
+        0.56959
+      ],
+      "detected_bbox": [
+        0.46402,
+        0.37721,
+        0.574,
+        0.56959
+      ],
+      "yunet_score": 0.80047,
+      "iou": 0.53114,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -4.504,
+      "predicted_yaw": -29.703,
+      "predicted_roll": -5.129,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image01748.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -51.075,
+      "gt_yaw": -79.844,
+      "gt_roll": 65.214,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image01748.jpg",
+      "gt_bbox": [
+        288.48,
+        200.0,
+        351.52,
+        280.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.46378,
+        0.36952,
+        0.57484,
+        0.56022
+      ],
+      "detected_bbox": [
+        0.46378,
+        0.36952,
+        0.57484,
+        0.56022
+      ],
+      "yunet_score": 0.87377,
+      "iou": 0.48445,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image02079.jpg",
+      80
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image02079.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -4.468,
+      "gt_yaw": 10.082,
+      "gt_roll": 40.512,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image02079.jpg",
+      "gt_bbox": [
+        280.32,
+        200.0,
+        359.68,
+        280.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.45403,
+        0.432,
+        0.54657,
+        0.55734
+      ],
+      "detected_bbox": [
+        0.45403,
+        0.432,
+        0.54657,
+        0.55734
+      ],
+      "yunet_score": 0.81221,
+      "iou": 0.56124,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -9.359,
+      "predicted_yaw": 19.438,
+      "predicted_roll": 36.094,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image02079.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -4.468,
+      "gt_yaw": 10.082,
+      "gt_roll": 40.512,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image02079.jpg",
+      "gt_bbox": [
+        280.32,
+        200.0,
+        359.68,
+        280.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.45771,
+        0.43832,
+        0.54278,
+        0.55478
+      ],
+      "detected_bbox": [
+        0.45771,
+        0.43832,
+        0.54278,
+        0.55478
+      ],
+      "yunet_score": 0.88779,
+      "iou": 0.47938,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image02630.jpg",
+      27
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image02630.jpg",
+      "distance_m": 3.0,
+      "target_face_height_px": 27,
+      "gt_pitch": -9.79,
+      "gt_yaw": -18.523,
+      "gt_roll": 6.719,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h27/aflw2000/image02630.jpg",
+      "gt_bbox": [
+        306.61,
+        226.5,
+        333.39,
+        253.5
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.48642,
+        0.4682,
+        0.5176,
+        0.5208
+      ],
+      "detected_bbox": [
+        0.48642,
+        0.4682,
+        0.5176,
+        0.5208
+      ],
+      "yunet_score": 0.81502,
+      "iou": 0.61803,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -3.545,
+      "predicted_yaw": -18.766,
+      "predicted_roll": 6.883,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image02630.jpg",
+      "distance_m": 3.0,
+      "target_face_height_px": 27,
+      "gt_pitch": -9.79,
+      "gt_yaw": -18.523,
+      "gt_roll": 6.719,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h27/aflw2000/image02630.jpg",
+      "gt_bbox": [
+        306.61,
+        226.5,
+        333.39,
+        253.5
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": null,
+      "detected_bbox": null,
+      "yunet_score": null,
+      "iou": 0.0,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "yunet_missed"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image03016.jpg",
+      80
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image03016.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -5.189,
+      "gt_yaw": -29.406,
+      "gt_roll": -25.498,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image03016.jpg",
+      "gt_bbox": [
+        279.08,
+        200.0,
+        360.92,
+        280.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.46709,
+        0.42695,
+        0.54664,
+        0.56514
+      ],
+      "detected_bbox": [
+        0.46709,
+        0.42695,
+        0.54664,
+        0.56514
+      ],
+      "yunet_score": 0.78746,
+      "iou": 0.51577,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -12.844,
+      "predicted_yaw": -35.969,
+      "predicted_roll": -20.906,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image03016.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": -5.189,
+      "gt_yaw": -29.406,
+      "gt_roll": -25.498,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image03016.jpg",
+      "gt_bbox": [
+        279.08,
+        200.0,
+        360.92,
+        280.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.46822,
+        0.42494,
+        0.54314,
+        0.55372
+      ],
+      "detected_bbox": [
+        0.46822,
+        0.42494,
+        0.54314,
+        0.55372
+      ],
+      "yunet_score": 0.8891,
+      "iou": 0.45276,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image03143.jpg",
+      80
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image03143.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": 29.403,
+      "gt_yaw": -67.435,
+      "gt_roll": -41.75,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image03143.jpg",
+      "gt_bbox": [
+        285.3,
+        200.0,
+        354.7,
+        280.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.47123,
+        0.4123,
+        0.54265,
+        0.55305
+      ],
+      "detected_bbox": [
+        0.47123,
+        0.4123,
+        0.54265,
+        0.55305
+      ],
+      "yunet_score": 0.79403,
+      "iou": 0.52986,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": 39.25,
+      "predicted_yaw": -58.031,
+      "predicted_roll": -20.531,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image03143.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": 29.403,
+      "gt_yaw": -67.435,
+      "gt_roll": -41.75,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image03143.jpg",
+      "gt_bbox": [
+        285.3,
+        200.0,
+        354.7,
+        280.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.47657,
+        0.42266,
+        0.5439,
+        0.5567
+      ],
+      "detected_bbox": [
+        0.47657,
+        0.42266,
+        0.5439,
+        0.5567
+      ],
+      "yunet_score": 0.87955,
+      "iou": 0.49937,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image03195.jpg",
+      40
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image03195.jpg",
+      "distance_m": 2.0,
+      "target_face_height_px": 40,
+      "gt_pitch": -8.045,
+      "gt_yaw": 41.556,
+      "gt_roll": -10.008,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h40/aflw2000/image03195.jpg",
+      "gt_bbox": [
+        300.53,
+        220.0,
+        339.47,
+        260.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.47689,
+        0.45401,
+        0.51732,
+        0.52776
+      ],
+      "detected_bbox": [
+        0.47689,
+        0.45401,
+        0.51732,
+        0.52776
+      ],
+      "yunet_score": 0.87609,
+      "iou": 0.53515,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -11.086,
+      "predicted_yaw": 41.125,
+      "predicted_roll": -14.586,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image03195.jpg",
+      "distance_m": 2.0,
+      "target_face_height_px": 40,
+      "gt_pitch": -8.045,
+      "gt_yaw": 41.556,
+      "gt_roll": -10.008,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h40/aflw2000/image03195.jpg",
+      "gt_bbox": [
+        300.53,
+        220.0,
+        339.47,
+        260.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.47701,
+        0.45253,
+        0.51532,
+        0.52658
+      ],
+      "detected_bbox": [
+        0.47701,
+        0.45253,
+        0.51532,
+        0.52658
+      ],
+      "yunet_score": 0.9018,
+      "iou": 0.49404,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image03386.jpg",
+      40
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image03386.jpg",
+      "distance_m": 2.0,
+      "target_face_height_px": 40,
+      "gt_pitch": 2.525,
+      "gt_yaw": -2.491,
+      "gt_roll": -5.1,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h40/aflw2000/image03386.jpg",
+      "gt_bbox": [
+        299.67,
+        220.0,
+        340.33,
+        260.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.47709,
+        0.4561,
+        0.52013,
+        0.5217
+      ],
+      "detected_bbox": [
+        0.47709,
+        0.4561,
+        0.52013,
+        0.5217
+      ],
+      "yunet_score": 0.85357,
+      "iou": 0.50591,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -4.207,
+      "predicted_yaw": -13.445,
+      "predicted_roll": -2.826,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image03386.jpg",
+      "distance_m": 2.0,
+      "target_face_height_px": 40,
+      "gt_pitch": 2.525,
+      "gt_yaw": -2.491,
+      "gt_roll": -5.1,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h40/aflw2000/image03386.jpg",
+      "gt_bbox": [
+        299.67,
+        220.0,
+        340.33,
+        260.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.47646,
+        0.45493,
+        0.51908,
+        0.52143
+      ],
+      "detected_bbox": [
+        0.47646,
+        0.45493,
+        0.51908,
+        0.52143
+      ],
+      "yunet_score": 0.90462,
+      "iou": 0.49442,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image03440.jpg",
+      40
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image03440.jpg",
+      "distance_m": 2.0,
+      "target_face_height_px": 40,
+      "gt_pitch": -6.501,
+      "gt_yaw": -8.083,
+      "gt_roll": 4.988,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h40/aflw2000/image03440.jpg",
+      "gt_bbox": [
+        300.99,
+        220.0,
+        339.01,
+        260.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.4782,
+        0.45853,
+        0.52388,
+        0.53395
+      ],
+      "detected_bbox": [
+        0.4782,
+        0.45853,
+        0.52388,
+        0.53395
+      ],
+      "yunet_score": 0.75893,
+      "iou": 0.69597,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -15.594,
+      "predicted_yaw": -15.281,
+      "predicted_roll": 2.898,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image03440.jpg",
+      "distance_m": 2.0,
+      "target_face_height_px": 40,
+      "gt_pitch": -6.501,
+      "gt_yaw": -8.083,
+      "gt_roll": 4.988,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h40/aflw2000/image03440.jpg",
+      "gt_bbox": [
+        300.99,
+        220.0,
+        339.01,
+        260.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": null,
+      "detected_bbox": null,
+      "yunet_score": null,
+      "iou": 0.0,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "yunet_missed"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image03652.jpg",
+      80
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image03652.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": 26.406,
+      "gt_yaw": -18.473,
+      "gt_roll": 7.638,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image03652.jpg",
+      "gt_bbox": [
+        283.3,
+        200.0,
+        356.7,
+        280.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.46331,
+        0.42414,
+        0.54017,
+        0.55304
+      ],
+      "detected_bbox": [
+        0.46331,
+        0.42414,
+        0.54017,
+        0.55304
+      ],
+      "yunet_score": 0.89105,
+      "iou": 0.51831,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": 8.805,
+      "predicted_yaw": -25.984,
+      "predicted_roll": 14.75,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image03652.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": 26.406,
+      "gt_yaw": -18.473,
+      "gt_roll": 7.638,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image03652.jpg",
+      "gt_bbox": [
+        283.3,
+        200.0,
+        356.7,
+        280.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.46633,
+        0.4329,
+        0.54356,
+        0.55189
+      ],
+      "detected_bbox": [
+        0.46633,
+        0.4329,
+        0.54356,
+        0.55189
+      ],
+      "yunet_score": 0.91055,
+      "iou": 0.48076,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image04224.jpg",
+      27
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image04224.jpg",
+      "distance_m": 3.0,
+      "target_face_height_px": 27,
+      "gt_pitch": -18.736,
+      "gt_yaw": 5.673,
+      "gt_roll": -5.929,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h27/aflw2000/image04224.jpg",
+      "gt_bbox": [
+        305.65,
+        226.5,
+        334.35,
+        253.5
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.48093,
+        0.46323,
+        0.51753,
+        0.5273
+      ],
+      "detected_bbox": [
+        0.48093,
+        0.46323,
+        0.51753,
+        0.5273
+      ],
+      "yunet_score": 0.77289,
+      "iou": 0.71448,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": -16.062,
+      "predicted_yaw": 0.203,
+      "predicted_roll": -5.531,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image04224.jpg",
+      "distance_m": 3.0,
+      "target_face_height_px": 27,
+      "gt_pitch": -18.736,
+      "gt_yaw": 5.673,
+      "gt_roll": -5.929,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h27/aflw2000/image04224.jpg",
+      "gt_bbox": [
+        305.65,
+        226.5,
+        334.35,
+        253.5
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": null,
+      "detected_bbox": null,
+      "yunet_score": null,
+      "iou": 0.0,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "yunet_missed"
+    }
+  },
+  {
+    "key": [
+      "aflw2000",
+      "image04308.jpg",
+      80
+    ],
+    "old": {
+      "dataset": "aflw2000",
+      "source_id": "image04308.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": 34.156,
+      "gt_yaw": 20.715,
+      "gt_roll": 1.158,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image04308.jpg",
+      "gt_bbox": [
+        279.86,
+        200.0,
+        360.14,
+        280.0
+      ],
+      "version": "v4-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.45349,
+        0.40356,
+        0.54152,
+        0.55575
+      ],
+      "detected_bbox": [
+        0.45349,
+        0.40356,
+        0.54152,
+        0.55575
+      ],
+      "yunet_score": 0.9141,
+      "iou": 0.555,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": 17.188,
+      "predicted_yaw": 40.094,
+      "predicted_roll": -5.234,
+      "failure_reason": null
+    },
+    "corrected": {
+      "dataset": "aflw2000",
+      "source_id": "image04308.jpg",
+      "distance_m": 1.0,
+      "target_face_height_px": 80,
+      "gt_pitch": 34.156,
+      "gt_yaw": 20.715,
+      "gt_roll": 1.158,
+      "file": "/home/g2004/datasets/vac-distance/generated/v1_distance_test/h80/aflw2000/image04308.jpg",
+      "gt_bbox": [
+        279.86,
+        200.0,
+        360.14,
+        280.0
+      ],
+      "version": "yunet-bgr-xywh-age-v4-gender-v2-pose-v1-rk3588",
+      "crop_source": "yunet",
+      "crop_bbox": [
+        0.45711,
+        0.40007,
+        0.54102,
+        0.5483
+      ],
+      "detected_bbox": [
+        0.45711,
+        0.40007,
+        0.54102,
+        0.5483
+      ],
+      "yunet_score": 0.92341,
+      "iou": 0.49537,
+      "predicted_age": null,
+      "predicted_gender": null,
+      "predicted_pitch": null,
+      "predicted_yaw": null,
+      "predicted_roll": null,
+      "failure_reason": "wrong_face_matched"
+    }
+  }
+]

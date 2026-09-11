@@ -1,0 +1,363 @@
+{"source_id": "10_0_0_20170110224255796.jpg.chip.jpg", "group_id": "family_00032", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "21_1_4_20170103234037067.jpg.chip.jpg", "group_id": "family_00035", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "23_1_4_20170103224258631.jpg.chip.jpg", "group_id": "family_00035", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "25_1_2_20170104021048828.jpg.chip.jpg", "group_id": "family_00035", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "25_1_4_20170103224747408.jpg.chip.jpg", "group_id": "family_00035", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "26_1_0_20170105183649031.jpg.chip.jpg", "group_id": "family_00035", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "26_1_1_20170103181439968.jpg.chip.jpg", "group_id": "family_00035", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "26_1_2_20170104022229597.jpg.chip.jpg", "group_id": "family_00035", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "27_1_3_20170104223505487.jpg.chip.jpg", "group_id": "family_00035", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "61_0_0_20170111203523343.jpg.chip.jpg", "group_id": "family_00035", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "10_0_0_20170110224725285.jpg.chip.jpg", "group_id": "family_00039", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "12_1_0_20170109201611941.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "13_0_0_20170110224751365.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "14_1_0_20170109213541777.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "15_1_0_20170109213537150.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "15_1_0_20170109214024612.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "15_1_0_20170109214723528.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "16_1_0_20170103201213287.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "16_1_3_20170104223028462.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "18_1_0_20170103201359471.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "18_1_0_20170109213013086.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "18_1_0_20170109214554528.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "18_1_0_20170109214610454.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "18_1_0_20170109214752340.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "19_1_4_20170103201818104.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "1_0_3_20161219224645904.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "20_1_3_20170104222034231.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "20_1_4_20170105183316775.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "21_1_2_20170103201800511.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "21_1_3_20170104231611130.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "21_1_4_20170103223237335.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "21_1_4_20170103224520560.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "23_1_0_20170103163123528.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "23_1_4_20161223214747066.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "24_1_0_20170103180642496.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "24_1_0_20170104015931173.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "24_1_0_20170104021527253.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "24_1_2_20170104234618170.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "24_1_3_20170104231625010.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "24_1_4_20170103224705429.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "25_1_0_20170105002736333.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "25_1_0_20170109213630541.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "25_1_2_20170104021958662.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "25_1_4_20161223214751864.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "26_1_0_20170103234817732.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "26_1_2_20170105163951372.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "26_1_3_20170104220140542.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "26_1_4_20170103230455729.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "26_1_4_20170109002629914.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "27_0_3_20170104225852088.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "27_1_0_20170103183711648.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "27_1_0_20170105183347327.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "27_1_3_20170104223405095.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "27_1_3_20170104232647592.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "28_1_0_20170104181551957.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "28_1_4_20170103230506947.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "29_1_3_20170104232524938.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "2_0_3_20161219225927088.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "30_1_2_20170104020950540.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "31_0_0_20170104201726242.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "31_0_3_20170104230610969.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "31_1_0_20170105162529475.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "31_1_4_20161221193717222.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "32_1_3_20170109141339133.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "33_1_0_20170103181937009.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "33_1_0_20170105003407044.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "33_1_3_20170104232231283.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "34_0_0_20170104204354155.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "34_1_0_20170103163031248.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "34_1_0_20170103182647402.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "34_1_2_20170104201443273.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "35_1_0_20170103182746666.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "35_1_0_20170108225911130.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "35_1_0_20170111182452837.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "35_1_2_20170103182708145.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "36_1_0_20170103181448864.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "36_1_0_20170104171717858.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "36_1_0_20170105001300131.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "36_1_3_20161220221952627.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "38_1_0_20170104171602219.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "38_1_0_20170109221205343.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "38_1_2_20170108224407554.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "38_1_2_20170109140654630.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "39_1_0_20170104183924038.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "3_1_0_20161219225130536.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "3_1_0_20170109191511657.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "3_1_0_20170109192758746.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "40_1_1_20170110153441199.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "41_1_0_20170111182452877.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "43_0_0_20170104210240958.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "47_0_0_20170104211906453.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "49_0_0_20170104213117085.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "49_1_0_20170103180443960.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "50_0_0_20170104205729700.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "52_1_3_20170104232909130.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "55_1_0_20170110160643407.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "56_1_3_20170109133800445.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "56_1_3_20170109142228705.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "5_1_4_20161221193811941.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "7_1_0_20170109205404516.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "7_1_4_20170103233309314.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "8_1_0_20170109202434032.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "8_1_0_20170109202804967.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "8_1_0_20170109203448247.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "8_1_0_20170109204836782.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "8_1_0_20170109205258890.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "8_1_0_20170109205515528.jpg.chip.jpg", "group_id": "family_00053", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "10_0_4_20161221192738446.jpg.chip.jpg", "group_id": "family_00071", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "20_1_0_20170103175645974.jpg.chip.jpg", "group_id": "family_00071", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "23_1_3_20170104231839354.jpg.chip.jpg", "group_id": "family_00071", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "10_0_4_20170103200335831.jpg.chip.jpg", "group_id": "family_00072", "linked_splits": ["test", "train"]}
+{"source_id": "15_1_4_20170103234910356.jpg.chip.jpg", "group_id": "family_00079", "linked_splits": ["train", "validation"]}
+{"source_id": "11_1_0_20170109203422194.jpg.chip.jpg", "group_id": "family_00091", "linked_splits": ["test", "train"]}
+{"source_id": "23_1_3_20170104220147782.jpg.chip.jpg", "group_id": "family_00098", "linked_splits": ["external_benchmark", "test", "train"]}
+{"source_id": "47_1_0_20170103183432930.jpg.chip.jpg", "group_id": "family_00098", "linked_splits": ["external_benchmark", "test", "train"]}
+{"source_id": "8_1_0_20170109203437340.jpg.chip.jpg", "group_id": "family_00104", "linked_splits": ["test", "train"]}
+{"source_id": "13_0_0_20170110225059227.jpg.chip.jpg", "group_id": "family_00151", "linked_splits": ["test", "train"]}
+{"source_id": "11_1_0_20170109203327397.jpg.chip.jpg", "group_id": "family_00165", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "18_1_0_20170109214120554.jpg.chip.jpg", "group_id": "family_00165", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "25_1_0_20170103163718321.jpg.chip.jpg", "group_id": "family_00186", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "17_1_0_20170109213929449.jpg.chip.jpg", "group_id": "family_00195", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "12_0_0_20170110225028524.jpg.chip.jpg", "group_id": "family_00208", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "22_0_2_20170104020041910.jpg.chip.jpg", "group_id": "family_00224", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "12_1_0_20170102234723371.jpg.chip.jpg", "group_id": "family_00233", "linked_splits": ["test", "train"]}
+{"source_id": "26_1_3_20170104215700398.jpg.chip.jpg", "group_id": "family_00233", "linked_splits": ["test", "train"]}
+{"source_id": "12_1_0_20170104013410523.jpg.chip.jpg", "group_id": "family_00243", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "15_1_4_20170103233304142.jpg.chip.jpg", "group_id": "family_00248", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "14_1_0_20170109203340834.jpg.chip.jpg", "group_id": "family_00263", "linked_splits": ["test", "train"]}
+{"source_id": "12_1_0_20170109212505669.jpg.chip.jpg", "group_id": "family_00271", "linked_splits": ["train", "validation"]}
+{"source_id": "12_1_2_20170109214246240.jpg.chip.jpg", "group_id": "family_00283", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "16_1_0_20170102234728107.jpg.chip.jpg", "group_id": "family_00283", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "17_1_4_20161223214728028.jpg.chip.jpg", "group_id": "family_00283", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "3_1_0_20161219190805051.jpg.chip.jpg", "group_id": "family_00283", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "9_0_0_20170110220406314.jpg.chip.jpg", "group_id": "family_00293", "linked_splits": ["train", "validation"]}
+{"source_id": "32_1_0_20170103181503793.jpg.chip.jpg", "group_id": "family_00297", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "13_0_0_20170104013342923.jpg.chip.jpg", "group_id": "family_00306", "linked_splits": ["test", "train"]}
+{"source_id": "20_1_3_20170104222029447.jpg.chip.jpg", "group_id": "family_00306", "linked_splits": ["test", "train"]}
+{"source_id": "25_1_3_20170109132228225.jpg.chip.jpg", "group_id": "family_00306", "linked_splits": ["test", "train"]}
+{"source_id": "38_1_0_20170103181733834.jpg.chip.jpg", "group_id": "family_00337", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "54_1_3_20170109140625083.jpg.chip.jpg", "group_id": "family_00337", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "8_1_4_20161221202611945.jpg.chip.jpg", "group_id": "family_00362", "linked_splits": ["test", "train"]}
+{"source_id": "14_0_0_20170104012341136.jpg.chip.jpg", "group_id": "family_00373", "linked_splits": ["test", "train"]}
+{"source_id": "14_0_0_2017011022340900.jpg.chip.jpg", "group_id": "family_00377", "linked_splits": ["train", "validation"]}
+{"source_id": "40_1_0_20170105164619947.jpg.chip.jpg", "group_id": "family_00406", "linked_splits": ["test", "train"]}
+{"source_id": "14_1_0_20170103200757286.jpg.chip.jpg", "group_id": "family_00426", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "18_1_2_20170109212939223.jpg.chip.jpg", "group_id": "family_00426", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "20_1_0_20170103163056975.jpg.chip.jpg", "group_id": "family_00426", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "27_1_4_20170103234931350.jpg.chip.jpg", "group_id": "family_00426", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "29_1_2_20170105165156291.jpg.chip.jpg", "group_id": "family_00426", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "14_1_0_20170103200819591.jpg.chip.jpg", "group_id": "family_00427", "linked_splits": ["train", "validation"]}
+{"source_id": "46_1_0_20170104235642515.jpg.chip.jpg", "group_id": "family_00429", "linked_splits": ["train", "validation"]}
+{"source_id": "14_1_0_20170104013351986.jpg.chip.jpg", "group_id": "family_00436", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "32_0_0_20170105165141556.jpg.chip.jpg", "group_id": "family_00506", "linked_splits": ["train", "validation"]}
+{"source_id": "15_0_0_20170110223430616.jpg.chip.jpg", "group_id": "family_00511", "linked_splits": ["train", "validation"]}
+{"source_id": "43_0_0_20170111200147932.jpg.chip.jpg", "group_id": "family_00575", "linked_splits": ["train", "validation"]}
+{"source_id": "18_1_0_20170109214106546.jpg.chip.jpg", "group_id": "family_00583", "linked_splits": ["train", "validation"]}
+{"source_id": "15_1_0_20170109214516641.jpg.chip.jpg", "group_id": "family_00584", "linked_splits": ["test", "train"]}
+{"source_id": "18_1_0_20170109214646809.jpg.chip.jpg", "group_id": "family_00584", "linked_splits": ["test", "train"]}
+{"source_id": "18_1_4_20170103222949566.jpg.chip.jpg", "group_id": "family_00584", "linked_splits": ["test", "train"]}
+{"source_id": "9_1_4_20170103200814791.jpg.chip.jpg", "group_id": "family_00609", "linked_splits": ["train", "validation"]}
+{"source_id": "18_0_0_20170110223927225.jpg.chip.jpg", "group_id": "family_00734", "linked_splits": ["train", "validation"]}
+{"source_id": "31_1_4_20170104165850314.jpg.chip.jpg", "group_id": "family_00736", "linked_splits": ["train", "validation"]}
+{"source_id": "16_1_0_20170104011815680.jpg.chip.jpg", "group_id": "family_00742", "linked_splits": ["test", "train"]}
+{"source_id": "16_1_0_20170109212525685.jpg.chip.jpg", "group_id": "family_00759", "linked_splits": ["train", "validation"]}
+{"source_id": "16_1_0_20170109212959831.jpg.chip.jpg", "group_id": "family_00763", "linked_splits": ["test", "train"]}
+{"source_id": "16_1_4_20170103224851136.jpg.chip.jpg", "group_id": "family_00815", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "8_0_0_20170104012108817.jpg.chip.jpg", "group_id": "family_00870", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "33_0_0_20170104192751495.jpg.chip.jpg", "group_id": "family_00895", "linked_splits": ["test", "train"]}
+{"source_id": "17_1_4_20170103233515202.jpg.chip.jpg", "group_id": "family_00907", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "18_1_0_20170103180718335.jpg.chip.jpg", "group_id": "family_00952", "linked_splits": ["test", "train"]}
+{"source_id": "29_1_0_20170104192921991.jpg.chip.jpg", "group_id": "family_00952", "linked_splits": ["test", "train"]}
+{"source_id": "18_1_0_20170109212538216.jpg.chip.jpg", "group_id": "family_00963", "linked_splits": ["train", "validation"]}
+{"source_id": "24_1_3_20170104231931545.jpg.chip.jpg", "group_id": "family_00963", "linked_splits": ["train", "validation"]}
+{"source_id": "26_1_4_20161221193657350.jpg.chip.jpg", "group_id": "family_00977", "linked_splits": ["train", "validation"]}
+{"source_id": "31_1_0_20170104172947139.jpg.chip.jpg", "group_id": "family_00977", "linked_splits": ["train", "validation"]}
+{"source_id": "18_1_0_20170109213413212.jpg.chip.jpg", "group_id": "family_00992", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "22_1_3_20170109131950179.jpg.chip.jpg", "group_id": "family_00999", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "27_1_3_20170104231620409.jpg.chip.jpg", "group_id": "family_01000", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "28_1_0_20170103183935666.jpg.chip.jpg", "group_id": "family_01000", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "28_1_3_20170109133054332.jpg.chip.jpg", "group_id": "family_01000", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "34_1_0_20170105164257004.jpg.chip.jpg", "group_id": "family_01000", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "36_1_3_20170109141841866.jpg.chip.jpg", "group_id": "family_01000", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "39_1_4_20170105001146812.jpg.chip.jpg", "group_id": "family_01000", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "47_0_0_20170104210353956.jpg.chip.jpg", "group_id": "family_01000", "linked_splits": ["external_benchmark", "test", "train", "validation"]}
+{"source_id": "6_1_0_20170109193106065.jpg.chip.jpg", "group_id": "family_01036", "linked_splits": ["train", "validation"]}
+{"source_id": "19_0_0_20170103201406775.jpg.chip.jpg", "group_id": "family_01079", "linked_splits": ["train", "validation"]}
+{"source_id": "26_1_3_20170104232510106.jpg.chip.jpg", "group_id": "family_01100", "linked_splits": ["train", "validation"]}
+{"source_id": "5_1_0_20170109193852084.jpg.chip.jpg", "group_id": "family_01100", "linked_splits": ["train", "validation"]}
+{"source_id": "39_1_0_20170104171537233.jpg.chip.jpg", "group_id": "family_01102", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "62_1_0_20170110173800240.jpg.chip.jpg", "group_id": "family_01102", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "25_1_3_20161220221512186.jpg.chip.jpg", "group_id": "family_01105", "linked_splits": ["test", "train"]}
+{"source_id": "19_1_3_20170104223253815.jpg.chip.jpg", "group_id": "family_01122", "linked_splits": ["test", "train"]}
+{"source_id": "1_0_0_20161220223221043.jpg.chip.jpg", "group_id": "family_01141", "linked_splits": ["test", "train"]}
+{"source_id": "1_0_0_20161219191012803.jpg.chip.jpg", "group_id": "family_01146", "linked_splits": ["test", "train"]}
+{"source_id": "23_0_4_20170103180302079.jpg.chip.jpg", "group_id": "family_01146", "linked_splits": ["test", "train"]}
+{"source_id": "1_0_2_20161219162118102.jpg.chip.jpg", "group_id": "family_01301", "linked_splits": ["train", "validation"]}
+{"source_id": "1_0_2_20161219142409225.jpg.chip.jpg", "group_id": "family_01310", "linked_splits": ["train", "validation"]}
+{"source_id": "1_0_2_20161219194811588.jpg.chip.jpg", "group_id": "family_01407", "linked_splits": ["test", "train"]}
+{"source_id": "1_0_2_20161219204653181.jpg.chip.jpg", "group_id": "family_01473", "linked_splits": ["train", "validation"]}
+{"source_id": "1_0_2_20161220145040127.jpg.chip.jpg", "group_id": "family_01547", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "1_0_3_20161219224914784.jpg.chip.jpg", "group_id": "family_01569", "linked_splits": ["train", "validation"]}
+{"source_id": "1_0_3_20161220223100579.jpg.chip.jpg", "group_id": "family_01569", "linked_splits": ["train", "validation"]}
+{"source_id": "1_0_3_20161219225410225.jpg.chip.jpg", "group_id": "family_01587", "linked_splits": ["train", "validation"]}
+{"source_id": "1_1_3_20161220143222430.jpg.chip.jpg", "group_id": "family_01591", "linked_splits": ["test", "train"]}
+{"source_id": "1_0_3_20161219230533840.jpg.chip.jpg", "group_id": "family_01599", "linked_splits": ["test", "train"]}
+{"source_id": "1_0_3_20161219230224536.jpg.chip.jpg", "group_id": "family_01617", "linked_splits": ["test", "train"]}
+{"source_id": "1_1_4_20161223231311515.jpg.chip.jpg", "group_id": "family_01626", "linked_splits": ["test", "train"]}
+{"source_id": "1_0_3_20161220222945883.jpg.chip.jpg", "group_id": "family_01641", "linked_splits": ["test", "train"]}
+{"source_id": "27_0_0_20170103181014215.jpg.chip.jpg", "group_id": "family_01643", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "30_0_0_20170105164559132.jpg.chip.jpg", "group_id": "family_01643", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "1_0_3_20161220144949223.jpg.chip.jpg", "group_id": "family_01650", "linked_splits": ["train", "validation"]}
+{"source_id": "1_0_3_20161220220418690.jpg.chip.jpg", "group_id": "family_01650", "linked_splits": ["train", "validation"]}
+{"source_id": "2_0_3_20161220143058738.jpg.chip.jpg", "group_id": "family_01667", "linked_splits": ["train", "validation"]}
+{"source_id": "1_1_3_20161220143111349.jpg.chip.jpg", "group_id": "family_01670", "linked_splits": ["test", "train"]}
+{"source_id": "1_0_4_20161221195039712.jpg.chip.jpg", "group_id": "family_01703", "linked_splits": ["test", "train"]}
+{"source_id": "1_0_4_20161221202127697.jpg.chip.jpg", "group_id": "family_01724", "linked_splits": ["train", "validation"]}
+{"source_id": "1_1_0_20170109190516994.jpg.chip.jpg", "group_id": "family_01777", "linked_splits": ["test", "train"]}
+{"source_id": "1_1_0_20170109194212472.jpg.chip.jpg", "group_id": "family_01777", "linked_splits": ["test", "train"]}
+{"source_id": "1_1_0_20170109193015973.jpg.chip.jpg", "group_id": "family_01794", "linked_splits": ["test", "train"]}
+{"source_id": "1_1_0_20170109190742179.jpg.chip.jpg", "group_id": "family_01795", "linked_splits": ["test", "train"]}
+{"source_id": "1_1_0_20170109190936410.jpg.chip.jpg", "group_id": "family_01807", "linked_splits": ["test", "train"]}
+{"source_id": "1_1_0_20170109191000191.jpg.chip.jpg", "group_id": "family_01812", "linked_splits": ["test", "train"]}
+{"source_id": "1_1_0_20170109192244272.jpg.chip.jpg", "group_id": "family_01843", "linked_splits": ["train", "validation"]}
+{"source_id": "1_1_0_20170109193401456.jpg.chip.jpg", "group_id": "family_01859", "linked_splits": ["train", "validation"]}
+{"source_id": "1_1_3_20161219224951912.jpg.chip.jpg", "group_id": "family_01888", "linked_splits": ["test", "train"]}
+{"source_id": "1_1_1_20170109190848182.jpg.chip.jpg", "group_id": "family_01891", "linked_splits": ["test", "train"]}
+{"source_id": "1_1_2_20161219195318220.jpg.chip.jpg", "group_id": "family_01966", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "1_1_3_20161219225245716.jpg.chip.jpg", "group_id": "family_02066", "linked_splits": ["test", "train"]}
+{"source_id": "1_1_3_20161219225416559.jpg.chip.jpg", "group_id": "family_02070", "linked_splits": ["train", "validation"]}
+{"source_id": "1_1_3_20161219225730216.jpg.chip.jpg", "group_id": "family_02076", "linked_splits": ["train", "validation"]}
+{"source_id": "32_0_0_20170111181750357.jpg.chip.jpg", "group_id": "family_02239", "linked_splits": ["test", "train"]}
+{"source_id": "20_1_2_20170104020820934.jpg.chip.jpg", "group_id": "family_02261", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "36_1_0_20170103182343482.jpg.chip.jpg", "group_id": "family_02261", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "80_1_0_20170110182353061.jpg.chip.jpg", "group_id": "family_02261", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "20_1_4_20161223230115267.jpg.chip.jpg", "group_id": "family_02279", "linked_splits": ["train", "validation"]}
+{"source_id": "20_1_4_20170103223401848.jpg.chip.jpg", "group_id": "family_02285", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "32_1_3_20170104232031954.jpg.chip.jpg", "group_id": "family_02285", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "21_0_3_20170104225749698.jpg.chip.jpg", "group_id": "family_02313", "linked_splits": ["test", "train"]}
+{"source_id": "21_0_4_20161223214821265.jpg.chip.jpg", "group_id": "family_02321", "linked_splits": ["train", "validation"]}
+{"source_id": "28_1_0_20170105164921188.jpg.chip.jpg", "group_id": "family_02338", "linked_splits": ["train", "validation"]}
+{"source_id": "21_1_4_20161221193306453.jpg.chip.jpg", "group_id": "family_02387", "linked_splits": ["train", "validation"]}
+{"source_id": "24_1_3_20170109132425493.jpg.chip.jpg", "group_id": "family_02387", "linked_splits": ["train", "validation"]}
+{"source_id": "21_1_4_20170103223244111.jpg.chip.jpg", "group_id": "family_02396", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "25_1_0_20170103180606727.jpg.chip.jpg", "group_id": "family_02408", "linked_splits": ["train", "validation"]}
+{"source_id": "24_0_4_20170103210052027.jpg.chip.jpg", "group_id": "family_02442", "linked_splits": ["test", "train"]}
+{"source_id": "30_0_4_20170103230146433.jpg.chip.jpg", "group_id": "family_02443", "linked_splits": ["test", "train"]}
+{"source_id": "22_1_3_20170104214404028.jpg.chip.jpg", "group_id": "family_02482", "linked_splits": ["train", "validation"]}
+{"source_id": "22_1_3_20170104222152991.jpg.chip.jpg", "group_id": "family_02486", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "22_1_3_20170104223125535.jpg.chip.jpg", "group_id": "family_02486", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "22_1_3_20170104231720114.jpg.chip.jpg", "group_id": "family_02502", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "43_0_0_20170104205227123.jpg.chip.jpg", "group_id": "family_02515", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "23_0_4_20170103234915411.jpg.chip.jpg", "group_id": "family_02545", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "26_1_0_20170103181112840.jpg.chip.jpg", "group_id": "family_02545", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "23_1_4_20170104011031984.jpg.chip.jpg", "group_id": "family_02615", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "26_1_3_20170104235111171.jpg.chip.jpg", "group_id": "family_02642", "linked_splits": ["external_benchmark", "test", "train"]}
+{"source_id": "24_1_0_20170103163127424.jpg.chip.jpg", "group_id": "family_02654", "linked_splits": ["train", "validation"]}
+{"source_id": "24_1_3_20170104222658903.jpg.chip.jpg", "group_id": "family_02722", "linked_splits": ["train", "validation"]}
+{"source_id": "3_1_3_20161219230521112.jpg.chip.jpg", "group_id": "family_02722", "linked_splits": ["train", "validation"]}
+{"source_id": "24_1_3_20170104231923674.jpg.chip.jpg", "group_id": "family_02737", "linked_splits": ["train", "validation"]}
+{"source_id": "30_1_0_20170103180858952.jpg.chip.jpg", "group_id": "family_02764", "linked_splits": ["train", "validation"]}
+{"source_id": "24_1_4_20170103224910931.jpg.chip.jpg", "group_id": "family_02770", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "25_1_3_20170104231514978.jpg.chip.jpg", "group_id": "family_02892", "linked_splits": ["test", "train"]}
+{"source_id": "33_0_0_20170104202119290.jpg.chip.jpg", "group_id": "family_02901", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "7_1_0_20170109204800702.jpg.chip.jpg", "group_id": "family_02944", "linked_splits": ["test", "train"]}
+{"source_id": "26_1_2_20170105163925349.jpg.chip.jpg", "group_id": "family_03088", "linked_splits": ["test", "train"]}
+{"source_id": "52_1_0_20170110122705423.jpg.chip.jpg", "group_id": "family_03135", "linked_splits": ["test", "train"]}
+{"source_id": "35_1_0_20170104171631209.jpg.chip.jpg", "group_id": "family_03138", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "73_1_3_20170109142947277.jpg.chip.jpg", "group_id": "family_03143", "linked_splits": ["test", "train"]}
+{"source_id": "30_0_3_20170104230725129.jpg.chip.jpg", "group_id": "family_03145", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "42_1_0_20170109142131660.jpg.chip.jpg", "group_id": "family_03162", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "26_1_4_20170103224710662.jpg.chip.jpg", "group_id": "family_03167", "linked_splits": ["train", "validation"]}
+{"source_id": "27_0_0_20170104172424772.jpg.chip.jpg", "group_id": "family_03190", "linked_splits": ["train", "validation"]}
+{"source_id": "27_1_0_20170103180554504.jpg.chip.jpg", "group_id": "family_03231", "linked_splits": ["test", "train"]}
+{"source_id": "70_1_3_20170109134219121.jpg.chip.jpg", "group_id": "family_03237", "linked_splits": ["train", "validation"]}
+{"source_id": "27_1_0_20170103230354912.jpg.chip.jpg", "group_id": "family_03239", "linked_splits": ["test", "train"]}
+{"source_id": "28_1_0_20170109003005024.jpg.chip.jpg", "group_id": "family_03246", "linked_splits": ["test", "train"]}
+{"source_id": "42_0_4_20170104204413955.jpg.chip.jpg", "group_id": "family_03344", "linked_splits": ["test", "train"]}
+{"source_id": "56_1_3_20170109141321745.jpg.chip.jpg", "group_id": "family_03402", "linked_splits": ["test", "train"]}
+{"source_id": "65_1_0_20170110141141881.jpg.chip.jpg", "group_id": "family_03406", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "40_1_0_20170108234357077.jpg.chip.jpg", "group_id": "family_03515", "linked_splits": ["test", "train"]}
+{"source_id": "31_1_2_20170104020444076.jpg.chip.jpg", "group_id": "family_03549", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "29_1_3_20170109133003868.jpg.chip.jpg", "group_id": "family_03557", "linked_splits": ["train", "validation"]}
+{"source_id": "60_1_0_20170110151507697.jpg.chip.jpg", "group_id": "family_03561", "linked_splits": ["train", "validation"]}
+{"source_id": "4_1_0_20170109192418427.jpg.chip.jpg", "group_id": "family_03590", "linked_splits": ["test", "train"]}
+{"source_id": "3_0_0_20170103210954356.jpg.chip.jpg", "group_id": "family_03599", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "2_0_0_20170110213705227.jpg.chip.jpg", "group_id": "family_03619", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "2_0_3_20161220143229191.jpg.chip.jpg", "group_id": "family_03739", "linked_splits": ["test", "train"]}
+{"source_id": "2_1_0_20170109192459049.jpg.chip.jpg", "group_id": "family_03816", "linked_splits": ["test", "train"]}
+{"source_id": "2_1_2_20161219154029060.jpg.chip.jpg", "group_id": "family_03849", "linked_splits": ["train", "validation"]}
+{"source_id": "2_1_2_20161219161934567.jpg.chip.jpg", "group_id": "family_03854", "linked_splits": ["train", "validation"]}
+{"source_id": "2_1_3_20161220221639986.jpg.chip.jpg", "group_id": "family_03975", "linked_splits": ["train", "validation"]}
+{"source_id": "2_1_4_20161221195838329.jpg.chip.jpg", "group_id": "family_03990", "linked_splits": ["train", "validation"]}
+{"source_id": "2_1_4_20161221200336416.jpg.chip.jpg", "group_id": "family_03991", "linked_splits": ["train", "validation"]}
+{"source_id": "2_1_4_20161221202842353.jpg.chip.jpg", "group_id": "family_04009", "linked_splits": ["train", "validation"]}
+{"source_id": "35_0_1_20170109001203061.jpg.chip.jpg", "group_id": "family_04091", "linked_splits": ["test", "train"]}
+{"source_id": "34_1_3_20170105002136348.jpg.chip.jpg", "group_id": "family_04097", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "30_1_3_20170104222919855.jpg.chip.jpg", "group_id": "family_04099", "linked_splits": ["test", "train"]}
+{"source_id": "33_1_2_20170104022951446.jpg.chip.jpg", "group_id": "family_04126", "linked_splits": ["train", "validation"]}
+{"source_id": "31_0_0_20170104201938890.jpg.chip.jpg", "group_id": "family_04132", "linked_splits": ["train", "validation"]}
+{"source_id": "57_0_0_20170111171747481.jpg.chip.jpg", "group_id": "family_04229", "linked_splits": ["train", "validation"]}
+{"source_id": "32_0_4_20170104170633305.jpg.chip.jpg", "group_id": "family_04252", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "32_1_0_20170104171643865.jpg.chip.jpg", "group_id": "family_04275", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "34_1_3_20170104235537715.jpg.chip.jpg", "group_id": "family_04281", "linked_splits": ["test", "train"]}
+{"source_id": "34_0_4_20170105172322132.jpg.chip.jpg", "group_id": "family_04408", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "47_0_0_20170105173110477.jpg.chip.jpg", "group_id": "family_04511", "linked_splits": ["test", "train"]}
+{"source_id": "36_1_0_20170103182848826.jpg.chip.jpg", "group_id": "family_04626", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "65_1_0_20170110133937781.jpg.chip.jpg", "group_id": "family_04742", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "65_1_0_20170110141251497.jpg.chip.jpg", "group_id": "family_04742", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "8_1_0_20170109201746036.jpg.chip.jpg", "group_id": "family_04742", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "37_1_2_20170104005945096.jpg.chip.jpg", "group_id": "family_04747", "linked_splits": ["test", "train"]}
+{"source_id": "53_1_0_20170110122533941.jpg.chip.jpg", "group_id": "family_04747", "linked_splits": ["test", "train"]}
+{"source_id": "37_1_3_20170109132653966.jpg.chip.jpg", "group_id": "family_04757", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "38_1_0_20170104202430130.jpg.chip.jpg", "group_id": "family_04812", "linked_splits": ["train", "validation"]}
+{"source_id": "42_0_2_20170104192842031.jpg.chip.jpg", "group_id": "family_04894", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "39_1_0_20170109221036374.jpg.chip.jpg", "group_id": "family_04949", "linked_splits": ["test", "train"]}
+{"source_id": "3_1_2_20161219151926867.jpg.chip.jpg", "group_id": "family_05160", "linked_splits": ["train", "validation"]}
+{"source_id": "3_1_3_20161219225534376.jpg.chip.jpg", "group_id": "family_05210", "linked_splits": ["train", "validation"]}
+{"source_id": "42_0_4_20170104202126618.jpg.chip.jpg", "group_id": "family_05419", "linked_splits": ["train", "validation"]}
+{"source_id": "43_1_3_20170109141039762.jpg.chip.jpg", "group_id": "family_05502", "linked_splits": ["train", "validation"]}
+{"source_id": "58_0_0_20170104183336630.jpg.chip.jpg", "group_id": "family_05545", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "68_0_0_20170104184637742.jpg.chip.jpg", "group_id": "family_05545", "linked_splits": ["external_benchmark", "train", "validation"]}
+{"source_id": "82_0_0_20170111222624743.jpg.chip.jpg", "group_id": "family_05680", "linked_splits": ["test", "train"]}
+{"source_id": "58_0_0_20170109010225320.jpg.chip.jpg", "group_id": "family_05752", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "49_1_0_20170104204953660.jpg.chip.jpg", "group_id": "family_05843", "linked_splits": ["train", "validation"]}
+{"source_id": "66_1_0_20170110143321085.jpg.chip.jpg", "group_id": "family_05843", "linked_splits": ["train", "validation"]}
+{"source_id": "49_1_0_20170109221050190.jpg.chip.jpg", "group_id": "family_05863", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "5_0_4_20170103224719055.jpg.chip.jpg", "group_id": "family_06122", "linked_splits": ["test", "train"]}
+{"source_id": "62_0_0_20170109013752925.jpg.chip.jpg", "group_id": "family_06148", "linked_splits": ["test", "train"]}
+{"source_id": "56_0_0_20170104212000007.jpg.chip.jpg", "group_id": "family_06429", "linked_splits": ["train", "validation"]}
+{"source_id": "56_1_0_20170110153837637.jpg.chip.jpg", "group_id": "family_06512", "linked_splits": ["train", "validation"]}
+{"source_id": "56_1_0_20170110141656511.jpg.chip.jpg", "group_id": "family_06523", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "8_1_0_20170109204605797.jpg.chip.jpg", "group_id": "family_06557", "linked_splits": ["test", "train", "validation"]}
+{"source_id": "93_1_0_20170110182437844.jpg.chip.jpg", "group_id": "family_06562", "linked_splits": ["test", "train"]}
+{"source_id": "80_1_0_20170110141417728.jpg.chip.jpg", "group_id": "family_06591", "linked_splits": ["test", "train"]}
+{"source_id": "9_0_0_20170110225520159.jpg.chip.jpg", "group_id": "family_06644", "linked_splits": ["test", "train"]}
+{"source_id": "7_0_2_20170110224711687.jpg.chip.jpg", "group_id": "family_06683", "linked_splits": ["train", "validation"]}
+{"source_id": "60_0_0_20170104184751214.jpg.chip.jpg", "group_id": "family_06714", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "57_1_0_20170110122411678.jpg.chip.jpg", "group_id": "family_06858", "linked_splits": ["train", "validation"]}
+{"source_id": "5_0_0_20170110212809381.jpg.chip.jpg", "group_id": "family_07029", "linked_splits": ["test", "train"]}
+{"source_id": "60_0_3_20170104220126534.jpg.chip.jpg", "group_id": "family_07221", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "8_1_0_20170109202851846.jpg.chip.jpg", "group_id": "family_07228", "linked_splits": ["test", "train"]}
+{"source_id": "61_1_3_20170105001450436.jpg.chip.jpg", "group_id": "family_07352", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "63_1_0_20170109150950547.jpg.chip.jpg", "group_id": "family_07399", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "65_0_0_20170104213147181.jpg.chip.jpg", "group_id": "family_07498", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "66_1_0_20170110141312880.jpg.chip.jpg", "group_id": "family_07580", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "66_1_0_20170110131902685.jpg.chip.jpg", "group_id": "family_07625", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "72_1_0_20170110183416570.jpg.chip.jpg", "group_id": "family_07625", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "66_1_0_20170110140456209.jpg.chip.jpg", "group_id": "family_07628", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "85_1_0_20170110184001159.jpg.chip.jpg", "group_id": "family_07783", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "7_1_4_20170103230718288.jpg.chip.jpg", "group_id": "family_07889", "linked_splits": ["train", "validation"]}
+{"source_id": "72_1_0_20170110153733573.jpg.chip.jpg", "group_id": "family_07999", "linked_splits": ["test", "train"]}
+{"source_id": "73_0_0_20170105001507628.jpg.chip.jpg", "group_id": "family_08028", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "73_0_0_20170105181016710.jpg.chip.jpg", "group_id": "family_08030", "linked_splits": ["train", "validation"]}
+{"source_id": "82_0_0_20170111223748572.jpg.chip.jpg", "group_id": "family_08030", "linked_splits": ["train", "validation"]}
+{"source_id": "74_0_0_20170111223743652.jpg.chip.jpg", "group_id": "family_08036", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "75_0_0_20170111210525525.jpg.chip.jpg", "group_id": "family_08036", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "8_1_0_20170109203907694.jpg.chip.jpg", "group_id": "family_08284", "linked_splits": ["test", "train"]}
+{"source_id": "7_1_3_20170104223307815.jpg.chip.jpg", "group_id": "family_08335", "linked_splits": ["test", "train"]}
+{"source_id": "85_1_0_20170110182428223.jpg.chip.jpg", "group_id": "family_08530", "linked_splits": ["external_benchmark", "train"]}
+{"source_id": "9_0_0_20170110225510191.jpg.chip.jpg", "group_id": "family_08676", "linked_splits": ["test", "train"]}
+{"source_id": "9_0_2_20170110215518068.jpg.chip.jpg", "group_id": "family_08689", "linked_splits": ["test", "train"]}
+{"source_id": "8_1_0_20170103200956895.jpg.chip.jpg", "group_id": "family_08705", "linked_splits": ["test", "train"]}
+{"source_id": "8_1_4_20161223230041764.jpg.chip.jpg", "group_id": "family_08760", "linked_splits": ["external_benchmark", "train"]}

@@ -1,0 +1,434 @@
+{
+  "80px": {
+    "legacy": {
+      "rows": 2822,
+      "yunet_success": 2822,
+      "yunet_rate": 1.0,
+      "runtime_errors": 0,
+      "age": {
+        "e2e_accuracy": 0.4037199124726477,
+        "e2e_hits": 369,
+        "total": 914,
+        "conditional_accuracy": 0.4037199124726477,
+        "conditional_hits": 369,
+        "detected": 914,
+        "mae": 8.92893544857768,
+        "mae_count": 914
+      },
+      "gender_e2e_bacc": {
+        "value": 0.8045686251964279,
+        "male_correct": 407,
+        "male_count": 446,
+        "female_correct": 326,
+        "female_count": 468
+      },
+      "gender_conditional_bacc": {
+        "value": 0.8045686251964279,
+        "male_correct": 407,
+        "male_count": 446,
+        "female_correct": 326,
+        "female_count": 468
+      },
+      "pose": {
+        "total": 1778,
+        "detected": 1778,
+        "e2e_all_axes_10deg": 0.43869516310461193,
+        "e2e_all_axes_15deg": 0.6827896512935883,
+        "conditional_all_axes_10deg": 0.43869516310461193,
+        "conditional_all_axes_15deg": 0.6827896512935883,
+        "conditional_mae": 9.310277840269965
+      },
+      "detector_by_dataset": {
+        "utkface": {
+          "total": 914,
+          "success": 914
+        },
+        "aflw2000": {
+          "total": 1778,
+          "success": 1778
+        },
+        "scface": {
+          "total": 130,
+          "success": 130
+        }
+      }
+    },
+    "corrected": {
+      "rows": 2822,
+      "yunet_success": 2822,
+      "yunet_rate": 1.0,
+      "runtime_errors": 0,
+      "age": {
+        "e2e_accuracy": 0.3971553610503282,
+        "e2e_hits": 363,
+        "total": 914,
+        "conditional_accuracy": 0.3971553610503282,
+        "conditional_hits": 363,
+        "detected": 914,
+        "mae": 8.91080853391685,
+        "mae_count": 914
+      },
+      "gender_e2e_bacc": {
+        "value": 0.8003478210877314,
+        "male_correct": 408,
+        "male_count": 446,
+        "female_correct": 321,
+        "female_count": 468
+      },
+      "gender_conditional_bacc": {
+        "value": 0.8003478210877314,
+        "male_correct": 408,
+        "male_count": 446,
+        "female_correct": 321,
+        "female_count": 468
+      },
+      "pose": {
+        "total": 1778,
+        "detected": 1778,
+        "e2e_all_axes_10deg": 0.43082114735658045,
+        "e2e_all_axes_15deg": 0.6681664791901012,
+        "conditional_all_axes_10deg": 0.43082114735658045,
+        "conditional_all_axes_15deg": 0.6681664791901012,
+        "conditional_mae": 9.509503562054743
+      },
+      "detector_by_dataset": {
+        "utkface": {
+          "total": 914,
+          "success": 914
+        },
+        "aflw2000": {
+          "total": 1778,
+          "success": 1778
+        },
+        "scface": {
+          "total": 130,
+          "success": 130
+        }
+      }
+    }
+  },
+  "40px": {
+    "legacy": {
+      "rows": 2024,
+      "yunet_success": 2024,
+      "yunet_rate": 1.0,
+      "runtime_errors": 0,
+      "age": {
+        "e2e_accuracy": 0.4169381107491857,
+        "e2e_hits": 256,
+        "total": 614,
+        "conditional_accuracy": 0.4169381107491857,
+        "conditional_hits": 256,
+        "detected": 614,
+        "mae": 8.713462540716613,
+        "mae_count": 614
+      },
+      "gender_e2e_bacc": {
+        "value": 0.828556314321439,
+        "male_correct": 253,
+        "male_count": 281,
+        "female_correct": 252,
+        "female_count": 333
+      },
+      "gender_conditional_bacc": {
+        "value": 0.828556314321439,
+        "male_correct": 253,
+        "male_count": 281,
+        "female_correct": 252,
+        "female_count": 333
+      },
+      "pose": {
+        "total": 1280,
+        "detected": 1280,
+        "e2e_all_axes_10deg": 0.49296875,
+        "e2e_all_axes_15deg": 0.73125,
+        "conditional_all_axes_10deg": 0.49296875,
+        "conditional_all_axes_15deg": 0.73125,
+        "conditional_mae": 7.642993489583333
+      },
+      "detector_by_dataset": {
+        "utkface": {
+          "total": 614,
+          "success": 614
+        },
+        "aflw2000": {
+          "total": 1280,
+          "success": 1280
+        },
+        "scface": {
+          "total": 130,
+          "success": 130
+        }
+      }
+    },
+    "corrected": {
+      "rows": 2024,
+      "yunet_success": 2024,
+      "yunet_rate": 1.0,
+      "runtime_errors": 0,
+      "age": {
+        "e2e_accuracy": 0.4234527687296417,
+        "e2e_hits": 260,
+        "total": 614,
+        "conditional_accuracy": 0.4234527687296417,
+        "conditional_hits": 260,
+        "detected": 614,
+        "mae": 8.692271986970685,
+        "mae_count": 614
+      },
+      "gender_e2e_bacc": {
+        "value": 0.833450888611031,
+        "male_correct": 249,
+        "male_count": 281,
+        "female_correct": 260,
+        "female_count": 333
+      },
+      "gender_conditional_bacc": {
+        "value": 0.833450888611031,
+        "male_correct": 249,
+        "male_count": 281,
+        "female_correct": 260,
+        "female_count": 333
+      },
+      "pose": {
+        "total": 1280,
+        "detected": 1280,
+        "e2e_all_axes_10deg": 0.490625,
+        "e2e_all_axes_15deg": 0.74765625,
+        "conditional_all_axes_10deg": 0.490625,
+        "conditional_all_axes_15deg": 0.74765625,
+        "conditional_mae": 7.635145312500001
+      },
+      "detector_by_dataset": {
+        "utkface": {
+          "total": 614,
+          "success": 614
+        },
+        "aflw2000": {
+          "total": 1280,
+          "success": 1280
+        },
+        "scface": {
+          "total": 130,
+          "success": 130
+        }
+      }
+    }
+  },
+  "27px": {
+    "legacy": {
+      "rows": 665,
+      "yunet_success": 665,
+      "yunet_rate": 1.0,
+      "runtime_errors": 0,
+      "age": {
+        "e2e_accuracy": 0.3333333333333333,
+        "e2e_hits": 5,
+        "total": 15,
+        "conditional_accuracy": 0.3333333333333333,
+        "conditional_hits": 5,
+        "detected": 15,
+        "mae": 8.732866666666666,
+        "mae_count": 15
+      },
+      "gender_e2e_bacc": {
+        "value": 0.7083333333333333,
+        "male_correct": 2,
+        "male_count": 3,
+        "female_correct": 9,
+        "female_count": 12
+      },
+      "gender_conditional_bacc": {
+        "value": 0.7083333333333333,
+        "male_correct": 2,
+        "male_count": 3,
+        "female_correct": 9,
+        "female_count": 12
+      },
+      "pose": {
+        "total": 543,
+        "detected": 543,
+        "e2e_all_axes_10deg": 0.5359116022099447,
+        "e2e_all_axes_15deg": 0.7863720073664825,
+        "conditional_all_axes_10deg": 0.5359116022099447,
+        "conditional_all_axes_15deg": 0.7863720073664825,
+        "conditional_mae": 6.670249846531614
+      },
+      "detector_by_dataset": {
+        "utkface": {
+          "total": 15,
+          "success": 15
+        },
+        "aflw2000": {
+          "total": 543,
+          "success": 543
+        },
+        "scface": {
+          "total": 107,
+          "success": 107
+        }
+      }
+    },
+    "corrected": {
+      "rows": 665,
+      "yunet_success": 665,
+      "yunet_rate": 1.0,
+      "runtime_errors": 0,
+      "age": {
+        "e2e_accuracy": 0.4666666666666667,
+        "e2e_hits": 7,
+        "total": 15,
+        "conditional_accuracy": 0.4666666666666667,
+        "conditional_hits": 7,
+        "detected": 15,
+        "mae": 8.885933333333334,
+        "mae_count": 15
+      },
+      "gender_e2e_bacc": {
+        "value": 0.7083333333333333,
+        "male_correct": 2,
+        "male_count": 3,
+        "female_correct": 9,
+        "female_count": 12
+      },
+      "gender_conditional_bacc": {
+        "value": 0.7083333333333333,
+        "male_correct": 2,
+        "male_count": 3,
+        "female_correct": 9,
+        "female_count": 12
+      },
+      "pose": {
+        "total": 543,
+        "detected": 543,
+        "e2e_all_axes_10deg": 0.5230202578268877,
+        "e2e_all_axes_15deg": 0.7937384898710865,
+        "conditional_all_axes_10deg": 0.5230202578268877,
+        "conditional_all_axes_15deg": 0.7937384898710865,
+        "conditional_mae": 6.626310620012277
+      },
+      "detector_by_dataset": {
+        "utkface": {
+          "total": 15,
+          "success": 15
+        },
+        "aflw2000": {
+          "total": 543,
+          "success": 543
+        },
+        "scface": {
+          "total": 107,
+          "success": 107
+        }
+      }
+    }
+  },
+  "overall": {
+    "legacy": {
+      "rows": 5511,
+      "yunet_success": 5511,
+      "yunet_rate": 1.0,
+      "runtime_errors": 0,
+      "age": {
+        "e2e_accuracy": 0.40829552819183407,
+        "e2e_hits": 630,
+        "total": 1543,
+        "conditional_accuracy": 0.40829552819183407,
+        "conditional_hits": 630,
+        "detected": 1543,
+        "mae": 8.841287103046014,
+        "mae_count": 1543
+      },
+      "gender_e2e_bacc": {
+        "value": 0.8144332676203474,
+        "male_correct": 662,
+        "male_count": 730,
+        "female_correct": 587,
+        "female_count": 813
+      },
+      "gender_conditional_bacc": {
+        "value": 0.8144332676203474,
+        "male_correct": 662,
+        "male_count": 730,
+        "female_correct": 587,
+        "female_count": 813
+      },
+      "pose": {
+        "total": 3601,
+        "detected": 3601,
+        "e2e_all_axes_10deg": 0.4726464870869203,
+        "e2e_all_axes_15deg": 0.7156345459594557,
+        "conditional_all_axes_10deg": 0.4726464870869203,
+        "conditional_all_axes_15deg": 0.7156345459594557,
+        "conditional_mae": 8.31953661020087
+      },
+      "detector_by_dataset": {
+        "utkface": {
+          "total": 1543,
+          "success": 1543
+        },
+        "aflw2000": {
+          "total": 3601,
+          "success": 3601
+        },
+        "scface": {
+          "total": 367,
+          "success": 367
+        }
+      }
+    },
+    "corrected": {
+      "rows": 5511,
+      "yunet_success": 5511,
+      "yunet_rate": 1.0,
+      "runtime_errors": 0,
+      "age": {
+        "e2e_accuracy": 0.40829552819183407,
+        "e2e_hits": 630,
+        "total": 1543,
+        "conditional_accuracy": 0.40829552819183407,
+        "conditional_hits": 630,
+        "detected": 1543,
+        "mae": 8.823605314322748,
+        "mae_count": 1543
+      },
+      "gender_e2e_bacc": {
+        "value": 0.814223491549984,
+        "male_correct": 659,
+        "male_count": 730,
+        "female_correct": 590,
+        "female_count": 813
+      },
+      "gender_conditional_bacc": {
+        "value": 0.814223491549984,
+        "male_correct": 659,
+        "male_count": 730,
+        "female_correct": 590,
+        "female_count": 813
+      },
+      "pose": {
+        "total": 3601,
+        "detected": 3601,
+        "e2e_all_axes_10deg": 0.46598167175784505,
+        "e2e_all_axes_15deg": 0.7153568453207443,
+        "conditional_all_axes_10deg": 0.46598167175784505,
+        "conditional_all_axes_15deg": 0.7153568453207443,
+        "conditional_mae": 8.408489308525409
+      },
+      "detector_by_dataset": {
+        "utkface": {
+          "total": 1543,
+          "success": 1543
+        },
+        "aflw2000": {
+          "total": 3601,
+          "success": 3601
+        },
+        "scface": {
+          "total": 367,
+          "success": 367
+        }
+      }
+    }
+  }
+}

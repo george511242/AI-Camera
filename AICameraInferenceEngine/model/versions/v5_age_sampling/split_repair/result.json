@@ -1,0 +1,55 @@
+{
+  "status": "PASS_WITH_RESIDUAL_LIMITATIONS",
+  "original_train_sources": 6075,
+  "repaired_train_sources": 5712,
+  "removed_train_sources": 363,
+  "removed_train_percent": 5.9753086419753085,
+  "original_validation_sources": 1300,
+  "repaired_validation_sources": 1300,
+  "successful_crops": {
+    "train": {
+      "original": 18125,
+      "repaired": 17037
+    },
+    "validation": {
+      "original": 3846,
+      "repaired": 3846
+    }
+  },
+  "removed_source_family_groups": 212,
+  "train_external_sources_removed": 190,
+  "train_external_groups_removed": 61,
+  "post_repair_overlap": {
+    "validation": {
+      "exact": 0,
+      "known_source_family_groups": 0
+    },
+    "test": {
+      "exact": 0,
+      "known_source_family_groups": 0
+    },
+    "external_benchmark": {
+      "exact": 0,
+      "known_source_family_groups": 0
+    }
+  },
+  "phase1_utk_sources_covered": 936,
+  "unadjudicated_candidates": 551,
+  "ambiguous_groups": 233,
+  "ambiguous_groups_excluded_from_train": 206,
+  "remaining_ambiguous_train_heldout_groups": 0,
+  "cache_source_ids_and_hashes_match": true,
+  "cache_root": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/cache_corrected",
+  "cache_paths_relative_to": "cache_root; original crop files reused unchanged",
+  "residual_limitations": [
+    "Candidate edges are conservative possible-photo families, not confirmed identity groups; 551 candidate pairs remain visually unadjudicated.",
+    "All ambiguous families touching TRAIN and held-out splits are excluded from TRAIN; held-out-only overlaps remain untouched.",
+    "Archived perceptual search covered cross-split pHash distance <=6 including flips; unknown crop/derivative families beyond that threshold and within-split non-exact derivatives are not exhaustively identified.",
+    "Phase1 UTKface sources are covered by external_benchmark signatures. SCFace/AFLW2000 have no signatures in this Age audit; cross-dataset renamed/derived photo provenance is not proven. No universal identity-isolation claim.",
+    "The fixed v4 checkpoint was previously trained on the original train split; excluding v5 training sources cannot undo inherited checkpoint exposure. This gate covers repaired v5 sampling membership only."
+  ],
+  "optimizer_updates": 0,
+  "control_epochs": 0,
+  "treatment_epochs": 0,
+  "next_action": "STOP and report. Do not run verify/control/treatment. Runner still points to contaminated original split/cache and must be adapted and verified under subsequent authorization."
+}

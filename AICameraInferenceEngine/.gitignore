@@ -68,7 +68,11 @@ model/*.rknn
 # Jupyter
 .ipynb_checkpoints/
 
-# Only publish the baseline and v2 model versions
-/model/versions/*
-!/model/versions/v1_baseline/
-!/model/versions/v2_finetuned/
+# Publish all model versions, including training logs and artifacts.
+!/model/versions/
+!/model/versions/**/
+!/model/versions/**
+
+# Rebuildable caches exceed GitHub's per-file size limit.
+/model/versions/pose_v2_runtime/cache/train_rgb.npy
+/model/versions/pose_v2_runtime/cache/validation_rgb.npy

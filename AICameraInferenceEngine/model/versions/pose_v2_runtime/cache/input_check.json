@@ -1,0 +1,163 @@
+{
+  "config": {
+    "seed": 20260909,
+    "train_sources": 97698,
+    "validation_sources": 24717,
+    "detector_sha256": "25a606a145a5b6d7271ae138fbd00eba91dad8b83222ae3f2c7ecd0f4a7b0e31",
+    "manifests": {
+      "train": "2b7e95dd8decb005d21eff3bcd5a12d6edc7095ae36419c3d4f958015b4566fe",
+      "validation": "4d05b6b874d2d637c84d88ddb74a89f1f3a3c5cb25611708a87a60a8b76c5c7d"
+    },
+    "sizes": [
+      "normal",
+      "80",
+      "40",
+      "27"
+    ],
+    "mix": [
+      0.2,
+      0.3,
+      0.3,
+      0.2
+    ],
+    "pose_margin": 0.6,
+    "score_threshold": 0.75,
+    "nms_threshold": 0.3,
+    "match_iou": 0.5,
+    "opencv": "5.0.0",
+    "onnxruntime": "1.29.0",
+    "backend": "ONNX CPU float32; unchanged production YuNet class",
+    "distance": "Full image INTER_AREA rescale by landmark face height, centered GT in640x480 viewport; preserve available natural context; MATLAB coordinates minus1",
+    "train_sampling": "Fixed exact size quotas; source uniform with replacement within each size, rejected detections replaced within size; no loss-based mining"
+  },
+  "samples": [
+    {
+      "file": "AFW/AFW_1130084326_1_0.jpg",
+      "original_image_group": "AFW/AFW_1130084326",
+      "size": "normal",
+      "angles_roll_yaw_pitch": [
+        0.31214407402037264,
+        34.88466184617945,
+        2.849088761318466
+      ],
+      "gt_bbox": [
+        0.30226511987322907,
+        0.4812808180462342,
+        0.702327173564504,
+        0.8465768499254287
+      ],
+      "iou": 0.6940073115717129,
+      "detected": true,
+      "failure": null,
+      "detected_bbox": [
+        0.31297733783721926,
+        0.3914541244506836,
+        0.6751881599426269,
+        0.8796380996704102
+      ],
+      "crop_bbox": [
+        0.31297733783721926,
+        0.3914541244506836,
+        0.6751881599426269,
+        0.8796380996704102
+      ],
+      "score": 0.9317708015441895
+    },
+    {
+      "file": "AFW/AFW_1130084326_1_0.jpg",
+      "original_image_group": "AFW/AFW_1130084326",
+      "size": "80",
+      "angles_roll_yaw_pitch": [
+        0.31214407402037264,
+        34.88466184617945,
+        2.849088761318466
+      ],
+      "gt_bbox": [
+        0.4315563457066206,
+        0.41750103990026105,
+        0.5684525797041038,
+        0.5841673544451436
+      ],
+      "iou": 0.6899604703204583,
+      "detected": true,
+      "failure": null,
+      "detected_bbox": [
+        0.43150792121887205,
+        0.37767130533854165,
+        0.5552937984466553,
+        0.601418940226237
+      ],
+      "crop_bbox": [
+        0.43150792121887205,
+        0.37767130533854165,
+        0.5552937984466553,
+        0.601418940226237
+      ],
+      "score": 0.9321194291114807
+    },
+    {
+      "file": "AFW/AFW_1130084326_1_0.jpg",
+      "original_image_group": "AFW/AFW_1130084326",
+      "size": "40",
+      "angles_roll_yaw_pitch": [
+        0.31214407402037264,
+        34.88466184617945,
+        2.849088761318466
+      ],
+      "gt_bbox": [
+        0.4660143174782112,
+        0.45821018746892866,
+        0.5347749829563991,
+        0.541923861441244
+      ],
+      "iou": 0.6984858230612485,
+      "detected": true,
+      "failure": null,
+      "detected_bbox": [
+        0.46757988929748534,
+        0.4393169403076172,
+        0.5303605556488037,
+        0.5511932373046875
+      ],
+      "crop_bbox": [
+        0.46757988929748534,
+        0.4393169403076172,
+        0.5303605556488037,
+        0.5511932373046875
+      ],
+      "score": 0.9177023768424988
+    },
+    {
+      "file": "AFW/AFW_1130084326_1_0.jpg",
+      "original_image_group": "AFW/AFW_1130084326",
+      "size": "27",
+      "angles_roll_yaw_pitch": [
+        0.31214407402037264,
+        34.88466184617945,
+        2.849088761318466
+      ],
+      "gt_bbox": [
+        0.47713690448534213,
+        0.47211412611546116,
+        0.5233940794433958,
+        0.5284305976968369
+      ],
+      "iou": 0.7534964640467723,
+      "detected": true,
+      "failure": null,
+      "detected_bbox": [
+        0.4773064136505127,
+        0.46150029500325523,
+        0.5222035884857178,
+        0.5345345815022786
+      ],
+      "crop_bbox": [
+        0.4773064136505127,
+        0.46150029500325523,
+        0.5222035884857178,
+        0.5345345815022786
+      ],
+      "score": 0.9010141491889954
+    }
+  ]
+}

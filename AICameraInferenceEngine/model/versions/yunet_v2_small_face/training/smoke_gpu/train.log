@@ -1,0 +1,72 @@
+[2026-09-05 22:55:00] ================================================================================
+[2026-09-05 22:55:00] run_started_at=2026-09-05 22:55:00
+[2026-09-05 22:55:00] log_file=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/smoke_gpu/train.log
+[2026-09-05 22:55:00] python=3.11.16 executable=/home/g2004/miniforge3/envs/vac-yunet-gpu/bin/python
+[2026-09-05 22:55:00] platform=Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+[2026-09-05 22:55:00] torch=2.11.0+cu128 cuda_available=True cuda=12.8
+[2026-09-05 22:55:00] cuda_device_count=1
+[2026-09-05 22:55:00] cuda_device[0]=NVIDIA GeForce RTX 5070 Ti Laptop GPU
+[2026-09-05 22:55:00] arg.ann_file=/home/g2004/datasets/vac-distance/source/widerface/labelv2/train/labelv2.txt
+[2026-09-05 22:55:00] arg.batch_size=16
+[2026-09-05 22:55:00] arg.checkpoint_interval=1
+[2026-09-05 22:55:00] arg.device=cuda
+[2026-09-05 22:55:00] arg.epochs=1
+[2026-09-05 22:55:00] arg.eval_interval=1
+[2026-09-05 22:55:00] arg.eval_limit_samples=None
+[2026-09-05 22:55:00] arg.image_size=640
+[2026-09-05 22:55:00] arg.img_prefix=/home/g2004/datasets/vac-distance/source/widerface/WIDER_train/WIDER_train/images
+[2026-09-05 22:55:00] arg.init_weights=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/vendor/libfacedetection.train/weights/yunet_n.pth
+[2026-09-05 22:55:00] arg.limit_samples=None
+[2026-09-05 22:55:00] arg.log_file=None
+[2026-09-05 22:55:00] arg.log_interval=50
+[2026-09-05 22:55:00] arg.lr=0.001
+[2026-09-05 22:55:00] arg.lr_gamma=0.1
+[2026-09-05 22:55:00] arg.lr_steps=[24, 34]
+[2026-09-05 22:55:00] arg.min_face_size=10.0
+[2026-09-05 22:55:00] arg.momentum=0.9
+[2026-09-05 22:55:00] arg.no_persistent_workers=False
+[2026-09-05 22:55:00] arg.no_pin_memory=False
+[2026-09-05 22:55:00] arg.no_tensorboard=True
+[2026-09-05 22:55:00] arg.prefetch_factor=1
+[2026-09-05 22:55:00] arg.resume=None
+[2026-09-05 22:55:00] arg.seed=20260905
+[2026-09-05 22:55:00] arg.small_face_policy=True
+[2026-09-05 22:55:00] arg.val_ann_file=/home/g2004/datasets/vac-distance/source/widerface/labelv2/val/labelv2.txt
+[2026-09-05 22:55:00] arg.val_img_prefix=/home/g2004/datasets/vac-distance/source/widerface/WIDER_val/WIDER_val/images
+[2026-09-05 22:55:00] arg.variant=yunet_n
+[2026-09-05 22:55:00] arg.warmup_iters=100
+[2026-09-05 22:55:00] arg.warmup_ratio=0.001
+[2026-09-05 22:55:00] arg.weight_decay=0.0005
+[2026-09-05 22:55:00] arg.work_dir=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/smoke_gpu
+[2026-09-05 22:55:00] arg.workers=0
+[2026-09-05 22:55:01] initialized_weights path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/vendor/libfacedetection.train/weights/yunet_n.pth
+[2026-09-05 22:55:04] train_dataset samples=12876 ann_file=/home/g2004/datasets/vac-distance/source/widerface/labelv2/train/labelv2.txt img_prefix=/home/g2004/datasets/vac-distance/source/widerface/WIDER_train/WIDER_train/images
+[2026-09-05 22:55:04] train_loader steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True
+[2026-09-05 22:55:04] val_loader steps=202 eval_interval=1
+[2026-09-05 22:55:04] start epoch=1/1 steps=805 batch_size=16 workers=0 prefetch_factor=1 persistent_workers=False pin_memory=True elapsed=00:00:00 eta=estimating
+[2026-09-05 22:55:07] epoch=1 step=1/805 loss=2.471263 cls=0.481588 bbox=0.733301 obj=1.132447 kps=0.123927 elapsed=00:00:03 remaining=00:40:46 eta=2026-09-05 23:35:54
+[2026-09-05 22:55:30] epoch=1 step=50/805 loss=2.729054 cls=0.527368 bbox=0.935904 obj=1.099669 kps=0.166113 elapsed=00:00:25 remaining=00:06:28 eta=2026-09-05 23:01:58
+[2026-09-05 22:55:49] epoch=1 step=100/805 loss=2.706006 cls=0.530609 bbox=0.948921 obj=1.060167 kps=0.166309 elapsed=00:00:45 remaining=00:05:19 eta=2026-09-05 23:01:09
+[2026-09-05 22:56:09] epoch=1 step=150/805 loss=2.718699 cls=0.530452 bbox=0.948592 obj=1.071154 kps=0.168501 elapsed=00:01:04 remaining=00:04:42 eta=2026-09-05 23:00:51
+[2026-09-05 22:56:27] epoch=1 step=200/805 loss=2.725174 cls=0.531360 bbox=0.952624 obj=1.073792 kps=0.167397 elapsed=00:01:22 remaining=00:04:10 eta=2026-09-05 23:00:38
+[2026-09-05 22:56:45] epoch=1 step=250/805 loss=2.709079 cls=0.531334 bbox=0.951647 obj=1.057828 kps=0.168269 elapsed=00:01:40 remaining=00:03:44 eta=2026-09-05 23:00:29
+[2026-09-05 22:57:04] epoch=1 step=300/805 loss=2.702411 cls=0.531119 bbox=0.950354 obj=1.051368 kps=0.169570 elapsed=00:02:00 remaining=00:03:22 eta=2026-09-05 23:00:26
+[2026-09-05 22:57:23] epoch=1 step=350/805 loss=2.707730 cls=0.531814 bbox=0.952642 obj=1.053727 kps=0.169547 elapsed=00:02:18 remaining=00:02:59 eta=2026-09-05 23:00:22
+[2026-09-05 22:57:41] epoch=1 step=400/805 loss=2.690488 cls=0.530621 bbox=0.947858 obj=1.043391 kps=0.168618 elapsed=00:02:37 remaining=00:02:39 eta=2026-09-05 23:00:20
+[2026-09-05 22:57:59] epoch=1 step=450/805 loss=2.689457 cls=0.530335 bbox=0.946942 obj=1.043124 kps=0.169056 elapsed=00:02:55 remaining=00:02:18 eta=2026-09-05 23:00:18
+[2026-09-05 22:58:17] epoch=1 step=500/805 loss=2.689325 cls=0.530309 bbox=0.946563 obj=1.042938 kps=0.169514 elapsed=00:03:12 remaining=00:01:57 eta=2026-09-05 23:00:15
+[2026-09-05 22:58:35] epoch=1 step=550/805 loss=2.694545 cls=0.530649 bbox=0.948485 obj=1.046496 kps=0.168915 elapsed=00:03:31 remaining=00:01:37 eta=2026-09-05 23:00:13
+[2026-09-05 22:58:53] epoch=1 step=600/805 loss=2.688450 cls=0.530286 bbox=0.946995 obj=1.041612 kps=0.169557 elapsed=00:03:49 remaining=00:01:18 eta=2026-09-05 23:00:11
+[2026-09-05 22:59:12] epoch=1 step=650/805 loss=2.697021 cls=0.530727 bbox=0.948753 obj=1.047316 kps=0.170225 elapsed=00:04:07 remaining=00:00:59 eta=2026-09-05 23:00:11
+[2026-09-05 22:59:30] epoch=1 step=700/805 loss=2.701069 cls=0.531076 bbox=0.950181 obj=1.049248 kps=0.170565 elapsed=00:04:26 remaining=00:00:39 eta=2026-09-05 23:00:10
+[2026-09-05 22:59:49] epoch=1 step=750/805 loss=2.703481 cls=0.531041 bbox=0.950428 obj=1.050687 kps=0.171324 elapsed=00:04:44 remaining=00:00:20 eta=2026-09-05 23:00:10
+[2026-09-05 23:00:08] epoch=1 step=800/805 loss=2.698443 cls=0.530704 bbox=0.948748 obj=1.048238 kps=0.170753 elapsed=00:05:03 remaining=00:00:01 eta=2026-09-05 23:00:09
+[2026-09-05 23:00:10] epoch=1 lr=0.00100000 loss=2.698211 cls=0.530665 bbox=0.948531 obj=1.048026 kps=0.170991 epoch_seconds=305.605 sec_per_step=0.3796 samples_per_second=42.15 elapsed=00:05:05 remaining=00:00:00 eta=2026-09-05 23:00:10
+[2026-09-05 23:00:10] saved_latest_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/smoke_gpu/latest.pth
+[2026-09-05 23:00:10] saved_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/smoke_gpu/epoch_1.pth
+[2026-09-05 23:00:10] start_eval epoch=1 steps=202
+[2026-09-05 23:01:02] eval epoch=1 loss=3.200083 cls=0.549265 bbox=1.175871 obj=1.474947 kps=0.000000
+[2026-09-05 23:01:02] saved_eval_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/smoke_gpu/eval_epoch_1.pth
+[2026-09-05 23:01:02] saved_best_checkpoint path=/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/yunet_v2_small_face/training/smoke_gpu/best_loss.pth best_loss=3.200083
+[2026-09-05 23:01:02] cuda_peak_allocated_mb=2475.7 cuda_peak_reserved_mb=2558.0
+[2026-09-05 23:01:02] run_finished elapsed=00:05:57

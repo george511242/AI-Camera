@@ -1,0 +1,5086 @@
+{
+  "status": "FAIL",
+  "sources": 9615,
+  "exact_cross_split": [],
+  "near_candidates": [
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_4_20170103223451479.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_4_20170103234910356.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109205130906.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109212505669.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_4_20170103200804119.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_0_0_20170110220406314.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_1_0_20170103201911744.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/46_1_0_20170104235642515.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_0_0_20170104012550546.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_0_0_20170105165141556.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_0_20170109214133273.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/43_0_0_20170111200147932.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_0_20170109214447621.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214106546.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_4_20170103201201509.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_1_4_20170103200814791.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_4_20170103230530985.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214752340.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_0_0_20170110232725516.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_0_0_20170110223430616.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_0_4_20170110232131606.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_0_0_20170110223927225.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170102234805899.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20170104165850314.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170109213003514.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_1_3_20170104232231283.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170109213003514.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_3_20161220221952627.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170109213504335.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103234037067.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170109213504335.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_4_20170103224258631.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170109213504335.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_0_20170105183649031.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170109213504335.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_3_20170104223505487.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170109213504335.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/61_0_0_20170111203523343.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170104012433529.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_0_0_20170104012108817.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_3_20170104223349358.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_4_20170103224705429.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_3_20170104223349358.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_0_0_20170104204354155.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_4_20170103201233799.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_4_20170103201818104.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_4_20170103201233799.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170104181551957.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_4_20170104001810179.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170109141339133.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_4_20170104001810179.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_3_20161220221952627.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109212914272.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109212538216.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109212914272.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20170104231931545.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109212921724.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20161221193657350.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109212921724.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_0_20170104172947139.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214813691.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_0_20170109193106065.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170103201508633.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104232510106.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170103201508633.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_1_0_20170109193852084.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_2_20161219141912009.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_2_20161219162118102.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220144429119.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_0_0_20170103181014215.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220220508802.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_3_20161220143058738.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220223225003.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161219225410225.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_4_20170103205312818.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_4_20161221202127697.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_2_20161219151127243.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_2_20161219142409225.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161220143202710.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161219225730216.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161220143345775.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161219224914784.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161220143345775.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220223100579.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170109132033628.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/38_1_0_20170103181733834.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170109132033628.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/54_1_3_20170109140625083.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_0_20170105183522855.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170105164921188.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_3_20170104231631625.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103234037067.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103233924667.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_0_20170103180606727.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_2_20170104021444541.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170102234728107.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104232454786.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_4_20161223214747066.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104232454786.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/56_1_3_20170109133800445.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104232454786.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_0_20170109205404516.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103223649399.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103182343482.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103223649399.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110182353061.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_0_20170103234935189.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_1_0_20170103200757286.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_0_20170103234935189.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_2_20170109212939223.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_0_20170103234935189.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170103163056975.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_0_20170103234935189.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_4_20170103234931350.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_0_20170103234935189.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_2_20170105165156291.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_4_20170103212744381.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_4_20161223230115267.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_0_0_20170104230603529.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_1_0_20170103200819591.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20170104222359247.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_2_20170103201800511.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20170104222359247.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_0_20170105162529475.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20170104222359247.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/38_1_2_20170109140654630.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20170104222359247.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/52_1_3_20170104232909130.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_4_20170103223935080.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_0_20170103180858952.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_3_20170109135843276.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/49_1_0_20170103180443960.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104222627929.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_1_0_20170109213541777.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104232420017.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_0_20170104171631209.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235016242.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104220140542.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235421282.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_4_20170103224258631.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235421282.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_2_20170104021048828.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235421282.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_0_20170105183649031.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235421282.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_2_20170104022229597.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235435739.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_4_20170103223401848.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235435739.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104232031954.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20170103213122476.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_4_20170103224910931.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20170103235712113.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_0_20170103163718321.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_0_20170103210530706.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/70_1_3_20170109134219121.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_3_20170108224926503.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170104013410523.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170103181722585.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_0_20170109214024612.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170103181722585.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103223237335.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170103181722585.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_4_20161223214751864.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170103181722585.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/49_0_0_20170104213117085.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_4_20170103163340489.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_1_0_20170110151507697.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_4_20170103230141555.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_3_20170104232647592.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_4_20170103230141555.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20161221193717222.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_4_20170103230141555.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170109141339133.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_4_20170103230141555.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/49_1_0_20170103180443960.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_0_20170110212710755.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_0_0_20170103210954356.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_0_20170109191543990.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109192244272.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_2_20161219142056888.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_2_20161219154029060.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_2_20161219142446329.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_2_20161219161934567.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_2_20161219155546973.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_2_20161219204653181.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_2_20161219162237149.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109193401456.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_4_20161221201820529.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_4_20161221200336416.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_4_20170109135421119.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_1_2_20170104022951446.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_3_20170109140727630.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_3_20170109133003868.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_0_0_20170108234529525.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/57_0_0_20170111171747481.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_0_20170109132836606.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_1_0_20170105164257004.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235157578.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_0_20170108225911130.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/13_0_0_20170110224751365.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_0_20170109214723528.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170104015931173.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_2_20170104234618170.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_3_20170104223405095.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_3_20170104232524938.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_1_0_20161219225130536.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_1_0_20170109191511657.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_4_20170103233309314.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170109141308065.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109205258890.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_0_0_20170105165028532.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_0_0_20170104201726242.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_0_0_20170105165028532.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/43_0_0_20170104210240958.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_0_3_20170109132951262.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170103180642496.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_0_3_20170109132951262.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_0_3_20170104230610969.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_0_3_20170109132951262.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_0_0_20170104205729700.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_0_20170103182720889.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220144949223.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_0_20170103182720889.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220220418690.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_0_2_20170105163305795.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_0_0_20170104201938890.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/38_1_0_20170103183214380.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_4_20170103224705429.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/38_1_0_20170104184650846.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_1_0_20170105003407044.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/38_1_0_20170104184650846.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_1_0_20170103163031248.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_1_0_20170103213301485.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_4_20161221202842353.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_1_4_20161221195312639.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_0_4_20161223214821265.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/45_0_0_20170104212920676.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/58_0_0_20170104183336630.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/45_1_0_20170110151448578.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_3_20170109133054332.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/45_1_0_20170110151448578.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_3_20170109141841866.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/45_1_0_20170110151448578.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_4_20170105001146812.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/45_1_0_20170110151448578.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/47_0_0_20170104210353956.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/45_1_3_20170104235059987.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_4_20161221195838329.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_0_0_20161219203817325.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_2_20170109214246240.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_3_20161220221856138.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20170104222658903.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_3_20161220221856138.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_1_3_20161219230521112.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_3_20161220222145586.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161219225416559.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_4_20161223225928843.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/38_1_0_20170104202430130.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_1_3_20170109141335415.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103182343482.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/51_1_0_20170110153411621.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/49_1_0_20170104204953660.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/51_1_0_20170110153411621.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/66_1_0_20170110143321085.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/52_1_3_20170105003248564.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/43_1_3_20170109141039762.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/52_1_3_20170109133341959.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104214404028.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/53_0_0_20170104211506941.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/56_0_0_20170104212000007.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/53_1_0_20170104212419940.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_3_20170109141841866.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/53_1_0_20170110141003065.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/56_1_0_20170110153837637.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/55_1_0_20170110160643376.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_0_2_20170110224711687.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_0_0_20170110213200213.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/57_1_0_20170110122411678.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_0_3_20161220222937859.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/42_0_4_20170104202126618.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_1_2_20161219142021464.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_1_2_20161219151926867.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_1_3_20161220221703978.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_1_3_20161219225534376.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_1_4_20161221193338973.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_3_20161220221639986.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_1_0_20170110140847057.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_1_0_20170103181937009.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_1_0_20170110140847057.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/38_1_2_20170108224407554.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_1_0_20170110140847057.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/52_1_3_20170104232909130.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_1_0_20170110141809495.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170103163127424.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/68_1_0_20170110131335562.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_0_0_20170104172424772.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_0_4_20161221200807209.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20170103224710662.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_0_20170109201058867.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170109212525685.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_4_20170103233146667.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_4_20170103230718288.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/75_1_0_20170110184033219.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204605797.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/76_0_0_20170111201015692.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20170104231923674.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/76_0_0_20170111201944904.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/73_0_0_20170105181016710.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/76_0_0_20170111201944904.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/82_0_0_20170111223748572.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_0_0_20170110225139511.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_2_20170109214246240.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_0_0_20170110225139511.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_4_20161223214728028.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/88_1_3_20170110182318688.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/62_1_0_20170110173800240.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202254541.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20161221193306453.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202254541.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20170109132425493.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204418516.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_3_20170104232524938.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204818624.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_2_20170104021958662.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204818624.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_0_3_20170104225852088.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109205030055.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_0_0_20170103201406775.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_0_0_20170110223423662.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_0_0_2017011022340900.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_1_2_20161219192342173.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_3_20161219225927088.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_1_2_20161219192342173.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_0_20170108225911130.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_1_2_20161219192342173.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109203448247.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_0_20170110225417177.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_0_0_20170110220351738.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_1_0_20170109203501969.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/11_1_0_20170109203422194.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_1_0_20170109203905538.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/47_1_0_20170103183432930.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_1_0_20170109204259563.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109203437340.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/11_0_0_20170110224606036.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/13_0_0_20170110225059227.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/11_1_0_20170109203353740.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104220140542.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/11_1_1_20170109203712835.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_0_20170103163718321.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/11_1_1_20170109203712835.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20170103235712113.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109204428993.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_1_0_20170109203340834.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109204507030.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_1_0_20170109203438428.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109205043077.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_0_20170105002736333.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109205043077.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/13_1_4_20170103212548662.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_4_20161221202611945.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_0_2_20170104012541763.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/40_1_0_20170105164619947.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_0_0_20170104012346994.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/11_1_0_20170109203422194.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_4_20170103200935782.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_0_20170103163718321.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_4_20170103214742821.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214554528.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_4_20170103214742821.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170104181551957.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_1_20170109214110957.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_0_0_20170104192751495.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_0_3_20170104225805617.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/13_0_0_20170104013342923.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_0_3_20170104225805617.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_3_20170104222029447.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_0_3_20170104225805617.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_3_20170109132228225.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109213623055.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109212849263.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214254732.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_4_20170103234931350.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214700491.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_0_0_20170104205729700.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_4_20170103201320721.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_1_4_20161221193811941.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170105183441000.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_3_20161220221512186.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_0_20161219162630727.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_0_20161220223221043.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_2_20161219195800652.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_2_20161219190530474.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_2_20161219211107805.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_2_20161219194811588.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161219225559648.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161220143222430.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161219225721496.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161219230533840.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161219230455336.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_4_20161223231311515.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220143121101.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220222945883.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220220606705.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161220143111349.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_4_20170103202326832.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_4_20161221195039712.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20161219225855568.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109190516994.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20161219225855568.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109194212472.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109190724839.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109193015973.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109193704430.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109190742179.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_1_20161219155940125.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161219224951912.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_1_20170109191050443.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_1_20170109190848182.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161219224458872.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109190936410.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161219224753152.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161219230224536.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161220221547970.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161219225245716.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161220221800802.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161219230224536.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170103201733831.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214610454.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170103201733831.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_1_0_20170103181937009.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170103201733831.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_1_3_20170104232231283.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170103201733831.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_1_0_20170103163031248.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170103201733831.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103181448864.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170103201733831.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202804967.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170105002441599.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_0_0_20170111181750357.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_0_4_20170103224652599.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_0_4_20170103210052027.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_0_4_20170103224931632.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_0_4_20170103230146433.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_0_20170103235726923.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170109212959831.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_0_20170109213059848.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170103201755639.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104223113527.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_2_20170109214246240.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104223113527.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170102234728107.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104223113527.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_1_0_20161219190805051.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170105002553629.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170102234723371.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170105002553629.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104215700398.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20161221195925096.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_0_20170103234935189.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103223042983.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/43_0_0_20170104205227123.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103223042983.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_3_20170104222431175.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103224503415.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170104021527253.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103224503415.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_0_20170103234817732.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103224503415.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170105001300131.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103224503415.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202434032.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103224503415.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204836782.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103224503415.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109205515528.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170103180549431.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/40_1_1_20170110153441199.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170103180549431.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/43_0_0_20170104210240958.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_2_20170104021837189.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_3_20170104223028462.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_2_20170104021837189.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_2_20170104021958662.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_2_20170104021837189.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20161221193717222.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_2_20170104021837189.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170109141339133.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_0_20170104021242700.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_4_20170103224705429.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_0_20170104021242700.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_2_20170104021958662.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_2_20170104021040316.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_1_3_20170104235532885.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_3_20170104222454999.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_0_20170105002717213.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_4_20170103210241074.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103223649399.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_4_20170103230211911.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103234037067.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_0_0_20170105164133579.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_0_20170109204800702.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_2_20170104020934116.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_2_20170104020820934.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_2_20170104020934116.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110182353061.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104222943143.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170103201213287.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104222943143.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170103180642496.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104232150859.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_0_20170109214516641.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104232150859.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214646809.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104232150859.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_4_20170103222949566.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104232333226.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/52_1_0_20170110122705423.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104234454339.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/73_1_3_20170109142947277.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235102538.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_0_3_20170104230725129.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235102538.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_3_20170104223537760.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_0_20170109013152498.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170109003005024.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_0_4_20170109002937845.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/42_0_4_20170104204413955.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170103181535329.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_4_20170103201233799.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_2_20170104021739676.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_3_20170109132228225.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_3_20170104223337415.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_3_20170104223349358.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_3_20170104231853785.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/56_1_3_20170109141321745.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_3_20170109131950179.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_3_20170104231514978.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_0_4_20170103235201420.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_3_20170104223405095.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_0_4_20170103235201420.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/55_1_0_20170110160643407.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_0_4_20170103235201420.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_4_20170103230141555.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_0_20170104235458939.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/40_1_0_20170108234357077.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_3_20170104223300263.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109205515528.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_3_20170104232621386.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_2_20170104020444076.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_3_20170104232621386.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/41_1_3_20170105001059203.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_0_20170109193935916.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_0_20170109192418427.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_0_20170110212816271.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_0_0_20170103210954356.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_0_20170110212816271.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_0_20170110212710755.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_3_20161219225314616.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_3_20161220143229191.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_3_20161220143322854.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_0_0_20170105164559132.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_3_20161220143322854.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220144429119.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_3_20161219230359040.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_0_20170109192459049.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_4_20170103210746899.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109191000191.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_1_4_20170103213232676.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_0_20170108225911130.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_0_20170105165034356.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170103183935666.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_0_20170105165034356.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_0_20170109132836606.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_0_20170105165034356.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/45_1_0_20170110151448578.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_2_20170104192931704.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_0_1_20170109001203061.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_0_0_20170105173759693.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104232420017.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20170103230221721.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170104021527253.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20170103230221721.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_0_20170103234817732.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20170103230221721.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170105001300131.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20170103230221721.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202434032.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20170103230221721.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204836782.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20170103230221721.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109205515528.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_0_20170104234949266.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_1_3_20170104235537715.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_2_20170104023251558.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_0_20170103183711648.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_2_20170104023251558.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_0_20170111182452837.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_2_20170104023251558.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/52_1_3_20170104232909130.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104231906826.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103224520560.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170109132040475.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_3_20170104223253815.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_0_0_20170105163921171.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_0_3_20170105172520740.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_0_4_20170104201734834.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/47_0_0_20170105173110477.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_3_20170104223440424.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/65_1_0_20170110141141881.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_3_20170104223440424.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_3_20170104235045746.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_0_2_20170104165035320.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_4_20170103200335831.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_1_0_20170105165040044.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_0_20170103183711648.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_1_2_20170105162546659.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214554528.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_2_20170103182754641.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_2_20170104021958662.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_2_20170103182754641.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170104171717858.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_3_20170104235854833.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_0_20170103163123528.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_3_20170104235854833.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170104181551957.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_3_20170104235854833.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_4_20170103230506947.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_3_20170104235854833.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_4_20170103201233799.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/41_0_2_20170104204700955.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_0_3_20170104225749698.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/42_1_0_20170110160632965.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_3_20170104222919855.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/43_1_0_20170109012420929.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_3_20170104222252734.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/44_1_0_20170111182452895.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_0_20170103230354912.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/45_1_0_20170105001254581.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_1_0_20170103163031248.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/47_0_0_20170105173138581.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/82_0_0_20170111222624743.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_0_20161219225102680.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_0_20161219191012803.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_0_20161219225102680.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_0_4_20170103180302079.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_2_20170109192334823.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_0_20170109221036374.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_3_20161219230102512.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/11_1_0_20170109203327397.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_3_20161219230102512.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214120554.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_3_20161219230102512.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_0_0_20170104012305505.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_3_20161220221751466.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_1_3_20161219225530536.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_4_20170103205256107.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_0_4_20170103224719055.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_4_20170103230707056.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161219224645904.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_4_20170103230707056.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104220140542.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_4_20170103230707056.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_3_20170104232524938.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_4_20170103230707056.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_4_20170103233309314.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_4_20170103230707056.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104222627929.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_4_20170103230707056.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_4_20170103230707056.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204418516.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_0_0_20170104184249918.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_1_0_20170103182647402.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_0_0_20170109003412066.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/62_0_0_20170109013752925.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/53_1_0_20170110122530359.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_1_2_20170104005945096.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/53_1_0_20170110122530359.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/53_1_0_20170110122533941.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/54_0_0_20170104212538380.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204605797.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/54_0_0_20170104212619757.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/93_1_0_20170110182437844.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/54_0_0_20170111201425519.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110141417728.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/55_0_0_20170104184424541.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_0_0_20170110225520159.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/55_1_3_20170109142400325.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109203448247.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/56_1_0_20170110122900947.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_0_0_20170104012341136.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/58_0_0_20170104213136437.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_4_20170105183316775.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/58_0_0_20170104213136437.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/49_0_0_20170104213117085.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/58_0_0_20170104213136437.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/49_1_0_20170103180443960.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_1_0_20170109193816878.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170104012433529.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_1_0_20170110122430900.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_2_20170105163925349.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_1_0_20170110122526605.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202851846.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_1_0_20170110154619614.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170103180718335.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_1_0_20170110154619614.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/29_1_0_20170104192921991.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/63_1_0_20170110142522883.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/76_1_0_20170110181730883.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/64_0_0_20170111200155418.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170103180642496.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/64_0_0_20170111200155418.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/38_1_0_20170104171602219.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/64_1_0_20170104171502307.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_0_20170103180554504.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/65_0_0_20170104185514678.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_2_20161219222714623.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_4_20170103214752366.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161219224645904.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_4_20170103214752366.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104220140542.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_4_20170103214752366.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_4_20170103233309314.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_4_20170103214752366.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104222627929.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_4_20170103214752366.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170104235603636.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_4_20170103214752366.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204418516.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/70_0_0_20170111200707164.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/63_0_0_20170105180927239.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/76_1_0_20170110140935777.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/72_1_0_20170110153733573.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_0_20170104005339735.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109203907694.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_0_20170109203621621.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109203907694.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_4_20170104010111013.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170104011815680.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/85_1_0_20170110183721942.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109190936410.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_0_0_20170110215559811.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/47_0_0_20170104211906453.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_0_0_20170110220246250.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_0_0_20170110225510191.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_0_2_20161219162204262.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_0_2_20170110215518068.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170103162925343.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170103200956895.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170103200353070.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_3_20170104223216158.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170103200353070.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204418516.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202317876.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_0_0_20170110212809381.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202858319.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204836782.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202858319.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109205258890.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202858319.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109205515528.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202858319.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170109141308065.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_3_20170109205422312.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_3_20170104223307815.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_4_20170104005525759.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170103201359471.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_4_20170104005525759.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_2_20170105163951372.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_4_20170104005525759.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_2_20170104020950540.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_4_20170104005525759.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_1_2_20161219192342173.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_0_0_20170110220148443.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20170104222359247.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_0_20170110224416035.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/61_0_0_20170111203523343.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_0_20170110225451638.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214700491.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_0_20170110225451638.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_0_0_20170110220148443.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/11_1_4_20170109201611941.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109213929449.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_0_3_20170104230255729.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_0_2_20170104020041910.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109201114375.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_4_20170103233304142.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109201553786.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/13_1_0_20170109204048554.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109214236402.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_0_20170103181722585.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/13_0_0_20170103200550455.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_0_20170103181503793.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/13_1_0_20170109204108601.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/38_1_0_20170103181733834.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_0_0_20170110232127519.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_0_20170110224725285.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_0_20170109212413425.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_4_20170103201818104.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_4_20170102234841875.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_0_20170103183155451.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_0_0_20170110231233724.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_2_20170104023251558.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109201611941.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214752340.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_3_20170104231611130.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170104021527253.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_0_20170103234817732.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109202434032.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_4_20170103230530985.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_1_3_20161219225937112.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_4_20170103201320721.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_4_20170103224503415.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_0_20170109214021426.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20170103230221721.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_3_20170104221822223.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20161220221647314.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109213904824.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170109131950179.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109213911368.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/45_1_0_20170110151448578.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170103201812887.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_0_20170104171537233.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170103201812887.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/62_1_0_20170110173800240.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170104012012331.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_0_20170109213537150.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170104012012331.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_3_20170104223028462.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170104012012331.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20170103230455729.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170104012012331.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20161221193717222.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170104012012331.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170109141339133.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170104012012331.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_0_20170103182746666.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_0_20170104012012331.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/56_1_3_20170109142228705.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_3_20170104231453195.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_2_20170104023251558.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_3_20170104231453195.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_4_20170104005525759.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_2_20161219190740218.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_3_20161219225927088.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220220317465.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_2_20161220145040127.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_3_20170104222120446.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_3_20170108224926503.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_3_20170105003215901.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_3_20170104231620409.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_3_20170105003215901.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_4_20170105001146812.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20161223225837372.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_1_4_20170103224851136.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103225212711.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_3_20170104231611130.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103225212711.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170103180642496.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103225212711.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_0_20170104021527253.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103225212711.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_0_20170109213630541.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103225212711.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_2_20170104021958662.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103225212711.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/28_1_4_20170103230506947.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103225212711.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_1_4_20161221193717222.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103225212711.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_2_20170104021837189.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20161220221656537.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/55_1_3_20170109142400325.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104231706746.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214700491.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_0_3_20170104230147273.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_1_2_20170105162546659.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_0_4_20170103223915799.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_0_4_20170103234915411.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_0_4_20170103223915799.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_0_20170103181112840.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_4_20170103224804680.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_4_20170103224747408.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_4_20170103224804680.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_1_20170103181439968.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_4_20170103224804680.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_3_20170104223505487.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_4_20170103225908457.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_4_20170103230515409.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_4_20170103235745076.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_4_20170103225902242.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_4_20170103233749355.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_4_20170103224609304.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20161221193703783.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/42_1_0_20170109142131660.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_4_20170103230557794.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_0_20170105183347327.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_4_20170103230557794.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_1_2_20170104201443273.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_4_20170103230557794.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/41_1_0_20170111182452877.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_4_20170103230557794.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170109141308065.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_2_20170104021619821.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/40_1_1_20170110153441199.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/30_1_3_20170104214339133.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_1_3_20170105002136348.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_0_0_20170104204313908.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_1_0_20170103182647402.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_0_4_20170103235323876.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_0_0_20170111201526040.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103182902892.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_4_20170105183316775.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103182902892.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20170109002629914.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103182902892.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_3_20170109141339133.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103182902892.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_1_0_20170103182647402.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103182902892.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/40_1_1_20170110153441199.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103182902892.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/56_1_3_20170109142228705.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103182902892.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_0_0_20170104184249918.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_1_0_20170109134008515.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/65_1_0_20170110133937781.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_1_0_20170109134008515.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/65_1_0_20170110141251497.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_1_0_20170109134008515.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109201746036.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_0_2_20170104204728132.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/42_0_2_20170104192842031.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/40_0_0_20170104201930209.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_0_4_20170104170633305.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/40_1_0_20170105173401214.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_4_20170105001146812.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/40_1_3_20170109140647801.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235111171.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/40_1_3_20170109140647801.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_0_3_20170104230150057.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/41_1_3_20170104214413309.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104222152991.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/41_1_3_20170104214413309.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104223125535.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/42_1_0_20170109141959953.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103223244111.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/48_0_1_20170104212527708.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/58_0_0_20170109010225320.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/48_1_0_20170104185815758.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_2_20170104021444541.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/48_1_0_20170109141729566.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_4_20161221192738446.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/48_1_0_20170109141729566.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_0_20170103175645974.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/48_1_0_20170109141729566.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_3_20170104231839354.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/48_1_0_20170110125249128.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_1_2_20161219194328354.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/49_0_3_20170105172442069.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/47_0_0_20170105173254709.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/49_1_0_20170104184759926.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/36_1_0_20170103182848826.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/49_1_0_20170109220611995.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20170103235712113.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/4_1_0_20161219201246716.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_3_20170104235435739.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_1_0_20170110143557981.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_1_0_20170104013351986.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_1_0_20170111182452943.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_0_0_20170104202119290.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/50_1_0_20170111182452943.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_3_20170104232710103.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/51_1_3_20170104232315523.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104231720114.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/52_1_0_20170109221143312.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214554528.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/52_1_0_20170109221143312.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_1_2_20170105162546659.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/53_0_0_20170104212355436.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_0_4_20170105172322132.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/53_1_0_20170110154535039.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/56_1_0_20170110141656511.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/53_1_0_20170110160643219.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_4_20170104011031984.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/54_0_0_20170111203603354.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/23_1_3_20170104220147782.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/54_0_0_20170111203603354.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/47_1_0_20170103183432930.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/56_0_0_20170111171747454.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_0_0_20170104184751214.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/56_1_3_20170109141207996.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_1_3_20170109132653966.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/5_1_3_20161219225406048.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_0_0_20170110225028524.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_1_0_20170110153435061.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/49_1_0_20170109221050190.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/61_0_3_20170109015533502.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_0_20170110224255796.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/62_0_3_20170109134459638.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/60_0_3_20170104220126534.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/62_1_0_20170109142055018.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/63_1_0_20170109150950547.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/62_1_0_20170110141039449.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/34_0_0_20170104204354155.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/62_1_3_20170109150704840.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/61_1_3_20170105001450436.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/63_1_0_20170110160643860.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_1_3_20170104232231283.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/63_1_0_20170110160643860.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_2_20170103182708145.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/63_1_0_20170110160643860.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/39_1_0_20170104183924038.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/63_1_0_20170110160643860.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/3_1_0_20170109192758746.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/63_1_0_20170110160643860.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/37_1_0_20170105165040044.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/65_1_0_20170110154347701.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/66_1_0_20170110141312880.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/66_1_0_20170110132135290.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/66_1_0_20170110140456209.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/67_1_0_20170110140434646.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/76_1_0_20170110131747399.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/67_1_0_20170110143329621.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/67_1_0_20170110140452381.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/67_1_0_20170110152820302.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109194048333.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/68_1_0_20170110175311202.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/65_0_0_20170104213147181.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/69_1_0_20170110175803672.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/85_1_0_20170110184001159.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_2_20161219162040862.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/2_0_0_20170110213705227.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_3_20161220222405139.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_0_20170104171643865.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/6_1_4_20161221193543388.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20170103213122476.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/70_0_0_20170111200011745.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/61_0_0_20170111203523343.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/70_1_0_20170110140702586.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/66_1_0_20170110131902685.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/70_1_0_20170110140702586.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/72_1_0_20170110183416570.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/72_0_0_20170111201853033.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/75_0_0_20170111205238382.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/72_1_0_20170110140945561.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/68_0_0_20170104184637742.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/72_1_0_20170110140945561.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/45_0_0_20170104212920676.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/72_1_0_20170110180527464.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/57_1_2_20170109002542575.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/73_0_0_20170111223400971.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/74_0_0_20170111223743652.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/73_0_0_20170111223400971.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/75_0_0_20170111210525525.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/73_1_0_20170110122517886.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_2_20161219195318220.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/75_1_0_20170110180500719.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110183817822.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/78_1_0_20170110180142396.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109213013086.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/78_1_0_20170110180142396.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/26_1_4_20170103230455729.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/7_1_2_20161219160329535.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109213413212.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110154249092.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/20_1_3_20170104222034231.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110154249092.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/21_1_4_20170103224520560.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110154249092.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/24_1_3_20170104231625010.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110154249092.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/38_1_0_20170109221205343.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110154249092.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/41_1_0_20170111182452877.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110154249092.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/47_0_0_20170104211906453.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110154249092.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204836782.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110154249092.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/22_1_3_20170104232454786.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110154249092.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/32_1_4_20170105165021555.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/80_1_0_20170110154249092.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170103200353070.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/84_1_4_20170105001517613.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/85_1_3_20170110183506044.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/85_0_0_20170111210640890.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/85_0_0_20170111210457043.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "validation"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109201705598.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/35_1_0_20170108225911130.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_0_20170109204251231.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_4_20161223230041764.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 2
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/8_1_3_20161220222527146.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_4_20170103233304142.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/90_0_0_20170111223757607.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/73_0_0_20170105001507628.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 4
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/93_1_0_20170110141221528.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/85_1_0_20170110182428223.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 0
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/96_1_2_20170110182504813.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/27_1_4_20170103234931350.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    },
+    {
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_1_0_20170109202228755.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/17_1_4_20170103233515202.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "phash_distance": 6
+    }
+  ],
+  "policy": "pHash <=6 exhaustive cross-split plus flips; candidates require visual adjudication; no identity-isolation claim",
+  "signature_sha256": "ff711d0b74d0a82bb6e0b65b14579996d60f067f58ab0b2dc0e8dcea013c0b72",
+  "split_hashes": {
+    "train": "3fdba23fb43e1f4bd566b8bb4a003e1a3223fee98582063ea0cae001c9ba9dd9",
+    "validation": "d403e818009bdc669208773804861e161568253095b07ba9b66969a3eb8b9fc1",
+    "test": "e962d9e57aaaf0ab428a5d1bbc10e770630ae6e807176ac60c5152a1568b9855",
+    "external_benchmark": "685e32dbb80bcde536f604b34ec98c83dbebc1f66f84151cece964eaa2453db2"
+  },
+  "visual_review": "near_visual_review.json",
+  "confirmed_same_photo_reviewed": 12,
+  "unreviewed_candidates": 551,
+  "blocking_reason": "Encoded SHA256 isolation passed but same-photo derivatives cross train/validation and train/external. Do not train or alter splits automatically."
+}

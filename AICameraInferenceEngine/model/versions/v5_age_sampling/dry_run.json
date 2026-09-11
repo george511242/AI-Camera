@@ -1,0 +1,155 @@
+{
+  "status": "READY",
+  "counts": {
+    "train": {
+      "sources": 5712,
+      "rows": 17136,
+      "detected": 17037
+    },
+    "validation": {
+      "sources": 1300,
+      "rows": 3900,
+      "detected": 3846
+    }
+  },
+  "arms": {
+    "control": {
+      "train_manifest": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/train.jsonl",
+      "validation_manifest": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/validation.jsonl",
+      "train_cache_index": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/train_cache.jsonl",
+      "validation_cache_index": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/validation_cache.jsonl",
+      "cache_root": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/cache_corrected",
+      "checkpoint": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/experiments/V4/age_v4_best.weights.h5",
+      "checkpoint_sha256": "9f3e9850cb4f07d20cbb0ee90ddc87574c4ee00c74a9eb4b3a8c0d5af2033272",
+      "seed": 20260905,
+      "recipe": {
+        "authorization": "User approved one paired experiment; exact mandatory order; no external confirmation",
+        "stage_order": [
+          "runner implementation",
+          "cache",
+          "audit",
+          "verify",
+          "control",
+          "treatment",
+          "compare"
+        ],
+        "seed": 20260905,
+        "weights": {
+          "0-17": 1.0,
+          "18-54": 1.5,
+          "55-80": 2.0,
+          "81-99": 1.0
+        },
+        "variant_probabilities": {
+          "160px": 0.4,
+          "80px": 0.35,
+          "40px": 0.25
+        },
+        "batch_size": 64,
+        "steps_per_epoch": 253,
+        "epochs_per_arm": 3,
+        "optimizer": "Adam",
+        "lr": 0.0001,
+        "loss": "unchanged ordinal BCE",
+        "augmentation": "v4 decode_cached unchanged",
+        "bn": "frozen",
+        "device": "CPU",
+        "selection": "Control final epoch3; best passing treatment epoch ranked by elderly pooled E2E within7 gain then elderly MAE; compare every required group/size to control",
+        "success": "child within7>=-1pp MAE<=+.3y; adult within7>=+3pp MAE<=0; elderly within7>=+5pp MAE<=-1y and largest improvement; per-size and pooled; bootstrap CIs reported",
+        "checkpoint_sha256": "9f3e9850cb4f07d20cbb0ee90ddc87574c4ee00c74a9eb4b3a8c0d5af2033272"
+      },
+      "sampling_weights": {
+        "0-17": 1.0,
+        "18-54": 1.0,
+        "55-80": 1.0,
+        "81-99": 1.0
+      }
+    },
+    "treatment": {
+      "train_manifest": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/train.jsonl",
+      "validation_manifest": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/validation.jsonl",
+      "train_cache_index": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/train_cache.jsonl",
+      "validation_cache_index": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/validation_cache.jsonl",
+      "cache_root": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/cache_corrected",
+      "checkpoint": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/experiments/V4/age_v4_best.weights.h5",
+      "checkpoint_sha256": "9f3e9850cb4f07d20cbb0ee90ddc87574c4ee00c74a9eb4b3a8c0d5af2033272",
+      "seed": 20260905,
+      "recipe": {
+        "authorization": "User approved one paired experiment; exact mandatory order; no external confirmation",
+        "stage_order": [
+          "runner implementation",
+          "cache",
+          "audit",
+          "verify",
+          "control",
+          "treatment",
+          "compare"
+        ],
+        "seed": 20260905,
+        "weights": {
+          "0-17": 1.0,
+          "18-54": 1.5,
+          "55-80": 2.0,
+          "81-99": 1.0
+        },
+        "variant_probabilities": {
+          "160px": 0.4,
+          "80px": 0.35,
+          "40px": 0.25
+        },
+        "batch_size": 64,
+        "steps_per_epoch": 253,
+        "epochs_per_arm": 3,
+        "optimizer": "Adam",
+        "lr": 0.0001,
+        "loss": "unchanged ordinal BCE",
+        "augmentation": "v4 decode_cached unchanged",
+        "bn": "frozen",
+        "device": "CPU",
+        "selection": "Control final epoch3; best passing treatment epoch ranked by elderly pooled E2E within7 gain then elderly MAE; compare every required group/size to control",
+        "success": "child within7>=-1pp MAE<=+.3y; adult within7>=+3pp MAE<=0; elderly within7>=+5pp MAE<=-1y and largest improvement; per-size and pooled; bootstrap CIs reported",
+        "checkpoint_sha256": "9f3e9850cb4f07d20cbb0ee90ddc87574c4ee00c74a9eb4b3a8c0d5af2033272"
+      },
+      "sampling_weights": {
+        "0-17": 1.0,
+        "18-54": 1.5,
+        "55-80": 2.0,
+        "81-99": 1.0
+      }
+    }
+  },
+  "only_arm_difference": [
+    "sampling_weights"
+  ],
+  "weight_fingerprints": {
+    "control": "da065b374f5e6d11b0f7d6bd6f082b71ec3bd41a09646984fdfe2fad8ffe6159",
+    "treatment": "da065b374f5e6d11b0f7d6bd6f082b71ec3bd41a09646984fdfe2fad8ffe6159"
+  },
+  "optimizer_iterations": {
+    "control": 0,
+    "treatment": 0
+  },
+  "optimizer_updates": 0,
+  "cache_hashes_match": true,
+  "original_manifests_or_indexes_used": false,
+  "sampling_probability_sha256": {
+    "control": "9dba4da6f69da8e6939b89783006c170ccab346a8bfe98ca4fbd30bd8bff966d",
+    "treatment": "c7fc9e73525a694f0192d372c12a6a4f7ce2c6c1f419b8303aebb94fe7efb9d3"
+  },
+  "immutable_code": {
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/train_age_v5_controlled.py": "94dc1d6a99be5df82b86ef901a4d41d5c07977b34fd5d3c58c65ea3b73a6e3b3",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/train_age_v4_mobilenetv3.py": "3a76d8c6c460a5af28f6c23f5a1f5a30b1a9883f098aea131de6c7c1ee7642d7",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/train_ssrnet_age_v32_ordinal.py": "f61c6dc567a355a2c90732be97415e3f27edbdce850230d4bdb03b71f1a383cf",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/inference/utils/img_utils.py": "9cc07e6dc6730b2c1617de9c225d2fac16c431e0b353e7b22817ee5d859c4fdf",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/run_config.json": "9795198c40e69ae955d47bccdf7b6312fbc96c02ca35d274ea060d061360f85b",
+    "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v5_age_sampling/split_repair/provenance.json": "8646156c1136454f536590843dc69f62155a3b577cbebb860670b6017f38a313"
+  },
+  "residual_limitations": [
+    "Candidate edges are conservative possible-photo families, not confirmed identity groups; 551 candidate pairs remain visually unadjudicated.",
+    "All ambiguous families touching TRAIN and held-out splits are excluded from TRAIN; held-out-only overlaps remain untouched.",
+    "Archived perceptual search covered cross-split pHash distance <=6 including flips; unknown crop/derivative families beyond that threshold and within-split non-exact derivatives are not exhaustively identified.",
+    "Phase1 UTKface sources are covered by external_benchmark signatures. SCFace/AFLW2000 have no signatures in this Age audit; cross-dataset renamed/derived photo provenance is not proven. No universal identity-isolation claim.",
+    "The fixed v4 checkpoint was previously trained on the original train split; excluding v5 training sources cannot undo inherited checkpoint exposure. This gate covers repaired v5 sampling membership only."
+  ],
+  "next_action": "STOP after READY; no training in this step. Await authorization to run CONTROL, then TREATMENT."
+}

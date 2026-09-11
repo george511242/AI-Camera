@@ -1,0 +1,165 @@
+{
+  "reviewed": 12,
+  "confirmed_same_photo": 12,
+  "unreviewed_candidates": 551,
+  "contact_sheet": "near_top12.jpg",
+  "pairs": [
+    {
+      "candidate": 396,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_0_20170110225451638.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/9_0_0_20170110220148443.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "rmse112": 2.3997988735801328,
+      "phash_distance": 2,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 9,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/16_0_0_20170110232725516.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_0_0_20170110223430616.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "rmse112": 2.788269614133661,
+      "phash_distance": 0,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 195,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109213623055.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109212849263.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "validation"
+      ],
+      "rmse112": 3.4587815848322525,
+      "phash_distance": 0,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 457,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/25_1_4_20170103233749355.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/19_1_4_20170103224609304.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "rmse112": 3.6035644527941906,
+      "phash_distance": 0,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 6,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/15_1_0_20170109214447621.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/18_1_0_20170109214106546.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "rmse112": 3.609631946219782,
+      "phash_distance": 2,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 212,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109193704430.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_0_20170109190742179.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "rmse112": 3.6607795762676107,
+      "phash_distance": 2,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 523,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/67_1_0_20170110143329621.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/67_1_0_20170110140452381.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "test"
+      ],
+      "rmse112": 3.8410122433293235,
+      "phash_distance": 2,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 41,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_1_3_20161220143345775.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_3_20161220223100579.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "rmse112": 4.165651401169971,
+      "phash_distance": 0,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 1,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109205130906.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/12_1_0_20170109212505669.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "rmse112": 4.22007651490183,
+      "phash_distance": 2,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 110,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/33_0_0_20170105165028532.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/31_0_0_20170104201726242.jpg.chip.jpg",
+      "splits": [
+        "validation",
+        "train"
+      ],
+      "rmse112": 4.222062682322117,
+      "phash_distance": 2,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 208,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_4_20170103202326832.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/1_0_4_20161221195039712.jpg.chip.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "rmse112": 4.2952245143345,
+      "phash_distance": 0,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    },
+    {
+      "candidate": 404,
+      "left": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/14_0_0_20170110232127519.jpg.chip.jpg",
+      "right": "/home/g2004/datasets/vac-distance/source/utkface/crop_part1/10_0_0_20170110224725285.jpg.chip.jpg",
+      "splits": [
+        "external_benchmark",
+        "train"
+      ],
+      "rmse112": 4.331535235284002,
+      "phash_distance": 2,
+      "decision": "confirmed same-photo derivative",
+      "evidence": "Visual comparison in near_top12.jpg: matching facial expression, texture/background and crop content; compression/resampling/color differences. This is image-duplication assessment, not person identification."
+    }
+  ],
+  "reason_stop": "Confirmed train-validation and train-external same-photo leakage suffices to fail isolation; no need to adjudicate remaining551 candidates before stopping."
+}

@@ -1,0 +1,10 @@
+experiment=YuNet v2 controlled LR 1e-4
+authorized_by_user=2026-09-09
+training_color=BGR; screening_color=BGR; screening_nms=correct_xywh_int16; score=0.75; nms_iou=0.3; max_detections=10
+started_at=2026-09-09T17:23:36+08:00
+upstream_commit=dca340aa082c71081a68d17db8e58b33a58a914b
+pretrained_sha256=9c7c9e14a4d60e57491d77e4d8b0d451bd834f300e05c0dea7fd1f6533817b06
+python=3.11.16
+torch=2.11.0+cu128
+cuda=12.8
+gpu=NVIDIA GeForce RTX 5070 Ti Laptop GPU

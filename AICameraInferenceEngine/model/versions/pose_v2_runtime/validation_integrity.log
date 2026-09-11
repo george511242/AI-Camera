@@ -1,0 +1,36 @@
+{
+  "pass_all_seven": true,
+  "source_counts": {
+    "train": 97698,
+    "validation": 24717
+  },
+  "cache_counts": {
+    "train": 97698,
+    "validation": 98868
+  },
+  "source_file_intersection": 0,
+  "source_group_intersection": 0,
+  "validation_rows_all_mapped_to_corrected_manifest": true,
+  "same_crops": "Both evaluate calls use the same records and read-only validation_rgb.npy; training=False; validation metrics independently recomputed from saved predictions.",
+  "gt_not_features": "Network.forward(x) only; replaced GT leaves RGB inputs and predictions exactly unchanged. GT landmarks control distance geometry/matching only, not angle features.",
+  "checkpoint_epoch": 1,
+  "checkpoint_matches_resume": true,
+  "changed_state_tensors_vs_v1": 138,
+  "checkpoint_sha256": "f4260fe76dca60347ccb388780c8e96dfa9ceaebb5062eafcb6d8b4870a43cec",
+  "sampled_rows": 64,
+  "reloaded_prediction_max_difference_degrees": {
+    "v1": 0.0,
+    "epoch1": 0.0
+  },
+  "validation_augmentation": false,
+  "hashes": {
+    "model/versions/pose_v2_runtime/audit/pose_train.jsonl": "2b7e95dd8decb005d21eff3bcd5a12d6edc7095ae36419c3d4f958015b4566fe",
+    "model/versions/pose_v2_runtime/audit/pose_validation.jsonl": "4d05b6b874d2d637c84d88ddb74a89f1f3a3c5cb25611708a87a60a8b76c5c7d",
+    "model/versions/pose_v2_runtime/cache/validation.jsonl": "1cb94a1b4719a44db59254b5760c9b5d911d3a237194e5b654e9d8330d380216",
+    "model/versions/pose_v2_runtime/training/runs/seed20260909/v1_predictions.npy": "e3593c8bd803799243453c05fa0723ff81fd9cdfb0e14057ec6d6753f0986b6f",
+    "model/versions/pose_v2_runtime/training/runs/seed20260909/epoch1_predictions.npy": "0da05afd6fc6a4d51ebf1459ca004da474a04be71292538513e7bbc0a8367a7c",
+    "tools/run_pose_v2_one_epoch.py": "28e55ff5cba0877579d77cff94cb243dc99a451316487b8a24f31c0263ac4df7",
+    "tools/train_head_pose_v2.py": "477ca2b22a71dade5669315d94916424114d7554491adfecf2412e8af4294931",
+    "tools/prepare_pose_v2_runtime_cache.py": "6d73cad83057c3117d20303c635dff846fc1db4445b3e1a2ab9e8552f76e3023"
+  }
+}

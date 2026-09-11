@@ -1,0 +1,28 @@
+{
+  "status": "STOPPED_AT_LEAKAGE_GATE",
+  "cache": {
+    "train": {
+      "sources": 6075,
+      "rows": 18225,
+      "detected": 18125
+    },
+    "validation": {
+      "sources": 1300,
+      "rows": 3900,
+      "detected": 3846
+    }
+  },
+  "audit_status": "FAIL",
+  "cross_split_exact_pixels": 0,
+  "near_candidates": 563,
+  "confirmed_same_photo_reviewed": 12,
+  "control_epochs": 0,
+  "treatment_epochs": 0,
+  "optimizer_updates": 0,
+  "metrics": null,
+  "bootstrap_ci": null,
+  "checkpoint_file_sha256": "9f3e9850cb4f07d20cbb0ee90ddc87574c4ee00c74a9eb4b3a8c0d5af2033272",
+  "loaded_pair_verification": "NOT RUN: mandatory audit prerequisite failed",
+  "phase1_confirmation": "NOT RUN",
+  "next_action": "STOP. Do not run verify/control/treatment. A separately authorized source-derivative grouping/split repair and repeated isolation audit is required; frozen data/labels must remain unchanged."
+}

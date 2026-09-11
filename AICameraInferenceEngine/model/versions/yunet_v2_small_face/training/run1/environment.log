@@ -1,0 +1,31 @@
+started_at=2026-09-05T23:24:02+08:00
+upstream_commit=dca340aa082c71081a68d17db8e58b33a58a914b
+pretrained_sha256=9c7c9e14a4d60e57491d77e4d8b0d451bd834f300e05c0dea7fd1f6533817b06
+python=3.11.16
+torch=2.11.0+cu128
+cuda=12.8
+gpu=NVIDIA GeForce RTX 5070 Ti Laptop GPU
+capability=(12, 0)
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       3.1Gi       2.1Gi       196Mi       2.7Gi       4.4Gi
+Swap:          2.0Gi       562Mi       1.5Gi
+Sat Sep  5 23:24:05 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 575.66                 Driver Version: 577.13         CUDA Version: 12.9     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 5070 ...    On  |   00000000:01:00.0 Off |                  N/A |
+| N/A   49C    P8              9W /  131W |      13MiB /  12227MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+

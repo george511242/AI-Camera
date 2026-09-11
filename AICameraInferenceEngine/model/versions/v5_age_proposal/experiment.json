@@ -1,0 +1,91 @@
+{
+  "status": "PROPOSAL ONLY; NOT AUTHORIZED TO TRAIN; runner not implemented",
+  "experiment": "One controlled factor: age-group sampling, two paired arms, no grid",
+  "initial_checkpoint": "model/versions/v4_age_mobilenetv3/experiments/V4/age_v4_best.weights.h5",
+  "initial_checkpoint_sha256": "9f3e9850cb4f07d20cbb0ee90ddc87574c4ee00c74a9eb4b3a8c0d5af2033272",
+  "architecture": "Unchanged MobileNetV3-Large alpha1,112 RGB0..255,128 embedding,98 ordered thresholds ages1..99,ordinal BCE; unchanged scalar expected-age export",
+  "split_root": "model/versions/v3_age/training/splits",
+  "cache_root": "model/versions/v5_age_sampling/cache_corrected",
+  "cache_requirement": "New shared train/validation-only cache, corrected original YuNet BGR/xywh/.75/.3/IoU.5; margin.45 clamp/int; direct cv2 bilinear112 RGB contract. Never reuse legacy64px cache as current runtime-faithful cache.",
+  "train_variants": {
+    "160px": 0.4,
+    "80px": 0.35,
+    "40px": 0.25
+  },
+  "validation_variants": [
+    115,
+    57,
+    38
+  ],
+  "arms": {
+    "control": {
+      "0-17": 1,
+      "18-54": 1,
+      "55-80": 1,
+      "81-99": 1
+    },
+    "treatment": {
+      "0-17": 1,
+      "18-54": 1.5,
+      "55-80": 2,
+      "81-99": 1
+    }
+  },
+  "sampling": "Select variant using fixed mixture; choose age group proportional to successful train rows in variant times group weight; choose uniform source within group/variant with replacement. Log realized source/group/variant draws. No loss weighting.",
+  "seed": 20260905,
+  "epochs_per_arm": 3,
+  "steps_per_epoch": 253,
+  "batch_size": 64,
+  "optimizer": "fresh Adam learning_rate1e-4 in both arms; no warmup, BN frozen; no LR search/scheduler over this fixed three-epoch experiment",
+  "augmentation": "v4 flip,brightness18,contrast.85..1.15; no extra augmentation",
+  "workers": 4,
+  "prefetch": 2,
+  "device": "cpu",
+  "python": "/home/g2004/miniforge3/envs/vac-age-v3/bin/python",
+  "selection": "Final epoch3 only if safety checks pass; no best-of-epochs selection. Epoch1 safety report only. Control and treatment both restart exact v4 checkpoint.",
+  "evaluation": "Paired unchanged v4/control/treatment on same new corrected validation crops. Conditional MAE/within7/signed mean; E2E within7 and gate counts; groups overall,0-17,18-54,55-80,81+ diagnostic; each115/57/38 plus pooled; all ages1..99 and0..80 sensitivity.",
+  "gates": {
+    "children_each_size_vs_v4_and_control": {
+      "within7_min_delta_pp": -1,
+      "mae_max_delta_years": 0.3
+    },
+    "adult_each_size_vs_v4": {
+      "within7_min_delta_pp": 3,
+      "mae_max_delta_years": 0,
+      "preferred_mae": 7
+    },
+    "elderly_each_size_vs_v4": {
+      "within7_min_delta_pp": 5,
+      "mae_max_delta_years": -1,
+      "absolute_signed_mean_must_decrease": true
+    },
+    "overall_each_size_vs_v4": {
+      "within7_min_delta_pp": 0,
+      "mae_max_delta_years": 0
+    },
+    "treatment_vs_control_pooled": {
+      "elderly_within7_min_delta_pp": 2,
+      "elderly_mae_max_delta_years": -0.5,
+      "adult_within7_min_delta_pp": 0,
+      "adult_mae_max_delta_years": 0
+    },
+    "largest_gain": "elderly pooled within7 improvement over v4 must exceed adult and child improvements",
+    "uncertainty": "1000 paired source-group bootstrap replicates,95% CI of pooled elderly within7 delta vs v4 and vs control must exclude0; inconclusive means no success claim",
+    "metric_denominators": "All within7 gates use E2E; MAE and signed mean conditional on fixed shared detections."
+  },
+  "stops": [
+    "No training before proposal response and subsequent user authorization",
+    "Fail closed on split/source/hash/decode near-duplicate collision, cache mismatch, nonfinite outputs/loss/gradient, ordinal monotonicity violations or changed immutable hashes",
+    "After epoch1, stop an arm on child per-size regression >1pp or MAE >.3y vs v4; other arm cannot be claimed successful without comparable completed control",
+    "Maximum3 epochs each,6 total; no retries with other weights/LRs/seeds, no automatic continuation",
+    "No Phase1/frozen predictions or labels in training/model selection; no external test rerun in this experiment",
+    "No export/conversion/default promotion without separate scope"
+  ],
+  "pending": [
+    "Implement dedicated runner and shared cache builder with explicit guards",
+    "Audit decoded/perceptual duplicates for train/validation/external using source images only and freeze audit manifest; existing evidence covers source IDs and encoded SHA256, not identities",
+    "Generate corrected independent validation cache and record v4 baseline raw predictions once",
+    "Report actual corrected train histogram; weights stay fixed, no adjustment from validation/test errors"
+  ],
+  "proposed_command": "CUDA_VISIBLE_DEVICES=-1 /home/g2004/miniforge3/envs/vac-age-v3/bin/python tools/train_age_v5_controlled.py --config model/versions/v5_age_proposal/experiment.json --output-dir model/versions/v5_age_sampling/paired_seed20260905"
+}
