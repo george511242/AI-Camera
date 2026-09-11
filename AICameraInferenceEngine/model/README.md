@@ -1,3 +1,9 @@
+# 模型目錄與版本入口
+
+[統一版本對照與目前狀態](../reports/00_overview/project_versions_and_status.zh-TW.md) · [集中報告目錄](../reports/README.md)
+
+模型、ONNX/RKNN、訓練與原始驗證資料保留既有路徑；分析報告集中至 reports/。
+
 # Model layout
 
 Models are separated by provenance and version. Do not overwrite an existing

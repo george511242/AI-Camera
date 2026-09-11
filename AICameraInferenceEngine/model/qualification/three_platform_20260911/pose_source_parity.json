@@ -1,0 +1,48 @@
+{
+  "model": "Pose",
+  "source_sha256": "f4260fe76dca60347ccb388780c8e96dfa9ceaebb5062eafcb6d8b4870a43cec",
+  "onnx_sha256": "ed35f6f72ff25fd0837f60ad8a56ff73e8a0ce7c15c2032c04b59065fdac968f",
+  "inputs": "fixed synthetic zeros/midgray/seeded noise; no dataset or held-out labels",
+  "input_sha256": "0ea769ead7b2da6e7831a230eab8ca366c9d5bae0a3335c45bbfce359ff59329",
+  "source_outputs": [
+    [
+      -2.621276378631592,
+      19.402816772460938,
+      -19.827043533325195
+    ],
+    [
+      -1.7937266826629639,
+      -0.6466599702835083,
+      -18.00724220275879
+    ],
+    [
+      4.786721706390381,
+      7.363182067871094,
+      -0.8972022533416748
+    ]
+  ],
+  "onnx_outputs": [
+    [
+      -2.621274948120117,
+      19.402835845947266,
+      -19.827041625976562
+    ],
+    [
+      -1.7937142848968506,
+      -0.646666407585144,
+      -18.007244110107422
+    ],
+    [
+      4.7867302894592285,
+      7.363166809082031,
+      -0.8972036242485046
+    ]
+  ],
+  "max_absolute_tensor_delta": 1.9073486328125e-05,
+  "decoded_output_delta": 1.9073486328125e-05,
+  "tolerance": 0.01,
+  "tolerance_basis": "existing Age/Pose .01; Gender conservative supplemental scalar tolerance 1e-4",
+  "status": "PASS",
+  "optimizer_updates": 0,
+  "dtype_layout": "host NHWC FP32 transposed to ONNX NCHW FP32; Pose normalization as contract"
+}

@@ -1,0 +1,9 @@
+{
+  "checks": "Input/model hashes unchanged; counts/unique keys/label equality/face heights/finite predictions and confusion sums PASS",
+  "prediction_sha256": "83110d108e4b7825be7bd474d31de95312b1c60556595a3c51e7b2f07e39bd77",
+  "failure_reasons": {
+    "null": 8635,
+    "yunet_missed": 451,
+    "wrong_face_matched": 112
+  }
+}

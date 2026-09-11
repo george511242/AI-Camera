@@ -1,0 +1,36 @@
+{
+  "model": "Gender",
+  "source_sha256": "692b724cf0132c93fb07d01c6879293f7a67d924372f311a668b5155e84f9cff",
+  "onnx_sha256": "992c554be25fd647bbe4732c326fceae90dcb7ce7932dc9f1df9301db2faca20",
+  "inputs": "fixed synthetic zeros/midgray/seeded noise; no dataset or held-out labels",
+  "input_sha256": "50d57101ee892e647522b1789503c8565e826673a40f11c084ad8666080d89ab",
+  "source_outputs": [
+    [
+      0.9999791979789734
+    ],
+    [
+      0.9938639402389526
+    ],
+    [
+      0.9999685883522034
+    ]
+  ],
+  "onnx_outputs": [
+    [
+      0.9999791979789734
+    ],
+    [
+      0.9938638806343079
+    ],
+    [
+      0.9999685883522034
+    ]
+  ],
+  "max_absolute_tensor_delta": 5.960464477539063e-08,
+  "decoded_output_delta": 0.0,
+  "tolerance": 0.0001,
+  "tolerance_basis": "existing Age/Pose .01; Gender conservative supplemental scalar tolerance 1e-4",
+  "status": "PASS",
+  "optimizer_updates": 0,
+  "dtype_layout": "host NHWC FP32 transposed to ONNX NCHW FP32; Pose normalization as contract"
+}

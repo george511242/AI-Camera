@@ -1,0 +1,2714 @@
+[
+  {
+    "model": "YuNet",
+    "version": "v1_baseline",
+    "onnx": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/onnx/yunet_n_640_640.onnx",
+    "onnx_sha256": "25a606a145a5b6d7271ae138fbd00eba91dad8b83222ae3f2c7ecd0f4a7b0e31",
+    "onnx_checker": "PASS",
+    "opset": [
+      11
+    ],
+    "inputs": [
+      {
+        "name": "input",
+        "shape": [
+          1,
+          3,
+          640,
+          640
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "cls_8",
+        "shape": [
+          1,
+          6400,
+          1
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "cls_16",
+        "shape": [
+          1,
+          1600,
+          1
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "cls_32",
+        "shape": [
+          1,
+          400,
+          1
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "obj_8",
+        "shape": [
+          1,
+          6400,
+          1
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "obj_16",
+        "shape": [
+          1,
+          1600,
+          1
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "obj_32",
+        "shape": [
+          1,
+          400,
+          1
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "bbox_8",
+        "shape": [
+          1,
+          6400,
+          4
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "bbox_16",
+        "shape": [
+          1,
+          1600,
+          4
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "bbox_32",
+        "shape": [
+          1,
+          400,
+          4
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "kps_8",
+        "shape": [
+          1,
+          6400,
+          10
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "kps_16",
+        "shape": [
+          1,
+          1600,
+          10
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "kps_32",
+        "shape": [
+          1,
+          400,
+          10
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "source": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/onnx/yunet_n_640_640.onnx",
+    "source_kind": "native canonical ONNX; upstream framework checkpoint not available",
+    "contract": "BGR raw 0..255 NHWC host; square pad640; corrected bgr_xywh; 12 outputs cls/obj/bbox/kps strides8/16/32, score.75 NMS.3",
+    "mean": [
+      0,
+      0,
+      0
+    ],
+    "std": [
+      1,
+      1,
+      1
+    ],
+    "targets": {
+      "rk3566": {
+        "target_platform": "rk3566",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3566/yunet_n_640_640_fp16.rknn",
+        "exists": true,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "sha256": "9c0241ef624135b645f979c024541f2ea24d64507e93183dc6cdec701cb13f0d",
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                640,
+                640
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "std": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rgb2bgr": false
+            },
+            "cls_8": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1,
+                6400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "cls_16": {
+              "is_output": true,
+              "idx": 1,
+              "shape": [
+                1,
+                1600,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "cls_32": {
+              "is_output": true,
+              "idx": 2,
+              "shape": [
+                1,
+                400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "obj_8": {
+              "is_output": true,
+              "idx": 3,
+              "shape": [
+                1,
+                6400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "obj_16": {
+              "is_output": true,
+              "idx": 4,
+              "shape": [
+                1,
+                1600,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "obj_32": {
+              "is_output": true,
+              "idx": 5,
+              "shape": [
+                1,
+                400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "bbox_8": {
+              "is_output": true,
+              "idx": 6,
+              "shape": [
+                1,
+                6400,
+                4
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "bbox_16": {
+              "is_output": true,
+              "idx": 7,
+              "shape": [
+                1,
+                1600,
+                4
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "bbox_32": {
+              "is_output": true,
+              "idx": 8,
+              "shape": [
+                1,
+                400,
+                4
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "kps_8": {
+              "is_output": true,
+              "idx": 9,
+              "shape": [
+                1,
+                6400,
+                10
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "kps_16": {
+              "is_output": true,
+              "idx": 10,
+              "shape": [
+                1,
+                1600,
+                10
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "kps_32": {
+              "is_output": true,
+              "idx": 11,
+              "shape": [
+                1,
+                400,
+                10
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                640,
+                640
+              ]
+            },
+            "cls_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "cls_8",
+              "shape": [
+                1,
+                6400,
+                1
+              ]
+            },
+            "cls_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "cls_16",
+              "shape": [
+                1,
+                1600,
+                1
+              ]
+            },
+            "cls_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "cls_32",
+              "shape": [
+                1,
+                400,
+                1
+              ]
+            },
+            "obj_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "obj_8",
+              "shape": [
+                1,
+                6400,
+                1
+              ]
+            },
+            "obj_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "obj_16",
+              "shape": [
+                1,
+                1600,
+                1
+              ]
+            },
+            "obj_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "obj_32",
+              "shape": [
+                1,
+                400,
+                1
+              ]
+            },
+            "bbox_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "bbox_8",
+              "shape": [
+                1,
+                6400,
+                4
+              ]
+            },
+            "bbox_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "bbox_16",
+              "shape": [
+                1,
+                1600,
+                4
+              ]
+            },
+            "bbox_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "bbox_32",
+              "shape": [
+                1,
+                400,
+                4
+              ]
+            },
+            "kps_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "kps_8",
+              "shape": [
+                1,
+                6400,
+                10
+              ]
+            },
+            "kps_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "kps_16",
+              "shape": [
+                1,
+                1600,
+                10
+              ]
+            },
+            "kps_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "kps_32",
+              "shape": [
+                1,
+                400,
+                10
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "status": "PASS",
+        "reason": "No immutable source ONNX SHA256-to-artifact build record established",
+        "job_required": true,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3566/yunet_n_640_640_fp16_qualified_20260911.rknn",
+        "command": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/bin/python",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/convert_rknn_fp16.py",
+          "--source",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/onnx/yunet_n_640_640.onnx",
+          "--output",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3566/yunet_n_640_640_fp16_qualified_20260911.rknn",
+          "--target",
+          "rk3566",
+          "--mean",
+          "0",
+          "0",
+          "0",
+          "--std",
+          "1",
+          "1",
+          "1"
+        ],
+        "log": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/qualification/three_platform_20260911/yunet_rk3566.log",
+        "source_onnx_sha256": "25a606a145a5b6d7271ae138fbd00eba91dad8b83222ae3f2c7ecd0f4a7b0e31",
+        "toolkit_version": "2.3.2",
+        "returncode": 0,
+        "warnings_errors": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/lib/python3.12/site-packages/rknn/api/rknn.py:51: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.",
+          "E RKNN: [11:01:56.837] Unkown op target: 0",
+          "E RKNN: [11:01:56.837] Unkown op target: 0",
+          "E RKNN: [11:01:56.838] Unkown op target: 0",
+          "E RKNN: [11:01:56.838] Unkown op target: 0",
+          "E RKNN: [11:01:56.839] Unkown op target: 0"
+        ],
+        "unsupported_replaced_operators": "See full conversion log; no manual operator replacements",
+        "bytes": 505635,
+        "preprocessing_decode_contract": "BGR raw 0..255 NHWC host; square pad640; corrected bgr_xywh; 12 outputs cls/obj/bbox/kps strides8/16/32, score.75 NMS.3",
+        "physical_runtime": "PENDING",
+        "android_integration": "NOT APPLICABLE",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; BGR raw 0..255 NHWC host; square pad640; corrected bgr_xywh; 12 outputs cls/obj/bbox/kps strides8/16/32, score.75 NMS.3",
+        "log_sha256": "015044510d1504cfb0ed48165a2344bf9a941fafb22b78c4a2d096966e18713b"
+      },
+      "rk3576": {
+        "target_platform": "rk3576",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3576/yunet_n_640_640_fp16.rknn",
+        "exists": false,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "status": "PASS",
+        "reason": "No artifact",
+        "job_required": true,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3576/yunet_n_640_640_fp16.rknn",
+        "command": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/bin/python",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/convert_rknn_fp16.py",
+          "--source",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/onnx/yunet_n_640_640.onnx",
+          "--output",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3576/yunet_n_640_640_fp16.rknn",
+          "--target",
+          "rk3576",
+          "--mean",
+          "0",
+          "0",
+          "0",
+          "--std",
+          "1",
+          "1",
+          "1"
+        ],
+        "log": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/qualification/three_platform_20260911/yunet_rk3576.log",
+        "source_onnx_sha256": "25a606a145a5b6d7271ae138fbd00eba91dad8b83222ae3f2c7ecd0f4a7b0e31",
+        "toolkit_version": "2.3.2",
+        "returncode": 0,
+        "warnings_errors": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/lib/python3.12/site-packages/rknn/api/rknn.py:51: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81."
+        ],
+        "unsupported_replaced_operators": "See full conversion log; no manual operator replacements",
+        "sha256": "6b4babe4d969ea8815b4039faa4ecd780efae22f78c258a7019c11c779b41efc",
+        "bytes": 1236899,
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                640,
+                640
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "std": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rgb2bgr": false
+            },
+            "cls_8": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1,
+                6400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "cls_16": {
+              "is_output": true,
+              "idx": 1,
+              "shape": [
+                1,
+                1600,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "cls_32": {
+              "is_output": true,
+              "idx": 2,
+              "shape": [
+                1,
+                400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "obj_8": {
+              "is_output": true,
+              "idx": 3,
+              "shape": [
+                1,
+                6400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "obj_16": {
+              "is_output": true,
+              "idx": 4,
+              "shape": [
+                1,
+                1600,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "obj_32": {
+              "is_output": true,
+              "idx": 5,
+              "shape": [
+                1,
+                400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "bbox_8": {
+              "is_output": true,
+              "idx": 6,
+              "shape": [
+                1,
+                6400,
+                4
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "bbox_16": {
+              "is_output": true,
+              "idx": 7,
+              "shape": [
+                1,
+                1600,
+                4
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "bbox_32": {
+              "is_output": true,
+              "idx": 8,
+              "shape": [
+                1,
+                400,
+                4
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "kps_8": {
+              "is_output": true,
+              "idx": 9,
+              "shape": [
+                1,
+                6400,
+                10
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "kps_16": {
+              "is_output": true,
+              "idx": 10,
+              "shape": [
+                1,
+                1600,
+                10
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "kps_32": {
+              "is_output": true,
+              "idx": 11,
+              "shape": [
+                1,
+                400,
+                10
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                640,
+                640
+              ]
+            },
+            "cls_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "cls_8",
+              "shape": [
+                1,
+                6400,
+                1
+              ]
+            },
+            "cls_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "cls_16",
+              "shape": [
+                1,
+                1600,
+                1
+              ]
+            },
+            "cls_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "cls_32",
+              "shape": [
+                1,
+                400,
+                1
+              ]
+            },
+            "obj_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "obj_8",
+              "shape": [
+                1,
+                6400,
+                1
+              ]
+            },
+            "obj_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "obj_16",
+              "shape": [
+                1,
+                1600,
+                1
+              ]
+            },
+            "obj_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "obj_32",
+              "shape": [
+                1,
+                400,
+                1
+              ]
+            },
+            "bbox_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "bbox_8",
+              "shape": [
+                1,
+                6400,
+                4
+              ]
+            },
+            "bbox_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "bbox_16",
+              "shape": [
+                1,
+                1600,
+                4
+              ]
+            },
+            "bbox_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "bbox_32",
+              "shape": [
+                1,
+                400,
+                4
+              ]
+            },
+            "kps_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "kps_8",
+              "shape": [
+                1,
+                6400,
+                10
+              ]
+            },
+            "kps_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "kps_16",
+              "shape": [
+                1,
+                1600,
+                10
+              ]
+            },
+            "kps_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "kps_32",
+              "shape": [
+                1,
+                400,
+                10
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "preprocessing_decode_contract": "BGR raw 0..255 NHWC host; square pad640; corrected bgr_xywh; 12 outputs cls/obj/bbox/kps strides8/16/32, score.75 NMS.3",
+        "physical_runtime": "PENDING",
+        "android_integration": "PENDING",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; BGR raw 0..255 NHWC host; square pad640; corrected bgr_xywh; 12 outputs cls/obj/bbox/kps strides8/16/32, score.75 NMS.3",
+        "log_sha256": "244c27a0283c284bb03a015bbf691daca922c11a0a86ab5dfe16d87c360ab039"
+      },
+      "rk3588": {
+        "target_platform": "rk3588",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3588/yunet_n_640_640_fp16.rknn",
+        "exists": true,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "sha256": "3718b4858bec4afa608582588201919f50e24271f18137259da01d94b5ef011f",
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                640,
+                640
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "std": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rgb2bgr": false
+            },
+            "cls_8": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1,
+                6400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "cls_16": {
+              "is_output": true,
+              "idx": 1,
+              "shape": [
+                1,
+                1600,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "cls_32": {
+              "is_output": true,
+              "idx": 2,
+              "shape": [
+                1,
+                400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "obj_8": {
+              "is_output": true,
+              "idx": 3,
+              "shape": [
+                1,
+                6400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "obj_16": {
+              "is_output": true,
+              "idx": 4,
+              "shape": [
+                1,
+                1600,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "obj_32": {
+              "is_output": true,
+              "idx": 5,
+              "shape": [
+                1,
+                400,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "bbox_8": {
+              "is_output": true,
+              "idx": 6,
+              "shape": [
+                1,
+                6400,
+                4
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "bbox_16": {
+              "is_output": true,
+              "idx": 7,
+              "shape": [
+                1,
+                1600,
+                4
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "bbox_32": {
+              "is_output": true,
+              "idx": 8,
+              "shape": [
+                1,
+                400,
+                4
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "kps_8": {
+              "is_output": true,
+              "idx": 9,
+              "shape": [
+                1,
+                6400,
+                10
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "kps_16": {
+              "is_output": true,
+              "idx": 10,
+              "shape": [
+                1,
+                1600,
+                10
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "kps_32": {
+              "is_output": true,
+              "idx": 11,
+              "shape": [
+                1,
+                400,
+                10
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                640,
+                640
+              ]
+            },
+            "cls_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "cls_8",
+              "shape": [
+                1,
+                6400,
+                1
+              ]
+            },
+            "cls_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "cls_16",
+              "shape": [
+                1,
+                1600,
+                1
+              ]
+            },
+            "cls_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "cls_32",
+              "shape": [
+                1,
+                400,
+                1
+              ]
+            },
+            "obj_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "obj_8",
+              "shape": [
+                1,
+                6400,
+                1
+              ]
+            },
+            "obj_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "obj_16",
+              "shape": [
+                1,
+                1600,
+                1
+              ]
+            },
+            "obj_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "obj_32",
+              "shape": [
+                1,
+                400,
+                1
+              ]
+            },
+            "bbox_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "bbox_8",
+              "shape": [
+                1,
+                6400,
+                4
+              ]
+            },
+            "bbox_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "bbox_16",
+              "shape": [
+                1,
+                1600,
+                4
+              ]
+            },
+            "bbox_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "bbox_32",
+              "shape": [
+                1,
+                400,
+                4
+              ]
+            },
+            "kps_8": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "kps_8",
+              "shape": [
+                1,
+                6400,
+                10
+              ]
+            },
+            "kps_16": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "kps_16",
+              "shape": [
+                1,
+                1600,
+                10
+              ]
+            },
+            "kps_32": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "kps_32",
+              "shape": [
+                1,
+                400,
+                10
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "status": "PASS",
+        "reason": "No immutable source ONNX SHA256-to-artifact build record established",
+        "job_required": true,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3588/yunet_n_640_640_fp16_qualified_20260911.rknn",
+        "command": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/bin/python",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/convert_rknn_fp16.py",
+          "--source",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/onnx/yunet_n_640_640.onnx",
+          "--output",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3588/yunet_n_640_640_fp16_qualified_20260911.rknn",
+          "--target",
+          "rk3588",
+          "--mean",
+          "0",
+          "0",
+          "0",
+          "--std",
+          "1",
+          "1",
+          "1"
+        ],
+        "log": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/qualification/three_platform_20260911/yunet_rk3588.log",
+        "source_onnx_sha256": "25a606a145a5b6d7271ae138fbd00eba91dad8b83222ae3f2c7ecd0f4a7b0e31",
+        "toolkit_version": "2.3.2",
+        "returncode": 0,
+        "warnings_errors": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/lib/python3.12/site-packages/rknn/api/rknn.py:51: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81."
+        ],
+        "unsupported_replaced_operators": "See full conversion log; no manual operator replacements",
+        "bytes": 1177699,
+        "preprocessing_decode_contract": "BGR raw 0..255 NHWC host; square pad640; corrected bgr_xywh; 12 outputs cls/obj/bbox/kps strides8/16/32, score.75 NMS.3",
+        "physical_runtime": "PENDING",
+        "android_integration": "NOT APPLICABLE",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; BGR raw 0..255 NHWC host; square pad640; corrected bgr_xywh; 12 outputs cls/obj/bbox/kps strides8/16/32, score.75 NMS.3",
+        "log_sha256": "f7aaf8b86a9d069f93e0872468cba607e6d9fc9eb8f4a0825f7cdf37f8e99fda"
+      }
+    },
+    "source_exists": true,
+    "source_sha256": "25a606a145a5b6d7271ae138fbd00eba91dad8b83222ae3f2c7ecd0f4a7b0e31",
+    "onnx_export_state": "NOT APPLICABLE",
+    "qualification_status": "THREE-PLATFORM CONVERSION PASS; PHYSICAL RUNTIME PENDING"
+  },
+  {
+    "model": "Age",
+    "version": "v4_age_mobilenetv3",
+    "onnx": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/onnx/age_v4_mobilenetv3_large_112.onnx",
+    "onnx_sha256": "0a8192e326388aeb17d0187293669a8c8151bc0cc8cf085782d07a2cdc6186f9",
+    "onnx_checker": "PASS",
+    "opset": [
+      13,
+      2
+    ],
+    "inputs": [
+      {
+        "name": "input",
+        "shape": [
+          1,
+          3,
+          112,
+          112
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "tf.identity",
+        "shape": [
+          1,
+          1
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "source": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/experiments/V4/age_v4_best.weights.h5",
+    "source_kind": "checkpoint",
+    "contract": "RGB raw float32 NHWC host112; margin.45; built-in -1..1; scalar age already decoded 1+sum(98 probabilities)",
+    "mean": [
+      0,
+      0,
+      0
+    ],
+    "std": [
+      1,
+      1,
+      1
+    ],
+    "targets": {
+      "rk3566": {
+        "target_platform": "rk3566",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/rknn/rk3566/age_v4_mobilenetv3_large_112_fp16.rknn",
+        "exists": true,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "sha256": "833c7937f6678ca96ab9dab535ff5d526adc532868a2d97c6c5cab357617c89c",
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                112,
+                112
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "std": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rgb2bgr": false
+            },
+            "tf.identity": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                112,
+                112
+              ]
+            },
+            "tf.identity": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "tf.identity",
+              "shape": [
+                1,
+                1
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "status": "PASS",
+        "reason": "No immutable source ONNX SHA256-to-artifact build record established",
+        "job_required": true,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/rknn/rk3566/age_v4_mobilenetv3_large_112_fp16_qualified_20260911.rknn",
+        "command": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/bin/python",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/convert_rknn_fp16.py",
+          "--source",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/onnx/age_v4_mobilenetv3_large_112.onnx",
+          "--output",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/rknn/rk3566/age_v4_mobilenetv3_large_112_fp16_qualified_20260911.rknn",
+          "--target",
+          "rk3566",
+          "--mean",
+          "0",
+          "0",
+          "0",
+          "--std",
+          "1",
+          "1",
+          "1"
+        ],
+        "log": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/qualification/three_platform_20260911/age_rk3566.log",
+        "source_onnx_sha256": "0a8192e326388aeb17d0187293669a8c8151bc0cc8cf085782d07a2cdc6186f9",
+        "toolkit_version": "2.3.2",
+        "returncode": 0,
+        "warnings_errors": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/lib/python3.12/site-packages/rknn/api/rknn.py:51: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.",
+          "E RKNN: [11:02:02.110] Unkown op target: 0"
+        ],
+        "unsupported_replaced_operators": "See full conversion log; no manual operator replacements",
+        "bytes": 7009843,
+        "preprocessing_decode_contract": "RGB raw float32 NHWC host112; margin.45; built-in -1..1; scalar age already decoded 1+sum(98 probabilities)",
+        "physical_runtime": "PENDING",
+        "android_integration": "NOT APPLICABLE",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; RGB raw float32 NHWC host112; margin.45; built-in -1..1; scalar age already decoded 1+sum(98 probabilities)",
+        "log_sha256": "aa3c44e08380bf0c6493dc3768daaf95d43baecc7148ae4dd40c4d79e16ef3da"
+      },
+      "rk3576": {
+        "target_platform": "rk3576",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/rknn/rk3576/age_v4_mobilenetv3_large_112_fp16.rknn",
+        "exists": false,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "status": "PASS",
+        "reason": "No artifact",
+        "job_required": true,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/rknn/rk3576/age_v4_mobilenetv3_large_112_fp16.rknn",
+        "command": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/bin/python",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/convert_rknn_fp16.py",
+          "--source",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/onnx/age_v4_mobilenetv3_large_112.onnx",
+          "--output",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/rknn/rk3576/age_v4_mobilenetv3_large_112_fp16.rknn",
+          "--target",
+          "rk3576",
+          "--mean",
+          "0",
+          "0",
+          "0",
+          "--std",
+          "1",
+          "1",
+          "1"
+        ],
+        "log": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/qualification/three_platform_20260911/age_rk3576.log",
+        "source_onnx_sha256": "0a8192e326388aeb17d0187293669a8c8151bc0cc8cf085782d07a2cdc6186f9",
+        "toolkit_version": "2.3.2",
+        "returncode": 0,
+        "warnings_errors": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/lib/python3.12/site-packages/rknn/api/rknn.py:51: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81."
+        ],
+        "unsupported_replaced_operators": "See full conversion log; no manual operator replacements",
+        "sha256": "62ea9b21fbe9d976d780bd761d8f08d807e7ba31f3de76121aa3425c148a1acc",
+        "bytes": 7961011,
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                112,
+                112
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "std": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rgb2bgr": false
+            },
+            "tf.identity": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                112,
+                112
+              ]
+            },
+            "tf.identity": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "tf.identity",
+              "shape": [
+                1,
+                1
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "preprocessing_decode_contract": "RGB raw float32 NHWC host112; margin.45; built-in -1..1; scalar age already decoded 1+sum(98 probabilities)",
+        "physical_runtime": "PENDING",
+        "android_integration": "PENDING",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; RGB raw float32 NHWC host112; margin.45; built-in -1..1; scalar age already decoded 1+sum(98 probabilities)",
+        "log_sha256": "1610d7ac882d2a52e9d2164fd965d36a9de06b3967a9e40405f3b63014c48c9e"
+      },
+      "rk3588": {
+        "target_platform": "rk3588",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/rknn/rk3588/age_v4_mobilenetv3_large_112_fp16.rknn",
+        "exists": true,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "sha256": "df0d951982348e0cfab950201ca4ee4bd8c56eb04aab37824b76f20ea53444bf",
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                112,
+                112
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "std": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rgb2bgr": false
+            },
+            "tf.identity": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                112,
+                112
+              ]
+            },
+            "tf.identity": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "tf.identity",
+              "shape": [
+                1,
+                1
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "status": "PASS",
+        "reason": "No immutable source ONNX SHA256-to-artifact build record established",
+        "job_required": true,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/rknn/rk3588/age_v4_mobilenetv3_large_112_fp16_qualified_20260911.rknn",
+        "command": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/bin/python",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/convert_rknn_fp16.py",
+          "--source",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/onnx/age_v4_mobilenetv3_large_112.onnx",
+          "--output",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v4_age_mobilenetv3/rknn/rk3588/age_v4_mobilenetv3_large_112_fp16_qualified_20260911.rknn",
+          "--target",
+          "rk3588",
+          "--mean",
+          "0",
+          "0",
+          "0",
+          "--std",
+          "1",
+          "1",
+          "1"
+        ],
+        "log": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/qualification/three_platform_20260911/age_rk3588.log",
+        "source_onnx_sha256": "0a8192e326388aeb17d0187293669a8c8151bc0cc8cf085782d07a2cdc6186f9",
+        "toolkit_version": "2.3.2",
+        "returncode": 0,
+        "warnings_errors": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/lib/python3.12/site-packages/rknn/api/rknn.py:51: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.",
+          "E RKNN: [11:02:05.862] Unkown op target: 0"
+        ],
+        "unsupported_replaced_operators": "See full conversion log; no manual operator replacements",
+        "bytes": 7311411,
+        "preprocessing_decode_contract": "RGB raw float32 NHWC host112; margin.45; built-in -1..1; scalar age already decoded 1+sum(98 probabilities)",
+        "physical_runtime": "PENDING",
+        "android_integration": "NOT APPLICABLE",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; RGB raw float32 NHWC host112; margin.45; built-in -1..1; scalar age already decoded 1+sum(98 probabilities)",
+        "log_sha256": "92659c468e39ab7f29719b952e5616e08c22eabd39ffb59a82e94a0c162a848d"
+      }
+    },
+    "source_exists": true,
+    "source_sha256": "9f3e9850cb4f07d20cbb0ee90ddc87574c4ee00c74a9eb4b3a8c0d5af2033272",
+    "onnx_export_state": "PASS",
+    "qualification_status": "THREE-PLATFORM CONVERSION PASS; PHYSICAL RUNTIME PENDING"
+  },
+  {
+    "model": "Gender",
+    "version": "v2_finetuned",
+    "onnx": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/onnx/gender_ssrnet_v2_64x64.onnx",
+    "onnx_sha256": "992c554be25fd647bbe4732c326fceae90dcb7ce7932dc9f1df9301db2faca20",
+    "onnx_checker": "PASS",
+    "opset": [
+      13,
+      2
+    ],
+    "inputs": [
+      {
+        "name": "input",
+        "shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "tf.identity",
+        "shape": [
+          1,
+          1
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "source": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/training/runs/gender_v2_seed20260905/gender_ssrnet_v2_selected.weights.h5",
+    "source_kind": "checkpoint",
+    "contract": "BGR raw NHWC host64; margin.45; scalar >=.5 male",
+    "mean": [
+      0,
+      0,
+      0
+    ],
+    "std": [
+      1,
+      1,
+      1
+    ],
+    "targets": {
+      "rk3566": {
+        "target_platform": "rk3566",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/rknn/rk3566/gender_ssrnet_v2_64x64_fp16.rknn",
+        "exists": true,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "sha256": "1f8a6b2586015b490099ac2a99299f6c18714ef5853c999f6f0baf8a5c881ba8",
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                64,
+                64
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                0,
+                0,
+                0
+              ],
+              "std": [
+                1,
+                1,
+                1
+              ],
+              "rgb2bgr": false
+            },
+            "tf.identity": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                64,
+                64
+              ]
+            },
+            "tf.identity": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "tf.identity",
+              "shape": [
+                1,
+                1
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "status": "PASS",
+        "reason": "source/artifact SHA256 matches saved conversion record",
+        "conversion_record": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/validation/gender_v2_conversion.json",
+        "toolkit_version": "2.3.2",
+        "log": null,
+        "warnings": [
+          "pkg_resources is deprecated as an API",
+          "RKNN-Toolkit2 emitted seven 'Unkown op target: 0' messages per target"
+        ],
+        "job_required": false,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/rknn/rk3566/gender_ssrnet_v2_64x64_fp16.rknn",
+        "source_onnx_sha256": "992c554be25fd647bbe4732c326fceae90dcb7ce7932dc9f1df9301db2faca20",
+        "preprocessing_decode_contract": "BGR raw NHWC host64; margin.45; scalar >=.5 male",
+        "physical_runtime": "PENDING",
+        "android_integration": "NOT APPLICABLE",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; BGR raw NHWC host64; margin.45; scalar >=.5 male"
+      },
+      "rk3576": {
+        "target_platform": "rk3576",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/rknn/rk3576/gender_ssrnet_v2_64x64_fp16.rknn",
+        "exists": false,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "status": "PASS",
+        "reason": "No artifact",
+        "job_required": true,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/rknn/rk3576/gender_ssrnet_v2_64x64_fp16.rknn",
+        "command": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/bin/python",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/convert_rknn_fp16.py",
+          "--source",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/onnx/gender_ssrnet_v2_64x64.onnx",
+          "--output",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/rknn/rk3576/gender_ssrnet_v2_64x64_fp16.rknn",
+          "--target",
+          "rk3576",
+          "--mean",
+          "0",
+          "0",
+          "0",
+          "--std",
+          "1",
+          "1",
+          "1"
+        ],
+        "log": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/qualification/three_platform_20260911/gender_rk3576.log",
+        "source_onnx_sha256": "992c554be25fd647bbe4732c326fceae90dcb7ce7932dc9f1df9301db2faca20",
+        "toolkit_version": "2.3.2",
+        "returncode": 0,
+        "warnings_errors": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/lib/python3.12/site-packages/rknn/api/rknn.py:51: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81."
+        ],
+        "unsupported_replaced_operators": "See full conversion log; no manual operator replacements",
+        "sha256": "92200717367b94fca3a87e4d2d9fcf885d930ff173c4103b7e15d6a2c9d77ca0",
+        "bytes": 903025,
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                64,
+                64
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "std": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rgb2bgr": false
+            },
+            "tf.identity": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                64,
+                64
+              ]
+            },
+            "tf.identity": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "tf.identity",
+              "shape": [
+                1,
+                1
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "preprocessing_decode_contract": "BGR raw NHWC host64; margin.45; scalar >=.5 male",
+        "physical_runtime": "PENDING",
+        "android_integration": "PENDING",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; BGR raw NHWC host64; margin.45; scalar >=.5 male",
+        "log_sha256": "e7334b34dc00f30d8882d43227651511a0d72e0b7630bf78ea464729ab12fffd"
+      },
+      "rk3588": {
+        "target_platform": "rk3588",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/rknn/rk3588/gender_ssrnet_v2_64x64_fp16.rknn",
+        "exists": true,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "sha256": "afbcc6374c31d93bbedfd859050d3695bf8c034926ac5122ca3a6adc1969d70f",
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                64,
+                64
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                0,
+                0,
+                0
+              ],
+              "std": [
+                1,
+                1,
+                1
+              ],
+              "rgb2bgr": false
+            },
+            "tf.identity": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1,
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                64,
+                64
+              ]
+            },
+            "tf.identity": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "tf.identity",
+              "shape": [
+                1,
+                1
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "status": "PASS",
+        "reason": "source/artifact SHA256 matches saved conversion record",
+        "conversion_record": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/validation/gender_v2_conversion.json",
+        "toolkit_version": "2.3.2",
+        "log": null,
+        "warnings": [
+          "pkg_resources is deprecated as an API",
+          "RKNN-Toolkit2 emitted seven 'Unkown op target: 0' messages per target"
+        ],
+        "job_required": false,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/v2_finetuned/rknn/rk3588/gender_ssrnet_v2_64x64_fp16.rknn",
+        "source_onnx_sha256": "992c554be25fd647bbe4732c326fceae90dcb7ce7932dc9f1df9301db2faca20",
+        "preprocessing_decode_contract": "BGR raw NHWC host64; margin.45; scalar >=.5 male",
+        "physical_runtime": "PENDING",
+        "android_integration": "NOT APPLICABLE",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; BGR raw NHWC host64; margin.45; scalar >=.5 male"
+      }
+    },
+    "source_exists": true,
+    "source_sha256": "692b724cf0132c93fb07d01c6879293f7a67d924372f311a668b5155e84f9cff",
+    "onnx_export_state": "PASS",
+    "qualification_status": "THREE-PLATFORM CONVERSION PASS; PHYSICAL RUNTIME PENDING"
+  },
+  {
+    "model": "Pose",
+    "version": "pose_v2_runtime",
+    "onnx": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/onnx/head_pose_v2_e1_224x224.onnx",
+    "onnx_sha256": "ed35f6f72ff25fd0837f60ad8a56ff73e8a0ce7c15c2032c04b59065fdac968f",
+    "onnx_checker": "PASS",
+    "opset": [
+      13
+    ],
+    "inputs": [
+      {
+        "name": "input",
+        "shape": [
+          1,
+          3,
+          224,
+          224
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "roll",
+        "shape": [
+          1
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "yaw",
+        "shape": [
+          1
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "pitch",
+        "shape": [
+          1
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "source": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/training/runs/seed20260909/head_pose_v2_epoch1.pkl",
+    "source_kind": "checkpoint",
+    "contract": "RGB raw float32 NHWC host224; margin.6; RKNN mean/std supplies ImageNet normalization; outputs roll,yaw,pitch degrees",
+    "mean": [
+      123.675,
+      116.28,
+      103.53
+    ],
+    "std": [
+      58.395,
+      57.12,
+      57.375
+    ],
+    "targets": {
+      "rk3566": {
+        "target_platform": "rk3566",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/rknn/rk3566/head_pose_v2_e1_224x224_fp16.rknn",
+        "exists": true,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "sha256": "4ed4d4f69ab71e3d2dbabddf2d0787bc4153702a59096eb6beae67dab0e4fa2c",
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                224,
+                224
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                123.675,
+                116.28,
+                103.53
+              ],
+              "std": [
+                58.395,
+                57.12,
+                57.375
+              ],
+              "rgb2bgr": false
+            },
+            "roll": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "yaw": {
+              "is_output": true,
+              "idx": 1,
+              "shape": [
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "pitch": {
+              "is_output": true,
+              "idx": 2,
+              "shape": [
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                224,
+                224
+              ]
+            },
+            "roll": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "roll",
+              "shape": [
+                1
+              ]
+            },
+            "yaw": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "yaw",
+              "shape": [
+                1
+              ]
+            },
+            "pitch": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "pitch",
+              "shape": [
+                1
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "status": "PASS",
+        "reason": "locked deployment record plus ONNX parity hash chain",
+        "conversion_record": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/deployment/conversion.json",
+        "toolkit_version": "2.3.2",
+        "log": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/deployment/convert_rk3566.log",
+        "warnings": [
+          "Python pkg_resources API deprecation warning; no RKNN conversion warnings/errors"
+        ],
+        "job_required": false,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/rknn/rk3566/head_pose_v2_e1_224x224_fp16.rknn",
+        "source_onnx_sha256": "ed35f6f72ff25fd0837f60ad8a56ff73e8a0ce7c15c2032c04b59065fdac968f",
+        "preprocessing_decode_contract": "RGB raw float32 NHWC host224; margin.6; RKNN mean/std supplies ImageNet normalization; outputs roll,yaw,pitch degrees",
+        "physical_runtime": "PENDING",
+        "android_integration": "NOT APPLICABLE",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; RGB raw float32 NHWC host224; margin.6; RKNN mean/std supplies ImageNet normalization; outputs roll,yaw,pitch degrees",
+        "log_sha256": "0919947e893894df2dfbb230b5d160a08c88ff0193ce92a4d90870a7087d7ac4",
+        "warnings_errors": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/lib/python3.12/site-packages/rknn/api/rknn.py:51: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.",
+          "E RKNN: [23:56:44.949] Unkown op target: 0",
+          "E RKNN: [23:56:44.949] Unkown op target: 0",
+          "E RKNN: [23:56:44.949] Unkown op target: 0"
+        ]
+      },
+      "rk3576": {
+        "target_platform": "rk3576",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/rknn/rk3576/head_pose_v2_e1_224x224_fp16.rknn",
+        "exists": false,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "status": "PASS",
+        "reason": "No artifact",
+        "job_required": true,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/rknn/rk3576/head_pose_v2_e1_224x224_fp16.rknn",
+        "command": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/bin/python",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/tools/convert_rknn_fp16.py",
+          "--source",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/onnx/head_pose_v2_e1_224x224.onnx",
+          "--output",
+          "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/rknn/rk3576/head_pose_v2_e1_224x224_fp16.rknn",
+          "--target",
+          "rk3576",
+          "--mean",
+          "123.675",
+          "116.28",
+          "103.53",
+          "--std",
+          "58.395",
+          "57.12",
+          "57.375"
+        ],
+        "log": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/qualification/three_platform_20260911/pose_rk3576.log",
+        "source_onnx_sha256": "ed35f6f72ff25fd0837f60ad8a56ff73e8a0ce7c15c2032c04b59065fdac968f",
+        "toolkit_version": "2.3.2",
+        "returncode": 0,
+        "warnings_errors": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/lib/python3.12/site-packages/rknn/api/rknn.py:51: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81."
+        ],
+        "unsupported_replaced_operators": "See full conversion log; no manual operator replacements",
+        "sha256": "8fec9e893d435293c9f03b93f0eedb881cc220582834a94de985e32f27b09347",
+        "bytes": 1433764,
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                224,
+                224
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                123.675,
+                116.28,
+                103.53
+              ],
+              "std": [
+                58.395,
+                57.12,
+                57.375
+              ],
+              "rgb2bgr": false
+            },
+            "roll": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "yaw": {
+              "is_output": true,
+              "idx": 1,
+              "shape": [
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "pitch": {
+              "is_output": true,
+              "idx": 2,
+              "shape": [
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                224,
+                224
+              ]
+            },
+            "roll": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "roll",
+              "shape": [
+                1
+              ]
+            },
+            "yaw": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "yaw",
+              "shape": [
+                1
+              ]
+            },
+            "pitch": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "pitch",
+              "shape": [
+                1
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "preprocessing_decode_contract": "RGB raw float32 NHWC host224; margin.6; RKNN mean/std supplies ImageNet normalization; outputs roll,yaw,pitch degrees",
+        "physical_runtime": "PENDING",
+        "android_integration": "PENDING",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; RGB raw float32 NHWC host224; margin.6; RKNN mean/std supplies ImageNet normalization; outputs roll,yaw,pitch degrees",
+        "log_sha256": "5048c2676c3e99ab57422744566276c0cc21369e07aa0437baf04ded34682ab6"
+      },
+      "rk3588": {
+        "target_platform": "rk3588",
+        "old_path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/rknn/rk3588/head_pose_v2_e1_224x224_fp16.rknn",
+        "exists": true,
+        "runtime": "PENDING",
+        "physical_runtime_performed": false,
+        "sha256": "224244a03e37a1a849931dee5990be323a5073739f6121d53ddc562408cb6373",
+        "embedded_metadata": {
+          "attrs": {
+            "input": {
+              "idx": 0,
+              "shape": [
+                1,
+                3,
+                224,
+                224
+              ],
+              "layout": "nchw",
+              "layout_ori": "nchw",
+              "is_output": false,
+              "range": [
+                0,
+                1
+              ],
+              "origin_dynamic": false,
+              "dtype": "float32",
+              "mean": [
+                123.675,
+                116.28,
+                103.53
+              ],
+              "std": [
+                58.395,
+                57.12,
+                57.375
+              ],
+              "rgb2bgr": false
+            },
+            "roll": {
+              "is_output": true,
+              "idx": 0,
+              "shape": [
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "yaw": {
+              "is_output": true,
+              "idx": 1,
+              "shape": [
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            },
+            "pitch": {
+              "is_output": true,
+              "idx": 2,
+              "shape": [
+                1
+              ],
+              "dtype": "float32",
+              "layout": "nchw"
+            }
+          },
+          "quant_tab": {
+            "input": {
+              "dtype": "float32",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "input",
+              "shape": [
+                1,
+                3,
+                224,
+                224
+              ]
+            },
+            "roll": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "roll",
+              "shape": [
+                1
+              ]
+            },
+            "yaw": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "yaw",
+              "shape": [
+                1
+              ]
+            },
+            "pitch": {
+              "dtype": "float16",
+              "qmethod": "",
+              "qtype": "",
+              "min": [],
+              "max": [],
+              "scale": [],
+              "zero_point": [],
+              "name": "pitch",
+              "shape": [
+                1
+              ]
+            }
+          },
+          "dynamic_shapes": {}
+        },
+        "status": "PASS",
+        "reason": "locked deployment record plus ONNX parity hash chain",
+        "conversion_record": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/deployment/conversion.json",
+        "toolkit_version": "2.3.2",
+        "log": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/deployment/convert_rk3588.log",
+        "warnings": [
+          "Python pkg_resources API deprecation warning; no RKNN conversion warnings/errors"
+        ],
+        "job_required": false,
+        "path": "/home/g2004/projects/VAC-AI-Camera-Source/vac-camera/vac-camera/AICameraInferenceEngine/model/versions/pose_v2_runtime/rknn/rk3588/head_pose_v2_e1_224x224_fp16.rknn",
+        "source_onnx_sha256": "ed35f6f72ff25fd0837f60ad8a56ff73e8a0ce7c15c2032c04b59065fdac968f",
+        "preprocessing_decode_contract": "RGB raw float32 NHWC host224; margin.6; RKNN mean/std supplies ImageNet normalization; outputs roll,yaw,pitch degrees",
+        "physical_runtime": "PENDING",
+        "android_integration": "NOT APPLICABLE",
+        "runtime_reason": "RK3588 SSH timed out (2026-09-11); no accessible RK3566/RK3576 device supplied",
+        "runtime_tensor_query": "PENDING; compiled attrs/quant_tab recorded separately, not a physical C API query",
+        "runtime_host_input_contract": "batch1 NHWC raw pixels; RGB raw float32 NHWC host224; margin.6; RKNN mean/std supplies ImageNet normalization; outputs roll,yaw,pitch degrees",
+        "log_sha256": "569b7d6306ae48c7f1820b99a09a878fed96bfb082b2eadd8ebf1fbc93829755",
+        "warnings_errors": [
+          "/home/g2004/miniforge3/envs/rknn-toolkit2/lib/python3.12/site-packages/rknn/api/rknn.py:51: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.",
+          "E RKNN: [23:57:04.887] Unkown op target: 0",
+          "E RKNN: [23:57:04.887] Unkown op target: 0",
+          "E RKNN: [23:57:04.887] Unkown op target: 0"
+        ]
+      }
+    },
+    "source_exists": true,
+    "source_sha256": "f4260fe76dca60347ccb388780c8e96dfa9ceaebb5062eafcb6d8b4870a43cec",
+    "onnx_export_state": "PASS",
+    "qualification_status": "THREE-PLATFORM CONVERSION PASS; PHYSICAL RUNTIME PENDING"
+  }
+]

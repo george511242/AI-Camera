@@ -1,0 +1,362 @@
+{
+  "115": {
+    "gender": {
+      "overall": {
+        "total": 936,
+        "detected": 935,
+        "correct": 730,
+        "model_errors": 205,
+        "yunet_misses": 1,
+        "accuracy": 0.7799145299145299,
+        "conditional_accuracy": 0.7807486631016043
+      },
+      "male": {
+        "total": 461,
+        "detected": 460,
+        "correct": 420,
+        "model_errors": 40,
+        "yunet_misses": 1,
+        "accuracy": 0.911062906724512,
+        "conditional_accuracy": 0.9130434782608695
+      },
+      "female": {
+        "total": 475,
+        "detected": 475,
+        "correct": 310,
+        "model_errors": 165,
+        "yunet_misses": 0,
+        "accuracy": 0.6526315789473685,
+        "conditional_accuracy": 0.6526315789473685
+      }
+    },
+    "age": {
+      "overall": {
+        "total": 936,
+        "detected": 935,
+        "within7": 487,
+        "model_errors_over7": 448,
+        "yunet_misses": 1,
+        "mae": 9.07088780785627,
+        "within7_e2e": 0.5202991452991453,
+        "within7_conditional": 0.520855614973262
+      },
+      "0-17": {
+        "total": 168,
+        "detected": 168,
+        "within7": 141,
+        "model_errors_over7": 27,
+        "yunet_misses": 0,
+        "mae": 3.624510569231851,
+        "within7_e2e": 0.8392857142857143,
+        "within7_conditional": 0.8392857142857143
+      },
+      "18-54": {
+        "total": 367,
+        "detected": 367,
+        "within7": 216,
+        "model_errors_over7": 151,
+        "yunet_misses": 0,
+        "mae": 7.3795187453807864,
+        "within7_e2e": 0.5885558583106267,
+        "within7_conditional": 0.5885558583106267
+      },
+      "55-80": {
+        "total": 246,
+        "detected": 246,
+        "within7": 102,
+        "model_errors_over7": 144,
+        "yunet_misses": 0,
+        "mae": 10.478765906357184,
+        "within7_e2e": 0.4146341463414634,
+        "within7_conditional": 0.4146341463414634
+      },
+      "0-80": {
+        "total": 781,
+        "detected": 781,
+        "within7": 459,
+        "model_errors_over7": 322,
+        "yunet_misses": 0,
+        "mae": 7.547986642957191,
+        "within7_e2e": 0.587708066581306,
+        "within7_conditional": 0.587708066581306
+      }
+    },
+    "gaze": {
+      "total": 2000,
+      "unique_sources": 2000,
+      "detected": 1927,
+      "confusion": {
+        "tp": 405,
+        "tn": 1304,
+        "fp": 88,
+        "fn": 130,
+        "missed_positive": 11,
+        "missed_negative": 62
+      },
+      "accuracy": 0.8545,
+      "conditional_accuracy": 0.886870783601453,
+      "positive_correct_over_all": 0.2025,
+      "exact_boundary_detected_rows": 0,
+      "status": "PASS",
+      "interpretation": "Inclusive absolute yaw [-15,15], pitch [-10,30]; (TP+TN)/all for E2E; all misses fail. No roll criterion, sign inversion, or error tolerance. Spec physical pitch direction and \u00b115 wording unresolved. Each distance has 2000 unique AFLW2000 images, not >2000; the same sources occur at all three distances."
+    },
+    "yunet": {
+      "all": {
+        "success": 2992,
+        "total": 3066
+      },
+      "scface": {
+        "success": 130,
+        "total": 130
+      },
+      "utkface": {
+        "success": 935,
+        "total": 936
+      },
+      "aflw2000": {
+        "success": 1927,
+        "total": 2000
+      }
+    }
+  },
+  "57": {
+    "gender": {
+      "overall": {
+        "total": 936,
+        "detected": 930,
+        "correct": 737,
+        "model_errors": 193,
+        "yunet_misses": 6,
+        "accuracy": 0.7873931623931624,
+        "conditional_accuracy": 0.7924731182795699
+      },
+      "male": {
+        "total": 461,
+        "detected": 456,
+        "correct": 417,
+        "model_errors": 39,
+        "yunet_misses": 5,
+        "accuracy": 0.9045553145336226,
+        "conditional_accuracy": 0.9144736842105263
+      },
+      "female": {
+        "total": 475,
+        "detected": 474,
+        "correct": 320,
+        "model_errors": 154,
+        "yunet_misses": 1,
+        "accuracy": 0.6736842105263158,
+        "conditional_accuracy": 0.6751054852320675
+      }
+    },
+    "age": {
+      "overall": {
+        "total": 936,
+        "detected": 930,
+        "within7": 474,
+        "model_errors_over7": 456,
+        "yunet_misses": 6,
+        "mae": 9.084605342213825,
+        "within7_e2e": 0.5064102564102564,
+        "within7_conditional": 0.5096774193548387
+      },
+      "0-17": {
+        "total": 168,
+        "detected": 168,
+        "within7": 139,
+        "model_errors_over7": 29,
+        "yunet_misses": 0,
+        "mae": 3.7261232882738113,
+        "within7_e2e": 0.8273809523809523,
+        "within7_conditional": 0.8273809523809523
+      },
+      "18-54": {
+        "total": 367,
+        "detected": 367,
+        "within7": 210,
+        "model_errors_over7": 157,
+        "yunet_misses": 0,
+        "mae": 7.238204004978939,
+        "within7_e2e": 0.5722070844686649,
+        "within7_conditional": 0.5722070844686649
+      },
+      "55-80": {
+        "total": 246,
+        "detected": 244,
+        "within7": 98,
+        "model_errors_over7": 146,
+        "yunet_misses": 2,
+        "mae": 10.769039662157903,
+        "within7_e2e": 0.3983739837398374,
+        "within7_conditional": 0.4016393442622951
+      },
+      "0-80": {
+        "total": 781,
+        "detected": 779,
+        "within7": 447,
+        "model_errors_over7": 332,
+        "yunet_misses": 2,
+        "mae": 7.586720487578689,
+        "within7_e2e": 0.5723431498079385,
+        "within7_conditional": 0.5738125802310655
+      }
+    },
+    "gaze": {
+      "total": 2000,
+      "unique_sources": 2000,
+      "detected": 1857,
+      "confusion": {
+        "tp": 403,
+        "tn": 1240,
+        "fp": 91,
+        "fn": 123,
+        "missed_positive": 20,
+        "missed_negative": 123
+      },
+      "accuracy": 0.8215,
+      "conditional_accuracy": 0.884760366182014,
+      "positive_correct_over_all": 0.2015,
+      "exact_boundary_detected_rows": 0,
+      "status": "PASS",
+      "interpretation": "Inclusive absolute yaw [-15,15], pitch [-10,30]; (TP+TN)/all for E2E; all misses fail. No roll criterion, sign inversion, or error tolerance. Spec physical pitch direction and \u00b115 wording unresolved. Each distance has 2000 unique AFLW2000 images, not >2000; the same sources occur at all three distances."
+    },
+    "yunet": {
+      "all": {
+        "success": 2917,
+        "total": 3066
+      },
+      "scface": {
+        "success": 130,
+        "total": 130
+      },
+      "utkface": {
+        "success": 930,
+        "total": 936
+      },
+      "aflw2000": {
+        "success": 1857,
+        "total": 2000
+      }
+    }
+  },
+  "38": {
+    "gender": {
+      "overall": {
+        "total": 936,
+        "detected": 907,
+        "correct": 715,
+        "model_errors": 192,
+        "yunet_misses": 29,
+        "accuracy": 0.7638888888888888,
+        "conditional_accuracy": 0.7883131201764058
+      },
+      "male": {
+        "total": 461,
+        "detected": 445,
+        "correct": 397,
+        "model_errors": 48,
+        "yunet_misses": 16,
+        "accuracy": 0.8611713665943601,
+        "conditional_accuracy": 0.8921348314606742
+      },
+      "female": {
+        "total": 475,
+        "detected": 462,
+        "correct": 318,
+        "model_errors": 144,
+        "yunet_misses": 13,
+        "accuracy": 0.6694736842105263,
+        "conditional_accuracy": 0.6883116883116883
+      }
+    },
+    "age": {
+      "overall": {
+        "total": 936,
+        "detected": 907,
+        "within7": 472,
+        "model_errors_over7": 435,
+        "yunet_misses": 29,
+        "mae": 9.036748933949834,
+        "within7_e2e": 0.5042735042735043,
+        "within7_conditional": 0.5203969128996693
+      },
+      "0-17": {
+        "total": 168,
+        "detected": 164,
+        "within7": 139,
+        "model_errors_over7": 25,
+        "yunet_misses": 4,
+        "mae": 3.969724169591578,
+        "within7_e2e": 0.8273809523809523,
+        "within7_conditional": 0.8475609756097561
+      },
+      "18-54": {
+        "total": 367,
+        "detected": 362,
+        "within7": 203,
+        "model_errors_over7": 159,
+        "yunet_misses": 5,
+        "mae": 7.291012745535835,
+        "within7_e2e": 0.553133514986376,
+        "within7_conditional": 0.5607734806629834
+      },
+      "55-80": {
+        "total": 246,
+        "detected": 238,
+        "within7": 106,
+        "model_errors_over7": 132,
+        "yunet_misses": 8,
+        "mae": 10.236333350173565,
+        "within7_e2e": 0.43089430894308944,
+        "within7_conditional": 0.44537815126050423
+      },
+      "0-80": {
+        "total": 781,
+        "detected": 764,
+        "within7": 448,
+        "model_errors_over7": 316,
+        "yunet_misses": 17,
+        "mae": 7.49558732334856,
+        "within7_e2e": 0.5736235595390525,
+        "within7_conditional": 0.5863874345549738
+      }
+    },
+    "gaze": {
+      "total": 2000,
+      "unique_sources": 2000,
+      "detected": 1689,
+      "confusion": {
+        "tp": 391,
+        "tn": 1098,
+        "fp": 92,
+        "fn": 108,
+        "missed_positive": 47,
+        "missed_negative": 264
+      },
+      "accuracy": 0.7445,
+      "conditional_accuracy": 0.881586737714624,
+      "positive_correct_over_all": 0.1955,
+      "exact_boundary_detected_rows": 0,
+      "status": "FAIL",
+      "interpretation": "Inclusive absolute yaw [-15,15], pitch [-10,30]; (TP+TN)/all for E2E; all misses fail. No roll criterion, sign inversion, or error tolerance. Spec physical pitch direction and \u00b115 wording unresolved. Each distance has 2000 unique AFLW2000 images, not >2000; the same sources occur at all three distances."
+    },
+    "yunet": {
+      "all": {
+        "success": 2726,
+        "total": 3066
+      },
+      "scface": {
+        "success": 130,
+        "total": 130
+      },
+      "utkface": {
+        "success": 907,
+        "total": 936
+      },
+      "aflw2000": {
+        "success": 1689,
+        "total": 2000
+      }
+    }
+  }
+}

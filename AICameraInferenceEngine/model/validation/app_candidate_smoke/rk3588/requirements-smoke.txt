@@ -1,0 +1,13 @@
+numpy==1.26.4
+fastapi==0.104.1
+uvicorn[standard]==0.23.2
+pydantic-settings==2.0.3
+opencv-python-headless==4.11.0.86
+requests==2.28.2
+redis==4.3.5
+onnxruntime==1.22.0
+gunicorn==21.2.0
+loguru==0.7.2
+websockets==15.0.1
+python-multipart==0.0.20
+fakeredis==2.23.2

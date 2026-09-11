@@ -1,0 +1,36 @@
+{
+  "model": "Age",
+  "source_sha256": "9f3e9850cb4f07d20cbb0ee90ddc87574c4ee00c74a9eb4b3a8c0d5af2033272",
+  "onnx_sha256": "0a8192e326388aeb17d0187293669a8c8151bc0cc8cf085782d07a2cdc6186f9",
+  "inputs": "fixed synthetic zeros/midgray/seeded noise; no dataset or held-out labels",
+  "input_sha256": "a100cca70afcea742837abcb7bd7030e20d8142d0bc093ff0bd0570a7649a2db",
+  "source_outputs": [
+    [
+      36.284446716308594
+    ],
+    [
+      27.013490676879883
+    ],
+    [
+      19.44033432006836
+    ]
+  ],
+  "onnx_outputs": [
+    [
+      36.28468322753906
+    ],
+    [
+      27.013565063476562
+    ],
+    [
+      19.440322875976562
+    ]
+  ],
+  "max_absolute_tensor_delta": 0.00023651123046875,
+  "decoded_output_delta": 0.00023651123046875,
+  "tolerance": 0.001,
+  "tolerance_basis": "existing v4 exporter uses 1e-3 years, stricter than user upper bound .01",
+  "status": "PASS",
+  "optimizer_updates": 0,
+  "dtype_layout": "host NHWC FP32 transposed to ONNX NCHW FP32; Pose normalization as contract"
+}
