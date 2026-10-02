@@ -1,3 +1,15 @@
+AGE DEPLOYMENT ARTIFACTS PUBLISHED — 2026-10-02 Asia/Taipei
+
+- GitHub repository: `https://github.com/george511242/AI-Camera`; deployment commit `a5d84f16e17084ef37b85ce674dca7e4d5e9a793` was pushed to branch `main`.
+- Root download entry: `README.md`. Detailed handoff: `AICameraInferenceEngine/model/versions/age_deployment_20261002/README.md`; artifacts are under the sibling `convnext_tiny_age/`, `mobileagenet_age/`, and `convnext_small_age/` directories.
+- Git LFS is enabled only for `.onnx` and `.rknn` below this deployment directory. All 12 LFS objects uploaded; post-copy SHA256 verification matches the authoritative `/home/g2004/vac-runtime-recovery/supervisor_deployment/` package.
+- ConvNeXt-Tiny is published as recommended primary #1: ONNX parity PASS, RK3588 parity PASS, and independent RK3566/RK3576/RK3588 FP16 artifacts available.
+- MobileAgeNet is published as lightweight/fast recommended #2: ONNX parity PASS, RK3588 parity PASS, and independent RK3566/RK3576/RK3588 FP16 artifacts available.
+- ConvNeXt-Small is published as EXPERIMENTAL / PARITY NOT YET PASSED. RK3588 runtime executes, but mean ONNX-to-RKNN age-output difference is 1.999 years; do not treat it as deployment-ready.
+- Remaining validation: physical RK3566 and RK3576 runtime/latency/parity are pending for all three packages. Commercial rights remain unclear; publication is internal/research engineering availability, not product-rights clearance.
+
+---
+
 # VAC AI Camera Handoff
 
 Last updated: 2026-09-06 (Asia/Taipei)
