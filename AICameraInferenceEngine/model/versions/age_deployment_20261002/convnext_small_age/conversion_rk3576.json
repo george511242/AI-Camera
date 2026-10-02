@@ -1,0 +1,21 @@
+{
+  "artifact_size_bytes": 103509953,
+  "build_return": 0,
+  "config_return": 0,
+  "cpu_fallback": null,
+  "duration_seconds": 9.03968358039856,
+  "export_return": 0,
+  "graph_partitions": null,
+  "load_onnx_return": 0,
+  "model": "convnext_small",
+  "onnx": "/home/g2004/vac-runtime-recovery/report_deployment/convnext_small/convnext_small_selected_opset17.onnx",
+  "onnx_sha256": "a51c412852dff7101e6e71ce51f5ec3bfda8fba72f08e3bf1340951e04c73641",
+  "precision": "FP16",
+  "quantized": false,
+  "rknn": "/home/g2004/vac-runtime-recovery/report_deployment/convnext_small/convnext_small_rk3576_fp16.rknn",
+  "sha256": "baf5d68eed454b2cd5a4df7d6bc8096e184c6b0991a19ba33cab65d9ff64e275",
+  "status": "PASS",
+  "target_platform": "rk3576",
+  "toolkit_version": "2.3.2",
+  "unsupported_ops": null
+}

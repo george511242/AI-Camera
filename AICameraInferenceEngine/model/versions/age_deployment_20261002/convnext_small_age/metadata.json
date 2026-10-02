@@ -1,0 +1,31 @@
+{
+  "checkpoint": "/home/g2004/vac-runtime-recovery/v31/direct_convnext_small/epoch_4.pt",
+  "checkpoint_sha256": "9c5597cd8ef7b1811a1e6c2c8db58c84ea4a2dde7696aed50943a8dccab2d500",
+  "input": {
+    "name": "rgb_0_255_nchw",
+    "shape": [
+      "N",
+      3,
+      224,
+      224
+    ]
+  },
+  "max_abs_output_difference": 4.935264587402344e-05,
+  "mean_abs_output_difference": 1.620039256522432e-05,
+  "model": "convnext_small",
+  "onnx": "/home/g2004/vac-runtime-recovery/report_deployment/convnext_small/convnext_small_selected_opset17.onnx",
+  "onnx_sha256": "a51c412852dff7101e6e71ce51f5ec3bfda8fba72f08e3bf1340951e04c73641",
+  "onnx_size_bytes": 198280671,
+  "opset": 17,
+  "output": {
+    "name": "age_output",
+    "semantics": "100_ordinal_logits_age=sum(sigmoid(logits))",
+    "shape": [
+      8,
+      100
+    ]
+  },
+  "parameter_count": 49531588,
+  "preprocessing": "RGB float32 0..255 input; /255 and ImageNet normalization embedded",
+  "status": "PASS"
+}

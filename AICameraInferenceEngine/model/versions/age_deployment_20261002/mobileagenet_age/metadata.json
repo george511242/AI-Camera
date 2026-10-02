@@ -1,0 +1,30 @@
+{
+  "checkpoint": "/home/g2004/vac-runtime-recovery/v32/mobileagenet_style/epoch_12.pt",
+  "checkpoint_sha256": "bebcff4dacd2377ca79b56693c1e782c5b8f21598531240668d3c4adc6c4d7db",
+  "input": {
+    "name": "rgb_0_255_nchw",
+    "shape": [
+      "N",
+      3,
+      224,
+      224
+    ]
+  },
+  "max_abs_output_difference": 1.9073486328125e-05,
+  "mean_abs_output_difference": 7.152557373046875e-06,
+  "model": "mobileagenet",
+  "onnx": "/home/g2004/vac-runtime-recovery/report_deployment/mobileagenet/mobileagenet_selected_opset17.onnx",
+  "onnx_sha256": "825e3423a0a9709eed46c4eb906ec49c9115588fa9e539c566bf68e10cf956e6",
+  "onnx_size_bytes": 12862268,
+  "opset": 17,
+  "output": {
+    "name": "age_output",
+    "semantics": "scalar_age_80_sigmoid",
+    "shape": [
+      8
+    ]
+  },
+  "parameter_count": 3218225,
+  "preprocessing": "RGB float32 0..255 input; /255 and ImageNet normalization embedded",
+  "status": "PASS"
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "physical_runtime": true,
+  "device": "orangepi5ultra",
+  "soc": "RK3588",
+  "architecture": "aarch64",
+  "runtime_version": "2.3.2",
+  "driver_version": "0.9.6",
+  "model_sha256": "c3611983e256b10ad4e317021c0f80bc1a2520c366a7a19d999196466da26100",
+  "kind": "scalar",
+  "warmups": 50,
+  "timed_inferences": 500,
+  "npu_core": 0,
+  "npu_utilization": "not sampled",
+  "load_return": 0,
+  "init_return": 0,
+  "parity": {
+    "samples": 8,
+    "raw_max_abs_difference": 1.7511444091796875,
+    "age_mean_abs_difference": 0.13132095336914062,
+    "age_max_abs_difference": 0.1928558349609375,
+    "sample_ages": [
+      46.125,
+      46.84375,
+      45.96875,
+      45.375,
+      46.21875,
+      46.1875,
+      47.0,
+      46.0625
+    ]
+  },
+  "model_only_latency_ms": {
+    "mean": 12.670710714,
+    "median_p50": 11.86271,
+    "p95": 16.679282699999995,
+    "min": 9.104265,
+    "max": 22.397187
+  }
+}

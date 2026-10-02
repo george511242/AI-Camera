@@ -1,5 +1,23 @@
 # 模型選版與使用說明
 
+## Age Estimation Models — 推薦優先測試
+
+**#1 ConvNeXt-Tiny** 是目前準確度、模型大小與已驗證 RK3588 parity 的最佳平衡；**#2 MobileAgeNet** 是最佳輕量／低延遲選項。兩者均提供 ONNX 與 RK3566、RK3576、RK3588 FP16 artifact。
+
+| Model | Role | Params | ONNX | RK3566 | RK3576 | RK3588 | RK3588 parity | Recommended |
+|---|---|---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| ConvNeXt-Tiny | Accuracy / deployment balance | 27.90M | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐ #1 |
+| MobileAgeNet | Lightweight / fastest | 3.22M | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐ #2 |
+| ConvNeXt-Small | Higher-capacity experimental | 49.53M | ✅ | ✅ | ✅ | ✅ | ⚠️ FAIL／PENDING | Experimental |
+
+快速下載：[Tiny ONNX](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/model.onnx) · [Tiny RK3566](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3566_fp16.rknn) · [Tiny RK3576](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3576_fp16.rknn) · [Tiny RK3588](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3588_fp16.rknn)
+
+[MobileAgeNet ONNX](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/model.onnx) · [MobileAgeNet RK3566](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3566_fp16.rknn) · [MobileAgeNet RK3576](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3576_fp16.rknn) · [MobileAgeNet RK3588](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3588_fp16.rknn)
+
+⚠️ **ConvNeXt-Small 僅供實驗比較**：RK3588 可執行，但 ONNX→RKNN 平均年齡輸出差約 **1.999 年**，parity 尚未通過。其 [ONNX／三平台下載、完整前處理、雜湊、benchmark 與相容性說明](AICameraInferenceEngine/model/versions/age_deployment_20261002/README.md) 請見技術交付頁。RK3566／RK3576 目前僅完成 artifact 產生，實體板驗證仍待進行。
+
+> Artifact 僅供內部／研究工程驗證；`RESEARCH_ACCESS` 不代表 `COMMERCIAL_RIGHTS` 已核准。大型模型使用 Git LFS。
+
 更新日期：2026-09-11。適用人臉偵測、年齡、性別與頭部姿態；人物偵測／骨架模型不在本次選版範圍。
 
 **後續工程整合與實機資格測試請使用：原始 YuNet＋corrected BGR/xywh、Age v4、Gender v2、Pose v2 E1，並明確指定 `RKNPU_ARTIFACT_SET=qualified_20260911`。** 這組是目前候選，尚未核准取代 production。維護現行正式環境時，保留原有版本與設定。
