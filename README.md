@@ -1,152 +1,86 @@
-# 模型選版與使用說明
+# VAC AI Camera 模型下載與選版
 
-## 推薦模型與下載
+本頁只列目前建議使用的臉部模型：**YuNet** 人臉偵測、**MobileAgeNet** 年齡首選、**ConvNeXt-Tiny** 年齡準確度備選、**EdgeFace-XXS** 性別，以及 **Head Pose v2 E1**。
 
-### Gender Estimation
+> 更新：2026-10-06。推薦代表工程候選，不代表已切換 production，也不代表商用或再散布權利已核准。
 
-**最佳模型：V3 EdgeFace-XXS**。在相同 corrected frozen GT-crop 評估中，它是 accuracy winner 與 deployment winner；ONNX parity、RK3566／RK3576／RK3588 FP16 轉換及 RK3588 實機 parity 均通過。
+## 模型總覽
 
-[EdgeFace-XXS ONNX](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/edgeface_xxs_gender.onnx) · [RK3566](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/rk3566/edgeface_xxs_gender_fp16.rknn) · [RK3576](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/rk3576/edgeface_xxs_gender_fp16.rknn) · [RK3588](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/rk3588/edgeface_xxs_gender_fp16.rknn) · [使用與驗證說明](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/README.md)
+| 任務 | 推薦模型 | Params | ONNX / RK3588 大小 | 驗證表現 | RK3588 mean / p95 | ONNX | RK3566 | RK3576 | RK3588 |
+|---|---|---:|---:|---|---:|:---:|:---:|:---:|:---:|
+| Face | **YuNet v1 + corrected BGR/xywh** | — | 0.32 / 1.18 MB | 115 / 57 / 38 px 偵測成功率：97.59 / 95.14 / 88.91% | 35.17 / 43.61 ms | ✅ | ✅ | ✅ | ✅ 實機 |
+| Age | **MobileAgeNet（低延遲首選）** | 3.22M | 12.86 / 7.85 MB | V31 DEV：MAE 6.367、CS@7 65.80% | **12.67 / 16.68 ms** | ✅ | ✅ | ✅ | ✅ 實機 parity |
+| Age | **ConvNeXt-Tiny（準確度備選）** | 27.90M | 111.66 / 57.68 MB | V31 DEV：**MAE 5.692、CS@7 69.84%** | 55.82 / 60.56 ms | ✅ | ✅ | ✅ | ✅ 實機 parity |
+| Gender | **V3 EdgeFace-XXS** | 1.16M | 4.82 / 4.18 MB | 80 / 40 / 27 px BAcc：89.75 / 89.55 / 88.50% | 7.26 / 9.14 ms | ✅ | ✅ | ✅ | ✅ 實機 parity |
+| Head Pose | **v2 E1** | — | 0.85 / 1.16 MB | 6,000 張 frozen test：MAE 5.87°、±10° 75.19% | 5.43 / 7.29 ms | ✅ | ✅ | ✅ | ✅ 實機 |
 
-RK3566／RK3576 目前為 conversion PASS、physical runtime PENDING；RK3588 已在 Orange Pi 5 Ultra 通過 runtime 與 parity。此推薦不會自動變更 production runtime 預設。
+大小採十進位 MB；延遲皆為 Orange Pi 5 Ultra / RK3588、RKNN Runtime 2.3.2、driver 0.9.6 的 model-only 實測，不能直接視為完整 app FPS。RK3566／RK3576 目前僅 conversion PASS，physical runtime 仍為 PENDING。
 
-### Age Estimation
+## 下載與 repo 路徑
 
-依目前候選順序，**#1 MobileAgeNet** 是最佳輕量／低延遲選項；**#2 ConvNeXt-Tiny** 是較高準確度、模型大小與已驗證 RK3588 parity 的平衡選項。兩者均提供 ONNX 與 RK3566、RK3576、RK3588 FP16 artifact。
+大型 `.onnx`／`.rknn` 由 Git LFS 管理；clone 後請執行 `git lfs pull`。RKNN binary 只適用標示的 SoC，不可跨平台共用。
 
-| Model | Role | Params | ONNX | RK3566 | RK3576 | RK3588 | RK3588 parity | Recommended |
-|---|---|---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| MobileAgeNet | Lightweight / fastest | 3.22M | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐ #1 |
-| ConvNeXt-Tiny | Accuracy / deployment balance | 27.90M | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐ #2 |
-| ConvNeXt-Small | Higher-capacity experimental | 49.53M | ✅ | ✅ | ✅ | ✅ | ⚠️ FAIL／PENDING | Experimental |
+### YuNet — 人臉偵測
 
-快速下載：[MobileAgeNet ONNX](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/model.onnx) · [MobileAgeNet RK3566](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3566_fp16.rknn) · [MobileAgeNet RK3576](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3576_fp16.rknn) · [MobileAgeNet RK3588](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3588_fp16.rknn)
+Repo：`AICameraInferenceEngine/model/versions/v1_baseline/`
 
-[Tiny ONNX](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/model.onnx) · [Tiny RK3566](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3566_fp16.rknn) · [Tiny RK3576](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3576_fp16.rknn) · [Tiny RK3588](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3588_fp16.rknn)
+[ONNX](AICameraInferenceEngine/model/versions/v1_baseline/onnx/yunet_n_640_640.onnx) · [RK3566](AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3566/yunet_n_640_640_fp16_qualified_20260911.rknn) · [RK3576](AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3576/yunet_n_640_640_fp16.rknn) · [RK3588](AICameraInferenceEngine/model/versions/v1_baseline/rknn/rk3588/yunet_n_640_640_fp16_qualified_20260911.rknn) · [說明](AICameraInferenceEngine/model/versions/v1_baseline/README.md)
 
-⚠️ **ConvNeXt-Small 僅供實驗比較**：RK3588 可執行，但 ONNX→RKNN 平均年齡輸出差約 **1.999 年**，parity 尚未通過。其 [ONNX／三平台下載、完整前處理、雜湊、benchmark 與相容性說明](AICameraInferenceEngine/model/versions/age_deployment_20261002/README.md) 請見技術交付頁。RK3566／RK3576 目前僅完成 artifact 產生，實體板驗證仍待進行。
+- 來源：[ShiqiYu/libfacedetection.train](https://github.com/ShiqiYu/libfacedetection.train)
+- BGR 0–255，補方形後 resize 640×640；沿用 12-output decode，NMS 前使用正確 `xywh`，score 0.75、NMS 0.3。
 
-> Artifact 僅供內部／研究工程驗證；`RESEARCH_ACCESS` 不代表 `COMMERCIAL_RIGHTS` 已核准。大型模型使用 Git LFS。
+### MobileAgeNet — 年齡低延遲首選
 
-更新日期：2026-10-06。適用人臉偵測、年齡、性別與頭部姿態；人物偵測／骨架模型不在本次選版範圍。
+Repo：`AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/`
 
-**現有應用程式整合基線仍是：原始 YuNet＋corrected BGR/xywh、Age v4、Gender v2、Pose v2 E1，並明確指定 `RKNPU_ARTIFACT_SET=qualified_20260911`。** 新推薦的 MobileAgeNet／ConvNeXt-Tiny 與 EdgeFace-XXS 已發布 artifact，但尚未接入 runtime selector，也未核准取代 production。維護現行正式環境時，保留原有版本與設定。
+[ONNX](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/model.onnx) · [RK3566](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3566_fp16.rknn) · [RK3576](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3576_fp16.rknn) · [RK3588](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3588_fp16.rknn) · [SHA256](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/SHA256SUMS.txt)
 
-本文依 [HANDOFF 最新紀錄](../HANDOFF.md)與[三平台資格報告](../reports/05_integration/three_platform_candidate_qualification_20260911.zh-TW.md)整理；後續狀態更新以 HANDOFF 最上方紀錄為準。
+- 來源：本專案 MobileAgeNet-style scalar-age 訓練，selected epoch 12。
+- 224×224 RGB face crop、float32 0–255；正規化已嵌入，輸出為 0–80 歲 scalar age。
 
-## 1. 該選哪個版本？
+### ConvNeXt-Tiny — 年齡準確度備選
 
-| 元件 | 目前模型候選 | 程式選版設定 | 現行 production 預設 |
-|---|---|---|---|
-| YuNet 人臉偵測 | 原始 v1 權重＋BGR／正確 xywh NMS | `YUNET_PIPELINE=bgr_xywh` | 原始權重＋`legacy` |
-| Age 年齡 | #1 MobileAgeNet；#2 ConvNeXt-Tiny | 尚未接入 runtime selector | v2 |
-| Gender 性別 | **V3 EdgeFace-XXS（最佳模型）** | 尚未接入 runtime selector | v1 |
-| Head Pose 頭部姿態 | frozen v2 E1（固定 epoch 1） | `HEAD_POSE_MODEL_VERSION=v2_e1` | v1 |
+Repo：`AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/`
 
-YuNet 的改善是前後處理修正，沒有換成小臉微調權重。Pose 必須選 `pose_v2_runtime` 的 E1，不能拿舊 v2 實驗 checkpoint 代替。選版原因與歷史成效見[版本對照](../reports/00_overview/project_versions_and_status.zh-TW.md)。
+[ONNX](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/model.onnx) · [RK3566](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3566_fp16.rknn) · [RK3576](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3576_fp16.rknn) · [RK3588](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3588_fp16.rknn) · [SHA256](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/SHA256SUMS.txt)
 
-**不要因版本號較新就替換：**
+- 來源：ImageNet-pretrained ConvNeXt-Tiny，本專案 direct age fine-tune，selected epoch 5。
+- 224×224 RGB face crop、float32 0–255；輸出 100 ordinal logits，`age = sum(sigmoid(logits))`。
 
-- Age v3／v3.1／v3.2 為歷史研究；目前發布候選是 MobileAgeNet 與 ConvNeXt-Tiny。
-- Age v5：實驗 FAILED／CLOSED，不採用。
-- Age v6 MIVIA：LICENSE BLOCKED／ARCHIVED，未下載或產生可用模型。
-- Age v6 公司資料自訓：僅策略提案，資料權利待審查，尚無權重；報告中的預定路徑不代表檔案存在。
-- YuNet run1／run2：研究已停止，不採用。
-- `original/` 是原始 RK3566 檔案封存區；不可拿其中的 RKNN 直接跑其他 SoC，也不要覆寫或刪除。
+[年齡模型完整前處理、轉換與 parity 說明](AICameraInferenceEngine/model/versions/age_deployment_20261002/README.md)
 
-## 2. 模型檔案在哪裡？
+### EdgeFace-XXS — 性別首選
 
-以下路徑皆相對於 **`AICameraInferenceEngine/model/`**（本 README 所在目錄）。應用程式使用絕對路徑 `/model/versions/...`，因此部署時須將此完整 `model/` 目錄掛載到 `/model`，保留版本及平台子目錄。
+Repo：`AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/`
 
-### RKNN：裝置 NPU 使用
+[ONNX](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/edgeface_xxs_gender.onnx) · [RK3566](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/rk3566/edgeface_xxs_gender_fp16.rknn) · [RK3576](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/rk3576/edgeface_xxs_gender_fp16.rknn) · [RK3588](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/rk3588/edgeface_xxs_gender_fp16.rknn) · [使用說明](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/README.md)
 
-所有列出的候選都是 FP16，各平台使用自己的 binary。表內 `<soc>` 必須替換為實際晶片的 `rk3566`、`rk3576` 或 `rk3588`。
+- 來源：[EdgeFace](https://github.com/otroshi/edgeface) XXS face-recognition pretrained checkpoint；本專案以 UTKFace fine-tune，selected epoch 7。
+- 112×112 RGB face crop、float32 0–255；單一 logit，threshold `0.3863107562`，大於等於門檻判為 Male。
 
-| 元件 | 目錄 | RK3566／RK3588 檔名 | RK3576 檔名 |
-|---|---|---|---|
-| YuNet | `versions/v1_baseline/rknn/<soc>/` | `yunet_n_640_640_fp16_qualified_20260911.rknn` | `yunet_n_640_640_fp16.rknn` |
-| Age v4 | `versions/v4_age_mobilenetv3/rknn/<soc>/` | `age_v4_mobilenetv3_large_112_fp16_qualified_20260911.rknn` | `age_v4_mobilenetv3_large_112_fp16.rknn` |
-| Gender v2 | `versions/v2_finetuned/rknn/<soc>/` | `gender_ssrnet_v2_64x64_fp16.rknn` | 同左 |
-| Pose v2 E1 | `versions/pose_v2_runtime/rknn/<soc>/` | `head_pose_v2_e1_224x224_fp16.rknn` | 同左 |
+### Head Pose v2 E1 — 頭部姿態首選
 
-例如 RK3588 的 Age 完整應用程式路徑為：
+Repo：`AICameraInferenceEngine/model/versions/pose_v2_runtime/`
 
-```text
-/model/versions/v4_age_mobilenetv3/rknn/rk3588/age_v4_mobilenetv3_large_112_fp16_qualified_20260911.rknn
-```
+[ONNX](AICameraInferenceEngine/model/versions/pose_v2_runtime/onnx/head_pose_v2_e1_224x224.onnx) · [RK3566](AICameraInferenceEngine/model/versions/pose_v2_runtime/rknn/rk3566/head_pose_v2_e1_224x224_fp16.rknn) · [RK3576](AICameraInferenceEngine/model/versions/pose_v2_runtime/rknn/rk3576/head_pose_v2_e1_224x224_fp16.rknn) · [RK3588](AICameraInferenceEngine/model/versions/pose_v2_runtime/rknn/rk3588/head_pose_v2_e1_224x224_fp16.rknn) · [RK3588 實測](AICameraInferenceEngine/model/versions/pose_v2_runtime/deployment/rk3588/result.json)
 
-RK3566／RK3588 的 YuNet 與 Age 舊檔仍保留，但缺完整來源雜湊追溯證據，9/11 另建上述帶日期的新檔。**未設定 artifact set 時，程式仍會選歷史檔案。** RK3576 的新檔沒有日期後綴；Gender／Pose 則沿用已查核檔案，不要自行改名。
+- 來源：[Lightweight Head Pose Estimation](https://github.com/Shaw-git/Lightweight-Head-Pose-Estimation) 66-bin checkpoint；本專案 frozen v2 epoch 1。
+- margin 0.6、224×224 RGB square-padded face crop；輸出 `roll, yaw, pitch`（度）。
 
-### ONNX：離線參考與數值比對使用
+## 訓練與驗證資料
 
-| 元件 | Canonical ONNX 路徑 |
-|---|---|
-| YuNet | [versions/v1_baseline/onnx/yunet_n_640_640.onnx](versions/v1_baseline/onnx/yunet_n_640_640.onnx) |
-| Age v4 | [versions/v4_age_mobilenetv3/onnx/age_v4_mobilenetv3_large_112.onnx](versions/v4_age_mobilenetv3/onnx/age_v4_mobilenetv3_large_112.onnx) |
-| Gender v2 | [versions/v2_finetuned/onnx/gender_ssrnet_v2_64x64.onnx](versions/v2_finetuned/onnx/gender_ssrnet_v2_64x64.onnx) |
-| Pose v2 E1 | [versions/pose_v2_runtime/onnx/head_pose_v2_e1_224x224.onnx](versions/pose_v2_runtime/onnx/head_pose_v2_e1_224x224.onnx) |
-
-每個模型的三平台 RKNN 都對應同一個 canonical ONNX SHA256。來源 checkpoint、各檔 SHA256、Toolkit2 2.3.2 轉換紀錄與警告見 [qualification/result.json](qualification/three_platform_20260911/result.json)。交付時依此核對雜湊；不要使用 `preflight`／未訓練模型或僅憑檔名相似選檔。
-
-## 3. 如何明確啟用候選？
-
-以下是 **Linux 工程整合範例，尚未完成完整 app／相機驗證**。在已安裝專案依賴、可使用 RKNN runtime、已掛載 `/model` 的環境，於 `AICameraInferenceEngine/` 執行。Redis、設定後端與影像來源也須可用。
-
-```bash
-(
-  export RKNPU_PLATFORM=rk3588
-  export RKNPU_ARTIFACT_SET=qualified_20260911
-  export YUNET_PIPELINE=bgr_xywh
-  export AGE_MODEL_VERSION=v4
-  export GENDER_MODEL_VERSION=v2
-  export HEAD_POSE_MODEL_VERSION=v2_e1
-  python -m server
-)
-```
-
-- 依實際硬體將 `RKNPU_PLATFORM` 改為 `rk3566` 或 `rk3576`；不可跨晶片共用 RKNN。
-- 容器啟動時，以上六個變數須傳入容器環境，僅在 host shell export 不會自動傳入容器。
-- 既有 [candidate-rk3588.env](../configs/candidate-rk3588.env) **未包含** `RKNPU_ARTIFACT_SET`；使用該檔時仍須補上 `qualified_20260911`。
-- 使用 `leave-zone-with-facial-features` 模式才會包含這四個模型；其他模式僅載入其既有子集合。
-- 啟動入口是 `python -m server`；`python main.py` 不會啟動伺服器。
-- 未支援的版本／平台會直接報錯，不會自動換模型。RK3576 沒有歷史 Age v2／Gender v1／Pose v1 的路徑對應，不能只改平台而保留預設版本。
-
-若要在 RK3588 還原歷史模型組合，可明確指定以下設定；RK3566 同理改平台。這是回復歷史設定，不代表新增部署認證。
-
-```bash
-RKNPU_PLATFORM=rk3588 RKNPU_ARTIFACT_SET=historical \
-YUNET_PIPELINE=legacy AGE_MODEL_VERSION=v2 \
-GENDER_MODEL_VERSION=v1 HEAD_POSE_MODEL_VERSION=v1 python -m server
-```
-
-## 4. 前後處理不能混用
-
-| 模型 | 輸入與裁切 | 輸出／注意事項 |
+| 任務 | 訓練／微調資料 | 驗證資料與分布 |
 |---|---|---|
-| YuNet | BGR、0–255、補方形至 640×640 | 沿用 12 個輸出與既有 decode；NMS 前將 xyxy 轉 xywh，score 0.75／NMS 0.3 |
-| Age v4 | RGB、0–255、112×112、margin 0.45 | 內建 −1～1 正規化；輸出已是單一年齡，不可再做 `1+sum` 解碼 |
-| Gender v2 | BGR、0–255、64×64、margin 0.45 | 單一值 ≥0.5 判男，否則女；不要誤用 Age 的 RGB 前處理 |
-| Pose v2 E1 | RGB、224×224、margin 0.6、既有方形補邊 | 輸出順序 **roll、yaw、pitch**，單位為度；不是人體骨架 pose |
+| YuNet | 官方 pretrained weight，本專案未重訓 | Phase1 每尺度 3,066 張：SCface 130、UTKFace 936、AFLW2000 2,000；模擬 115／57／38 px |
+| Age | UTKFace + Remaining Lifespan；V31 train 44,269 | DEV 4,953：Child 404、Adult 3,280、Elderly 1,269；與 train 無 exact hash／identity overlap |
+| Gender | UTKFace train 6,188 | validation 1,325、internal test 1,329；frozen external 936（Male 461／Female 475），各測 80／40／27 px |
+| Head Pose | 300W-LP 系列來源；train 97,698 source images | validation 24,717；train／validation source-file 與 source-group overlap 均為 0；另有 6,000 張三尺度 frozen test |
 
-ONNX 輸入為 float32 NCHW。既有 RKNN host 輸入採 NHWC raw pixels，Age／Pose 使用 float32；**FP16 是模型計算格式，不能直接推定 host buffer 也應傳 float16**。實際 native tensor dtype／layout／stride 仍須在目標裝置查詢確認。
+Age 群組：Child 0–17、Adult 18–54、Elderly 55–80；DEV 分布為 8.16%／66.22%／25.62%。Gender train 為 Male 44.23%、Female 55.77%。完整證據見 [Age metrics](AICameraInferenceEngine/model/versions/supervisor_age_model_comparison/metrics.csv)、[Gender V3 摘要](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/SUPERVISOR_GENDER_V1_V2_V3_SUMMARY.zh-TW.md) 與 [Pose integrity](AICameraInferenceEngine/model/versions/pose_v2_runtime/audit/validation_integrity.json)。
 
-Pose 的 ONNX 端需要 ImageNet 正規化；RKNN 端由轉換設定的 mean/std 處理，host 傳 RGB 0–255，不能重複正規化。裁切、補邊與 resize 請沿用既有程式；自行新增 alignment 或改 margin，將無法直接沿用既有評估結論。
+## 部署狀態
 
-## 5. 已驗證到哪裡？有哪些限制？
-
-| 項目 | 截至 2026-09-11 的狀態 |
-|---|---|
-| 四模型 × RK3566／RK3576／RK3588 FP16 轉換 | 全部 PASS |
-| 本次資格查核的三平台實機數值比對 | 全部 PENDING |
-| 歷史 RK3588 離線實機評估 | 有紀錄；新 YuNet／Age binary 不繼承舊檔的 runtime PASS |
-| 完整 app、實體相機、Android／JNI 整合 | 尚未完成驗證 |
-| Phase1 HFOV63° 驗收 | ONNX CPU 離線測試仍有未達標項目；不能宣稱通過 |
-| 商用／產品出貨權利 | 本次技術轉換未新增授權認定，需依既有權利審查另行確認 |
-
-Phase1 的 115／57／38px 是 HFOV63° 下 1／2／3m 的離線模擬條件，不是實體相機距離驗證。年齡、女性性別準確率等仍有差距，完整數字見 [Phase1 驗收差距](../reports/01_benchmark/phase1_hfov63_acceptance_gap_20260910.zh-TW.md)。
-
-資料去重或模型轉換成功不代表訓練資料／權重已獲商用及再散布許可；現有資料與 v6 的限制見 [Age v6 權利與候選報告](../reports/02_age_gender/age_v6_license_safe_candidate_20260911.md)。不要將本文的工程候選推薦當成產品出貨許可。
-
-交接後優先使用已完成的 binary 與 [qualification 固定輸入及紀錄](qualification/three_platform_20260911/)進行各平台實機 parity、tensor query，再驗證 app／Android／相機整合。Age ONNX→實機 RKNN 誤差門檻為 ≤0.1 歲，其餘依資格報告與既有模型規範。無設備時保留 PENDING，不需要重訓或重跑已完成的轉換／benchmark。
-
-新增模型版本時建立新目錄，保留原 artifact；各版 README 應記錄來源、checkpoint 雜湊、ONNX 介面、Toolkit 版本、轉換設定、平台、警告及驗證結果。其他歷史分析由[報告中心](../reports/README.md)查閱。
+- MobileAgeNet、ConvNeXt-Tiny 與 EdgeFace-XXS 尚未接入 runtime selector，也未核准自動取代 production。
+- 維護現行 production 時仍需保留既有版本與設定，並明確使用 `RKNPU_ARTIFACT_SET=qualified_20260911`。
+- Artifact 僅供內部／研究工程驗證；`RESEARCH_ACCESS` 不等於 `COMMERCIAL_RIGHTS`。
+- 最新狀態以 [HANDOFF.md](AICameraInferenceEngine/HANDOFF.md) 最上方紀錄為準。
