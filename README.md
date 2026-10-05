@@ -1,43 +1,53 @@
 # 模型選版與使用說明
 
-## Age Estimation Models — 推薦優先測試
+## 推薦模型與下載
 
-**#1 ConvNeXt-Tiny** 是目前準確度、模型大小與已驗證 RK3588 parity 的最佳平衡；**#2 MobileAgeNet** 是最佳輕量／低延遲選項。兩者均提供 ONNX 與 RK3566、RK3576、RK3588 FP16 artifact。
+### Gender Estimation
+
+**最佳模型：V3 EdgeFace-XXS**。在相同 corrected frozen GT-crop 評估中，它是 accuracy winner 與 deployment winner；ONNX parity、RK3566／RK3576／RK3588 FP16 轉換及 RK3588 實機 parity 均通過。
+
+[EdgeFace-XXS ONNX](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/edgeface_xxs_gender.onnx) · [RK3566](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/rk3566/edgeface_xxs_gender_fp16.rknn) · [RK3576](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/rk3576/edgeface_xxs_gender_fp16.rknn) · [RK3588](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/rk3588/edgeface_xxs_gender_fp16.rknn) · [使用與驗證說明](AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/README.md)
+
+RK3566／RK3576 目前為 conversion PASS、physical runtime PENDING；RK3588 已在 Orange Pi 5 Ultra 通過 runtime 與 parity。此推薦不會自動變更 production runtime 預設。
+
+### Age Estimation
+
+依目前候選順序，**#1 MobileAgeNet** 是最佳輕量／低延遲選項；**#2 ConvNeXt-Tiny** 是較高準確度、模型大小與已驗證 RK3588 parity 的平衡選項。兩者均提供 ONNX 與 RK3566、RK3576、RK3588 FP16 artifact。
 
 | Model | Role | Params | ONNX | RK3566 | RK3576 | RK3588 | RK3588 parity | Recommended |
 |---|---|---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| ConvNeXt-Tiny | Accuracy / deployment balance | 27.90M | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐ #1 |
-| MobileAgeNet | Lightweight / fastest | 3.22M | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐ #2 |
+| MobileAgeNet | Lightweight / fastest | 3.22M | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐ #1 |
+| ConvNeXt-Tiny | Accuracy / deployment balance | 27.90M | ✅ | ✅ | ✅ | ✅ | ✅ | ⭐ #2 |
 | ConvNeXt-Small | Higher-capacity experimental | 49.53M | ✅ | ✅ | ✅ | ✅ | ⚠️ FAIL／PENDING | Experimental |
 
-快速下載：[Tiny ONNX](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/model.onnx) · [Tiny RK3566](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3566_fp16.rknn) · [Tiny RK3576](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3576_fp16.rknn) · [Tiny RK3588](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3588_fp16.rknn)
+快速下載：[MobileAgeNet ONNX](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/model.onnx) · [MobileAgeNet RK3566](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3566_fp16.rknn) · [MobileAgeNet RK3576](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3576_fp16.rknn) · [MobileAgeNet RK3588](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3588_fp16.rknn)
 
-[MobileAgeNet ONNX](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/model.onnx) · [MobileAgeNet RK3566](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3566_fp16.rknn) · [MobileAgeNet RK3576](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3576_fp16.rknn) · [MobileAgeNet RK3588](AICameraInferenceEngine/model/versions/age_deployment_20261002/mobileagenet_age/rk3588_fp16.rknn)
+[Tiny ONNX](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/model.onnx) · [Tiny RK3566](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3566_fp16.rknn) · [Tiny RK3576](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3576_fp16.rknn) · [Tiny RK3588](AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_tiny_age/rk3588_fp16.rknn)
 
 ⚠️ **ConvNeXt-Small 僅供實驗比較**：RK3588 可執行，但 ONNX→RKNN 平均年齡輸出差約 **1.999 年**，parity 尚未通過。其 [ONNX／三平台下載、完整前處理、雜湊、benchmark 與相容性說明](AICameraInferenceEngine/model/versions/age_deployment_20261002/README.md) 請見技術交付頁。RK3566／RK3576 目前僅完成 artifact 產生，實體板驗證仍待進行。
 
 > Artifact 僅供內部／研究工程驗證；`RESEARCH_ACCESS` 不代表 `COMMERCIAL_RIGHTS` 已核准。大型模型使用 Git LFS。
 
-更新日期：2026-09-11。適用人臉偵測、年齡、性別與頭部姿態；人物偵測／骨架模型不在本次選版範圍。
+更新日期：2026-10-06。適用人臉偵測、年齡、性別與頭部姿態；人物偵測／骨架模型不在本次選版範圍。
 
-**後續工程整合與實機資格測試請使用：原始 YuNet＋corrected BGR/xywh、Age v4、Gender v2、Pose v2 E1，並明確指定 `RKNPU_ARTIFACT_SET=qualified_20260911`。** 這組是目前候選，尚未核准取代 production。維護現行正式環境時，保留原有版本與設定。
+**現有應用程式整合基線仍是：原始 YuNet＋corrected BGR/xywh、Age v4、Gender v2、Pose v2 E1，並明確指定 `RKNPU_ARTIFACT_SET=qualified_20260911`。** 新推薦的 MobileAgeNet／ConvNeXt-Tiny 與 EdgeFace-XXS 已發布 artifact，但尚未接入 runtime selector，也未核准取代 production。維護現行正式環境時，保留原有版本與設定。
 
 本文依 [HANDOFF 最新紀錄](../HANDOFF.md)與[三平台資格報告](../reports/05_integration/three_platform_candidate_qualification_20260911.zh-TW.md)整理；後續狀態更新以 HANDOFF 最上方紀錄為準。
 
 ## 1. 該選哪個版本？
 
-| 元件 | 目前工程候選 | 程式選版設定 | 現行 production 預設 |
+| 元件 | 目前模型候選 | 程式選版設定 | 現行 production 預設 |
 |---|---|---|---|
 | YuNet 人臉偵測 | 原始 v1 權重＋BGR／正確 xywh NMS | `YUNET_PIPELINE=bgr_xywh` | 原始權重＋`legacy` |
-| Age 年齡 | v4 MobileNetV3-Large，112×112 | `AGE_MODEL_VERSION=v4` | v2 |
-| Gender 性別 | v2 SSR-Net，64×64 | `GENDER_MODEL_VERSION=v2` | v1 |
+| Age 年齡 | #1 MobileAgeNet；#2 ConvNeXt-Tiny | 尚未接入 runtime selector | v2 |
+| Gender 性別 | **V3 EdgeFace-XXS（最佳模型）** | 尚未接入 runtime selector | v1 |
 | Head Pose 頭部姿態 | frozen v2 E1（固定 epoch 1） | `HEAD_POSE_MODEL_VERSION=v2_e1` | v1 |
 
 YuNet 的改善是前後處理修正，沒有換成小臉微調權重。Pose 必須選 `pose_v2_runtime` 的 E1，不能拿舊 v2 實驗 checkpoint 代替。選版原因與歷史成效見[版本對照](../reports/00_overview/project_versions_and_status.zh-TW.md)。
 
 **不要因版本號較新就替換：**
 
-- Age v3／v3.1／v3.2 為歷史研究；目前候選仍是 v4。
+- Age v3／v3.1／v3.2 為歷史研究；目前發布候選是 MobileAgeNet 與 ConvNeXt-Tiny。
 - Age v5：實驗 FAILED／CLOSED，不採用。
 - Age v6 MIVIA：LICENSE BLOCKED／ARCHIVED，未下載或產生可用模型。
 - Age v6 公司資料自訓：僅策略提案，資料權利待審查，尚無權重；報告中的預定路徑不代表檔案存在。

@@ -1,0 +1,19 @@
+{
+  "candidate": "edgeface_xxs",
+  "checkpoint_path": "model/versions/gender_v3_bounded_20261006/training/edgeface_xxs/selected.pt",
+  "checkpoint_sha256": "9dc04fb5d33ff1247ca0e61ab18c345f4942048e54d51a936169c224c729f612",
+  "classification_agreement": 1.0,
+  "finite": true,
+  "input_contract": "RGB float32 NCHW raw 0..255; normalization embedded",
+  "max_abs_logit_delta": 1.1801719665527344e-05,
+  "max_abs_probability_delta": 2.4437904357910156e-06,
+  "mean_abs_logit_delta": 3.3583492040634155e-06,
+  "mean_abs_probability_delta": 6.249174475669861e-07,
+  "onnx_path": "model/versions/gender_v3_bounded_20261006/selected/edgeface_xxs/edgeface_xxs_gender.onnx",
+  "onnx_sha256": "090d11b2f6b230b8359ccf989e2cac95b34160892d9a5586c07501292c112854",
+  "onnx_size_bytes": 4819687,
+  "output_contract": "single gender logit",
+  "selected_epoch": 7,
+  "status": "PASS",
+  "threshold": 0.38631075620651245
+}
