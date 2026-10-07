@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "target": "rk3566",
+  "toolkit_version": "2.3.2",
+  "input_size": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "do_quantization": false,
+  "steps": {
+    "config": 0,
+    "load_onnx": 0,
+    "build": 0,
+    "export_rknn": 0
+  },
+  "onnx_sha256": "70094a58af3c4b0d5b59383db1827fb200d0c60d7b3afcccc344a7000bd42fe1",
+  "rknn_path": "/mnt/c/Users/g2004/OneDrive/Desktop/AI-Camera/AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/rk3566/edgeface_xxs_gender_224_fp16.rknn",
+  "rknn_sha256": "b4f7673e0ece920e3f7696138957ba0216c75e5d33335c2615fc55be2afe0db3",
+  "rknn_size_bytes": 3827245,
+  "physical_runtime": "PENDING"
+}

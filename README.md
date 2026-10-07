@@ -1,8 +1,8 @@
 # VAC AI Camera 模型下載與選版
 
-本頁只列目前建議使用的臉部模型：**YuNet** 人臉偵測、**MobileAgeNet** 年齡首選、**ConvNeXt-Tiny** 年齡準確度備選、**EdgeFace-XXS** 性別，以及 **Head Pose v2 E1**。
+本頁只列目前建議使用的臉部模型：**YuNet** 人臉偵測、**MobileAgeNet** 年齡首選、**ConvNeXt-Tiny** 年齡準確度備選、**EdgeFace-XXS 112** 性別首選、**EdgeFace-XXS 224** 性別備選，以及 **Head Pose v2 E1**。
 
-> 更新：2026-10-06。
+> 更新：2026-10-07。推薦代表工程候選，不代表已切換 production，也不代表商用或再散布權利已核准。
 
 ## 模型總覽
 
@@ -12,6 +12,7 @@
 | Age | **MobileAgeNet（低延遲首選）** | 3.22M | 12.86 / 7.85 MB | V31 DEV：MAE 6.367、CS@7 65.80% | **12.67 / 16.68 ms** | ✅ | ✅ | ✅ | ✅ 實機 parity |
 | Age | **ConvNeXt-Tiny（準確度備選）** | 27.90M | 111.66 / 57.68 MB | V31 DEV：**MAE 5.692、CS@7 69.84%** | 55.82 / 60.56 ms | ✅ | ✅ | ✅ | ✅ 實機 parity |
 | Gender | **V3 EdgeFace-XXS** | 1.16M | 4.82 / 4.18 MB | 80 / 40 / 27 px BAcc：89.75 / 89.55 / 88.50% | 7.26 / 9.14 ms | ✅ | ✅ | ✅ | ✅ 實機 parity |
+| Gender | EdgeFace-XXS 224（備選） | 1.16M | 4.82 / 4.40 MB | 80 / 40 / 27 px BAcc：90.28 / 88.92 / 87.35% | PENDING | ✅ | ✅ | ✅ | ✅ conversion |
 | Head Pose | **v2 E1** | — | 0.85 / 1.16 MB | 6,000 張 frozen test：MAE 5.87°、±10° 75.19% | 5.43 / 7.29 ms | ✅ | ✅ | ✅ | ✅ 實機 |
 
 大小採十進位 MB；延遲皆為 Orange Pi 5 Ultra / RK3588、RKNN Runtime 2.3.2、driver 0.9.6 的 model-only 實測，不能直接視為完整 app FPS。RK3566／RK3576 目前僅 conversion PASS，physical runtime 仍為 PENDING。
@@ -58,6 +59,17 @@ Repo：`AICameraInferenceEngine/model/versions/gender_v3_bounded_20261006/select
 - 來源：[EdgeFace](https://github.com/otroshi/edgeface) XXS face-recognition pretrained checkpoint；本專案以 UTKFace fine-tune，selected epoch 7。
 - 112×112 RGB face crop、float32 0–255；單一 logit，threshold `0.3863107562`，大於等於門檻判為 Male。
 
+### EdgeFace-XXS 224 — 性別備選
+
+Repo：`AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/`
+
+[ONNX](AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/edgeface_xxs_gender_224.onnx) · [RK3566](AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/rk3566/edgeface_xxs_gender_224_fp16.rknn) · [RK3576](AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/rk3576/edgeface_xxs_gender_224_fp16.rknn) · [RK3588](AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/rk3588/edgeface_xxs_gender_224_fp16.rknn) · [SHA256](AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/SHA256SUMS.txt) · [完整說明](AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/README.md)
+
+- 來源同首選 EdgeFace-XXS；本專案以相同 UTKFace split 與 protocol 重新進行 224×224 fine-tune，selected epoch 8。
+- 224×224 RGB face crop、float32 0–255；單一 logit，threshold `-0.1358056068`，大於等於門檻判為 Male。
+- Frozen external mean BAcc 88.68%，較 112 首選低 0.59 個百分點；80 px 較佳，但 40／27 px 較差，因此只列為備選。
+- ONNX parity 與三平台 FP16 conversion PASS；三平台 physical runtime/parity 均為 PENDING。
+
 ### Head Pose v2 E1 — 頭部姿態首選
 
 Repo：`AICameraInferenceEngine/model/versions/pose_v2_runtime/`
@@ -80,7 +92,7 @@ Age 群組：Child 0–17、Adult 18–54、Elderly 55–80；DEV 分布為 8.16
 
 ## 部署狀態
 
-- MobileAgeNet、ConvNeXt-Tiny 與 EdgeFace-XXS 尚未接入 runtime selector，也未核准自動取代 production。
+- MobileAgeNet、ConvNeXt-Tiny 與 EdgeFace-XXS 尚未接入 runtime selector，也未核准自動取代 production；EdgeFace-XXS 224 僅為備選。
 - 維護現行 production 時仍需保留既有版本與設定，並明確使用 `RKNPU_ARTIFACT_SET=qualified_20260911`。
 - Artifact 僅供內部／研究工程驗證；`RESEARCH_ACCESS` 不等於 `COMMERCIAL_RIGHTS`。
 - 最新狀態以 [HANDOFF.md](AICameraInferenceEngine/HANDOFF.md) 最上方紀錄為準。

@@ -1,2 +1,4 @@
 AICameraInferenceEngine/model/versions/age_deployment_20261002/**/*.onnx filter=lfs diff=lfs merge=lfs -text
 AICameraInferenceEngine/model/versions/age_deployment_20261002/**/*.rknn filter=lfs diff=lfs merge=lfs -text
+AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/*.onnx filter=lfs diff=lfs merge=lfs -text
+AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/**/*.rknn filter=lfs diff=lfs merge=lfs -text

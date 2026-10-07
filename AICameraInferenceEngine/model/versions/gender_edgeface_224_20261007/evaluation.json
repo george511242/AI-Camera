@@ -1,0 +1,606 @@
+{
+  "checkpoint_path": "model/versions/gender_edgeface_224_20261007/training/selected.pt",
+  "checkpoint_sha256": "49affb7fc738cdd7e49f18629acfab0eae0d9d73afe47fe8d4f9b106e1d490f9",
+  "input_contract": "224x224 RGB float32 NCHW raw 0..255; normalization embedded",
+  "method": "one-seed 224x224 fine-tune from the same official EdgeFace-XXS pretrained checkpoint; validation-only selection",
+  "metrics_224": {
+    "external": {
+      "27": {
+        "absolute_recall_gap": 0.07954789359515924,
+        "accuracy": 0.8728632478632479,
+        "balanced_accuracy": 0.8734581573238954,
+        "confusion_matrix_female_male": [
+          [
+            396,
+            79
+          ],
+          [
+            40,
+            421
+          ]
+        ],
+        "female_f1": 0.8693743139407244,
+        "female_precision": 0.908256880733945,
+        "female_recall": 0.8336842105263158,
+        "male_f1": 0.8761706555671176,
+        "male_precision": 0.842,
+        "male_recall": 0.913232104121475,
+        "minimum_recall": 0.8336842105263158,
+        "sample_count": 936,
+        "score_distribution": {
+          "female": {
+            "max": 4.1125006675720215,
+            "mean": -2.4613623910436506,
+            "min": -4.404837131500244,
+            "std": 2.2331447914773164
+          },
+          "male": {
+            "max": 4.238471508026123,
+            "mean": 2.8167077660996975,
+            "min": -4.1157307624816895,
+            "std": 1.7522509356583265
+          }
+        },
+        "threshold": -0.13580560684204102
+      },
+      "40": {
+        "absolute_recall_gap": 0.03942002511702247,
+        "accuracy": 0.8888888888888888,
+        "balanced_accuracy": 0.8891836967690375,
+        "confusion_matrix_female_male": [
+          [
+            413,
+            62
+          ],
+          [
+            42,
+            419
+          ]
+        ],
+        "female_f1": 0.8881720430107527,
+        "female_precision": 0.9076923076923077,
+        "female_recall": 0.8694736842105263,
+        "male_f1": 0.8895966029723991,
+        "male_precision": 0.8711018711018711,
+        "male_recall": 0.9088937093275488,
+        "minimum_recall": 0.8694736842105263,
+        "sample_count": 936,
+        "score_distribution": {
+          "female": {
+            "max": 4.0761590003967285,
+            "mean": -2.8711048086458133,
+            "min": -4.415992259979248,
+            "std": 2.008437182748667
+          },
+          "male": {
+            "max": 4.297407627105713,
+            "mean": 2.8043970450144786,
+            "min": -4.125198841094971,
+            "std": 1.8498482451749922
+          }
+        },
+        "threshold": -0.13580560684204102
+      },
+      "80": {
+        "absolute_recall_gap": 0.0007717776001827659,
+        "accuracy": 0.9027777777777778,
+        "balanced_accuracy": 0.9027720059367508,
+        "confusion_matrix_female_male": [
+          [
+            429,
+            46
+          ],
+          [
+            45,
+            416
+          ]
+        ],
+        "female_f1": 0.904109589041096,
+        "female_precision": 0.9050632911392406,
+        "female_recall": 0.9031578947368422,
+        "male_f1": 0.9014084507042253,
+        "male_precision": 0.9004329004329005,
+        "male_recall": 0.9023861171366594,
+        "minimum_recall": 0.9023861171366594,
+        "sample_count": 936,
+        "score_distribution": {
+          "female": {
+            "max": 4.179483413696289,
+            "mean": -3.080219035446644,
+            "min": -4.392727375030518,
+            "std": 1.8018904138011484
+          },
+          "male": {
+            "max": 4.275886058807373,
+            "mean": 2.730671662602921,
+            "min": -4.145621299743652,
+            "std": 1.8569505707516534
+          }
+        },
+        "threshold": -0.13580560684204102
+      }
+    },
+    "test": {
+      "27": {
+        "absolute_recall_gap": 0.002095783532536588,
+        "accuracy": 0.8397291196388262,
+        "balanced_accuracy": 0.8395895584329349,
+        "confusion_matrix_female_male": [
+          [
+            211,
+            40
+          ],
+          [
+            31,
+            161
+          ]
+        ],
+        "female_f1": 0.8559837728194727,
+        "female_precision": 0.871900826446281,
+        "female_recall": 0.8406374501992032,
+        "male_f1": 0.8193384223918575,
+        "male_precision": 0.8009950248756219,
+        "male_recall": 0.8385416666666666,
+        "minimum_recall": 0.8385416666666666,
+        "sample_count": 443,
+        "score_distribution": {
+          "female": {
+            "max": 3.6557154655456543,
+            "mean": -2.6355552006646454,
+            "min": -4.400068759918213,
+            "std": 2.136683090014288
+          },
+          "male": {
+            "max": 4.258608818054199,
+            "mean": 1.998854041856248,
+            "min": -4.305978775024414,
+            "std": 2.0673393309199786
+          }
+        },
+        "threshold": -0.13580560684204102
+      },
+      "40": {
+        "absolute_recall_gap": 0.04082891328481564,
+        "accuracy": 0.8284424379232506,
+        "balanced_accuracy": 0.8303318120143086,
+        "confusion_matrix_female_male": [
+          [
+            196,
+            46
+          ],
+          [
+            30,
+            171
+          ]
+        ],
+        "female_f1": 0.8376068376068375,
+        "female_precision": 0.8672566371681416,
+        "female_recall": 0.8099173553719008,
+        "male_f1": 0.8181818181818182,
+        "male_precision": 0.7880184331797235,
+        "male_recall": 0.8507462686567164,
+        "minimum_recall": 0.8099173553719008,
+        "sample_count": 443,
+        "score_distribution": {
+          "female": {
+            "max": 3.850658893585205,
+            "mean": -2.5323719003137724,
+            "min": -4.390329837799072,
+            "std": 2.264755282856869
+          },
+          "male": {
+            "max": 4.226597785949707,
+            "mean": 2.164871793907525,
+            "min": -4.240042209625244,
+            "std": 2.1493067697672736
+          }
+        },
+        "threshold": -0.13580560684204102
+      },
+      "80": {
+        "absolute_recall_gap": 0.000475599669148008,
+        "accuracy": 0.8510158013544018,
+        "balanced_accuracy": 0.8510442514474772,
+        "confusion_matrix_female_male": [
+          [
+            211,
+            37
+          ],
+          [
+            29,
+            166
+          ]
+        ],
+        "female_f1": 0.8647540983606558,
+        "female_precision": 0.8791666666666667,
+        "female_recall": 0.8508064516129032,
+        "male_f1": 0.8341708542713567,
+        "male_precision": 0.8177339901477833,
+        "male_recall": 0.8512820512820513,
+        "minimum_recall": 0.8508064516129032,
+        "sample_count": 443,
+        "score_distribution": {
+          "female": {
+            "max": 3.9150335788726807,
+            "mean": -2.738305764588257,
+            "min": -4.36569881439209,
+            "std": 2.0056477223372187
+          },
+          "male": {
+            "max": 4.2362895011901855,
+            "mean": 2.1918726657445613,
+            "min": -4.30942964553833,
+            "std": 2.191265877050483
+          }
+        },
+        "threshold": -0.13580560684204102
+      }
+    },
+    "validation": {
+      "27": {
+        "absolute_recall_gap": 0.021411578112609075,
+        "accuracy": 0.8367346938775511,
+        "balanced_accuracy": 0.8354480570975416,
+        "confusion_matrix_female_male": [
+          [
+            209,
+            38
+          ],
+          [
+            34,
+            160
+          ]
+        ],
+        "female_f1": 0.8530612244897959,
+        "female_precision": 0.8600823045267489,
+        "female_recall": 0.8461538461538461,
+        "male_f1": 0.8163265306122448,
+        "male_precision": 0.8080808080808081,
+        "male_recall": 0.8247422680412371,
+        "minimum_recall": 0.8247422680412371,
+        "sample_count": 441,
+        "score_distribution": {
+          "female": {
+            "max": 3.5687108039855957,
+            "mean": -2.5956519757536984,
+            "min": -4.374609470367432,
+            "std": 2.0185070416155204
+          },
+          "male": {
+            "max": 4.262585163116455,
+            "mean": 2.11950621191297,
+            "min": -4.217197895050049,
+            "std": 2.1465680631197235
+          }
+        },
+        "threshold": -0.13580560684204102
+      },
+      "40": {
+        "absolute_recall_gap": 0.0032008646491520354,
+        "accuracy": 0.8574660633484162,
+        "balanced_accuracy": 0.8572705354173595,
+        "confusion_matrix_female_male": [
+          [
+            213,
+            35
+          ],
+          [
+            28,
+            166
+          ]
+        ],
+        "female_f1": 0.8711656441717791,
+        "female_precision": 0.8838174273858921,
+        "female_recall": 0.8588709677419355,
+        "male_f1": 0.8405063291139241,
+        "male_precision": 0.8258706467661692,
+        "male_recall": 0.8556701030927835,
+        "minimum_recall": 0.8556701030927835,
+        "sample_count": 442,
+        "score_distribution": {
+          "female": {
+            "max": 3.618466854095459,
+            "mean": -2.7812240990329413,
+            "min": -4.395595073699951,
+            "std": 1.9817610255243427
+          },
+          "male": {
+            "max": 4.235447406768799,
+            "mean": 2.217707253243659,
+            "min": -3.4433350563049316,
+            "std": 1.9861582395596904
+          }
+        },
+        "threshold": -0.13580560684204102
+      },
+      "80": {
+        "absolute_recall_gap": 0.02318264613346588,
+        "accuracy": 0.8710407239819005,
+        "balanced_accuracy": 0.8722470607716509,
+        "confusion_matrix_female_male": [
+          [
+            210,
+            34
+          ],
+          [
+            23,
+            175
+          ]
+        ],
+        "female_f1": 0.880503144654088,
+        "female_precision": 0.9012875536480687,
+        "female_recall": 0.860655737704918,
+        "male_f1": 0.85995085995086,
+        "male_precision": 0.8373205741626795,
+        "male_recall": 0.8838383838383839,
+        "minimum_recall": 0.860655737704918,
+        "sample_count": 442,
+        "score_distribution": {
+          "female": {
+            "max": 3.2963650226593018,
+            "mean": -2.7347611468132644,
+            "min": -4.3881402015686035,
+            "std": 1.976085688379662
+          },
+          "male": {
+            "max": 4.264547824859619,
+            "mean": 2.2509962843561713,
+            "min": -4.010477066040039,
+            "std": 1.8983050844772211
+          }
+        },
+        "threshold": -0.13580560684204102
+      }
+    }
+  },
+  "onnx": {
+    "classification_agreement": 1.0,
+    "max_abs_logit_delta": 3.337860107421875e-06,
+    "mean_abs_logit_delta": 2.207234501838684e-06,
+    "parity": "PASS",
+    "parity_vectors": "model/versions/gender_edgeface_224_20261007/parity_vectors.npz",
+    "path": "model/versions/gender_edgeface_224_20261007/edgeface_xxs_gender_224.onnx",
+    "sha256": "70094a58af3c4b0d5b59383db1827fb200d0c60d7b3afcccc344a7000bd42fe1",
+    "size_bytes": 4824393
+  },
+  "output_contract": "single gender logit; >= threshold is Male",
+  "reference_112": {
+    "external": {
+      "27": {
+        "absolute_recall_gap": 0.04784107774860136,
+        "accuracy": 0.8846153846153846,
+        "balanced_accuracy": 0.8849731704532481,
+        "confusion_matrix_female_male": [
+          [
+            409,
+            66
+          ],
+          [
+            42,
+            419
+          ]
+        ],
+        "female_f1": 0.8833693304535637,
+        "female_precision": 0.9068736141906873,
+        "female_recall": 0.8610526315789474,
+        "male_f1": 0.8858350951374208,
+        "male_precision": 0.8639175257731959,
+        "male_recall": 0.9088937093275488,
+        "minimum_recall": 0.8610526315789474,
+        "sample_count": 936,
+        "score_distribution": {
+          "female": {
+            "max": 4.2368035316467285,
+            "mean": -2.5998423920650233,
+            "min": -4.471123218536377,
+            "std": 2.2950598810122362
+          },
+          "male": {
+            "max": 4.323276996612549,
+            "mean": 3.157172926271298,
+            "min": -4.218594551086426,
+            "std": 1.7012641305536096
+          }
+        },
+        "threshold": 0.38631075620651245
+      },
+      "40": {
+        "absolute_recall_gap": 0.022513985614796228,
+        "accuracy": 0.8952991452991453,
+        "balanced_accuracy": 0.8954675191231876,
+        "confusion_matrix_female_male": [
+          [
+            420,
+            55
+          ],
+          [
+            43,
+            418
+          ]
+        ],
+        "female_f1": 0.8955223880597015,
+        "female_precision": 0.9071274298056156,
+        "female_recall": 0.8842105263157894,
+        "male_f1": 0.8950749464668094,
+        "male_precision": 0.8837209302325582,
+        "male_recall": 0.9067245119305857,
+        "minimum_recall": 0.8842105263157894,
+        "sample_count": 936,
+        "score_distribution": {
+          "female": {
+            "max": 4.125213146209717,
+            "mean": -2.8209349792568306,
+            "min": -4.465106964111328,
+            "std": 2.1605617134951047
+          },
+          "male": {
+            "max": 4.351629734039307,
+            "mean": 3.1310803188322165,
+            "min": -4.17225456237793,
+            "std": 1.7614752274064058
+          }
+        },
+        "threshold": 0.38631075620651245
+      },
+      "80": {
+        "absolute_recall_gap": 0.014028998744148868,
+        "accuracy": 0.8974358974358975,
+        "balanced_accuracy": 0.8975408151615482,
+        "confusion_matrix_female_male": [
+          [
+            423,
+            52
+          ],
+          [
+            44,
+            417
+          ]
+        ],
+        "female_f1": 0.8980891719745222,
+        "female_precision": 0.9057815845824411,
+        "female_recall": 0.8905263157894737,
+        "male_f1": 0.8967741935483872,
+        "male_precision": 0.8891257995735607,
+        "male_recall": 0.9045553145336226,
+        "minimum_recall": 0.8905263157894737,
+        "sample_count": 936,
+        "score_distribution": {
+          "female": {
+            "max": 4.133416175842285,
+            "mean": -2.894932390122037,
+            "min": -4.460210800170898,
+            "std": 2.0710677139378286
+          },
+          "male": {
+            "max": 4.3473052978515625,
+            "mean": 3.1299732921729895,
+            "min": -4.114152908325195,
+            "std": 1.7413834881987686
+          }
+        },
+        "threshold": 0.38631075620651245
+      }
+    },
+    "test": {
+      "27": {
+        "absolute_recall_gap": 0.015272244355909681,
+        "accuracy": 0.8419864559819413,
+        "balanced_accuracy": 0.8409694555112882,
+        "confusion_matrix_female_male": [
+          [
+            213,
+            38
+          ],
+          [
+            32,
+            160
+          ]
+        ],
+        "female_f1": 0.8588709677419356,
+        "female_precision": 0.8693877551020408,
+        "female_recall": 0.848605577689243,
+        "male_f1": 0.8205128205128206,
+        "male_precision": 0.8080808080808081,
+        "male_recall": 0.8333333333333334,
+        "minimum_recall": 0.8333333333333334,
+        "sample_count": 443,
+        "score_distribution": {
+          "female": {
+            "max": 3.9832351207733154,
+            "mean": -2.632043622374772,
+            "min": -4.465854644775391,
+            "std": 2.2516217775687797
+          },
+          "male": {
+            "max": 4.3520941734313965,
+            "mean": 2.335438367445022,
+            "min": -4.408951759338379,
+            "std": 2.16418793032624
+          }
+        },
+        "threshold": 0.38631075620651245
+      },
+      "40": {
+        "absolute_recall_gap": 0.010135274043008069,
+        "accuracy": 0.8103837471783296,
+        "balanced_accuracy": 0.8108527609884462,
+        "confusion_matrix_female_male": [
+          [
+            195,
+            47
+          ],
+          [
+            37,
+            164
+          ]
+        ],
+        "female_f1": 0.8227848101265822,
+        "female_precision": 0.8405172413793104,
+        "female_recall": 0.8057851239669421,
+        "male_f1": 0.796116504854369,
+        "male_precision": 0.7772511848341233,
+        "male_recall": 0.8159203980099502,
+        "minimum_recall": 0.8057851239669421,
+        "sample_count": 443,
+        "score_distribution": {
+          "female": {
+            "max": 3.8511130809783936,
+            "mean": -2.4080814034639557,
+            "min": -4.453766822814941,
+            "std": 2.4209778225332124
+          },
+          "male": {
+            "max": 4.344327926635742,
+            "mean": 2.358670007641339,
+            "min": -4.392121315002441,
+            "std": 2.2230861839763616
+          }
+        },
+        "threshold": 0.38631075620651245
+      },
+      "80": {
+        "absolute_recall_gap": 0.035277088502894904,
+        "accuracy": 0.8623024830699775,
+        "balanced_accuracy": 0.8644127377998345,
+        "confusion_matrix_female_male": [
+          [
+            210,
+            38
+          ],
+          [
+            23,
+            172
+          ]
+        ],
+        "female_f1": 0.8731808731808732,
+        "female_precision": 0.9012875536480687,
+        "female_recall": 0.8467741935483871,
+        "male_f1": 0.8493827160493826,
+        "male_precision": 0.819047619047619,
+        "male_recall": 0.882051282051282,
+        "minimum_recall": 0.8467741935483871,
+        "sample_count": 443,
+        "score_distribution": {
+          "female": {
+            "max": 4.169171333312988,
+            "mean": -2.5292534368232853,
+            "min": -4.444561958312988,
+            "std": 2.238817649445067
+          },
+          "male": {
+            "max": 4.380537033081055,
+            "mean": 2.5137776932273157,
+            "min": -4.4508819580078125,
+            "std": 1.9500618064535704
+          }
+        },
+        "threshold": 0.38631075620651245
+      }
+    },
+    "threshold_logit": 0.38631075620651245
+  },
+  "selected_epoch": 8,
+  "status": "PASS",
+  "validation_calibrated_threshold_logit": -0.13580560684204102,
+  "validation_calibrated_threshold_probability": 0.46610068316650516
+}
