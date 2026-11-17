@@ -1,8 +1,8 @@
 # VAC AI Camera 模型下載與選版
 
-本頁只列目前建議使用的臉部模型：**YuNet** 人臉偵測、**MobileAgeNet** 年齡首選、**ConvNeXt-Tiny** 年齡準確度備選、**EdgeFace-XXS 112** 性別首選、**EdgeFace-XXS 224** 性別備選，以及 **Head Pose v2 E1**。
+本頁只列目前建議使用的臉部模型：**YuNet** 人臉偵測、**MobileAgeNet** 年齡首選、**ConvNeXt-Tiny** 年齡準確度備選、**V118 DINOv2-Small** 最新發布 Age 研究版、**EdgeFace-XXS 112** 性別首選、**EdgeFace-XXS 224** 性別備選，以及 **Head Pose v2 E1**。
 
-> 更新：2026-10-07。推薦代表工程候選，不代表已切換 production，也不代表商用或再散布權利已核准。
+> 更新：2026-11-17（新增 Age V118，原 Age 版本與下載保留）。推薦代表工程候選，不代表已切換 production，也不代表商用或再散布權利已核准。
 
 ## 模型總覽
 
@@ -11,6 +11,7 @@
 | Face | **YuNet v1 + corrected BGR/xywh** | — | 0.32 / 1.18 MB | 115 / 57 / 38 px 偵測成功率：97.59 / 95.14 / 88.91% | 35.17 / 43.61 ms | ✅ | ✅ | ✅ | ✅ 實機 |
 | Age | **MobileAgeNet（低延遲首選）** | 3.22M | 12.86 / 7.85 MB | V31 DEV：MAE 6.367、CS@7 65.80% | **12.67 / 16.68 ms** | ✅ | ✅ | ✅ | ✅ 實機 parity |
 | Age | **ConvNeXt-Tiny（準確度備選）** | 27.90M | 111.66 / 57.68 MB | V31 DEV：**MAE 5.692、CS@7 69.84%** | 55.82 / 60.56 ms | ✅ | ✅ | ✅ | ✅ 實機 parity |
+| Age | **V118 DINOv2-Small（最新發布）** | 21.67M | 86.83 / 47.29 MB | Clean4953 ONNX：**MAE 5.533、CS@7 73.57%**；完整門檻未達 | 74.76 / 81.55 ms | ✅ parity | ✅ conversion | ✅ conversion | 12筆工程試跑／完整精度待驗 |
 | Gender | **V3 EdgeFace-XXS** | 1.16M | 4.82 / 4.18 MB | 80 / 40 / 27 px BAcc：89.75 / 89.55 / 88.50% | 7.26 / 9.14 ms | ✅ | ✅ | ✅ | ✅ 實機 parity |
 | Gender | EdgeFace-XXS 224（備選） | 1.16M | 4.82 / 4.40 MB | 80 / 40 / 27 px BAcc：90.28 / 88.92 / 87.35% | PENDING | ✅ | ✅ | ✅ | ✅ conversion |
 | Head Pose | **v2 E1** | — | 0.85 / 1.16 MB | 6,000 張 frozen test：MAE 5.87°、±10° 75.19% | 5.43 / 7.29 ms | ✅ | ✅ | ✅ | ✅ 實機 |
@@ -49,6 +50,19 @@ Repo：`AICameraInferenceEngine/model/versions/age_deployment_20261002/convnext_
 - 224×224 RGB face crop、float32 0–255；輸出 100 ordinal logits，`age = sum(sigmoid(logits))`。
 
 [年齡模型完整前處理、轉換與 parity 說明](AICameraInferenceEngine/model/versions/age_deployment_20261002/README.md)
+
+### Age V118 DINOv2-Small — 最新發布的 Age 研究版本（新增）
+
+Repo：`AICameraInferenceEngine/model/versions/age_v118_dinov2_small_20261117/`
+
+[ONNX](AICameraInferenceEngine/model/versions/age_v118_dinov2_small_20261117/model.onnx) · [RK3566](AICameraInferenceEngine/model/versions/age_v118_dinov2_small_20261117/rk3566_fp16.rknn) · [RK3576](AICameraInferenceEngine/model/versions/age_v118_dinov2_small_20261117/rk3576_fp16.rknn) · [RK3588](AICameraInferenceEngine/model/versions/age_v118_dinov2_small_20261117/rk3588_fp16.rknn) · [SHA256](AICameraInferenceEngine/model/versions/age_v118_dinov2_small_20261117/SHA256SUMS.txt) · [完整說明](AICameraInferenceEngine/model/versions/age_v118_dinov2_small_20261117/README.md)
+
+- 來源：本專案 DINOv2-Small Age 研究，V118 selected epoch 2；21,667,685 parameters。這是本頁最新新增的 Age 發布版本，**原 MobileAgeNet／ConvNeXt-Tiny 版本與下載完整保留，不自動替換 production**。
+- 224×224 RGB face crop、NCHW、raw 0–255，ONNX float32，normalization 已內建。輸出 **101 類別 logits**，使用固定 softmax global median 解碼；不能沿用 Tiny 的 `sum(sigmoid(100 logits))`。解碼程式隨包提供。
+- 保存的 Clean4953 ONNX CPU：MAE **5.533212195**、CS@7 **73.571573%**。115／57／38／29／20 px GT-crop CS@7 為 **76.31／75.80／72.73／73.11／67.35%**；五尺寸完整 gate 仍 **0/5 PASS**，Clean 也尚未通過原整套門檻。
+- 三個 target 的 FP16 conversion 與檔案 SHA／size 均通過；ONNX 86.833 MB 另列，三個 RKNN 分別46.570／50.724／47.289 MB。RK3566／RK3576 physical runtime 仍待驗。
+- RK3588 曾用同12筆TRAIN/degraded工程輸入進行50warmup/500timed：mean/P95 **74.76／81.55 ms**；Tiny同條件 **56.78／62.25 ms**。這是model-only速度，非相機FPS；V118工程輸入對ONNX年齡平均/最大差0.166667/1歲，不等於完整NPU準確度或正式hardwareparity PASS。
+- 本次為新增發布，不代表精度門檻、正式產品驗收或資料商用清權已完成。
 
 ### EdgeFace-XXS — 性別首選
 
