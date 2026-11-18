@@ -12,10 +12,12 @@
 | Age | **MobileAgeNet（低延遲首選）** | 3.22M | 12.86 / 7.85 MB | V31 DEV：MAE 6.367、CS@7 65.80% | **12.67 / 16.68 ms** | ✅ | ✅ | ✅ | ✅ 實機 parity |
 | Age | **ConvNeXt-Tiny（準確度備選）** | 27.90M | 111.66 / 57.68 MB | V31 DEV：**MAE 5.692、CS@7 69.84%** | 55.82 / 60.56 ms | ✅ | ✅ | ✅ | ✅ 實機 parity |
 | Age | **V118 DINOv2-Small（最新發布）** | 21.67M | 86.83 / 47.29 MB | Clean4953 ONNX：**MAE 5.533、CS@7 73.57%**；完整門檻未達 | 74.76 / 81.55 ms | ✅ parity | ✅ conversion | ✅ conversion | 12筆工程試跑／完整精度待驗 |
-| Gender | **V3 EdgeFace-XXS** | 1.16M | 4.82 / 4.18 MB | 80 / 40 / 27 px BAcc：89.75 / 89.55 / 88.50% | 7.26 / 9.14 ms | ✅ | ✅ | ✅ | ✅ 實機 parity |
-| Gender | EdgeFace-XXS 224（備選） | 1.16M | 4.82 / 4.40 MB | 80 / 40 / 27 px BAcc：90.28 / 88.92 / 87.35% | 21.11 / 32.73 ms | ✅ | ✅ | ✅ | 五尺度實測／parity 有 FAIL |
-| Gender | **EdgeFace-XXS 224 預測框適配（最新發布）** | 1.16M | 4.82 / 4.40 MB | RK3588 h115 E2E BA **87.51%**；原224 65.24% | **21.07 / 33.09 ms** | ✅ parity | ✅ conversion | ✅ conversion | 五尺度實測／parity 有 FAIL |
+| Gender | **V3 EdgeFace-XXS** | 1.16M | 4.82 / 4.18 MB | 115 / 57 / 38 / 29 / 20 px<br>RK3588 **E2E BA：81.73 / 81.87 / 80.55 / 53.93 / 0.53%** | 7.26 / 9.14 ms | ✅ | ✅ | ✅ | ✅ 實機 parity |
+| Gender | EdgeFace-XXS 224（備選） | 1.16M | 4.82 / 4.40 MB | 115 / 57 / 38 / 29 / 20 px<br>RK3588 **E2E BA：65.24 / 60.67 / 67.06 / 43.77 / 0.21%** | 21.11 / 32.73 ms | ✅ | ✅ | ✅ | 五尺度實測／parity 有 FAIL |
+| Gender | **EdgeFace-XXS 224 預測框適配（最新發布）** | 1.16M | 4.82 / 4.40 MB | 115 / 57 / 38 / 29 / 20 px<br>RK3588 **E2E BA：87.51 / 84.60 / 83.98 / 55.85 / 0.53%** | **21.07 / 33.09 ms** | ✅ parity | ✅ conversion | ✅ conversion | 五尺度實測／parity 有 FAIL |
 | Head Pose | **v2 E1** | — | 0.85 / 1.16 MB | 6,000 張 frozen test：MAE 5.87°、±10° 75.19% | 5.43 / 7.29 ms | ✅ | ✅ | ✅ | ✅ 實機 |
+
+**Gender三列統一比較115／57／38／29／20px的RK3588端到端E2E BA，包含YuNet偵測，漏檢計失敗；不是80／40／27px的GT-crop單模型BA。** BA=(男性Recall+女性Recall)/2；原224在115px女性Recall只有32.00%，最新224為79.58%。
 
 大小採十進位 MB；延遲皆為 Orange Pi 5 Ultra / RK3588、RKNN Runtime 2.3.2、driver 0.9.6 的 model-only 實測，不能直接視為完整 app FPS。RK3566／RK3576 目前僅 conversion PASS，physical runtime 仍為 PENDING。
 
@@ -82,7 +84,7 @@ Repo：`AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/`
 
 - 來源同首選 EdgeFace-XXS；本專案以相同 UTKFace split 與 protocol 重新進行 224×224 fine-tune，selected epoch 8。
 - 224×224 RGB face crop、float32 0–255；單一 logit，threshold `-0.1358056068`，大於等於門檻判為 Male。
-- Frozen external mean BAcc 88.68%，較 112 首選低 0.59 個百分點；80 px 較佳，但 40／27 px 較差，因此只列為備選。
+- 歷史80／40／27px **GT-crop單模型** mean BAcc 88.68%，不含YuNet偵測誤差，**不能當作五尺度E2E表現**；該歷史GT比較較112低0.59pp（80px較佳，40／27px較差）。原224五尺度E2E以本頁總覽及新舊比較表為準。
 - ONNX parity 與三平台 FP16 conversion PASS；RK3566／3576 physical 待驗。原版 RK3588 2026-11-17 五尺度 h115 E2E BA 65.24%、mean/P95 21.11／32.73ms，正式 parity maxprobdelta0.06671>.05；原版本與檔案保留。
 
 ### EdgeFace-XXS 224 — 最新發布版本（預測框裁切適配，新增）
