@@ -5,3 +5,6 @@ AICameraInferenceEngine/model/versions/gender_edgeface_224_20261007/**/*.rknn fi
 
 AICameraInferenceEngine/model/versions/age_v118_dinov2_small_20261117/*.onnx filter=lfs diff=lfs merge=lfs -text
 AICameraInferenceEngine/model/versions/age_v118_dinov2_small_20261117/*.rknn filter=lfs diff=lfs merge=lfs -text
+
+AICameraInferenceEngine/model/versions/gender224_edgeface_latest_20261118/*.onnx filter=lfs diff=lfs merge=lfs -text
+AICameraInferenceEngine/model/versions/gender224_edgeface_latest_20261118/*.rknn filter=lfs diff=lfs merge=lfs -text
